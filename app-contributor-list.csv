@@ -5250,7 +5250,7 @@ b-em.json,hermanjustnu/scoop-emulators
 vita3k_hermanjustnu.json,hermanjustnu/scoop-emulators
 vice-sdl2.json,hermanjustnu/scoop-emulators
 xenia_hermanjustnu.json,hermanjustnu/scoop-emulators
-citra-canary.json,hermanjustnu/scoop-emulators
+citra-canary_hermanjustnu.json,hermanjustnu/scoop-emulators
 scummvm-nightly.json,hermanjustnu/scoop-emulators
 ryujinx_hermanjustnu.json,hermanjustnu/scoop-emulators
 bsnes_hermanjustnu.json,hermanjustnu/scoop-emulators
@@ -5309,7 +5309,7 @@ mgba_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-interim.json,hermanjustnu/scoop-emulators
 xenia-canary.json,hermanjustnu/scoop-emulators
 scummvm_hermanjustnu.json,hermanjustnu/scoop-emulators
-dolphin-dev.json,hermanjustnu/scoop-emulators
+dolphin-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux.json,hermanjustnu/scoop-emulators
 mesen_hermanjustnu.json,hermanjustnu/scoop-emulators
 hoxs64.json,hermanjustnu/scoop-emulators
@@ -5476,7 +5476,7 @@ ppsspp_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
-citra-canary.json,borger/scoop-emulators
+citra-canary_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
