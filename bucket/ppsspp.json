@@ -2,10 +2,7 @@
     "version": "1.14.2",
     "description": "Sony PlayStation Portable (PSP) emulator",
     "homepage": "https://www.ppsspp.org",
-    "license": {
-        "identifier": "GPL 2.0 or later",
-        "url": "https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT"
-    },
+    "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://ppsspp.org/files/1_14_2/ppsspp_win.zip",
