@@ -1,12 +1,11 @@
 {
-    "version": "7.0.0.1069106",
-    "description": "An all-in-one free communication and collaboration platform",
     "homepage": "https://www.dingtalk.com/",
+    "description": "An all-in-one free communication and collaboration platform",
     "license": {
         "identifier": "EULA",
         "url": "https://tms.dingtalk.com/markets/dingtalk/service-terms-zh"
     },
-    "notes": "We don't persist your DingTalk data, they are still storaged in '%APPDATA%\\DingTalk'.",
+    "version": "7.0.0.1069106",
     "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.0.0.1069106.exe#/dl.7z",
     "hash": "md5:334bd2673b5a8567b1549a38e12f75e9",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
@@ -26,5 +25,6 @@
             "url": "https://im.dingtalk.com/manifest/new/release_windows_vista_later_gray4.json",
             "jsonpath": "$.win.install.md5"
         }
-    }
+    },
+    "notes": "We don't persist your DingTalk data, they are still storaged in '%APPDATA%\\DingTalk'."
 }
