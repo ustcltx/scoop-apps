@@ -1,5 +1,5 @@
 {
-    "version": "3.11.2",
+    "version": "3.12.0a5",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
@@ -7,25 +7,25 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe#/setup.exe",
+                "https://www.python.org/ftp/python/3.12.0/python-3.12.0a5-amd64.exe#/setup.exe",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
             ],
             "hash": [
-                "md5:4331ca54d9eacdbe6e97d6ea63526e57",
-                "c2611c8010979a47cdeea1af17d5061d8df40c5356fd8c2f3ba9492d516a99d1",
+                "md5:d3b3b0a59aac9bffdf2c5b9273aa6fd7",
+                "27c2d7e74442f356d54d29000379afd55078fb4ede00455fc012f81745e4bcac",
                 "d9309423b693ed63aea6b1fbfc0c34f16842cdca22a1b3edef283b87567a53b9"
             ]
         },
         "32bit": {
             "url": [
-                "https://www.python.org/ftp/python/3.11.2/python-3.11.2.exe#/setup.exe",
+                "https://www.python.org/ftp/python/3.12.0/python-3.12.0a5.exe#/setup.exe",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
             ],
             "hash": [
-                "d2a7427eb13c3bd3d219c2b43c78cd5626920e53359f8e09e59fb845ad1dc908",
-                "c2611c8010979a47cdeea1af17d5061d8df40c5356fd8c2f3ba9492d516a99d1",
+                "md5:aafa5e2017f4c21b258f454eb3316f70",
+                "27c2d7e74442f356d54d29000379afd55078fb4ede00455fc012f81745e4bcac",
                 "d9309423b693ed63aea6b1fbfc0c34f16842cdca22a1b3edef283b87567a53b9"
             ]
         }
@@ -54,16 +54,22 @@
             "@('path.msi', 'pip.msi') | ForEach-Object {",
             "    Remove-Item \"$dir\\_tmp\\AttachedContainer\\$_\"",
             "}",
-            "(Get-ChildItem \"$dir\\_tmp\\AttachedContainer\\*.msi\").FullName | ForEach-Object { Expand-MsiArchive $_ \"$dir\" }",
+            "(Get-ChildItem \"$dir\\_tmp\\AttachedContainer\\*.msi\").FullName | ForEach-Object {",
+            "    # appendpath.msi does not contain any file, which causes lessmsi extraction to fail",
+            "    if($((Get-Item $_).Basename) -eq 'appendpath') { return }",
+            "    Expand-MsiArchive $_ \"$dir\" ",
+            "}",
             "Remove-Item \"$dir\\_tmp\", \"$dir\\setup.exe\" -Force -Recurse",
-            "& \"$dir\\python.exe\" -E -s -m ensurepip -U --default-pip | Out-Null",
-            "Write-Output \"`e[0m\" # Reset ansi to prevent color leak from installer",
             "if ($global) {",
             "    $pathext = (env 'PATHEXT' $true) -replace ';.PYW?', ''",
             "    env 'PATHEXT' $true \"$pathext;.PY;.PYW\"",
             "}"
         ]
     },
+    "post_install": [
+        "python -E -s -m ensurepip -U --default-pip | Out-Null",
+        "Write-Output \"`e[0m\" # Reset ansi to prevent color leak from installer"
+    ],
     "uninstaller": {
         "script": [
             "if ($global) {",
@@ -77,11 +83,11 @@
             "python.exe",
             "python3"
         ],
-        "Lib\\idlelib\\idle.bat",
         [
             "Lib\\idlelib\\idle.bat",
             "idle3"
-        ]
+        ],
+        "Lib\\idlelib\\idle.bat"
     ],
     "env_add_path": [
         "Scripts",
@@ -93,20 +99,30 @@
     ],
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
-        "regex": "Latest Python 3 Release - Python ([\\d.]+)"
+        "regex": "(?is)Pre-releases.*?python-(3[\\d.]+(?:a|b|rc)[\\d]+)-"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.python.org/ftp/python/$version/python-$version-amd64.exe#/setup.exe"
+                "url": "https://www.python.org/ftp/python/$matchHead/python-$version-amd64.exe#/setup.exe"
             },
             "32bit": {
-                "url": "https://www.python.org/ftp/python/$version/python-$version.exe#/setup.exe"
+                "url": "https://www.python.org/ftp/python/$matchHead/python-$version.exe#/setup.exe"
             }
         },
         "hash": {
             "url": "https://www.python.org/downloads/release/python-$cleanVersion/",
             "regex": "(?sm)$basename.*?$md5"
-        }
+        },
+        "bin": [
+            [
+                "python.exe",
+                "python$majorVersion"
+            ],
+            [
+                "Lib\\idlelib\\idle.bat",
+                "idle$majorVersion"
+            ]
+        ]
     }
 }
