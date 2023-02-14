@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/rejetto/hfs",
+    "description": "A file server offering a virtual file system (vfs).",
+    "license": "GPL-3.0-or-later",
+    "version": "0.32.0",
+    "url": "https://github.com/rejetto/hfs/releases/download/v0.32.0/hfs-windows.zip",
+    "hash": "b8b85885b632d2f2468285806777fb17c06fdbaf27a34c08ec7931ab011a14ea",
+    "bin": "hfs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/rejetto/hfs/releases/download/v$version/hfs-windows.zip"
+    }
+}

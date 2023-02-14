@@ -1,0 +1,47 @@
+{
+    "version": "2023-02-13-run314-id4167783947",
+    "description": "Revival of the well known .NET debugger and assembly editor, dnSpy",
+    "homepage": "https://github.com/dnSpyEx/dnSpy",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z",
+            "hash": "e16fc3fa781de2c9be83ac634ecc159f583e8565ecced98b231c5ef3704a7518"
+        },
+        "32bit": {
+            "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z",
+            "hash": "ba1cd7a2d222fb500c82ad8b5ce47d6926378f607a9f7005d67a24423de212a4"
+        }
+    },
+    "bin": [
+        [
+            "dnSpy.Console.exe",
+            "dnSpyEx.Console-nightly"
+        ],
+        [
+            "dnSpy.exe",
+            "dnSpyEx-nightly"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "dnSpy.exe",
+            "dnSpyEx Nightly"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml?query=branch%3Amaster+is%3Asuccess",
+        "regex": "<a class=\"Link--primary css-truncate css-truncate-target\" .*? aria-label=\"Run (?<runCount>[\\d]+) of.*? href=\".*?/runs/(?<runId>[\\d]+?)\">[\\S\\s]+? datetime=\"(?<buildDate>\\d{4}-\\d{2}-\\d{2})T",
+        "replace": "${buildDate}-run${runCount}-id${runId}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z"
+            }
+        }
+    }
+}

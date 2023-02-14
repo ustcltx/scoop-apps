@@ -1,0 +1,40 @@
+{
+    "homepage": "http://www.javaeditor.org/",
+    "version": "20.06",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.javaeditor.org/download/javaeditor64.20.06.zip",
+            "hash": "a63a88bb5bc4f9ae6649bb7cdbea1ee3bc508a2f62dc091e9c2dc7389c5f049a"
+        },
+        "32bit": {
+            "url": "https://www.javaeditor.org/download/javaeditor20.06.zip",
+            "hash": "a29c2d7366a4d705016add13388586791c8334a9486c1f6f055d8aaa1589cd8e"
+        }
+    },
+    "persist": [
+        "JEMachine.INI",
+        "Data",
+        "languages\\schinese.ini"
+    ],
+    "shortcuts": [
+        [
+            "javaeditor.exe",
+            "Java-Editor"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.javaeditor.org/doku.php?id=en:download",
+        "regex": "Version ([\\d.]+) from"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.javaeditor.org/download/javaeditor64.$version.zip"
+            },
+            "32bit": {
+                "url": "https://www.javaeditor.org/download/javaeditor$version.zip"
+            }
+        }
+    }
+}

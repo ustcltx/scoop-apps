@@ -1,0 +1,54 @@
+{
+    "homepage": "https://rpcs3.net/",
+    "version": "0.0.26-14696",
+    "description": "Playstation 3 Emulator",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
+    },
+    "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-a56fc57a8344c2bcf43b6e8aea94c018f29de762/rpcs3-v0.0.26-14696-a56fc57a_win64.7z",
+    "hash": "dc574c18bf45e5cd6ac679fef17dfef036f81a15fcb9a8752141d4b0298d9852",
+    "bin": "rpcs3.exe",
+    "shortcuts": [
+        [
+            "rpcs3.exe",
+            "PS3"
+        ]
+    ],
+    "persist": [
+        "dev_hdd0",
+        "dev_hdd1",
+        "cache",
+        "config.yml",
+        "config_input.yml",
+        "games.yml",
+        "config",
+        "GuiConfigs/CurrentSettings.ini",
+        "InputConfigs",
+        "patches"
+    ],
+    "installer": {
+        "script": [
+            "$file = 'GuiConfigs\\CurrentSettings.ini'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host \"$file does not exists.\" -f Yellow",
+            "    $outfile = \"$dir\\$file\"",
+            "    New-Item $outFile -Type File -Force | Out-Null",
+            "}"
+        ]
+    },
+    "checkver": {
+        "url": "https://update.rpcs3.net/?api=v2&c=0",
+        "jsonpath": {
+            "version": "$.latest_build.version",
+            "download": "$.latest_build.windows.download",
+            "hash": "$.latest_build.windows.checksum"
+        }
+    },
+    "autoupdate": {
+        "url": "$matchDownload",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

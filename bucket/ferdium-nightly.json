@@ -1,0 +1,38 @@
+{
+    "version": "6.2.5-nightly.5",
+    "description": "All-in-one messaging apps for various services",
+    "homepage": "https://github.com/ferdium/ferdium-app",
+    "license": "Apache-2.0",
+    "url": "https://github.com/ferdium/ferdium-app/releases/download/v6.2.5-nightly.5/Ferdium-win-AutoSetup-6.2.5-nightly.5.exe#/dl.7z",
+    "hash": "sha512:83988af00c0c5fb4a82a64655fa7d155e29cc8a8b18c2069e8ea8b835255031d374858125d3350ec5df7ad485e868202fc96c080b453f0821a9e7cbbb941eb16",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+            }
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*.exe\" -Recurse -Force",
+    "shortcuts": [
+        [
+            "Ferdium.exe",
+            "Ferdium"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/ferdium/ferdium-app/releases",
+        "regex": "/releases/tag/(?:v|V)?([\\d\\-nightly.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ferdium/ferdium-app/releases/download/v$version/Ferdium-win-AutoSetup-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s+$base64"
+        }
+    }
+}
