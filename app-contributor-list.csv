@@ -506,7 +506,7 @@ shadowsocks.json,ScoopInstaller/Extras
 kid3.json,ScoopInstaller/Extras
 xjoy.json,ScoopInstaller/Extras
 roslynpad.json,ScoopInstaller/Extras
-registry-finder.json,ScoopInstaller/Extras
+registry-finder_ScoopInstaller.json,ScoopInstaller/Extras
 vesta.json,ScoopInstaller/Extras
 sqlitestudio.json,ScoopInstaller/Extras
 lepton.json,ScoopInstaller/Extras
@@ -1552,6 +1552,7 @@ appbuster.json,ScoopInstaller/Extras
 mancy.json,ScoopInstaller/Extras
 openrgb.json,ScoopInstaller/Extras
 real.json,ScoopInstaller/Extras
+usbimager.json,ScoopInstaller/Extras
 openvpn.json,ScoopInstaller/Extras
 compactor.json,ScoopInstaller/Extras
 mumble.json,ScoopInstaller/Extras
@@ -4983,7 +4984,7 @@ kodo-browser.json,hoilc/scoop-lemon
 imtip.json,hoilc/scoop-lemon
 mstream.json,hoilc/scoop-lemon
 qsvenc.json,hoilc/scoop-lemon
-skylark.json,hoilc/scoop-lemon
+skylark_hoilc.json,hoilc/scoop-lemon
 gogdl.json,hoilc/scoop-lemon
 pulovers-macro-creator.json,hoilc/scoop-lemon
 rustdesk_hoilc.json,hoilc/scoop-lemon
@@ -5109,7 +5110,7 @@ credhub-cli.json,hoilc/scoop-lemon
 winmouse.json,hoilc/scoop-lemon
 monkeysaudio.json,hoilc/scoop-lemon
 collectd_exporter.json,hoilc/scoop-lemon
-ediary.json,hoilc/scoop-lemon
+ediary_hoilc.json,hoilc/scoop-lemon
 terraform-validator.json,hoilc/scoop-lemon
 system-tray-menu.json,hoilc/scoop-lemon
 everedit2.json,hoilc/scoop-lemon
@@ -6170,7 +6171,7 @@ rpcs3_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
@@ -6203,7 +6204,7 @@ fceux_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
-desmume.json,borger/scoop-emulators
+desmume_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
@@ -7336,7 +7337,7 @@ python-doc-zh-cn.json,wzv5/ScoopBucket
 rathole_wzv5.json,wzv5/ScoopBucket
 douyu.json,wzv5/ScoopBucket
 inno-setup_wzv5.json,wzv5/ScoopBucket
-qqmusic.json,wzv5/ScoopBucket
+qqmusic_wzv5.json,wzv5/ScoopBucket
 neteasemusic_wzv5.json,wzv5/ScoopBucket
 oleviewdotnet.json,wzv5/ScoopBucket
 volumelock.json,wzv5/ScoopBucket
@@ -7491,7 +7492,7 @@ mdr_naderi.json,naderi/scoop-bucket
 flashpad_naderi.json,naderi/scoop-bucket
 sonarr.json,naderi/scoop-bucket
 xpdf-tools_naderi.json,naderi/scoop-bucket
-officetoolplus_naderi.json,naderi/scoop-bucket
+officetoolplus.json,naderi/scoop-bucket
 icofx.json,naderi/scoop-bucket
 chord.json,naderi/scoop-bucket
 debloos.json,naderi/scoop-bucket
@@ -7884,7 +7885,7 @@ observerward.json,ViCrack/scoop-bucket
 xray_ViCrack.json,ViCrack/scoop-bucket
 transfer.json,ViCrack/scoop-bucket
 crawlergo.json,ViCrack/scoop-bucket
-newfiletime_ViCrack.json,ViCrack/scoop-bucket
+newfiletime.json,ViCrack/scoop-bucket
 nuclei.json,ViCrack/scoop-bucket
 naabu.json,ViCrack/scoop-bucket
 httpx.json,ViCrack/scoop-bucket
@@ -8102,6 +8103,7 @@ wrangler_akirco.json,akirco/aki-apps
 topgrade_akirco.json,akirco/aki-apps
 easywsl.json,akirco/aki-apps
 cowsay_akirco.json,akirco/aki-apps
+imewlconverter.json,akirco/aki-apps
 WechatWork_akirco.json,akirco/aki-apps
 dismplusplus_akirco.json,akirco/aki-apps
 innounp_akirco.json,akirco/aki-apps
@@ -8126,7 +8128,6 @@ nvm_akirco.json,akirco/aki-apps
 gradle4_akirco.json,akirco/aki-apps
 gitui_akirco.json,akirco/aki-apps
 recycle-bin_akirco.json,akirco/aki-apps
-github_akirco.json,akirco/aki-apps
 audacity_akirco.json,akirco/aki-apps
 gh_akirco.json,akirco/aki-apps
 speedtest-cli_akirco.json,akirco/aki-apps
@@ -8530,7 +8531,7 @@ bbdown_amorphobia.json,amorphobia/siku
 hfsexplorer.json,amorphobia/siku
 parallels-client.json,amorphobia/siku
 diskgenius-zh-cn.json,amorphobia/siku
-todesk.json,amorphobia/siku
+todesk_amorphobia.json,amorphobia/siku
 double-finder.json,amorphobia/siku
 cargo-binstall.json,amorphobia/siku
 qsv.json,amorphobia/siku
