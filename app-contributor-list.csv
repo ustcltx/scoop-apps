@@ -6184,11 +6184,11 @@ yuzu-dev.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
-xenia-canary.json,borger/scoop-emulators
+xenia-canary_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
@@ -6205,7 +6205,7 @@ steam-rom-manager_borger.json,borger/scoop-emulators
 fceux_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
-ppsspp-dev_borger.json,borger/scoop-emulators
+ppsspp-dev.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
@@ -7350,7 +7350,7 @@ lx-music-desktop_wzv5.json,wzv5/ScoopBucket
 pspad_wzv5.json,wzv5/ScoopBucket
 gost_wzv5.json,wzv5/ScoopBucket
 php_wzv5.json,wzv5/ScoopBucket
-aliyundrive.json,wzv5/ScoopBucket
+aliyundrive_wzv5.json,wzv5/ScoopBucket
 utools_wzv5.json,wzv5/ScoopBucket
 pyembed-downloader.json,wzv5/ScoopBucket
 regex-tool.json,wzv5/ScoopBucket
@@ -7829,7 +7829,7 @@ delete-self-poc.json,batkiz/backit
 yu-writer_batkiz.json,batkiz/backit
 xh_batkiz.json,batkiz/backit
 EnergyStar.json,batkiz/backit
-vivaldi-snapshot.json,batkiz/backit
+vivaldi-snapshot_batkiz.json,batkiz/backit
 pixiv-omina.json,batkiz/backit
 cargo-udeps.json,batkiz/backit
 bflat.json,batkiz/backit
@@ -7878,7 +7878,7 @@ PowerRun.json,ViCrack/scoop-bucket
 kscan_ViCrack.json,ViCrack/scoop-bucket
 katana.json,ViCrack/scoop-bucket
 confuserex-cli.json,ViCrack/scoop-bucket
-filezilla.json,ViCrack/scoop-bucket
+filezilla_ViCrack.json,ViCrack/scoop-bucket
 gda.json,ViCrack/scoop-bucket
 finalshell.json,ViCrack/scoop-bucket
 interactsh.json,ViCrack/scoop-bucket
