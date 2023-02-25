@@ -615,6 +615,7 @@ xnview.json,ScoopInstaller/Extras
 streamdeck.json,ScoopInstaller/Extras
 codeblocks-mingw.json,ScoopInstaller/Extras
 kotatogram.json,ScoopInstaller/Extras
+icnsify.json,ScoopInstaller/Extras
 mp3tag.json,ScoopInstaller/Extras
 commandbox.json,ScoopInstaller/Extras
 eclipse-rust.json,ScoopInstaller/Extras
@@ -4191,7 +4192,7 @@ seterlvl.json,rasa/scoops
 pfm2afm.json,rasa/scoops
 exetype.json,rasa/scoops
 mvmc.json,rasa/scoops
-nirlauncher_rasa.json,rasa/scoops
+nirlauncher.json,rasa/scoops
 emet.json,rasa/scoops
 noto-sans-font.json,rasa/scoops
 res-set.json,rasa/scoops
@@ -5826,7 +5827,7 @@ BaiduPCS-Go_dodorz.json,dodorz/scoop
 OracleJDK16.json,dodorz/scoop
 JavaGeometryExpert.json,dodorz/scoop
 NanoEmacsWin.json,dodorz/scoop
-PicPick_dodorz.json,dodorz/scoop
+PicPick.json,dodorz/scoop
 NConvert_dodorz.json,dodorz/scoop
 Sejda-console.json,dodorz/scoop
 flacout.json,dodorz/scoop
@@ -6180,7 +6181,7 @@ MdCharm.json,dodorz/scoop
 Noto-Serif-Font_dodorz.json,dodorz/scoop
 XDown_dodorz.json,dodorz/scoop
 KillCopy.json,dodorz/scoop
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
@@ -6197,7 +6198,7 @@ yuzu-dev.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
-ppsspp-dev.json,borger/scoop-emulators
+ppsspp-dev_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
@@ -6218,11 +6219,11 @@ cemu_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
 visualboyadvance-m.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
@@ -6838,6 +6839,7 @@ WinfetchCLI-Portable.json,ACooper81/scoop-apps
 ScoopUpdates-Alias.json,ACooper81/scoop-apps
 CryengineLauncher-UserInstall.json,ACooper81/scoop-apps
 AutoDarkMode-Portable.json,ACooper81/scoop-apps
+ScoopHook-Portable.json,ACooper81/scoop-apps
 BulkCrapUninstaller-Portable.json,ACooper81/scoop-apps
 Pode-PSModule.json,ACooper81/scoop-apps
 AppFlowy-Portable.json,ACooper81/scoop-apps
@@ -7113,6 +7115,7 @@ ActiveMQ-Classic.json,zhoujin7/tomato
 soar_zhoujin7.json,zhoujin7/tomato
 WinSCP_zhoujin7.json,zhoujin7/tomato
 EmEditor_zhoujin7.json,zhoujin7/tomato
+apifox.json,zhoujin7/tomato
 CapsLockIndicator.json,zhoujin7/tomato
 HBuilderX-Full-Alpha.json,zhoujin7/tomato
 Q-Dir_zhoujin7.json,zhoujin7/tomato
@@ -7361,7 +7364,7 @@ winobjex64.json,wzv5/ScoopBucket
 oleviewdotnet.json,wzv5/ScoopBucket
 utools_wzv5.json,wzv5/ScoopBucket
 pping.json,wzv5/ScoopBucket
-aliyundrive.json,wzv5/ScoopBucket
+aliyundrive_wzv5.json,wzv5/ScoopBucket
 besttrace.json,wzv5/ScoopBucket
 python-doc-zh-cn.json,wzv5/ScoopBucket
 volumelock.json,wzv5/ScoopBucket
@@ -7628,7 +7631,7 @@ teamlink.json,naderi/scoop-bucket
 texstudio-portable.json,naderi/scoop-bucket
 birdfont.json,naderi/scoop-bucket
 xdm_naderi.json,naderi/scoop-bucket
-encrypto.json,naderi/scoop-bucket
+encrypto_naderi.json,naderi/scoop-bucket
 leomoon-subfix.json,naderi/scoop-bucket
 teamviewer-portable_naderi.json,naderi/scoop-bucket
 audacity-lame-plugin_naderi.json,naderi/scoop-bucket
@@ -7706,13 +7709,13 @@ gcc_42wim.json,42wim/scoop-bucket
 googlechrome-dev_42wim.json,42wim/scoop-bucket
 googlechrome-canary_42wim.json,42wim/scoop-bucket
 msedge-beta.json,42wim/scoop-bucket
-googlechrome-beta_42wim.json,42wim/scoop-bucket
+googlechrome-beta.json,42wim/scoop-bucket
 matterircd_42wim.json,42wim/scoop-bucket
 msedge-stable.json,42wim/scoop-bucket
 nomachine-enterprise.json,42wim/scoop-bucket
 spystudio.json,42wim/scoop-bucket
 msedge-dev.json,42wim/scoop-bucket
-googlechrome.json,42wim/scoop-bucket
+googlechrome_42wim.json,42wim/scoop-bucket
 matterbridge_42wim.json,42wim/scoop-bucket
 msedge-canary.json,42wim/scoop-bucket
 apimonitor.json,42wim/scoop-bucket
@@ -7943,6 +7946,7 @@ m3u8downloader.json,akirco/aki-apps
 WechatWork_akirco.json,akirco/aki-apps
 marktext_akirco.json,akirco/aki-apps
 which_akirco.json,akirco/aki-apps
+youtubedownloader.json,akirco/aki-apps
 scoop-completion_akirco.json,akirco/aki-apps
 vcredist2017_akirco.json,akirco/aki-apps
 qqmusic_akirco.json,akirco/aki-apps
@@ -8228,7 +8232,7 @@ subfinder.json,ViCrack/scoop-bucket
 crawlergo.json,ViCrack/scoop-bucket
 igdm_ViCrack.json,ViCrack/scoop-bucket
 rad.json,ViCrack/scoop-bucket
-apifox.json,ViCrack/scoop-bucket
+apifox_ViCrack.json,ViCrack/scoop-bucket
 dev-sidecar_ViCrack.json,ViCrack/scoop-bucket
 super-xray.json,ViCrack/scoop-bucket
 httpx.json,ViCrack/scoop-bucket
@@ -8721,7 +8725,6 @@ dvm_amorphobia.json,amorphobia/siku
 setacl-studio.json,amorphobia/siku
 posh-cargo_amorphobia.json,amorphobia/siku
 smartzip.json,amorphobia/siku
-clash-for-windows_amorphobia.json,amorphobia/siku
 qqplayer_amorphobia.json,amorphobia/siku
 vmping.json,amorphobia/siku
 todesk_amorphobia.json,amorphobia/siku
