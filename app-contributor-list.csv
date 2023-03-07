@@ -910,7 +910,7 @@ memreduct.json,ScoopInstaller/Extras
 mailspring.json,ScoopInstaller/Extras
 retroarch.json,ScoopInstaller/Extras
 oss-browser_ScoopInstaller.json,ScoopInstaller/Extras
-beyondcompare_ScoopInstaller.json,ScoopInstaller/Extras
+beyondcompare.json,ScoopInstaller/Extras
 scene-builder.json,ScoopInstaller/Extras
 freemove.json,ScoopInstaller/Extras
 cinny.json,ScoopInstaller/Extras
@@ -2116,6 +2116,7 @@ gyroflow.json,ScoopInstaller/Extras
 bulk-rename-utility.json,ScoopInstaller/Extras
 openboard.json,ScoopInstaller/Extras
 jaspersoft-studio.json,ScoopInstaller/Extras
+authme.json,ScoopInstaller/Extras
 eclipse-sumo.json,ScoopInstaller/Extras
 switcheroo.json,ScoopInstaller/Extras
 cookiecutter.json,ScoopInstaller/Extras
@@ -2237,6 +2238,7 @@ notion_chawyehsu.json,chawyehsu/dorado
 powershell.json,chawyehsu/dorado
 swift_chawyehsu.json,chawyehsu/dorado
 dandanplay.json,chawyehsu/dorado
+nano_chawyehsu.json,chawyehsu/dorado
 virgo.json,chawyehsu/dorado
 dzclient.json,chawyehsu/dorado
 winlibs-mingw-ucrt.json,chawyehsu/dorado
@@ -4560,6 +4562,8 @@ iecacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mylastsearch_ScoopInstaller.json,ScoopInstaller/Nirsoft
 whoisconnectedsniffer_ScoopInstaller.json,ScoopInstaller/Nirsoft
 webcookiessniffer_ScoopInstaller.json,ScoopInstaller/Nirsoft
+ossutil_echoiron.json,echoiron/echo-scoop
+n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 keepass-plugin-kpenhentryview_hoilc.json,hoilc/scoop-lemon
 window-sharing-hider.json,hoilc/scoop-lemon
 zookeeper-assistant.json,hoilc/scoop-lemon
@@ -6871,7 +6875,7 @@ MdCharm.json,dodorz/scoop
 Noto-Serif-Font_dodorz.json,dodorz/scoop
 XDown_dodorz.json,dodorz/scoop
 KillCopy.json,dodorz/scoop
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
@@ -6915,7 +6919,7 @@ melonds_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
 visualboyadvance-m.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
 visualvm_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
 win10-initial-setup-script.json,TheRandomLabs/Scoop-Bucket
@@ -8398,7 +8402,7 @@ youdaodict.json,ygguorun/scoop-bucket
 UniteTTC.json,ygguorun/scoop-bucket
 compact_html.json,ygguorun/scoop-bucket
 PotPlayer-old.json,ygguorun/scoop-bucket
-CopyTranslator.json,ygguorun/scoop-bucket
+CopyTranslator_ygguorun.json,ygguorun/scoop-bucket
 BetterNCM.json,ygguorun/scoop-bucket
 CloudflareSpeedTest_ygguorun.json,ygguorun/scoop-bucket
 kaf-cli.json,ygguorun/scoop-bucket
@@ -8753,6 +8757,7 @@ snipaste-x86.json,amorphobia/siku
 imazing-converter.json,amorphobia/siku
 dsynchronize-zh-cn.json,amorphobia/siku
 86box.json,amorphobia/siku
+tautulli.json,amorphobia/siku
 yourav.json,amorphobia/siku
 bind-lean.json,amorphobia/siku
 powercolorls.json,amorphobia/siku
@@ -9360,6 +9365,7 @@ animation-garden.json,hu3rror/scoop-muggle
 logseq-nightly.json,hu3rror/scoop-muggle
 chk-hashtool.json,hu3rror/scoop-muggle
 uup-download-wizard-converter.json,hu3rror/scoop-muggle
+nora.json,hu3rror/scoop-muggle
 auto-unlocker.json,hu3rror/scoop-muggle
 universal-watermark-disabler.json,hu3rror/scoop-muggle
 tuya_hu3rror.json,hu3rror/scoop-muggle
