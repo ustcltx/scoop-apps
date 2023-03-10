@@ -207,6 +207,7 @@ Pixeval.json,Weidows-projects/scoop-3rd
 bongocat-osu.json,Weidows-projects/scoop-3rd
 AutumnBox.json,Weidows-projects/scoop-3rd
 RM-ATKtools.json,Weidows-projects/scoop-3rd
+TinyHand.json,Weidows-projects/scoop-3rd
 Dependency-Walker.json,Weidows-projects/scoop-3rd
 CefDetectorX.json,Weidows-projects/scoop-3rd
 OBSStudio-Portable.json,Weidows-projects/scoop-3rd
@@ -219,6 +220,7 @@ dev-sidecar.json,Weidows-projects/scoop-3rd
 pcstory.json,Weidows-projects/scoop-3rd
 YoudaoDict-portable.json,Weidows-projects/scoop-3rd
 PartAssist.json,Weidows-projects/scoop-3rd
+Nyushu-font.json,Weidows-projects/scoop-3rd
 PCmaster.json,Weidows-projects/scoop-3rd
 DevEco-Studio.json,Weidows-projects/scoop-3rd
 AIO-Boot.json,Weidows-projects/scoop-3rd
@@ -1320,7 +1322,7 @@ blender.json,ScoopInstaller/Extras
 spotify.json,ScoopInstaller/Extras
 dngrep.json,ScoopInstaller/Extras
 winfbe.json,ScoopInstaller/Extras
-typora_ScoopInstaller.json,ScoopInstaller/Extras
+typora.json,ScoopInstaller/Extras
 nextcloud.json,ScoopInstaller/Extras
 eclipse-jee.json,ScoopInstaller/Extras
 runcat.json,ScoopInstaller/Extras
@@ -2187,6 +2189,7 @@ microsoftedge-dev.json,chawyehsu/dorado
 hellofont.json,chawyehsu/dorado
 esbuild.json,chawyehsu/dorado
 konversation.json,chawyehsu/dorado
+openai-translator.json,chawyehsu/dorado
 clashweb.json,chawyehsu/dorado
 dvm.json,chawyehsu/dorado
 nomeiryoui.json,chawyehsu/dorado
@@ -2693,6 +2696,7 @@ jazz2-resurrection.json,Calinou/scoop-games
 doom-retro.json,Calinou/scoop-games
 pegasus.json,Calinou/scoop-games
 lambdahack.json,Calinou/scoop-games
+megameklab-dev.json,Calinou/scoop-games
 openmsx.json,Calinou/scoop-games
 kega-fusion.json,Calinou/scoop-games
 weakauras-companion.json,Calinou/scoop-games
@@ -2813,6 +2817,7 @@ tic-80.json,Calinou/scoop-games
 vdrift.json,Calinou/scoop-games
 mgba.json,Calinou/scoop-games
 cataclysm-dda.json,Calinou/scoop-games
+mekhq-dev.json,Calinou/scoop-games
 raze.json,Calinou/scoop-games
 vita3k.json,Calinou/scoop-games
 legendary.json,Calinou/scoop-games
@@ -2820,6 +2825,7 @@ xonotic.json,Calinou/scoop-games
 openhv.json,Calinou/scoop-games
 openarena.json,Calinou/scoop-games
 cemu-dev.json,Calinou/scoop-games
+megameklab.json,Calinou/scoop-games
 livesplit.json,Calinou/scoop-games
 fbneo.json,Calinou/scoop-games
 ppsspp.json,Calinou/scoop-games
@@ -2830,9 +2836,11 @@ newer-tanooki.json,Calinou/scoop-games
 actools.json,Calinou/scoop-games
 bloxstrap.json,Calinou/scoop-games
 freedoom.json,Calinou/scoop-games
+megamek-dev.json,Calinou/scoop-games
 vortex.json,Calinou/scoop-games
 supertuxkart.json,Calinou/scoop-games
 prismlauncher.json,Calinou/scoop-games
+mekhq.json,Calinou/scoop-games
 blockbench.json,Calinou/scoop-games
 ascii-sector.json,Calinou/scoop-games
 enigma.json,Calinou/scoop-games
@@ -2887,6 +2895,7 @@ pcsx2.json,Calinou/scoop-games
 sauerbraten.json,Calinou/scoop-games
 rbdoom-3-bfg.json,Calinou/scoop-games
 heroic-games-launcher.json,Calinou/scoop-games
+megamek.json,Calinou/scoop-games
 mcrcon.json,Calinou/scoop-games
 adom.json,Calinou/scoop-games
 amulet-map-editor.json,Calinou/scoop-games
@@ -3460,6 +3469,7 @@ dartium-dev.json,ScoopInstaller/Versions
 firefox-nightly.json,ScoopInstaller/Versions
 windows-terminal-preview.json,ScoopInstaller/Versions
 python39.json,ScoopInstaller/Versions
+oracle-instant-client-sqlplus19.json,ScoopInstaller/Versions
 vim-tux.json,ScoopInstaller/Versions
 sql-workbench-dev.json,ScoopInstaller/Versions
 php56-xdebug.json,ScoopInstaller/Versions
@@ -4561,6 +4571,8 @@ volumouse.json,ScoopInstaller/Nirsoft
 muicacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 driveletterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mmcsnapinsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+ossutil_echoiron.json,echoiron/echo-scoop
+n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 wsl-ubuntu1604.json,KNOXDEV/wsl
 wsl-centos9.json,KNOXDEV/wsl
 wsl-sles.json,KNOXDEV/wsl
@@ -4573,8 +4585,6 @@ wsl-debian.json,KNOXDEV/wsl
 wsl-fedora-arm.json,KNOXDEV/wsl
 wsl-kali.json,KNOXDEV/wsl
 wsl-ubuntu1804-arm.json,KNOXDEV/wsl
-ossutil_echoiron.json,echoiron/echo-scoop
-n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 windows_exporter.json,hoilc/scoop-lemon
 electronmail_hoilc.json,hoilc/scoop-lemon
 sakurafrp-launcher.json,hoilc/scoop-lemon
@@ -6878,8 +6888,8 @@ jstar-static.json,dodorz/scoop
 xenia_borger.json,borger/scoop-emulators
 visualboyadvance-m.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
-dolphin-dev.json,borger/scoop-emulators
-ppsspp-dev.json,borger/scoop-emulators
+dolphin-dev_borger.json,borger/scoop-emulators
+ppsspp-dev_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
@@ -6899,7 +6909,7 @@ citra_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
@@ -6916,7 +6926,7 @@ bsnes_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
@@ -7566,7 +7576,7 @@ clipx_naderi.json,naderi/scoop-bucket
 mitec-photoview.json,naderi/scoop-bucket
 bitcomet_naderi.json,naderi/scoop-bucket
 mitec-icon-explorer.json,naderi/scoop-bucket
-encrypto_naderi.json,naderi/scoop-bucket
+encrypto.json,naderi/scoop-bucket
 firefox-developer-fa.json,naderi/scoop-bucket
 icofx.json,naderi/scoop-bucket
 edge-portable-canary.json,naderi/scoop-bucket
@@ -8742,6 +8752,7 @@ powercolorls.json,amorphobia/siku
 scoop-find.json,amorphobia/siku
 bcdown.json,amorphobia/siku
 bilimini.json,amorphobia/siku
+clash-for-windows_amorphobia.json,amorphobia/siku
 bind-lean.json,amorphobia/siku
 yahei-fira-icon-hybrid.json,amorphobia/siku
 imazing-converter.json,amorphobia/siku
