@@ -3236,6 +3236,7 @@ adoptopenjdk-hotspot.json,ScoopInstaller/Java
 adoptopenjdk14-openj9.json,ScoopInstaller/Java
 adoptopenjdk11-openj9-xl-jre-nightly.json,ScoopInstaller/Java
 adoptopenjdk-jmc.json,ScoopInstaller/Java
+openai-translator.json,ivaquero/scoopet
 m3u8-downloader.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
 you-get.json,ivaquero/scoopet
@@ -5558,6 +5559,7 @@ Audacity-Install.json,ACooper81/scoop-apps
 Coodesker-Portable.json,ACooper81/scoop-apps
 MBoxViewer-Portable.json,ACooper81/scoop-apps
 TinyImageProcessor-Portable.json,ACooper81/scoop-apps
+RoundedTB-Portable.json,ACooper81/scoop-apps
 NirsoftWirelessNetworkWatcher-Portable.json,ACooper81/scoop-apps
 RunCat-Portable.json,ACooper81/scoop-apps
 AutoUnlocker-Portable.json,ACooper81/scoop-apps
@@ -6909,7 +6911,7 @@ citra_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
@@ -6926,7 +6928,7 @@ bsnes_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
@@ -7576,7 +7578,7 @@ clipx_naderi.json,naderi/scoop-bucket
 mitec-photoview.json,naderi/scoop-bucket
 bitcomet_naderi.json,naderi/scoop-bucket
 mitec-icon-explorer.json,naderi/scoop-bucket
-encrypto.json,naderi/scoop-bucket
+encrypto_naderi.json,naderi/scoop-bucket
 firefox-developer-fa.json,naderi/scoop-bucket
 icofx.json,naderi/scoop-bucket
 edge-portable-canary.json,naderi/scoop-bucket
@@ -8752,7 +8754,6 @@ powercolorls.json,amorphobia/siku
 scoop-find.json,amorphobia/siku
 bcdown.json,amorphobia/siku
 bilimini.json,amorphobia/siku
-clash-for-windows_amorphobia.json,amorphobia/siku
 bind-lean.json,amorphobia/siku
 yahei-fira-icon-hybrid.json,amorphobia/siku
 imazing-converter.json,amorphobia/siku
