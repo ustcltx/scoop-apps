@@ -1303,7 +1303,7 @@ lazygit.json,ScoopInstaller/Extras
 paperwork.json,ScoopInstaller/Extras
 puttytel.json,ScoopInstaller/Extras
 logisim-evolution.json,ScoopInstaller/Extras
-qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
+qownnotes.json,ScoopInstaller/Extras
 f3d.json,ScoopInstaller/Extras
 mpc-hc.json,ScoopInstaller/Extras
 maple.json,ScoopInstaller/Extras
@@ -1322,7 +1322,7 @@ blender.json,ScoopInstaller/Extras
 spotify.json,ScoopInstaller/Extras
 dngrep.json,ScoopInstaller/Extras
 winfbe.json,ScoopInstaller/Extras
-typora.json,ScoopInstaller/Extras
+typora_ScoopInstaller.json,ScoopInstaller/Extras
 nextcloud.json,ScoopInstaller/Extras
 eclipse-jee.json,ScoopInstaller/Extras
 runcat.json,ScoopInstaller/Extras
@@ -3238,7 +3238,6 @@ adoptopenjdk-hotspot.json,ScoopInstaller/Java
 adoptopenjdk14-openj9.json,ScoopInstaller/Java
 adoptopenjdk11-openj9-xl-jre-nightly.json,ScoopInstaller/Java
 adoptopenjdk-jmc.json,ScoopInstaller/Java
-openai-translator.json,ivaquero/scoopet
 m3u8-downloader.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
 you-get.json,ivaquero/scoopet
@@ -4574,8 +4573,6 @@ volumouse.json,ScoopInstaller/Nirsoft
 muicacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 driveletterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mmcsnapinsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-ossutil_echoiron.json,echoiron/echo-scoop
-n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 wsl-ubuntu1604.json,KNOXDEV/wsl
 wsl-centos9.json,KNOXDEV/wsl
 wsl-sles.json,KNOXDEV/wsl
@@ -4588,6 +4585,8 @@ wsl-debian.json,KNOXDEV/wsl
 wsl-fedora-arm.json,KNOXDEV/wsl
 wsl-kali.json,KNOXDEV/wsl
 wsl-ubuntu1804-arm.json,KNOXDEV/wsl
+ossutil_echoiron.json,echoiron/echo-scoop
+n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 windows_exporter.json,hoilc/scoop-lemon
 electronmail_hoilc.json,hoilc/scoop-lemon
 sakurafrp-launcher.json,hoilc/scoop-lemon
@@ -6921,7 +6920,7 @@ fceux_borger.json,borger/scoop-emulators
 cemuhook_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
-snes9x-dev.json,borger/scoop-emulators
+snes9x-dev_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
 steam-rom-manager_borger.json,borger/scoop-emulators
@@ -6930,10 +6929,10 @@ bsnes_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
-ryujinx.json,borger/scoop-emulators
+ryujinx_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 raylib_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
 shellexview_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
@@ -7762,6 +7761,7 @@ observerward.json,ViCrack/scoop-bucket
 extremedumper.json,ViCrack/scoop-bucket
 transfer.json,ViCrack/scoop-bucket
 notify.json,ViCrack/scoop-bucket
+quasar.json,ViCrack/scoop-bucket
 gda.json,ViCrack/scoop-bucket
 emeditor_ViCrack.json,ViCrack/scoop-bucket
 vscan.json,ViCrack/scoop-bucket
