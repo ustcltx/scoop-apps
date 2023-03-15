@@ -450,6 +450,7 @@ synfig-studio.json,ScoopInstaller/Extras
 hydrus-network.json,ScoopInstaller/Extras
 tortoisehg.json,ScoopInstaller/Extras
 vcxsrv.json,ScoopInstaller/Extras
+openai-translator.json,ScoopInstaller/Extras
 quick-picture-viewer.json,ScoopInstaller/Extras
 divoom-gateway.json,ScoopInstaller/Extras
 phraseexpress.json,ScoopInstaller/Extras
@@ -2162,6 +2163,7 @@ kid3.json,ScoopInstaller/Extras
 telegram-downloader.json,ScoopInstaller/Extras
 calibre.json,ScoopInstaller/Extras
 flashboot.json,ScoopInstaller/Extras
+koodo-reader.json,ScoopInstaller/Extras
 terminus.json,ScoopInstaller/Extras
 kindlegen.json,ScoopInstaller/Extras
 chefdk.json,ScoopInstaller/Extras
@@ -2189,7 +2191,6 @@ microsoftedge-dev.json,chawyehsu/dorado
 hellofont.json,chawyehsu/dorado
 esbuild.json,chawyehsu/dorado
 konversation.json,chawyehsu/dorado
-openai-translator.json,chawyehsu/dorado
 clashweb.json,chawyehsu/dorado
 dvm.json,chawyehsu/dorado
 nomeiryoui.json,chawyehsu/dorado
@@ -2231,7 +2232,7 @@ electron-cash_chawyehsu.json,chawyehsu/dorado
 s2cb.json,chawyehsu/dorado
 microsoftedge.json,chawyehsu/dorado
 uninstallview.json,chawyehsu/dorado
-koodo-reader.json,chawyehsu/dorado
+koodo-reader_chawyehsu.json,chawyehsu/dorado
 r_chawyehsu.json,chawyehsu/dorado
 yy.json,chawyehsu/dorado
 aegisub.json,chawyehsu/dorado
@@ -3278,7 +3279,7 @@ downkyi_ivaquero.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
 julia-cn.json,ivaquero/scoopet
 wisecare365_ivaquero.json,ivaquero/scoopet
-baidunetdisk.json,ivaquero/scoopet
+baidunetdisk_ivaquero.json,ivaquero/scoopet
 adrive_ivaquero.json,ivaquero/scoopet
 texlive_ivaquero.json,ivaquero/scoopet
 partition-assistant.json,ivaquero/scoopet
@@ -5052,7 +5053,7 @@ sclient.json,hoilc/scoop-lemon
 wxwork.json,hoilc/scoop-lemon
 library.net-standard.json,hoilc/scoop-lemon
 fdkaac.json,hoilc/scoop-lemon
-wingetui.json,hoilc/scoop-lemon
+wingetui_hoilc.json,hoilc/scoop-lemon
 ossutil_hoilc.json,hoilc/scoop-lemon
 pint.json,hoilc/scoop-lemon
 meepo.json,hoilc/scoop-lemon
@@ -5290,7 +5291,7 @@ mednafen-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
 hoxs64.json,hermanjustnu/scoop-emulators
 atariplusplus.json,hermanjustnu/scoop-emulators
 dolphin-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
-ppsspp-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
+ppsspp-dev.json,hermanjustnu/scoop-emulators
 redream_hermanjustnu.json,hermanjustnu/scoop-emulators
 dosbox_hermanjustnu.json,hermanjustnu/scoop-emulators
 xenia-canary.json,hermanjustnu/scoop-emulators
@@ -6893,7 +6894,7 @@ xenia_borger.json,borger/scoop-emulators
 visualboyadvance-m.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
 dolphin-dev_borger.json,borger/scoop-emulators
-ppsspp-dev_borger.json,borger/scoop-emulators
+ppsspp-dev.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
@@ -6913,7 +6914,7 @@ citra_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
@@ -7854,7 +7855,7 @@ windows10manager_akirco.json,akirco/aki-apps
 qpdf_akirco.json,akirco/aki-apps
 shellcheck_akirco.json,akirco/aki-apps
 memo.json,akirco/aki-apps
-electerm.json,akirco/aki-apps
+electerm_akirco.json,akirco/aki-apps
 listen1desktop_akirco.json,akirco/aki-apps
 draw.io_akirco.json,akirco/aki-apps
 nvm_akirco.json,akirco/aki-apps
@@ -7978,7 +7979,7 @@ dim2clear.json,akirco/aki-apps
 tokei_akirco.json,akirco/aki-apps
 pypy3_akirco.json,akirco/aki-apps
 nircmd_akirco.json,akirco/aki-apps
-firefox-zh-cn.json,akirco/aki-apps
+firefox-zh-cn_akirco.json,akirco/aki-apps
 mysql_akirco.json,akirco/aki-apps
 nyagos_akirco.json,akirco/aki-apps
 wp-cli_akirco.json,akirco/aki-apps
@@ -8785,6 +8786,7 @@ iwck.json,amorphobia/siku
 idm-trial-reset.json,amorphobia/siku
 setacl-studio.json,amorphobia/siku
 bbdown_amorphobia.json,amorphobia/siku
+ddns-go.json,amorphobia/siku
 setacl.json,amorphobia/siku
 pijul_amorphobia.json,amorphobia/siku
 vmping.json,amorphobia/siku
@@ -9355,7 +9357,7 @@ mpv-handler.json,hu3rror/scoop-muggle
 sizer_hu3rror.json,hu3rror/scoop-muggle
 b23downloader_hu3rror.json,hu3rror/scoop-muggle
 hitomi-downloader_hu3rror.json,hu3rror/scoop-muggle
-mosdns_hu3rror.json,hu3rror/scoop-muggle
+mosdns.json,hu3rror/scoop-muggle
 acttools.json,hu3rror/scoop-muggle
 animation-garden.json,hu3rror/scoop-muggle
 goldendict-webengine.json,hu3rror/scoop-muggle
@@ -9592,7 +9594,7 @@ wsl2host.json,hulucc/bucket
 sentry-cli_hulucc.json,hulucc/bucket
 gn_hulucc.json,hulucc/bucket
 dapr_hulucc.json,hulucc/bucket
-thunderbird-zh-cn_jingyu9575.json,jingyu9575/scoop-jingyu9575
+thunderbird-zh-cn.json,jingyu9575/scoop-jingyu9575
 kcptun_jingyu9575.json,jingyu9575/scoop-jingyu9575
 ttfautohint.json,jingyu9575/scoop-jingyu9575
 network-monitor-np.json,jingyu9575/scoop-jingyu9575
