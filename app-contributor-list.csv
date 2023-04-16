@@ -330,7 +330,7 @@ n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 coodesker.json,echoiron/echo-scoop
 xiuxiu.json,echoiron/echo-scoop
 proxifier.json,echoiron/echo-scoop
-bypass_echoiron.json,echoiron/echo-scoop
+bypass.json,echoiron/echo-scoop
 hbuilderx.json,echoiron/echo-scoop
 iobituninstaller.json,echoiron/echo-scoop
 exescope.json,echoiron/echo-scoop
@@ -404,6 +404,7 @@ terminus.json,ScoopInstaller/Extras
 multrin.json,ScoopInstaller/Extras
 wonderpen.json,ScoopInstaller/Extras
 eclipse-sumo.json,ScoopInstaller/Extras
+sikulix.json,ScoopInstaller/Extras
 shadowsocksr-hmbsbige.json,ScoopInstaller/Extras
 streamwriter.json,ScoopInstaller/Extras
 cheat-engine.json,ScoopInstaller/Extras
@@ -413,6 +414,7 @@ sfsu.json,ScoopInstaller/Extras
 calibre.json,ScoopInstaller/Extras
 vnote.json,ScoopInstaller/Extras
 foxe.json,ScoopInstaller/Extras
+yapa2.json,ScoopInstaller/Extras
 maple.json,ScoopInstaller/Extras
 axiom.json,ScoopInstaller/Extras
 euler.json,ScoopInstaller/Extras
@@ -463,6 +465,7 @@ winmerge2011.json,ScoopInstaller/Extras
 blender-launcher.json,ScoopInstaller/Extras
 tortoisesvn_ScoopInstaller.json,ScoopInstaller/Extras
 so.json,ScoopInstaller/Extras
+86box-roms.json,ScoopInstaller/Extras
 google-java-format.json,ScoopInstaller/Extras
 yesplaymusic.json,ScoopInstaller/Extras
 oculante.json,ScoopInstaller/Extras
@@ -495,6 +498,7 @@ devdocs.json,ScoopInstaller/Extras
 deepgit.json,ScoopInstaller/Extras
 hakuneko.json,ScoopInstaller/Extras
 vcredist.json,ScoopInstaller/Extras
+komf.json,ScoopInstaller/Extras
 midicsv.json,ScoopInstaller/Extras
 workspaceutilities.json,ScoopInstaller/Extras
 gridea.json,ScoopInstaller/Extras
@@ -508,6 +512,7 @@ trilium.json,ScoopInstaller/Extras
 task-coach.json,ScoopInstaller/Extras
 notion-enhanced.json,ScoopInstaller/Extras
 xmind.json,ScoopInstaller/Extras
+raven-reader.json,ScoopInstaller/Extras
 t-clock.json,ScoopInstaller/Extras
 lightscreen.json,ScoopInstaller/Extras
 yacreader.json,ScoopInstaller/Extras
@@ -546,6 +551,7 @@ thisiswin11.json,ScoopInstaller/Extras
 nefcon.json,ScoopInstaller/Extras
 neovim-qt.json,ScoopInstaller/Extras
 vcredist2005.json,ScoopInstaller/Extras
+bloop.json,ScoopInstaller/Extras
 tageditor.json,ScoopInstaller/Extras
 wxhexeditor.json,ScoopInstaller/Extras
 resource-tuner-console.json,ScoopInstaller/Extras
@@ -567,10 +573,12 @@ wezterm.json,ScoopInstaller/Extras
 hxd.json,ScoopInstaller/Extras
 zotero.json,ScoopInstaller/Extras
 ktlint.json,ScoopInstaller/Extras
+lbry.json,ScoopInstaller/Extras
 glogg.json,ScoopInstaller/Extras
 winpty.json,ScoopInstaller/Extras
 wire.json,ScoopInstaller/Extras
 hibit-system-information.json,ScoopInstaller/Extras
+dfu-programmer.json,ScoopInstaller/Extras
 macast-debug.json,ScoopInstaller/Extras
 catalyst.json,ScoopInstaller/Extras
 eclipse-automotive.json,ScoopInstaller/Extras
@@ -618,6 +626,7 @@ android-sms-backup-and-restore.json,ScoopInstaller/Extras
 zaproxy.json,ScoopInstaller/Extras
 jexiftoolgui.json,ScoopInstaller/Extras
 potplayer.json,ScoopInstaller/Extras
+processing4.json,ScoopInstaller/Extras
 discord-rpc-extension.json,ScoopInstaller/Extras
 vesta.json,ScoopInstaller/Extras
 shiba.json,ScoopInstaller/Extras
@@ -699,6 +708,7 @@ roamresearch.json,ScoopInstaller/Extras
 fvm.json,ScoopInstaller/Extras
 wiztree.json,ScoopInstaller/Extras
 processhacker.json,ScoopInstaller/Extras
+simplyserial.json,ScoopInstaller/Extras
 opentoonz.json,ScoopInstaller/Extras
 zeal.json,ScoopInstaller/Extras
 sqlitespy.json,ScoopInstaller/Extras
@@ -745,6 +755,7 @@ licecap.json,ScoopInstaller/Extras
 vt-uploader.json,ScoopInstaller/Extras
 eartrumpet.json,ScoopInstaller/Extras
 jpegview.json,ScoopInstaller/Extras
+gridplayer.json,ScoopInstaller/Extras
 dbgl.json,ScoopInstaller/Extras
 carnac.json,ScoopInstaller/Extras
 macrocreator.json,ScoopInstaller/Extras
@@ -771,6 +782,7 @@ openvpn.json,ScoopInstaller/Extras
 jmkvpropedit.json,ScoopInstaller/Extras
 testcentric.json,ScoopInstaller/Extras
 sophiapp.json,ScoopInstaller/Extras
+focus.json,ScoopInstaller/Extras
 yakyak.json,ScoopInstaller/Extras
 winrar_ScoopInstaller.json,ScoopInstaller/Extras
 pskubectlcompletion.json,ScoopInstaller/Extras
@@ -818,12 +830,14 @@ bes.json,ScoopInstaller/Extras
 ipscan.json,ScoopInstaller/Extras
 audmes.json,ScoopInstaller/Extras
 open-log-viewer.json,ScoopInstaller/Extras
+86box.json,ScoopInstaller/Extras
 celestia.json,ScoopInstaller/Extras
 altair.json,ScoopInstaller/Extras
 keyviz.json,ScoopInstaller/Extras
 android-messages.json,ScoopInstaller/Extras
 nsis.json,ScoopInstaller/Extras
 magicavoxel.json,ScoopInstaller/Extras
+mullvad-browser.json,ScoopInstaller/Extras
 libsndfile.json,ScoopInstaller/Extras
 qalculate.json,ScoopInstaller/Extras
 speedtest.json,ScoopInstaller/Extras
@@ -836,6 +850,7 @@ xyplorer_ScoopInstaller.json,ScoopInstaller/Extras
 plex-mpv-shim.json,ScoopInstaller/Extras
 glazewm.json,ScoopInstaller/Extras
 islc.json,ScoopInstaller/Extras
+yuescript.json,ScoopInstaller/Extras
 vidi.json,ScoopInstaller/Extras
 gnucash.json,ScoopInstaller/Extras
 ani-cli.json,ScoopInstaller/Extras
@@ -934,6 +949,7 @@ xenu.json,ScoopInstaller/Extras
 ipfs-desktop.json,ScoopInstaller/Extras
 ldplayer.json,ScoopInstaller/Extras
 flux_ScoopInstaller.json,ScoopInstaller/Extras
+tiled.json,ScoopInstaller/Extras
 pixelorama.json,ScoopInstaller/Extras
 folding-at-home.json,ScoopInstaller/Extras
 codeblocks.json,ScoopInstaller/Extras
@@ -992,10 +1008,12 @@ qbittorrent-enhanced.json,ScoopInstaller/Extras
 xmlnotepad.json,ScoopInstaller/Extras
 xdman.json,ScoopInstaller/Extras
 quick-picture-viewer.json,ScoopInstaller/Extras
+radarr.json,ScoopInstaller/Extras
 fileoptimizer.json,ScoopInstaller/Extras
 local-browser.json,ScoopInstaller/Extras
 openhab.json,ScoopInstaller/Extras
 pixie.json,ScoopInstaller/Extras
+frostwire.json,ScoopInstaller/Extras
 conemu-color-themes.json,ScoopInstaller/Extras
 metrogit.json,ScoopInstaller/Extras
 recuva.json,ScoopInstaller/Extras
@@ -1020,6 +1038,7 @@ dottorrent-gui.json,ScoopInstaller/Extras
 keepass-plugin-kpenhentryview.json,ScoopInstaller/Extras
 airdroid.json,ScoopInstaller/Extras
 xjoy.json,ScoopInstaller/Extras
+avogadro.json,ScoopInstaller/Extras
 openlens.json,ScoopInstaller/Extras
 jaspersoft-studio.json,ScoopInstaller/Extras
 edex-ui.json,ScoopInstaller/Extras
@@ -1053,6 +1072,7 @@ scene-builder.json,ScoopInstaller/Extras
 openface.json,ScoopInstaller/Extras
 maxima.json,ScoopInstaller/Extras
 firewallappblocker.json,ScoopInstaller/Extras
+ludwig.json,ScoopInstaller/Extras
 adwcleaner.json,ScoopInstaller/Extras
 sd-card-formatter.json,ScoopInstaller/Extras
 kitematic.json,ScoopInstaller/Extras
@@ -1127,6 +1147,7 @@ graphql-playground.json,ScoopInstaller/Extras
 session.json,ScoopInstaller/Extras
 moonlight.json,ScoopInstaller/Extras
 ubports-installer.json,ScoopInstaller/Extras
+pianobar.json,ScoopInstaller/Extras
 emacs.json,ScoopInstaller/Extras
 rapidcrc.json,ScoopInstaller/Extras
 qimgv.json,ScoopInstaller/Extras
@@ -1153,6 +1174,7 @@ search-deflector.json,ScoopInstaller/Extras
 processing.json,ScoopInstaller/Extras
 smplayer.json,ScoopInstaller/Extras
 digital.json,ScoopInstaller/Extras
+adventuregamestudio.json,ScoopInstaller/Extras
 keypirinha.json,ScoopInstaller/Extras
 czkawka-gui.json,ScoopInstaller/Extras
 signal.json,ScoopInstaller/Extras
@@ -1170,6 +1192,7 @@ redshift-tray.json,ScoopInstaller/Extras
 tcpipmanager.json,ScoopInstaller/Extras
 clavier-plus.json,ScoopInstaller/Extras
 youtube-music.json,ScoopInstaller/Extras
+antares.json,ScoopInstaller/Extras
 b1.json,ScoopInstaller/Extras
 spacesniffer.json,ScoopInstaller/Extras
 defraggler.json,ScoopInstaller/Extras
@@ -1181,6 +1204,7 @@ coretemp.json,ScoopInstaller/Extras
 posh-docker.json,ScoopInstaller/Extras
 monero.json,ScoopInstaller/Extras
 rstudio.json,ScoopInstaller/Extras
+subsync.json,ScoopInstaller/Extras
 gog-galaxy-plugin-downloader.json,ScoopInstaller/Extras
 laragon.json,ScoopInstaller/Extras
 authy.json,ScoopInstaller/Extras
@@ -1261,6 +1285,7 @@ standardnotes.json,ScoopInstaller/Extras
 prusaslicer.json,ScoopInstaller/Extras
 okular.json,ScoopInstaller/Extras
 discord.json,ScoopInstaller/Extras
+swyh-rs.json,ScoopInstaller/Extras
 notable.json,ScoopInstaller/Extras
 flutter.json,ScoopInstaller/Extras
 virt-viewer.json,ScoopInstaller/Extras
@@ -1273,11 +1298,13 @@ plex-player.json,ScoopInstaller/Extras
 texstudio.json,ScoopInstaller/Extras
 git-aliases.json,ScoopInstaller/Extras
 ignoreit.json,ScoopInstaller/Extras
+lark.json,ScoopInstaller/Extras
 imhex.json,ScoopInstaller/Extras
 springboot.json,ScoopInstaller/Extras
 apache-tinkerpop-gremlin-server.json,ScoopInstaller/Extras
 mps.json,ScoopInstaller/Extras
 wsa-pacman.json,ScoopInstaller/Extras
+dbxcli.json,ScoopInstaller/Extras
 codetrack.json,ScoopInstaller/Extras
 encryptpad.json,ScoopInstaller/Extras
 video-compare.json,ScoopInstaller/Extras
@@ -1324,6 +1351,7 @@ svcat.json,ScoopInstaller/Extras
 httptoolkit.json,ScoopInstaller/Extras
 album-art-downloader.json,ScoopInstaller/Extras
 tsip.json,ScoopInstaller/Extras
+blobsaver.json,ScoopInstaller/Extras
 crow-translate.json,ScoopInstaller/Extras
 feem.json,ScoopInstaller/Extras
 pasteboard.json,ScoopInstaller/Extras
@@ -1369,9 +1397,11 @@ ilspy.json,ScoopInstaller/Extras
 icecast.json,ScoopInstaller/Extras
 openwithplusplus.json,ScoopInstaller/Extras
 kcc.json,ScoopInstaller/Extras
+marble.json,ScoopInstaller/Extras
 snappy-driver-installer-origin.json,ScoopInstaller/Extras
 falcon-sql-client.json,ScoopInstaller/Extras
 horizon-eda.json,ScoopInstaller/Extras
+game-editor.json,ScoopInstaller/Extras
 awake.json,ScoopInstaller/Extras
 pure-data.json,ScoopInstaller/Extras
 tinode-mysql.json,ScoopInstaller/Extras
@@ -1414,9 +1444,11 @@ rescuetime.json,ScoopInstaller/Extras
 mremoteng.json,ScoopInstaller/Extras
 docear.json,ScoopInstaller/Extras
 micaforeveryone.json,ScoopInstaller/Extras
+zsharp.json,ScoopInstaller/Extras
 choeazycopy.json,ScoopInstaller/Extras
 keepass-plugin-keeanywhere.json,ScoopInstaller/Extras
 tcno-acc-switcher.json,ScoopInstaller/Extras
+openelement.json,ScoopInstaller/Extras
 cura.json,ScoopInstaller/Extras
 camstudio.json,ScoopInstaller/Extras
 vieas.json,ScoopInstaller/Extras
@@ -1490,6 +1522,7 @@ rainmeter.json,ScoopInstaller/Extras
 jami.json,ScoopInstaller/Extras
 arcwelder.json,ScoopInstaller/Extras
 lantern-client.json,ScoopInstaller/Extras
+tev.json,ScoopInstaller/Extras
 typora_ScoopInstaller.json,ScoopInstaller/Extras
 clash.mini.json,ScoopInstaller/Extras
 protobuf.json,ScoopInstaller/Extras
@@ -1606,6 +1639,7 @@ weylus.json,ScoopInstaller/Extras
 recaps.json,ScoopInstaller/Extras
 gink.json,ScoopInstaller/Extras
 yumi-uefi.json,ScoopInstaller/Extras
+labplot.json,ScoopInstaller/Extras
 carotdav.json,ScoopInstaller/Extras
 ontopreplica.json,ScoopInstaller/Extras
 lxrunoffline.json,ScoopInstaller/Extras
@@ -1665,6 +1699,7 @@ steam-library-manager.json,ScoopInstaller/Extras
 cryptomator.json,ScoopInstaller/Extras
 appium.json,ScoopInstaller/Extras
 debugviewpp.json,ScoopInstaller/Extras
+duality.json,ScoopInstaller/Extras
 manifold-viewer.json,ScoopInstaller/Extras
 dottrace.json,ScoopInstaller/Extras
 regeditor.json,ScoopInstaller/Extras
@@ -1676,6 +1711,7 @@ asuite.json,ScoopInstaller/Extras
 capframex.json,ScoopInstaller/Extras
 vysor.json,ScoopInstaller/Extras
 mambaforge.json,ScoopInstaller/Extras
+avogadro2.json,ScoopInstaller/Extras
 falconx.json,ScoopInstaller/Extras
 hexchat.json,ScoopInstaller/Extras
 liquidsoap.json,ScoopInstaller/Extras
@@ -1706,6 +1742,7 @@ lokalise2.json,ScoopInstaller/Extras
 qtox.json,ScoopInstaller/Extras
 librespeed-cli.json,ScoopInstaller/Extras
 vscodium.json,ScoopInstaller/Extras
+xplorer.json,ScoopInstaller/Extras
 caprine.json,ScoopInstaller/Extras
 koffee.json,ScoopInstaller/Extras
 picocrypt.json,ScoopInstaller/Extras
@@ -1718,6 +1755,7 @@ webcopy.json,ScoopInstaller/Extras
 vcredist2019.json,ScoopInstaller/Extras
 publii.json,ScoopInstaller/Extras
 mp3directcut.json,ScoopInstaller/Extras
+xc.json,ScoopInstaller/Extras
 geany-plugins.json,ScoopInstaller/Extras
 sc1.json,ScoopInstaller/Extras
 qtemu.json,ScoopInstaller/Extras
@@ -1739,6 +1777,7 @@ openshot.json,ScoopInstaller/Extras
 butterfly.json,ScoopInstaller/Extras
 qt-creator-cdb-ext.json,ScoopInstaller/Extras
 waterfox-classic.json,ScoopInstaller/Extras
+volume2.json,ScoopInstaller/Extras
 win-gpg-agent.json,ScoopInstaller/Extras
 manifold.json,ScoopInstaller/Extras
 multibootusb.json,ScoopInstaller/Extras
@@ -1769,6 +1808,7 @@ komga.json,ScoopInstaller/Extras
 syncthingtray.json,ScoopInstaller/Extras
 jetbrains-toolbox.json,ScoopInstaller/Extras
 ragel.json,ScoopInstaller/Extras
+hterm.json,ScoopInstaller/Extras
 gcfscape.json,ScoopInstaller/Extras
 zeebe-modeler.json,ScoopInstaller/Extras
 moderndeck.json,ScoopInstaller/Extras
@@ -1867,6 +1907,7 @@ crystaldiskinfo.json,ScoopInstaller/Extras
 desktop-ini-editor.json,ScoopInstaller/Extras
 exifcleaner.json,ScoopInstaller/Extras
 yumi.json,ScoopInstaller/Extras
+wavosaur.json,ScoopInstaller/Extras
 mumble-server.json,ScoopInstaller/Extras
 green-tunnel.json,ScoopInstaller/Extras
 scribus.json,ScoopInstaller/Extras
@@ -1911,13 +1952,13 @@ wsl-ssh-pageant.json,ScoopInstaller/Extras
 basecamp.json,ScoopInstaller/Extras
 xmrig.json,ScoopInstaller/Extras
 threema.json,ScoopInstaller/Extras
-foxit-reader.json,ScoopInstaller/Extras
 copyq.json,ScoopInstaller/Extras
 beaker.json,ScoopInstaller/Extras
 mediainfo.net.json,ScoopInstaller/Extras
 pdd.json,ScoopInstaller/Extras
 chatty.json,ScoopInstaller/Extras
 windowsdesktop-runtime.json,ScoopInstaller/Extras
+swyh.json,ScoopInstaller/Extras
 ncmpc.json,ScoopInstaller/Extras
 mellowplayer.json,ScoopInstaller/Extras
 quickcpu.json,ScoopInstaller/Extras
@@ -1938,8 +1979,9 @@ sharpapp.json,ScoopInstaller/Extras
 pip-tool.json,ScoopInstaller/Extras
 portfolio-performance.json,ScoopInstaller/Extras
 launchy.json,ScoopInstaller/Extras
-emeditor_ScoopInstaller.json,ScoopInstaller/Extras
+emeditor.json,ScoopInstaller/Extras
 simple-dnscrypt.json,ScoopInstaller/Extras
+ahkpm.json,ScoopInstaller/Extras
 sigil.json,ScoopInstaller/Extras
 dotPeek.json,ScoopInstaller/Extras
 dualmonitortaskbar.json,ScoopInstaller/Extras
@@ -1953,11 +1995,14 @@ sysinternals.json,ScoopInstaller/Extras
 shadowsocks.json,ScoopInstaller/Extras
 notejoy.json,ScoopInstaller/Extras
 dartium.json,ScoopInstaller/Extras
+kotlin-interactive-shell.json,ScoopInstaller/Extras
+neoray.json,ScoopInstaller/Extras
 sumo.json,ScoopInstaller/Extras
 fvim.json,ScoopInstaller/Extras
 madvr.json,ScoopInstaller/Extras
 rtss.json,ScoopInstaller/Extras
 gyroflow.json,ScoopInstaller/Extras
+sniffnet.json,ScoopInstaller/Extras
 fclones.json,ScoopInstaller/Extras
 x64dbg.json,ScoopInstaller/Extras
 network-profile-name-changer.json,ScoopInstaller/Extras
@@ -1986,6 +2031,7 @@ turtl.json,ScoopInstaller/Extras
 vlc.json,ScoopInstaller/Extras
 fatty.json,ScoopInstaller/Extras
 aria-ng-gui.json,ScoopInstaller/Extras
+debugtron.json,ScoopInstaller/Extras
 vidcutter.json,ScoopInstaller/Extras
 linqpad.json,ScoopInstaller/Extras
 richcopy.json,ScoopInstaller/Extras
@@ -2010,6 +2056,7 @@ usbimager.json,ScoopInstaller/Extras
 ndm.json,ScoopInstaller/Extras
 opera-gx.json,ScoopInstaller/Extras
 gpg4win.json,ScoopInstaller/Extras
+86box-manager.json,ScoopInstaller/Extras
 captfencoder.json,ScoopInstaller/Extras
 musicplayer2.json,ScoopInstaller/Extras
 superf4.json,ScoopInstaller/Extras
@@ -2076,6 +2123,7 @@ netch.json,ScoopInstaller/Extras
 clustalx.json,ScoopInstaller/Extras
 mediainfo-gui.json,ScoopInstaller/Extras
 tuxguitar.json,ScoopInstaller/Extras
+chart-geany.json,ScoopInstaller/Extras
 rapidee.json,ScoopInstaller/Extras
 graphicsgale.json,ScoopInstaller/Extras
 qutebrowser.json,ScoopInstaller/Extras
@@ -2105,6 +2153,7 @@ twitchdownloader.json,ScoopInstaller/Extras
 fontbase.json,ScoopInstaller/Extras
 wechat.json,ScoopInstaller/Extras
 raspberry-pi-imager.json,ScoopInstaller/Extras
+seafile-syncing-client.json,ScoopInstaller/Extras
 fu.json,ScoopInstaller/Extras
 pci-z.json,ScoopInstaller/Extras
 cpkeeper.json,ScoopInstaller/Extras
@@ -2168,6 +2217,7 @@ telegram.json,ScoopInstaller/Extras
 jstock.json,ScoopInstaller/Extras
 nswagstudio.json,ScoopInstaller/Extras
 harmonoid.json,ScoopInstaller/Extras
+magpie.json,ScoopInstaller/Extras
 ungoogled-chromium.json,ScoopInstaller/Extras
 blender.json,ScoopInstaller/Extras
 vapoursyntheditor.json,ScoopInstaller/Extras
@@ -2180,6 +2230,7 @@ spotify.json,ScoopInstaller/Extras
 better-joy.json,ScoopInstaller/Extras
 audacity.json,ScoopInstaller/Extras
 interlink.json,ScoopInstaller/Extras
+regiontoshare.json,ScoopInstaller/Extras
 mediacreationtool.json,ScoopInstaller/Extras
 cabal-mini.json,ScoopInstaller/Extras
 masscode.json,ScoopInstaller/Extras
@@ -2300,7 +2351,7 @@ firefox-nightly-zh-cn.json,chawyehsu/dorado
 flutter-cn.json,chawyehsu/dorado
 microsoftedge-beta.json,chawyehsu/dorado
 imagine_chawyehsu.json,chawyehsu/dorado
-tiled.json,chawyehsu/dorado
+tiled_chawyehsu.json,chawyehsu/dorado
 microsoftedge-canary.json,chawyehsu/dorado
 dandanplay.json,chawyehsu/dorado
 wechat-np.json,chawyehsu/dorado
@@ -2401,7 +2452,7 @@ steampp.json,chawyehsu/dorado
 centbrowser_chawyehsu.json,chawyehsu/dorado
 milkytracker.json,chawyehsu/dorado
 itch.json,chawyehsu/dorado
-clash-for-windows.json,chawyehsu/dorado
+clash-for-windows_chawyehsu.json,chawyehsu/dorado
 qtscrcpy_chawyehsu.json,chawyehsu/dorado
 capcut.json,chawyehsu/dorado
 llvm-mingw.json,chawyehsu/dorado
@@ -3693,6 +3744,7 @@ wireshark3.6.json,ScoopInstaller/Versions
 vivaldi-snapshot.json,ScoopInstaller/Versions
 nheko-nightly.json,ScoopInstaller/Versions
 phpstorm-eap.json,ScoopInstaller/Versions
+kopia-rc.json,ScoopInstaller/Versions
 filezilla-server0.9.json,ScoopInstaller/Versions
 ruby27.json,ScoopInstaller/Versions
 discord-canary.json,ScoopInstaller/Versions
@@ -3778,6 +3830,7 @@ flow030.json,ScoopInstaller/Versions
 lua-joedf.json,ScoopInstaller/Versions
 python39-beta.json,ScoopInstaller/Versions
 lua51.json,ScoopInstaller/Versions
+kopiaui-rc.json,ScoopInstaller/Versions
 lightshot.json,ScoopInstaller/Versions
 cuda9.json,ScoopInstaller/Versions
 1password-cli1.json,ScoopInstaller/Versions
@@ -4731,7 +4784,7 @@ invisiwind.json,hoilc/scoop-lemon
 mdsilo.json,hoilc/scoop-lemon
 best-trace.json,hoilc/scoop-lemon
 helmify.json,hoilc/scoop-lemon
-juicefs.json,hoilc/scoop-lemon
+juicefs_hoilc.json,hoilc/scoop-lemon
 credhub-cli.json,hoilc/scoop-lemon
 integer-scaler.json,hoilc/scoop-lemon
 dbgate-beta.json,hoilc/scoop-lemon
@@ -5132,7 +5185,7 @@ wgcf_hoilc.json,hoilc/scoop-lemon
 qsctl.json,hoilc/scoop-lemon
 legendary_hoilc.json,hoilc/scoop-lemon
 librespeed-cli_hoilc.json,hoilc/scoop-lemon
-xplorer.json,hoilc/scoop-lemon
+xplorer_hoilc.json,hoilc/scoop-lemon
 sftpgo_hoilc.json,hoilc/scoop-lemon
 sandboxdiff.json,hoilc/scoop-lemon
 nps-client_hoilc.json,hoilc/scoop-lemon
@@ -7179,7 +7232,7 @@ EmEditor_zhoujin7.json,zhoujin7/tomato
 Quicker.json,zhoujin7/tomato
 VisualVM_zhoujin7.json,zhoujin7/tomato
 AdiIRC_zhoujin7.json,zhoujin7/tomato
-YAPA2.json,zhoujin7/tomato
+YAPA2_zhoujin7.json,zhoujin7/tomato
 subconverter_zhoujin7.json,zhoujin7/tomato
 Elasticsearch6.json,zhoujin7/tomato
 arthas_zhoujin7.json,zhoujin7/tomato
@@ -7524,7 +7577,7 @@ firefox-nightly-de.json,naderi/scoop-bucket
 uniextract.json,naderi/scoop-bucket
 mpc-hc-portable.json,naderi/scoop-bucket
 caret_naderi.json,naderi/scoop-bucket
-officetoolplus.json,naderi/scoop-bucket
+officetoolplus_naderi.json,naderi/scoop-bucket
 hdcleaner_naderi.json,naderi/scoop-bucket
 everything-toolbar.json,naderi/scoop-bucket
 teamlink.json,naderi/scoop-bucket
@@ -7561,7 +7614,7 @@ font-nika.json,naderi/scoop-bucket
 nanazip_naderi.json,naderi/scoop-bucket
 qbittorrent-enhanced_naderi.json,naderi/scoop-bucket
 regseeker_naderi.json,naderi/scoop-bucket
-radarr.json,naderi/scoop-bucket
+radarr_naderi.json,naderi/scoop-bucket
 icofx.json,naderi/scoop-bucket
 csved_naderi.json,naderi/scoop-bucket
 eventlogviewer.json,naderi/scoop-bucket
@@ -7841,7 +7894,7 @@ TianRuoOCR_akirco.json,akirco/aki-apps
 mysql_akirco.json,akirco/aki-apps
 bandicam_akirco.json,akirco/aki-apps
 zoom_akirco.json,akirco/aki-apps
-koodo-reader_akirco.json,akirco/aki-apps
+koodo-reader.json,akirco/aki-apps
 easywsl.json,akirco/aki-apps
 registry-finder_akirco.json,akirco/aki-apps
 lx-music-desktop_akirco.json,akirco/aki-apps
@@ -8431,7 +8484,7 @@ soul.json,batkiz/backit
 tinytex_batkiz.json,batkiz/backit
 g.json,batkiz/backit
 CMWTAT_Digital_Edition.json,batkiz/backit
-raven-reader.json,batkiz/backit
+raven-reader_batkiz.json,batkiz/backit
 revive.json,batkiz/backit
 jqp_batkiz.json,batkiz/backit
 scc_batkiz.json,batkiz/backit
@@ -8590,7 +8643,7 @@ motrix_batkiz.json,batkiz/backit
 curlie_batkiz.json,batkiz/backit
 scoop-search_batkiz.json,batkiz/backit
 embarcadero-dev-cpp-no-compiler.json,batkiz/backit
-magpie.json,batkiz/backit
+magpie_batkiz.json,batkiz/backit
 ghdl.json,batkiz/backit
 posh-cargo.json,batkiz/backit
 zigmod.json,iquiw/scoop-bucket
@@ -8640,7 +8693,7 @@ qqplayer_amorphobia.json,amorphobia/siku
 qsv.json,amorphobia/siku
 cleanmywechat_amorphobia.json,amorphobia/siku
 jijidown.json,amorphobia/siku
-86box.json,amorphobia/siku
+86box_amorphobia.json,amorphobia/siku
 desktoppet.json,amorphobia/siku
 parallels-client.json,amorphobia/siku
 diskgenius-zh-cn.json,amorphobia/siku
@@ -8685,7 +8738,7 @@ pijul_amorphobia.json,amorphobia/siku
 vfilename.json,amorphobia/siku
 cargo-binstall.json,amorphobia/siku
 imazing-converter.json,amorphobia/siku
-86box-manager.json,amorphobia/siku
+86box-manager_amorphobia.json,amorphobia/siku
 bcdown.json,amorphobia/siku
 fido.json,amorphobia/siku
 revokemsgpatcher_amorphobia.json,amorphobia/siku
@@ -8973,6 +9026,7 @@ gow@0.8.0.json,rivy/scoop-bucket
 nodejs@8.16.2.json,rivy/scoop-bucket
 msys2@2016-10-25.json,rivy/scoop-bucket
 djgpp@2.8-gcc-7.2.0.json,rivy/scoop-bucket
+curl@8.0.1_7.json,rivy/scoop-bucket
 gcc@9.2.0-x64.json,rivy/scoop-bucket
 scc_rivy.json,rivy/scoop-bucket
 deno@1.3.2.json,rivy/scoop-bucket
