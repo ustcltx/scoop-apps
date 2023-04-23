@@ -3541,6 +3541,7 @@ dartium-content-shell-dev.json,ScoopInstaller/Versions
 processhacker-nightly.json,ScoopInstaller/Versions
 cuda11.0.json,ScoopInstaller/Versions
 python310-beta.json,ScoopInstaller/Versions
+lcow.json,ScoopInstaller/Versions
 go114.json,ScoopInstaller/Versions
 tomcat9.json,ScoopInstaller/Versions
 cuda7.0.json,ScoopInstaller/Versions
@@ -5025,11 +5026,12 @@ lyricify.json,hoilc/scoop-lemon
 pdfarranger_hoilc.json,hoilc/scoop-lemon
 exhale.json,hoilc/scoop-lemon
 yank-note.json,hoilc/scoop-lemon
+deeplx.json,hoilc/scoop-lemon
 ediary_hoilc.json,hoilc/scoop-lemon
 window-sharing-hider.json,hoilc/scoop-lemon
 nip2.json,hoilc/scoop-lemon
 maye.json,hoilc/scoop-lemon
-coodesker.json,hoilc/scoop-lemon
+coodesker_hoilc.json,hoilc/scoop-lemon
 azd_hoilc.json,hoilc/scoop-lemon
 faad2.json,hoilc/scoop-lemon
 wiznoteplus.json,hoilc/scoop-lemon
@@ -5070,6 +5072,7 @@ shutter_hoilc.json,hoilc/scoop-lemon
 riftshare.json,hoilc/scoop-lemon
 autohidedesktopicons.json,hoilc/scoop-lemon
 oasis.json,hoilc/scoop-lemon
+nexttrace-enhanced.json,hoilc/scoop-lemon
 spleeter-gui.json,hoilc/scoop-lemon
 koyeb-cli.json,hoilc/scoop-lemon
 winfi-lite.json,hoilc/scoop-lemon
@@ -5106,6 +5109,7 @@ asfenhance-cn.json,hoilc/scoop-lemon
 snova-asio.json,hoilc/scoop-lemon
 chart-testing.json,hoilc/scoop-lemon
 spring-boot-migrator.json,hoilc/scoop-lemon
+emby-plugin-javscraper.json,hoilc/scoop-lemon
 whisper-model-ggml-small.json,hoilc/scoop-lemon
 cue_hoilc.json,hoilc/scoop-lemon
 esheep.json,hoilc/scoop-lemon
@@ -7049,12 +7053,12 @@ mednafen-dev_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
 vita3k.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
-xenia-canary.json,borger/scoop-emulators
+xenia-canary_borger.json,borger/scoop-emulators
 fceux_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
@@ -7527,7 +7531,7 @@ vc-ltl.json,wzv5/ScoopBucket
 oleviewdotnet.json,wzv5/ScoopBucket
 winsw_wzv5.json,wzv5/ScoopBucket
 xnview_wzv5.json,wzv5/ScoopBucket
-aliyundrive_wzv5.json,wzv5/ScoopBucket
+aliyundrive.json,wzv5/ScoopBucket
 applicationinspector.json,wzv5/ScoopBucket
 wechat_wzv5.json,wzv5/ScoopBucket
 yuanshen.json,wzv5/ScoopBucket
@@ -7889,6 +7893,7 @@ xmind_akirco.json,akirco/aki-apps
 MouseInc_akirco.json,akirco/aki-apps
 nmap-portable.json,akirco/aki-apps
 nero-aac_akirco.json,akirco/aki-apps
+rclone-browser_akirco.json,akirco/aki-apps
 fishingfunds.json,akirco/aki-apps
 cosbrowser_akirco.json,akirco/aki-apps
 bcut.json,akirco/aki-apps
@@ -8127,6 +8132,7 @@ scrcpy-gui_akirco.json,akirco/aki-apps
 libwebp_akirco.json,akirco/aki-apps
 mvndaemon_akirco.json,akirco/aki-apps
 pngquant_akirco.json,akirco/aki-apps
+netch_akirco.json,akirco/aki-apps
 tuya.json,akirco/aki-apps
 xh_akirco.json,akirco/aki-apps
 nvm_akirco.json,akirco/aki-apps
@@ -8423,7 +8429,7 @@ hash.json,ygguorun/scoop-bucket
 silk2mp3.json,ygguorun/scoop-bucket
 LyricTools.json,ygguorun/scoop-bucket
 PotPlayer-old.json,ygguorun/scoop-bucket
-aDrive_ygguorun.json,ygguorun/scoop-bucket
+aDrive.json,ygguorun/scoop-bucket
 git-repo-clean_ygguorun.json,ygguorun/scoop-bucket
 Legendary_ygguorun.json,ygguorun/scoop-bucket
 Macast_ygguorun.json,ygguorun/scoop-bucket
