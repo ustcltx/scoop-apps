@@ -432,7 +432,7 @@ displaycal.json,ScoopInstaller/Extras
 wincompose.json,ScoopInstaller/Extras
 dbxcli.json,ScoopInstaller/Extras
 gedit.json,ScoopInstaller/Extras
-wingetui.json,ScoopInstaller/Extras
+wingetui_ScoopInstaller.json,ScoopInstaller/Extras
 aurora.json,ScoopInstaller/Extras
 leet.json,ScoopInstaller/Extras
 eclipse-android.json,ScoopInstaller/Extras
@@ -1463,7 +1463,7 @@ horcrux.json,ScoopInstaller/Extras
 lapce.json,ScoopInstaller/Extras
 xampp.json,ScoopInstaller/Extras
 ilspy.json,ScoopInstaller/Extras
-jetbrains-toolbox.json,ScoopInstaller/Extras
+jetbrains-toolbox_ScoopInstaller.json,ScoopInstaller/Extras
 orca.json,ScoopInstaller/Extras
 notion.json,ScoopInstaller/Extras
 usbimager.json,ScoopInstaller/Extras
@@ -2265,7 +2265,7 @@ unityhub.json,chawyehsu/dorado
 nbtexplorer.json,chawyehsu/dorado
 milton_chawyehsu.json,chawyehsu/dorado
 microsoftedge-beta.json,chawyehsu/dorado
-kdeconnect.json,chawyehsu/dorado
+kdeconnect_chawyehsu.json,chawyehsu/dorado
 adiirc.json,chawyehsu/dorado
 fasttracker2-clone.json,chawyehsu/dorado
 uninstallview.json,chawyehsu/dorado
@@ -2767,7 +2767,6 @@ mambaforge-cn.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
 cnkiexpress.json,ivaquero/scoopet
 feishu_ivaquero.json,ivaquero/scoopet
-n-m3u8dl-cli_ivaquero.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
 edrawmax.json,ivaquero/scoopet
 miniconda-cn.json,ivaquero/scoopet
@@ -4683,7 +4682,7 @@ xt800agent.json,scoopcn/scoopcn
 we-meet.json,scoopcn/scoopcn
 apifox.json,scoopcn/scoopcn
 dingtalk-gov.json,scoopcn/scoopcn
-feishu.json,scoopcn/scoopcn
+feishu_scoopcn.json,scoopcn/scoopcn
 tim.json,scoopcn/scoopcn
 ade.json,scoopcn/scoopcn
 ynote.json,scoopcn/scoopcn
@@ -5038,6 +5037,7 @@ audio-router.json,hoilc/scoop-lemon
 waifu2x-snowshell_hoilc.json,hoilc/scoop-lemon
 benthos.json,hoilc/scoop-lemon
 nico.json,hoilc/scoop-lemon
+ja-netfilter.json,hoilc/scoop-lemon
 toxiproxy.json,hoilc/scoop-lemon
 terraformer_hoilc.json,hoilc/scoop-lemon
 metabase-ee.json,hoilc/scoop-lemon
@@ -7049,7 +7049,7 @@ mesen-s_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 ppsspp-dev.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
@@ -7886,6 +7886,7 @@ fl980.json,akirco/aki-apps
 clashrauto.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
 upx_akirco.json,akirco/aki-apps
+electron-fiddle.json,akirco/aki-apps
 homedale_akirco.json,akirco/aki-apps
 git_akirco.json,akirco/aki-apps
 cpu-z_akirco.json,akirco/aki-apps
@@ -7911,6 +7912,7 @@ gdu_akirco.json,akirco/aki-apps
 figma_akirco.json,akirco/aki-apps
 rclone-browser_akirco.json,akirco/aki-apps
 helix_akirco.json,akirco/aki-apps
+screentogif_akirco.json,akirco/aki-apps
 fat32format_akirco.json,akirco/aki-apps
 tuya.json,akirco/aki-apps
 kate_akirco.json,akirco/aki-apps
@@ -8060,7 +8062,6 @@ nexusfont_akirco.json,akirco/aki-apps
 dvm_akirco.json,akirco/aki-apps
 xmind_akirco.json,akirco/aki-apps
 alipan.json,akirco/aki-apps
-googlechrome_akirco.json,akirco/aki-apps
 composer_akirco.json,akirco/aki-apps
 yuque_akirco.json,akirco/aki-apps
 youtube-dl-gui_akirco.json,akirco/aki-apps
@@ -8082,7 +8083,7 @@ filezilla_akirco.json,akirco/aki-apps
 jabba_akirco.json,akirco/aki-apps
 python39_akirco.json,akirco/aki-apps
 dark_akirco.json,akirco/aki-apps
-clash-for-windows_akirco.json,akirco/aki-apps
+clash-for-windows.json,akirco/aki-apps
 x265_akirco.json,akirco/aki-apps
 everything_akirco.json,akirco/aki-apps
 cyberduck_akirco.json,akirco/aki-apps
@@ -8436,6 +8437,20 @@ notmyfault.json,niheaven/scoop-sysinternals
 streams.json,niheaven/scoop-sysinternals
 diskmon.json,niheaven/scoop-sysinternals
 movefile.json,niheaven/scoop-sysinternals
+ghidra-beta.json,NyaMisty/scoop_bucket_misty
+gostv3.json,NyaMisty/scoop_bucket_misty
+ghidramod.json,NyaMisty/scoop_bucket_misty
+dnSpyEx_NyaMisty.json,NyaMisty/scoop_bucket_misty
+wireshark-nightly.json,NyaMisty/scoop_bucket_misty
+dnSpyEx-nightly.json,NyaMisty/scoop_bucket_misty
+carnac-misty.json,NyaMisty/scoop_bucket_misty
+metasploit-framework_NyaMisty.json,NyaMisty/scoop_bucket_misty
+trays.json,NyaMisty/scoop_bucket_misty
+fermion.json,NyaMisty/scoop_bucket_misty
+libimobiledevice-nightly.json,NyaMisty/scoop_bucket_misty
+rizin_NyaMisty.json,NyaMisty/scoop_bucket_misty
+ghidra-nightly.json,NyaMisty/scoop_bucket_misty
+fclone.json,NyaMisty/scoop_bucket_misty
 sarasa-mono-slab-hc-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-gothic-j-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-mono-hc-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
@@ -8570,6 +8585,7 @@ ls-interactive.json,amorphobia/siku
 revokemsgpatcher_amorphobia.json,amorphobia/siku
 wiliwili.json,amorphobia/siku
 diskgenius-zh-cn.json,amorphobia/siku
+clash-for-windows_amorphobia.json,amorphobia/siku
 bilimini.json,amorphobia/siku
 bcdown.json,amorphobia/siku
 powercolorls.json,amorphobia/siku
@@ -8587,20 +8603,6 @@ uip.json,amorphobia/siku
 stellarium_amorphobia.json,amorphobia/siku
 keep-jbl-go.json,amorphobia/siku
 wechat_amorphobia.json,amorphobia/siku
-ghidra-beta.json,NyaMisty/scoop_bucket_misty
-gostv3.json,NyaMisty/scoop_bucket_misty
-ghidramod.json,NyaMisty/scoop_bucket_misty
-dnSpyEx_NyaMisty.json,NyaMisty/scoop_bucket_misty
-wireshark-nightly.json,NyaMisty/scoop_bucket_misty
-dnSpyEx-nightly.json,NyaMisty/scoop_bucket_misty
-carnac-misty.json,NyaMisty/scoop_bucket_misty
-metasploit-framework_NyaMisty.json,NyaMisty/scoop_bucket_misty
-trays.json,NyaMisty/scoop_bucket_misty
-fermion.json,NyaMisty/scoop_bucket_misty
-libimobiledevice-nightly.json,NyaMisty/scoop_bucket_misty
-rizin_NyaMisty.json,NyaMisty/scoop_bucket_misty
-ghidra-nightly.json,NyaMisty/scoop_bucket_misty
-fclone.json,NyaMisty/scoop_bucket_misty
 schema.json,batkiz/backit
 ptex-ng_batkiz.json,batkiz/backit
 tokei_batkiz.json,batkiz/backit
@@ -9538,7 +9540,7 @@ lingoes_ChinLong.json,ChinLong/scoop-customize
 s3browser.json,ChinLong/scoop-customize
 tuba-tool.json,ChinLong/scoop-customize
 robomongo.json,ChinLong/scoop-customize
-ja-netfilter.json,ChinLong/scoop-customize
+ja-netfilter_ChinLong.json,ChinLong/scoop-customize
 wnmp.json,ChinLong/scoop-customize
 utools_ChinLong.json,ChinLong/scoop-customize
 wsl-terminal_ChinLong.json,ChinLong/scoop-customize
