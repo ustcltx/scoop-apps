@@ -433,7 +433,7 @@ displaycal.json,ScoopInstaller/Extras
 wincompose.json,ScoopInstaller/Extras
 dbxcli.json,ScoopInstaller/Extras
 gedit.json,ScoopInstaller/Extras
-wingetui.json,ScoopInstaller/Extras
+wingetui_ScoopInstaller.json,ScoopInstaller/Extras
 aurora.json,ScoopInstaller/Extras
 leet.json,ScoopInstaller/Extras
 eclipse-android.json,ScoopInstaller/Extras
@@ -1170,6 +1170,7 @@ pure-data.json,ScoopInstaller/Extras
 win-portacle.json,ScoopInstaller/Extras
 spotify.json,ScoopInstaller/Extras
 icecast.json,ScoopInstaller/Extras
+hideul.json,ScoopInstaller/Extras
 dismplusplus.json,ScoopInstaller/Extras
 librehardwaremonitor.json,ScoopInstaller/Extras
 hibit-startup-manager.json,ScoopInstaller/Extras
@@ -1634,7 +1635,7 @@ pcmeter.json,ScoopInstaller/Extras
 sourcetrail.json,ScoopInstaller/Extras
 7tt.json,ScoopInstaller/Extras
 magicavoxel.json,ScoopInstaller/Extras
-qownnotes.json,ScoopInstaller/Extras
+qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
 winpty.json,ScoopInstaller/Extras
 googlechrome.json,ScoopInstaller/Extras
 dottrace.json,ScoopInstaller/Extras
@@ -2130,7 +2131,7 @@ kdiff3.json,ScoopInstaller/Extras
 selene.json,ScoopInstaller/Extras
 thisiswin11.json,ScoopInstaller/Extras
 sumo.json,ScoopInstaller/Extras
-waifu2x-extension-gui_ScoopInstaller.json,ScoopInstaller/Extras
+waifu2x-extension-gui.json,ScoopInstaller/Extras
 keeweb.json,ScoopInstaller/Extras
 jellyfin-mpv-shim.json,ScoopInstaller/Extras
 tftputil-gui.json,ScoopInstaller/Extras
@@ -2430,7 +2431,7 @@ chfs-gui.json,chawyehsu/dorado
 bypass_chawyehsu.json,chawyehsu/dorado
 cctv-ysyy.json,chawyehsu/dorado
 famistudio_chawyehsu.json,chawyehsu/dorado
-clash-for-windows.json,chawyehsu/dorado
+clash-for-windows_chawyehsu.json,chawyehsu/dorado
 konversation.json,chawyehsu/dorado
 cyberduck_chawyehsu.json,chawyehsu/dorado
 wechatdevtools.json,chawyehsu/dorado
@@ -4706,7 +4707,7 @@ procmon.json,scoopcn/scoopcn
 s3-browser.json,scoopcn/scoopcn
 procexp.json,scoopcn/scoopcn
 neo4jbrowser.json,scoopcn/scoopcn
-lx-music-desktop.json,scoopcn/scoopcn
+lx-music-desktop_scoopcn.json,scoopcn/scoopcn
 locaspace.json,scoopcn/scoopcn
 cloudmusic_scoopcn.json,scoopcn/scoopcn
 wechat_scoopcn.json,scoopcn/scoopcn
@@ -5161,7 +5162,7 @@ whisper-model-ggml-small-en.json,hoilc/scoop-lemon
 falabaac.json,hoilc/scoop-lemon
 keepass-plugin-keepassotp.json,hoilc/scoop-lemon
 img-convert.json,hoilc/scoop-lemon
-coodesker.json,hoilc/scoop-lemon
+coodesker_hoilc.json,hoilc/scoop-lemon
 shoutrrr.json,hoilc/scoop-lemon
 zhconv-rs.json,hoilc/scoop-lemon
 avdc.json,hoilc/scoop-lemon
@@ -5319,7 +5320,7 @@ double-mouse-downloader.json,hoilc/scoop-lemon
 obsutil.json,hoilc/scoop-lemon
 little-tips.json,hoilc/scoop-lemon
 popeye.json,hoilc/scoop-lemon
-ediary_hoilc.json,hoilc/scoop-lemon
+ediary.json,hoilc/scoop-lemon
 telepresence.json,hoilc/scoop-lemon
 3proxy.json,hoilc/scoop-lemon
 inimod.json,hoilc/scoop-lemon
@@ -7100,7 +7101,7 @@ trojan-go_Qv2ray.json,Qv2ray/mochi
 qv2ray_Qv2ray.json,Qv2ray/mochi
 v2ray-rules-dat_Qv2ray.json,Qv2ray/mochi
 office-tool.json,ZvonimirSun/scoop-iszy
-lx-music_ZvonimirSun.json,ZvonimirSun/scoop-iszy
+lx-music.json,ZvonimirSun/scoop-iszy
 oraclejdk8-8u191.json,ZvonimirSun/scoop-iszy
 netvpn-lc.json,ZvonimirSun/scoop-iszy
 oracle-instant-client_ZvonimirSun.json,ZvonimirSun/scoop-iszy
@@ -7258,7 +7259,7 @@ OracleJDK8_zhoujin7.json,zhoujin7/tomato
 maven_zhoujin7.json,zhoujin7/tomato
 apifox.json,zhoujin7/tomato
 ContextMenuMgr.json,zhoujin7/tomato
-HBuilderX.json,zhoujin7/tomato
+HBuilderX_zhoujin7.json,zhoujin7/tomato
 PhotoFiltre7.json,zhoujin7/tomato
 notepadplusplus_zhoujin7.json,zhoujin7/tomato
 sentinel-dashboard.json,zhoujin7/tomato
@@ -7897,6 +7898,7 @@ lwc_akirco.json,akirco/aki-apps
 dim2clear.json,akirco/aki-apps
 scrcpy_akirco.json,akirco/aki-apps
 wavpack_akirco.json,akirco/aki-apps
+musicfox.json,akirco/aki-apps
 pyflow_akirco.json,akirco/aki-apps
 potplayer_akirco.json,akirco/aki-apps
 aria2_akirco.json,akirco/aki-apps
@@ -8117,7 +8119,6 @@ aliyundrive_akirco.json,akirco/aki-apps
 nircmd_akirco.json,akirco/aki-apps
 hub_akirco.json,akirco/aki-apps
 qt-creator_akirco.json,akirco/aki-apps
-lx-music-desktop_akirco.json,akirco/aki-apps
 devsidecar_akirco.json,akirco/aki-apps
 vcredist2012_akirco.json,akirco/aki-apps
 ncspot_akirco.json,akirco/aki-apps
@@ -8199,7 +8200,6 @@ gluttonyPNG.json,ygguorun/scoop-bucket
 FileMonitor.json,ygguorun/scoop-bucket
 163MusicLyrics.json,ygguorun/scoop-bucket
 TextLocator.json,ygguorun/scoop-bucket
-musicfox.json,ygguorun/scoop-bucket
 CloudflareSpeedTest_ygguorun.json,ygguorun/scoop-bucket
 DDMonitor.json,ygguorun/scoop-bucket
 repkg.json,ygguorun/scoop-bucket
@@ -8855,7 +8855,7 @@ Irfanview_cc713.json,cc713/ownscoop
 ldplayer9.json,cc713/ownscoop
 xdm-dev.json,cc713/ownscoop
 jpegview-fork.json,cc713/ownscoop
-lx-music.json,cc713/ownscoop
+lx-music_cc713.json,cc713/ownscoop
 bbdown_cc713.json,cc713/ownscoop
 triliumCN.json,cc713/ownscoop
 PicView.json,cc713/ownscoop
@@ -9657,6 +9657,7 @@ limitpng.json,hu3rror/scoop-muggle
 weylus_hu3rror.json,hu3rror/scoop-muggle
 clipboard-online.json,hu3rror/scoop-muggle
 open-video-downloader.json,hu3rror/scoop-muggle
+pixeval_hu3rror.json,hu3rror/scoop-muggle
 tiddlydesktop-prerelease.json,hu3rror/scoop-muggle
 nhse.json,hu3rror/scoop-muggle
 musictag_hu3rror.json,hu3rror/scoop-muggle
@@ -9835,7 +9836,7 @@ motrix_HUMORCE.json,HUMORCE/nuke
 gost_HUMORCE.json,HUMORCE/nuke
 lavfilters_HUMORCE.json,HUMORCE/nuke
 autohotkey_HUMORCE.json,HUMORCE/nuke
-lively-wallpaper.json,HUMORCE/nuke
+lively-wallpaper_HUMORCE.json,HUMORCE/nuke
 zoxide_HUMORCE.json,HUMORCE/nuke
 fq_HUMORCE.json,HUMORCE/nuke
 librewolf_HUMORCE.json,HUMORCE/nuke
@@ -9908,7 +9909,7 @@ filelist.json,starise/Scoop-Confetti
 heavyload.json,starise/Scoop-Confetti
 vscode-portable-it.json,starise/Scoop-Confetti
 lunatask.json,starise/Scoop-Confetti
-obsidian_starise.json,starise/Scoop-Confetti
+obsidian.json,starise/Scoop-Confetti
 staxrip_starise.json,starise/Scoop-Confetti
 firefox-it.json,starise/Scoop-Confetti
 sizer.json,starise/Scoop-Confetti
