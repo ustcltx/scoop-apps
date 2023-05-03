@@ -222,6 +222,7 @@ PartAssist.json,Weidows-projects/scoop-3rd
 vscode-portable-association.json,Weidows-projects/scoop-3rd
 winxray.json,Weidows-projects/scoop-3rd
 animation-garden-desktop.json,Weidows-projects/scoop-3rd
+360zip.json,Weidows-projects/scoop-3rd
 AIO-Boot.json,Weidows-projects/scoop-3rd
 Adwaita-for-Steam.json,Weidows-projects/scoop-3rd
 test.json,Weidows-projects/scoop-3rd
@@ -282,7 +283,6 @@ poetry_Weidows-projects.json,Weidows-projects/scoop-3rd
 Synergy-Binaries.json,Weidows-projects/scoop-3rd
 CAJViewer.json,Weidows-projects/scoop-3rd
 wps-photoplus.json,Weidows-projects/scoop-3rd
-360zip.json,Weidows-projects/scoop-3rd
 anaconda3.json,Weidows-projects/scoop-3rd
 wps-office.json,Weidows-projects/scoop-3rd
 MouseInc.json,echoiron/echo-scoop
@@ -2131,7 +2131,7 @@ kdiff3.json,ScoopInstaller/Extras
 selene.json,ScoopInstaller/Extras
 thisiswin11.json,ScoopInstaller/Extras
 sumo.json,ScoopInstaller/Extras
-waifu2x-extension-gui.json,ScoopInstaller/Extras
+waifu2x-extension-gui_ScoopInstaller.json,ScoopInstaller/Extras
 keeweb.json,ScoopInstaller/Extras
 jellyfin-mpv-shim.json,ScoopInstaller/Extras
 tftputil-gui.json,ScoopInstaller/Extras
@@ -2273,7 +2273,6 @@ kdeconnect.json,chawyehsu/dorado
 adiirc.json,chawyehsu/dorado
 fasttracker2-clone.json,chawyehsu/dorado
 uninstallview.json,chawyehsu/dorado
-winlibs-mingw-snapshot-msvcrt-posix.json,chawyehsu/dorado
 bbdown.json,chawyehsu/dorado
 aegisub.json,chawyehsu/dorado
 git_chawyehsu.json,chawyehsu/dorado
@@ -2282,7 +2281,6 @@ swift_chawyehsu.json,chawyehsu/dorado
 flvextract.json,chawyehsu/dorado
 mubu.json,chawyehsu/dorado
 nuwen-mingw-without-git.json,chawyehsu/dorado
-winlibs-mingw-snapshot-msvcrt-mcf.json,chawyehsu/dorado
 diskgenius-zh.json,chawyehsu/dorado
 orwell-dev-cpp-no-compiler.json,chawyehsu/dorado
 hfs.json,chawyehsu/dorado
@@ -2352,6 +2350,7 @@ powershell.json,chawyehsu/dorado
 pxcook.json,chawyehsu/dorado
 charles_chawyehsu.json,chawyehsu/dorado
 archisteamfarm_chawyehsu.json,chawyehsu/dorado
+bob-wallet.json,chawyehsu/dorado
 waifu2x-caffe_chawyehsu.json,chawyehsu/dorado
 lhmouse-gcc-mcf-snapshot-msvcrt.json,chawyehsu/dorado
 soundnode_chawyehsu.json,chawyehsu/dorado
@@ -2359,6 +2358,7 @@ whois.json,chawyehsu/dorado
 baulk.json,chawyehsu/dorado
 anaconda3_chawyehsu.json,chawyehsu/dorado
 utools.json,chawyehsu/dorado
+typos.json,chawyehsu/dorado
 imewlconverter.json,chawyehsu/dorado
 volta_chawyehsu.json,chawyehsu/dorado
 llvm-mingw.json,chawyehsu/dorado
@@ -2420,6 +2420,7 @@ geth_chawyehsu.json,chawyehsu/dorado
 tiled_chawyehsu.json,chawyehsu/dorado
 yuque.json,chawyehsu/dorado
 processthreadsview.json,chawyehsu/dorado
+winlibs-mingw-msvcrt-snapshot.json,chawyehsu/dorado
 mcskin3d.json,chawyehsu/dorado
 pstools.json,chawyehsu/dorado
 besttrace.json,chawyehsu/dorado
@@ -2455,7 +2456,6 @@ uncia.json,chawyehsu/dorado
 s2cb.json,chawyehsu/dorado
 nano_chawyehsu.json,chawyehsu/dorado
 chfs_chawyehsu.json,chawyehsu/dorado
-winlibs-mingw-snapshot-ucrt.json,chawyehsu/dorado
 aliyundrive.json,chawyehsu/dorado
 origin.json,chawyehsu/dorado
 filebrowser.json,chawyehsu/dorado
@@ -2472,6 +2472,7 @@ qqmusic.json,chawyehsu/dorado
 ctoy.json,chawyehsu/dorado
 chinesesubtitleconversiontool.json,chawyehsu/dorado
 ediary.json,chawyehsu/dorado
+winlibs-mingw-ucrt-snapshot.json,chawyehsu/dorado
 solana.json,chawyehsu/dorado
 dotnet-install.json,chawyehsu/dorado
 process-explorer.json,chawyehsu/dorado
@@ -2496,6 +2497,7 @@ trezor-suite.json,chawyehsu/dorado
 mcloud.json,chawyehsu/dorado
 ftnn.json,chawyehsu/dorado
 kodi_chawyehsu.json,chawyehsu/dorado
+openai-translator.json,chawyehsu/dorado
 yy.json,chawyehsu/dorado
 iobit-unlocker.json,chawyehsu/dorado
 chocolatey.json,chawyehsu/dorado
@@ -2506,6 +2508,7 @@ wgestures.json,chawyehsu/dorado
 tableau-desktop.json,chawyehsu/dorado
 phpstudy2016.json,chawyehsu/dorado
 lavfilters.json,chawyehsu/dorado
+winlibs-mingw-snapshot-msvcrt-posix.json,chawyehsu/dorado
 qq_chawyehsu.json,chawyehsu/dorado
 figma_chawyehsu.json,chawyehsu/dorado
 aegisub-nightly.json,chawyehsu/dorado
@@ -2759,7 +2762,6 @@ Bold-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 BoldItalic-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 Regular-NF.json,matthewjberger/scoop-nerd-fonts
 Italic-NF-Mono.json,matthewjberger/scoop-nerd-fonts
-package.json,ivaquero/scoopet
 vmware-workstation-pro.json,ivaquero/scoopet
 ting-en.json,ivaquero/scoopet
 texstudio-cn.json,ivaquero/scoopet
@@ -2770,7 +2772,6 @@ lyx-cn.json,ivaquero/scoopet
 mambaforge-cn.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
 cnkiexpress.json,ivaquero/scoopet
-feishu_ivaquero.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
 edrawmax.json,ivaquero/scoopet
 miniconda-cn.json,ivaquero/scoopet
@@ -2809,7 +2810,6 @@ julia-cn.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
 blender-cn.json,ivaquero/scoopet
 partition-assistant.json,ivaquero/scoopet
-phpstudy-lagecy-scoop_ivaquero.json,ivaquero/scoopet
 autodarkmode_ivaquero.json,ivaquero/scoopet
 mendeley-desktop.json,ivaquero/scoopet
 veracrypt.json,ivaquero/scoopet
@@ -2845,6 +2845,7 @@ openmsx-dev.json,Calinou/scoop-games
 racelab.json,Calinou/scoop-games
 xmoto.json,Calinou/scoop-games
 simutrans.json,Calinou/scoop-games
+wemod.json,Calinou/scoop-games
 l4d2modmanager.json,Calinou/scoop-games
 openra.json,Calinou/scoop-games
 endless-sky.json,Calinou/scoop-games
@@ -4700,7 +4701,6 @@ baidudisk_scoopcn.json,scoopcn/scoopcn
 dingtalk_scoopcn.json,scoopcn/scoopcn
 unity3d.json,scoopcn/scoopcn
 todesk_scoopcn.json,scoopcn/scoopcn
-wps.json,scoopcn/scoopcn
 wechat-devtools.json,scoopcn/scoopcn
 wxwork.json,scoopcn/scoopcn
 procmon.json,scoopcn/scoopcn
@@ -5320,7 +5320,7 @@ double-mouse-downloader.json,hoilc/scoop-lemon
 obsutil.json,hoilc/scoop-lemon
 little-tips.json,hoilc/scoop-lemon
 popeye.json,hoilc/scoop-lemon
-ediary.json,hoilc/scoop-lemon
+ediary_hoilc.json,hoilc/scoop-lemon
 telepresence.json,hoilc/scoop-lemon
 3proxy.json,hoilc/scoop-lemon
 inimod.json,hoilc/scoop-lemon
@@ -7671,7 +7671,7 @@ programmers-notepad.json,naderi/scoop-bucket
 shutter_naderi.json,naderi/scoop-bucket
 font-vazir.json,naderi/scoop-bucket
 texpen.json,naderi/scoop-bucket
-hdcleaner_naderi.json,naderi/scoop-bucket
+hdcleaner.json,naderi/scoop-bucket
 doublecmd-portable.json,naderi/scoop-bucket
 jsonedit_naderi.json,naderi/scoop-bucket
 mitec-network-scanner.json,naderi/scoop-bucket
@@ -7704,7 +7704,7 @@ console2_naderi.json,naderi/scoop-bucket
 virtualdub_naderi.json,naderi/scoop-bucket
 wox-portable_naderi.json,naderi/scoop-bucket
 stdu-viewer.json,naderi/scoop-bucket
-pdf-xchange-viewer_naderi.json,naderi/scoop-bucket
+pdf-xchange-viewer.json,naderi/scoop-bucket
 firefox-developer-fa.json,naderi/scoop-bucket
 qilin.json,naderi/scoop-bucket
 mitec-json-viewer.json,naderi/scoop-bucket
@@ -7848,7 +7848,7 @@ font-nika.json,naderi/scoop-bucket
 mitec-windows-registry-recovery.json,naderi/scoop-bucket
 securefs_naderi.json,naderi/scoop-bucket
 ucalendar-portable.json,naderi/scoop-bucket
-encrypto_naderi.json,naderi/scoop-bucket
+encrypto.json,naderi/scoop-bucket
 mediathekview.json,naderi/scoop-bucket
 qbittorrent-enhanced_naderi.json,naderi/scoop-bucket
 justcolorpicker_naderi.json,naderi/scoop-bucket
@@ -7868,7 +7868,7 @@ opera-developer.json,naderi/scoop-bucket
 thunderbird-beta-fa.json,naderi/scoop-bucket
 fsum_naderi.json,naderi/scoop-bucket
 wikidpad_naderi.json,naderi/scoop-bucket
-tweakpower_naderi.json,naderi/scoop-bucket
+tweakpower.json,naderi/scoop-bucket
 cppcryptfs_naderi.json,naderi/scoop-bucket
 xpdf-tools_naderi.json,naderi/scoop-bucket
 rtools_naderi.json,naderi/scoop-bucket
@@ -8058,6 +8058,7 @@ pngquant_akirco.json,akirco/aki-apps
 yt-dlp_akirco.json,akirco/aki-apps
 topgrade_akirco.json,akirco/aki-apps
 yq_akirco.json,akirco/aki-apps
+youtubedownloader.json,akirco/aki-apps
 scoop-completion_akirco.json,akirco/aki-apps
 restic_akirco.json,akirco/aki-apps
 xidel_akirco.json,akirco/aki-apps
@@ -8747,7 +8748,7 @@ ugrep_batkiz.json,batkiz/backit
 termshark_batkiz.json,batkiz/backit
 filebrowser_batkiz.json,batkiz/backit
 gosec_batkiz.json,batkiz/backit
-motrix.json,batkiz/backit
+motrix_batkiz.json,batkiz/backit
 dasel_batkiz.json,batkiz/backit
 uni.json,batkiz/backit
 racket_batkiz.json,batkiz/backit
@@ -9909,7 +9910,7 @@ filelist.json,starise/Scoop-Confetti
 heavyload.json,starise/Scoop-Confetti
 vscode-portable-it.json,starise/Scoop-Confetti
 lunatask.json,starise/Scoop-Confetti
-obsidian.json,starise/Scoop-Confetti
+obsidian_starise.json,starise/Scoop-Confetti
 staxrip_starise.json,starise/Scoop-Confetti
 firefox-it.json,starise/Scoop-Confetti
 sizer.json,starise/Scoop-Confetti
