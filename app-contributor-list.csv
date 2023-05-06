@@ -2778,7 +2778,7 @@ miniconda-cn.json,ivaquero/scoopet
 filecentipede.json,ivaquero/scoopet
 kingdraw.json,ivaquero/scoopet
 octave-cn.json,ivaquero/scoopet
-adrive.json,ivaquero/scoopet
+adrive_ivaquero.json,ivaquero/scoopet
 winrar_ivaquero.json,ivaquero/scoopet
 wpsoffice-cn.json,ivaquero/scoopet
 edgeless.json,ivaquero/scoopet
@@ -5068,6 +5068,7 @@ multi-gitter.json,hoilc/scoop-lemon
 srtedit.json,hoilc/scoop-lemon
 lame-front-end.json,hoilc/scoop-lemon
 firealpaca.json,hoilc/scoop-lemon
+jmx_exporter.json,hoilc/scoop-lemon
 a5m2.json,hoilc/scoop-lemon
 rabbit-tcp.json,hoilc/scoop-lemon
 trdsql.json,hoilc/scoop-lemon
@@ -5169,6 +5170,7 @@ zhconv-rs.json,hoilc/scoop-lemon
 avdc.json,hoilc/scoop-lemon
 winfi-lite.json,hoilc/scoop-lemon
 fvm_hoilc.json,hoilc/scoop-lemon
+ink-canvas.json,hoilc/scoop-lemon
 epubcheck.json,hoilc/scoop-lemon
 spline.json,hoilc/scoop-lemon
 trellis-cli.json,hoilc/scoop-lemon
@@ -5189,6 +5191,7 @@ edgedb-cli.json,hoilc/scoop-lemon
 nat-type-tester.json,hoilc/scoop-lemon
 zorba.json,hoilc/scoop-lemon
 desktopnoteok.json,hoilc/scoop-lemon
+hyplayer.json,hoilc/scoop-lemon
 gogdl.json,hoilc/scoop-lemon
 belautils.json,hoilc/scoop-lemon
 nagstamon.json,hoilc/scoop-lemon
@@ -5381,6 +5384,7 @@ rathole_hoilc.json,hoilc/scoop-lemon
 privazer.json,hoilc/scoop-lemon
 kangaroo.json,hoilc/scoop-lemon
 pe-anatomist.json,hoilc/scoop-lemon
+ultrasearch-free.json,hoilc/scoop-lemon
 libportable-iceweasel-zh-cn.json,hoilc/scoop-lemon
 amtool.json,hoilc/scoop-lemon
 notcpucores.json,hoilc/scoop-lemon
@@ -7064,7 +7068,7 @@ mgba_borger.json,borger/scoop-emulators
 citra-canary_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 visualboyadvance-m.json,borger/scoop-emulators
-ryujinx.json,borger/scoop-emulators
+ryujinx_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
@@ -7568,7 +7572,7 @@ douyu.json,wzv5/ScoopBucket
 yy-thunks.json,wzv5/ScoopBucket
 pspad_wzv5.json,wzv5/ScoopBucket
 vc-ltl.json,wzv5/ScoopBucket
-aliyundrive.json,wzv5/ScoopBucket
+aliyundrive_wzv5.json,wzv5/ScoopBucket
 lx-music-desktop_wzv5.json,wzv5/ScoopBucket
 qqlive.json,wzv5/ScoopBucket
 sni.json,wzv5/ScoopBucket
@@ -7706,7 +7710,7 @@ programmers-notepad.json,naderi/scoop-bucket
 shutter_naderi.json,naderi/scoop-bucket
 font-vazir.json,naderi/scoop-bucket
 texpen.json,naderi/scoop-bucket
-hdcleaner.json,naderi/scoop-bucket
+hdcleaner_naderi.json,naderi/scoop-bucket
 doublecmd-portable.json,naderi/scoop-bucket
 jsonedit_naderi.json,naderi/scoop-bucket
 mitec-network-scanner.json,naderi/scoop-bucket
@@ -7883,7 +7887,7 @@ font-nika.json,naderi/scoop-bucket
 mitec-windows-registry-recovery.json,naderi/scoop-bucket
 securefs_naderi.json,naderi/scoop-bucket
 ucalendar-portable.json,naderi/scoop-bucket
-encrypto.json,naderi/scoop-bucket
+encrypto_naderi.json,naderi/scoop-bucket
 mediathekview.json,naderi/scoop-bucket
 qbittorrent-enhanced_naderi.json,naderi/scoop-bucket
 justcolorpicker_naderi.json,naderi/scoop-bucket
@@ -7903,7 +7907,7 @@ opera-developer.json,naderi/scoop-bucket
 thunderbird-beta-fa.json,naderi/scoop-bucket
 fsum_naderi.json,naderi/scoop-bucket
 wikidpad_naderi.json,naderi/scoop-bucket
-tweakpower.json,naderi/scoop-bucket
+tweakpower_naderi.json,naderi/scoop-bucket
 cppcryptfs_naderi.json,naderi/scoop-bucket
 xpdf-tools_naderi.json,naderi/scoop-bucket
 rtools_naderi.json,naderi/scoop-bucket
@@ -9648,13 +9652,13 @@ usbeam-consoles-dns_hu3rror.json,hu3rror/scoop-muggle
 supergrate.json,hu3rror/scoop-muggle
 imagine_hu3rror.json,hu3rror/scoop-muggle
 caesium_hu3rror.json,hu3rror/scoop-muggle
+goldendict-ng.json,hu3rror/scoop-muggle
 chromium-np.json,hu3rror/scoop-muggle
 dota2_realblood.json,hu3rror/scoop-muggle
 auto-unlocker.json,hu3rror/scoop-muggle
 slk-img2pixel.json,hu3rror/scoop-muggle
 dota2_ahk.json,hu3rror/scoop-muggle
 chromium_hu3rror.json,hu3rror/scoop-muggle
-goldendict-webengine.json,hu3rror/scoop-muggle
 win11-classic-context-menu.json,hu3rror/scoop-muggle
 neat-converter.json,hu3rror/scoop-muggle
 newrain-duplicate-photo-finder.json,hu3rror/scoop-muggle
@@ -9964,7 +9968,7 @@ xpdf-tools-LSP-arabic.json,HUMORCE/nuke
 qbittorrent-enhanced_HUMORCE.json,HUMORCE/nuke
 xpdf-tools-LSP-schinese.json,HUMORCE/nuke
 fiddler-classic-addon-cookietag.json,HUMORCE/nuke
-localsend_HUMORCE.json,HUMORCE/nuke
+localsend.json,HUMORCE/nuke
 quickcpu_HUMORCE.json,HUMORCE/nuke
 wintun.json,HUMORCE/nuke
 fiddler-classic.json,HUMORCE/nuke
