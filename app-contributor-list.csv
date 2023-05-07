@@ -2826,6 +2826,7 @@ neverball.json,Calinou/scoop-games
 mgba.json,Calinou/scoop-games
 darkplaces.json,Calinou/scoop-games
 vkquake2.json,Calinou/scoop-games
+rmg.json,Calinou/scoop-games
 weakauras-companion.json,Calinou/scoop-games
 citra-canary.json,Calinou/scoop-games
 demulshooter.json,Calinou/scoop-games
@@ -5042,6 +5043,7 @@ qv2ray-nightly.json,hoilc/scoop-lemon
 shntool.json,hoilc/scoop-lemon
 audio-router.json,hoilc/scoop-lemon
 waifu2x-snowshell_hoilc.json,hoilc/scoop-lemon
+lyricease.json,hoilc/scoop-lemon
 benthos.json,hoilc/scoop-lemon
 nico.json,hoilc/scoop-lemon
 ja-netfilter.json,hoilc/scoop-lemon
@@ -7104,7 +7106,7 @@ rpcs3_borger.json,borger/scoop-emulators
 steam-rom-manager_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 cemuhook_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
@@ -7293,7 +7295,7 @@ HBuilderX-Full.json,zhoujin7/tomato
 subconverter_zhoujin7.json,zhoujin7/tomato
 zipkin-dependencies.json,zhoujin7/tomato
 maven36.json,zhoujin7/tomato
-OracleJDK8_zhoujin7.json,zhoujin7/tomato
+OracleJDK8.json,zhoujin7/tomato
 maven_zhoujin7.json,zhoujin7/tomato
 apifox.json,zhoujin7/tomato
 ContextMenuMgr.json,zhoujin7/tomato
@@ -7331,7 +7333,6 @@ RegistryWorkshop.json,zhoujin7/tomato
 apipost_zhoujin7.json,zhoujin7/tomato
 mysql8.json,zhoujin7/tomato
 BeyondCompare_zhoujin7.json,zhoujin7/tomato
-YAPA2_zhoujin7.json,zhoujin7/tomato
 EmEditor_zhoujin7.json,zhoujin7/tomato
 ActiveMQ-Artemis_zhoujin7.json,zhoujin7/tomato
 Nacos.json,zhoujin7/tomato
@@ -7340,6 +7341,7 @@ VNote_zhoujin7.json,zhoujin7/tomato
 ShadowsocksR.json,zhoujin7/tomato
 Python37_zhoujin7.json,zhoujin7/tomato
 BaiduPCS-Go_zhoujin7.json,zhoujin7/tomato
+YAPA2_zhoujin7.json,zhoujin7/tomato
 TortoiseGit.json,wangzq/scoop-bucket
 xdt.json,wangzq/scoop-bucket
 bc4.json,wangzq/scoop-bucket
@@ -8775,7 +8777,7 @@ racket-minimal-cs.json,batkiz/backit
 legendary_batkiz.json,batkiz/backit
 openjdk11_batkiz.json,batkiz/backit
 ls-lint.json,batkiz/backit
-magpie_batkiz.json,batkiz/backit
+magpie.json,batkiz/backit
 bilibili-toolkit.json,batkiz/backit
 contour_batkiz.json,batkiz/backit
 typora_batkiz.json,batkiz/backit
@@ -9968,7 +9970,7 @@ xpdf-tools-LSP-arabic.json,HUMORCE/nuke
 qbittorrent-enhanced_HUMORCE.json,HUMORCE/nuke
 xpdf-tools-LSP-schinese.json,HUMORCE/nuke
 fiddler-classic-addon-cookietag.json,HUMORCE/nuke
-localsend.json,HUMORCE/nuke
+localsend_HUMORCE.json,HUMORCE/nuke
 quickcpu_HUMORCE.json,HUMORCE/nuke
 wintun.json,HUMORCE/nuke
 fiddler-classic.json,HUMORCE/nuke
