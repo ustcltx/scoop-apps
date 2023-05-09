@@ -1897,7 +1897,7 @@ webcord.json,ScoopInstaller/Extras
 eclipse-rust.json,ScoopInstaller/Extras
 dnspyex.json,ScoopInstaller/Extras
 workrave.json,ScoopInstaller/Extras
-v2rayn.json,ScoopInstaller/Extras
+v2rayn_ScoopInstaller.json,ScoopInstaller/Extras
 show-disk-partition-style.json,ScoopInstaller/Extras
 electronmail.json,ScoopInstaller/Extras
 nicotine-plus.json,ScoopInstaller/Extras
@@ -2498,7 +2498,6 @@ trezor-suite.json,chawyehsu/dorado
 mcloud.json,chawyehsu/dorado
 ftnn.json,chawyehsu/dorado
 kodi_chawyehsu.json,chawyehsu/dorado
-openai-translator_chawyehsu.json,chawyehsu/dorado
 yy.json,chawyehsu/dorado
 iobit-unlocker.json,chawyehsu/dorado
 chocolatey.json,chawyehsu/dorado
@@ -3882,7 +3881,7 @@ sql-workbench-dev.json,ScoopInstaller/Versions
 pdfbox-alpha.json,ScoopInstaller/Versions
 oracle-instant-client19.json,ScoopInstaller/Versions
 pwsh-beta.json,ScoopInstaller/Versions
-snipaste-beta_ScoopInstaller.json,ScoopInstaller/Versions
+snipaste-beta.json,ScoopInstaller/Versions
 de4dot-netcoreapp3.1.json,ScoopInstaller/Versions
 idea-eap.json,ScoopInstaller/Versions
 youtube-dlc.json,ScoopInstaller/Versions
@@ -4854,10 +4853,12 @@ data-assistant.json,hoilc/scoop-lemon
 whynotwin11_hoilc.json,hoilc/scoop-lemon
 maxthon6.json,hoilc/scoop-lemon
 spring-boot-migrator.json,hoilc/scoop-lemon
+karma.json,hoilc/scoop-lemon
 lite_hoilc.json,hoilc/scoop-lemon
 wgcf_hoilc.json,hoilc/scoop-lemon
 riftshare.json,hoilc/scoop-lemon
 extractnow.json,hoilc/scoop-lemon
+filefriend-cn.json,hoilc/scoop-lemon
 whisper-model-ggml-medium-en.json,hoilc/scoop-lemon
 xplorer_hoilc.json,hoilc/scoop-lemon
 bark-server.json,hoilc/scoop-lemon
@@ -4878,6 +4879,7 @@ capture.net.json,hoilc/scoop-lemon
 memurai.json,hoilc/scoop-lemon
 emby.json,hoilc/scoop-lemon
 upgit.json,hoilc/scoop-lemon
+cpix.json,hoilc/scoop-lemon
 sandboxie-plus.json,hoilc/scoop-lemon
 ossutil_hoilc.json,hoilc/scoop-lemon
 nvenc.json,hoilc/scoop-lemon
@@ -5102,6 +5104,7 @@ drmemory_hoilc.json,hoilc/scoop-lemon
 dbgate.json,hoilc/scoop-lemon
 steam-cloud-file-manager.json,hoilc/scoop-lemon
 earthly.json,hoilc/scoop-lemon
+pictor-cn.json,hoilc/scoop-lemon
 bililive-go.json,hoilc/scoop-lemon
 pshash.json,hoilc/scoop-lemon
 soundswitch_hoilc.json,hoilc/scoop-lemon
@@ -5164,6 +5167,7 @@ oggdropxpd-libvorbis-aotuv.json,hoilc/scoop-lemon
 maple-mono-nerd.json,hoilc/scoop-lemon
 syft_hoilc.json,hoilc/scoop-lemon
 smuxi_hoilc.json,hoilc/scoop-lemon
+rawviewer.json,hoilc/scoop-lemon
 supervisord-go.json,hoilc/scoop-lemon
 whisper-model-ggml-small-en.json,hoilc/scoop-lemon
 falabaac.json,hoilc/scoop-lemon
@@ -5272,6 +5276,7 @@ zeta-resource-editor.json,hoilc/scoop-lemon
 spire.json,hoilc/scoop-lemon
 rj-texted.json,hoilc/scoop-lemon
 4dnat.json,hoilc/scoop-lemon
+filefriend.json,hoilc/scoop-lemon
 kubeconform_hoilc.json,hoilc/scoop-lemon
 asfenhance.json,hoilc/scoop-lemon
 coscli.json,hoilc/scoop-lemon
@@ -5282,6 +5287,7 @@ clash-speedtest.json,hoilc/scoop-lemon
 evernote2onenote.json,hoilc/scoop-lemon
 mbox-viewer.json,hoilc/scoop-lemon
 whisper-ps.json,hoilc/scoop-lemon
+cpix-cn.json,hoilc/scoop-lemon
 pestudio.json,hoilc/scoop-lemon
 x2goclient.json,hoilc/scoop-lemon
 k3sup_hoilc.json,hoilc/scoop-lemon
@@ -5325,6 +5331,7 @@ nitroshare.json,hoilc/scoop-lemon
 hitomi-downloader.json,hoilc/scoop-lemon
 faac.json,hoilc/scoop-lemon
 mysqld_exporter.json,hoilc/scoop-lemon
+pictor.json,hoilc/scoop-lemon
 pode.json,hoilc/scoop-lemon
 whisper-model-ggml-medium.json,hoilc/scoop-lemon
 double-mouse-downloader.json,hoilc/scoop-lemon
@@ -7098,7 +7105,7 @@ mesen-s_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
@@ -7179,6 +7186,7 @@ vscode-dev.json,kiennq/scoop-misc
 cascadiacode-pl.json,kiennq/scoop-misc
 emacs-k.json,kiennq/scoop-misc
 cemu-x.json,kiennq/scoop-misc
+yuzu-ea_kiennq.json,kiennq/scoop-misc
 win32yank_kiennq.json,kiennq/scoop-misc
 joyshockmapper.json,kiennq/scoop-misc
 emacs-x.json,kiennq/scoop-misc
@@ -7290,6 +7298,7 @@ rom-properties-np.json,ScoopInstaller/Nonportable
 mullvadvpn-np.json,ScoopInstaller/Nonportable
 xysubfilter-libass-np.json,ScoopInstaller/Nonportable
 Quicker.json,zhoujin7/tomato
+lealone.json,zhoujin7/tomato
 CCleaner540.json,zhoujin7/tomato
 OracleJDK17.json,zhoujin7/tomato
 FSCapture_zhoujin7.json,zhoujin7/tomato
@@ -7324,8 +7333,10 @@ jd-gui_zhoujin7.json,zhoujin7/tomato
 XJad.json,zhoujin7/tomato
 QtDesigner.json,zhoujin7/tomato
 Q-Dir_zhoujin7.json,zhoujin7/tomato
+h2.json,zhoujin7/tomato
 VisualVM_zhoujin7.json,zhoujin7/tomato
 ILSpy_zhoujin7.json,zhoujin7/tomato
+hsqldb.json,zhoujin7/tomato
 lockhunter-np_zhoujin7.json,zhoujin7/tomato
 ActiveMQ-Classic.json,zhoujin7/tomato
 WinSCP_zhoujin7.json,zhoujin7/tomato
@@ -7337,7 +7348,6 @@ RegistryWorkshop.json,zhoujin7/tomato
 apipost_zhoujin7.json,zhoujin7/tomato
 mysql8.json,zhoujin7/tomato
 BeyondCompare_zhoujin7.json,zhoujin7/tomato
-EmEditor_zhoujin7.json,zhoujin7/tomato
 ActiveMQ-Artemis_zhoujin7.json,zhoujin7/tomato
 Nacos.json,zhoujin7/tomato
 Everything_zhoujin7.json,zhoujin7/tomato
@@ -7346,6 +7356,7 @@ ShadowsocksR.json,zhoujin7/tomato
 Python37_zhoujin7.json,zhoujin7/tomato
 BaiduPCS-Go_zhoujin7.json,zhoujin7/tomato
 YAPA2_zhoujin7.json,zhoujin7/tomato
+EmEditor_zhoujin7.json,zhoujin7/tomato
 TortoiseGit.json,wangzq/scoop-bucket
 xdt.json,wangzq/scoop-bucket
 bc4.json,wangzq/scoop-bucket
@@ -7762,7 +7773,7 @@ php_akirco.json,akirco/aki-apps
 opus-tools_akirco.json,akirco/aki-apps
 php74_akirco.json,akirco/aki-apps
 tar_akirco.json,akirco/aki-apps
-firefox-zh-cn_akirco.json,akirco/aki-apps
+firefox-zh-cn.json,akirco/aki-apps
 npm-completion.json,akirco/aki-apps
 mdbook_akirco.json,akirco/aki-apps
 lf_akirco.json,akirco/aki-apps
@@ -7903,7 +7914,7 @@ pure-live.json,akirco/aki-apps
 mysql_akirco.json,akirco/aki-apps
 speedtest-cli_akirco.json,akirco/aki-apps
 bilibili_akirco.json,akirco/aki-apps
-BaiduNetdisk_akirco.json,akirco/aki-apps
+BaiduNetdisk.json,akirco/aki-apps
 ftnn_akirco.json,akirco/aki-apps
 nginx_akirco.json,akirco/aki-apps
 kodi_akirco.json,akirco/aki-apps
@@ -7989,6 +8000,7 @@ mitec-network-meter.json,naderi/scoop-bucket
 mitec-task-manager-deluxe.json,naderi/scoop-bucket
 edge-portable.json,naderi/scoop-bucket
 waterfox-portable_naderi.json,naderi/scoop-bucket
+snipaste_naderi.json,naderi/scoop-bucket
 extraterm_naderi.json,naderi/scoop-bucket
 vscode-insider.json,naderi/scoop-bucket
 edge-portable-dev.json,naderi/scoop-bucket
@@ -10049,7 +10061,7 @@ filelist.json,starise/Scoop-Confetti
 heavyload.json,starise/Scoop-Confetti
 vscode-portable-it.json,starise/Scoop-Confetti
 lunatask.json,starise/Scoop-Confetti
-obsidian_starise.json,starise/Scoop-Confetti
+obsidian.json,starise/Scoop-Confetti
 staxrip_starise.json,starise/Scoop-Confetti
 firefox-it.json,starise/Scoop-Confetti
 sizer.json,starise/Scoop-Confetti
