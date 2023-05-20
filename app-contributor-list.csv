@@ -1288,7 +1288,7 @@ processhacker.json,ScoopInstaller/Extras
 yumi-exfat.json,ScoopInstaller/Extras
 bulk-crap-uninstaller.json,ScoopInstaller/Extras
 pure-data.json,ScoopInstaller/Extras
-tinymediamanager_ScoopInstaller.json,ScoopInstaller/Extras
+tinymediamanager.json,ScoopInstaller/Extras
 marble.json,ScoopInstaller/Extras
 4gb-patch.json,ScoopInstaller/Extras
 windowtextextractor.json,ScoopInstaller/Extras
@@ -2509,7 +2509,7 @@ processthreadsview.json,chawyehsu/dorado
 firefox-developer-zh-cn.json,chawyehsu/dorado
 setuna.json,chawyehsu/dorado
 capcut.json,chawyehsu/dorado
-clash-verge_chawyehsu.json,chawyehsu/dorado
+clash-verge.json,chawyehsu/dorado
 mcloud.json,chawyehsu/dorado
 electron-cash_chawyehsu.json,chawyehsu/dorado
 wasmedge.json,chawyehsu/dorado
@@ -4782,6 +4782,18 @@ wxwork.json,scoopcn/scoopcn
 procexp.json,scoopcn/scoopcn
 ade.json,scoopcn/scoopcn
 kugou.json,scoopcn/scoopcn
+wsl-opensuse.json,KNOXDEV/wsl
+wsl-fedora-arm.json,KNOXDEV/wsl
+wsl-ubuntu1804-arm.json,KNOXDEV/wsl
+wsl-ubuntu1604.json,KNOXDEV/wsl
+wsl-sles.json,KNOXDEV/wsl
+wsl-ubuntu2204.json,KNOXDEV/wsl
+wsl-ubuntu1804.json,KNOXDEV/wsl
+wsl-centos9.json,KNOXDEV/wsl
+wsl-fedora.json,KNOXDEV/wsl
+wsl-kali.json,KNOXDEV/wsl
+wsl-debian.json,KNOXDEV/wsl
+wsl-ubuntu2004.json,KNOXDEV/wsl
 inlets.json,hoilc/scoop-lemon
 comrak.json,hoilc/scoop-lemon
 jjdown_hoilc.json,hoilc/scoop-lemon
@@ -5520,18 +5532,6 @@ shoutrrr.json,hoilc/scoop-lemon
 harmonyos-sans.json,hoilc/scoop-lemon
 complete-internet-repair.json,hoilc/scoop-lemon
 nico.json,hoilc/scoop-lemon
-wsl-opensuse.json,KNOXDEV/wsl
-wsl-fedora-arm.json,KNOXDEV/wsl
-wsl-ubuntu1804-arm.json,KNOXDEV/wsl
-wsl-ubuntu1604.json,KNOXDEV/wsl
-wsl-sles.json,KNOXDEV/wsl
-wsl-ubuntu2204.json,KNOXDEV/wsl
-wsl-ubuntu1804.json,KNOXDEV/wsl
-wsl-centos9.json,KNOXDEV/wsl
-wsl-fedora.json,KNOXDEV/wsl
-wsl-kali.json,KNOXDEV/wsl
-wsl-debian.json,KNOXDEV/wsl
-wsl-ubuntu2004.json,KNOXDEV/wsl
 n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 ossutil_echoiron.json,echoiron/echo-scoop
 UAC.ZXPInstaller.json,Paxxs/Cluttered-bucket
@@ -7288,9 +7288,9 @@ vmware-workstation-player-np.json,ScoopInstaller/Nonportable
 mgba_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
-dolphin-dev.json,borger/scoop-emulators
+dolphin-dev_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
@@ -7299,7 +7299,7 @@ mesen-s_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
-xenia-canary_borger.json,borger/scoop-emulators
+xenia-canary.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
@@ -7314,7 +7314,7 @@ simple64_borger.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
 cemuhook_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
-rpcs3.json,borger/scoop-emulators
+rpcs3_borger.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 citra-canary_borger.json,borger/scoop-emulators
@@ -7331,7 +7331,7 @@ scummvm-nightly.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
-desmume.json,borger/scoop-emulators
+desmume_borger.json,borger/scoop-emulators
 luyten_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
 visualvm_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
 rfxgen.json,TheRandomLabs/Scoop-Bucket
@@ -7665,7 +7665,7 @@ vimahk.json,wangzq/scoop-bucket
 bootcamp-driver-downloader.json,wangzq/scoop-bucket
 wpftracespy.json,wangzq/scoop-bucket
 procexp_wangzq.json,wangzq/scoop-bucket
-aliyundrive.json,wzv5/ScoopBucket
+aliyundrive_wzv5.json,wzv5/ScoopBucket
 inno-setup_wzv5.json,wzv5/ScoopBucket
 xnview_wzv5.json,wzv5/ScoopBucket
 qqlive.json,wzv5/ScoopBucket
@@ -7791,6 +7791,7 @@ docker-desktop.json,akirco/aki-apps
 gof_akirco.json,akirco/aki-apps
 fx_akirco.json,akirco/aki-apps
 dismplusplus_akirco.json,akirco/aki-apps
+crow-translate.json,akirco/aki-apps
 wavpack_akirco.json,akirco/aki-apps
 nero-aac_akirco.json,akirco/aki-apps
 dog_akirco.json,akirco/aki-apps
@@ -7871,7 +7872,7 @@ highlight_akirco.json,akirco/aki-apps
 biyi_akirco.json,akirco/aki-apps
 registry-finder_akirco.json,akirco/aki-apps
 sayit_akirco.json,akirco/aki-apps
-officetoolplus_akirco.json,akirco/aki-apps
+officetoolplus.json,akirco/aki-apps
 tup_akirco.json,akirco/aki-apps
 anaconda3_akirco.json,akirco/aki-apps
 restic_akirco.json,akirco/aki-apps
@@ -8542,7 +8543,6 @@ akochan-reviewer.json,ygguorun/scoop-bucket
 MajsoulPaipuAnalyzer.json,ygguorun/scoop-bucket
 bililive-go_ygguorun.json,ygguorun/scoop-bucket
 FileMonitor.json,ygguorun/scoop-bucket
-aDrive_ygguorun.json,ygguorun/scoop-bucket
 bookhunter.json,ygguorun/scoop-bucket
 EasyWindowSwitcher.json,ygguorun/scoop-bucket
 go-cqhttp.json,ygguorun/scoop-bucket
@@ -8769,7 +8769,7 @@ powercolorls.json,amorphobia/siku
 bilimini.json,amorphobia/siku
 desktoppet.json,amorphobia/siku
 plain-craft-launcher.json,amorphobia/siku
-clash-verge.json,amorphobia/siku
+clash-verge_amorphobia.json,amorphobia/siku
 dgmpgdec.json,amorphobia/siku
 dvm_amorphobia.json,amorphobia/siku
 scoop-hook.json,amorphobia/siku
@@ -9072,7 +9072,7 @@ anime4k-glsl.json,cc713/ownscoop
 keepass-plugin-KPSimpleBackup.json,cc713/ownscoop
 virtualbox-extension.json,cc713/ownscoop
 Hitomi-Downloader_cc713.json,cc713/ownscoop
-ArctimePro_cc713.json,cc713/ownscoop
+ArctimePro.json,cc713/ownscoop
 qimgv-dev.json,cc713/ownscoop
 opencomic.json,cc713/ownscoop
 officetoolplus_cc713.json,cc713/ownscoop
@@ -10304,7 +10304,7 @@ calico.json,hulucc/bucket
 stern_hulucc.json,hulucc/bucket
 zookeeper_hulucc.json,hulucc/bucket
 neo4j.json,hulucc/bucket
-gn.json,hulucc/bucket
+gn_hulucc.json,hulucc/bucket
 xkb-switch.json,hulucc/bucket
 android-sdk.json,hulucc/bucket
 tilt_hulucc.json,hulucc/bucket
