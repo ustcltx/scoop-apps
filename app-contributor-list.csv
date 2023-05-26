@@ -3337,6 +3337,7 @@ crewchief.json,Calinou/scoop-games
 eduke32.json,Calinou/scoop-games
 ecwolf.json,Calinou/scoop-games
 dolphin_Calinou.json,Calinou/scoop-games
+xivlauncher.json,Calinou/scoop-games
 supertuxkart.json,Calinou/scoop-games
 cemu.json,Calinou/scoop-games
 vkquake2.json,Calinou/scoop-games
@@ -4761,7 +4762,7 @@ mspass.json,ScoopInstaller/Nirsoft
 userassistview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 simplecodegenerator.json,ScoopInstaller/Nirsoft
 hostednetworkstarter_ScoopInstaller.json,ScoopInstaller/Nirsoft
-baidudisk_scoopcn.json,scoopcn/scoopcn
+baidudisk.json,scoopcn/scoopcn
 apifox_scoopcn.json,scoopcn/scoopcn
 wechat_scoopcn.json,scoopcn/scoopcn
 tim_scoopcn.json,scoopcn/scoopcn
@@ -5298,7 +5299,7 @@ inimod.json,hoilc/scoop-lemon
 metabase.json,hoilc/scoop-lemon
 snova-asio.json,hoilc/scoop-lemon
 remnote_hoilc.json,hoilc/scoop-lemon
-bbdown_hoilc.json,hoilc/scoop-lemon
+bbdown.json,hoilc/scoop-lemon
 duga-player.json,hoilc/scoop-lemon
 logcli.json,hoilc/scoop-lemon
 arend.json,hoilc/scoop-lemon
@@ -5433,7 +5434,7 @@ drmemory_hoilc.json,hoilc/scoop-lemon
 asfenhance-cn.json,hoilc/scoop-lemon
 clash-speedtest.json,hoilc/scoop-lemon
 rekor-cli.json,hoilc/scoop-lemon
-azd_hoilc.json,hoilc/scoop-lemon
+azd.json,hoilc/scoop-lemon
 sonobuoy.json,hoilc/scoop-lemon
 chkssl.json,hoilc/scoop-lemon
 skywalking-cli_hoilc.json,hoilc/scoop-lemon
@@ -7187,19 +7188,6 @@ mdcat_dodorz.json,dodorz/scoop
 WizNoteLite.json,dodorz/scoop
 WriteMonkey3.json,dodorz/scoop
 TCC-RT.json,dodorz/scoop
-luyten_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-rfxgen.json,TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard.json,TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools.json,TheRandomLabs/Scoop-Bucket
-corsair-icue.json,TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-custom-resolution-utility_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-ffmpeg-for-audacity.json,TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations.json,TheRandomLabs/Scoop-Bucket
-neovim-dev.json,TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script.json,TheRandomLabs/Scoop-Bucket
 anki-np.json,ScoopInstaller/Nonportable
 file-converter-np.json,ScoopInstaller/Nonportable
 scilab-np.json,ScoopInstaller/Nonportable
@@ -7307,6 +7295,19 @@ teracopy-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 unity-hub-np.json,ScoopInstaller/Nonportable
 office-365-apps-minimal-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 vmware-workstation-player-np.json,ScoopInstaller/Nonportable
+luyten_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+rfxgen.json,TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json,TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json,TheRandomLabs/Scoop-Bucket
+corsair-icue.json,TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+custom-resolution-utility_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+ffmpeg-for-audacity.json,TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json,TheRandomLabs/Scoop-Bucket
+neovim-dev.json,TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json,TheRandomLabs/Scoop-Bucket
 mgba_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
@@ -7431,7 +7432,7 @@ PasteEx_zhoujin7.json,zhoujin7/tomato
 WinSCP_zhoujin7.json,zhoujin7/tomato
 OracleJDK11.json,zhoujin7/tomato
 DoubleKiller.json,zhoujin7/tomato
-HBuilderX_zhoujin7.json,zhoujin7/tomato
+HBuilderX.json,zhoujin7/tomato
 HBuilderX-Alpha.json,zhoujin7/tomato
 maven36.json,zhoujin7/tomato
 fastgithub.json,zhoujin7/tomato
@@ -7442,7 +7443,7 @@ UltraCodingSwitch.json,zhoujin7/tomato
 MDict_zhoujin7.json,zhoujin7/tomato
 zipkin-dependencies.json,zhoujin7/tomato
 ActiveMQ-Classic.json,zhoujin7/tomato
-Quicker_zhoujin7.json,zhoujin7/tomato
+Quicker.json,zhoujin7/tomato
 CapsLockIndicator.json,zhoujin7/tomato
 OracleJDK17.json,zhoujin7/tomato
 redis5.json,zhoujin7/tomato
@@ -7756,7 +7757,7 @@ aofv.json,akirco/aki-apps
 WechatWork_akirco.json,akirco/aki-apps
 fishingfunds.json,akirco/aki-apps
 fl980.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 hwmonitor_akirco.json,akirco/aki-apps
 zola_akirco.json,akirco/aki-apps
 tesseract-languages_akirco.json,akirco/aki-apps
@@ -7924,7 +7925,6 @@ php_akirco.json,akirco/aki-apps
 tomcat8_akirco.json,akirco/aki-apps
 pure-live.json,akirco/aki-apps
 filezilla_akirco.json,akirco/aki-apps
-cpu-z_akirco.json,akirco/aki-apps
 gdrive_akirco.json,akirco/aki-apps
 redis5_akirco.json,akirco/aki-apps
 powertoys_akirco.json,akirco/aki-apps
@@ -8057,7 +8057,6 @@ win-gpg.json,naderi/scoop-bucket
 firefox-developer-fa.json,naderi/scoop-bucket
 windedit.json,naderi/scoop-bucket
 stickies_naderi.json,naderi/scoop-bucket
-autorun-organizer.json,naderi/scoop-bucket
 nuclear.json,naderi/scoop-bucket
 wxmedit_naderi.json,naderi/scoop-bucket
 xpdf-reader.json,naderi/scoop-bucket
@@ -8628,6 +8627,7 @@ TerminusPlayer.json,ygguorun/scoop-bucket
 upgit_ygguorun.json,ygguorun/scoop-bucket
 CloudflareSpeedTest_ygguorun.json,ygguorun/scoop-bucket
 ShadowsocksR.json,ygguorun/scoop-bucket
+FontMod.json,ygguorun/scoop-bucket
 BetterNCM.json,ygguorun/scoop-bucket
 AxGlyph.json,ygguorun/scoop-bucket
 sonixd_ygguorun.json,ygguorun/scoop-bucket
@@ -8725,6 +8725,7 @@ huorong-popblock.json,amorphobia/siku
 wechatexporter.json,amorphobia/siku
 snipaste-x86.json,amorphobia/siku
 bdinfo.json,amorphobia/siku
+clash-for-windows_amorphobia.json,amorphobia/siku
 you-get_amorphobia.json,amorphobia/siku
 yourav.json,amorphobia/siku
 smartzip.json,amorphobia/siku
@@ -8736,7 +8737,7 @@ sonarr.json,amorphobia/siku
 vfilename.json,amorphobia/siku
 ls-interactive.json,amorphobia/siku
 deep-explorer.json,amorphobia/siku
-todesk_amorphobia.json,amorphobia/siku
+todesk.json,amorphobia/siku
 setacl-studio.json,amorphobia/siku
 86box-manager_amorphobia.json,amorphobia/siku
 bcdown.json,amorphobia/siku
@@ -9014,7 +9015,7 @@ lz4_aoisummer.json,aoisummer/scoop-bucket
 rssowlnix.json,aoisummer/scoop-bucket
 netch_aoisummer.json,aoisummer/scoop-bucket
 kiwix_aoisummer.json,aoisummer/scoop-bucket
-thunderbird-zh-cn.json,aoisummer/scoop-bucket
+thunderbird-zh-cn_aoisummer.json,aoisummer/scoop-bucket
 diskgenius-pe.json,aoisummer/scoop-bucket
 aliwangwang.json,aoisummer/scoop-bucket
 ddtv2.json,aoisummer/scoop-bucket
