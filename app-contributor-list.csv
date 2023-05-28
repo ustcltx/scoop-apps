@@ -805,7 +805,6 @@ retroarch.json,ScoopInstaller/Extras
 clion.json,ScoopInstaller/Extras
 xmrig.json,ScoopInstaller/Extras
 status.json,ScoopInstaller/Extras
-vcredist2017.json,ScoopInstaller/Extras
 git-tower.json,ScoopInstaller/Extras
 kawaii-player.json,ScoopInstaller/Extras
 twitchdownloader.json,ScoopInstaller/Extras
@@ -849,7 +848,6 @@ chipmunk.json,ScoopInstaller/Extras
 skaffold.json,ScoopInstaller/Extras
 totalcommander_ScoopInstaller.json,ScoopInstaller/Extras
 axiom.json,ScoopInstaller/Extras
-vcredist2019.json,ScoopInstaller/Extras
 anki.json,ScoopInstaller/Extras
 cascadeur.json,ScoopInstaller/Extras
 listary.json,ScoopInstaller/Extras
@@ -1031,6 +1029,7 @@ everything.json,ScoopInstaller/Extras
 openvpn-connect.json,ScoopInstaller/Extras
 i2p-zero-gui.json,ScoopInstaller/Extras
 dosbox-staging.json,ScoopInstaller/Extras
+qflipper.json,ScoopInstaller/Extras
 exifcleaner.json,ScoopInstaller/Extras
 shadowsocks.json,ScoopInstaller/Extras
 jamovi.json,ScoopInstaller/Extras
@@ -2006,7 +2005,6 @@ winmtr.json,ScoopInstaller/Extras
 jira-cli.json,ScoopInstaller/Extras
 eclipse-scout.json,ScoopInstaller/Extras
 so.json,ScoopInstaller/Extras
-vcredist2015.json,ScoopInstaller/Extras
 networkmanager.json,ScoopInstaller/Extras
 zlib.json,ScoopInstaller/Extras
 x64dbg.json,ScoopInstaller/Extras
@@ -4838,6 +4836,7 @@ sandboxdiff.json,hoilc/scoop-lemon
 emby-pinyin.json,hoilc/scoop-lemon
 rustdesk_hoilc.json,hoilc/scoop-lemon
 maxthon5.json,hoilc/scoop-lemon
+minipad2.json,hoilc/scoop-lemon
 maxlauncher.json,hoilc/scoop-lemon
 kyverno-cli.json,hoilc/scoop-lemon
 ytdlp.json,hoilc/scoop-lemon
@@ -5156,7 +5155,7 @@ biyi.json,hoilc/scoop-lemon
 fastly-cli.json,hoilc/scoop-lemon
 vsts-sync-migrator.json,hoilc/scoop-lemon
 64gram_hoilc.json,hoilc/scoop-lemon
-trzsz_hoilc.json,hoilc/scoop-lemon
+trzsz.json,hoilc/scoop-lemon
 mqtt-cli.json,hoilc/scoop-lemon
 double-mouse-downloader.json,hoilc/scoop-lemon
 pineapple-pictures.json,hoilc/scoop-lemon
@@ -5398,7 +5397,7 @@ us3fs.json,hoilc/scoop-lemon
 smiley-sans_hoilc.json,hoilc/scoop-lemon
 libportable-floorp.json,hoilc/scoop-lemon
 rathole_hoilc.json,hoilc/scoop-lemon
-leaf_hoilc.json,hoilc/scoop-lemon
+leaf.json,hoilc/scoop-lemon
 kubectl-buildkit.json,hoilc/scoop-lemon
 xdown.json,hoilc/scoop-lemon
 bililive-recorder.json,hoilc/scoop-lemon
@@ -6078,6 +6077,7 @@ SandboxDiff-Portable.json,ACooper81/scoop-apps
 HiBitUninstaller-Portable.json,ACooper81/scoop-apps
 PulloversMacroCreator-Portable.json,ACooper81/scoop-apps
 MicrosoftOneDrive-Install.json,ACooper81/scoop-apps
+MAS-Portable.json,ACooper81/scoop-apps
 FilesInspector-Install.json,ACooper81/scoop-apps
 Teamviewer-Portable.json,ACooper81/scoop-apps
 TweakPower-Portable.json,ACooper81/scoop-apps
@@ -7312,7 +7312,7 @@ win10-initial-setup-script.json,TheRandomLabs/Scoop-Bucket
 mgba_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
 dolphin-dev_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
@@ -7353,7 +7353,7 @@ retroarch-nightly_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 desmume_borger.json,borger/scoop-emulators
 v2ray_Qv2ray.json,Qv2ray/mochi
@@ -7420,7 +7420,7 @@ VNote_zhoujin7.json,zhoujin7/tomato
 arthas_zhoujin7.json,zhoujin7/tomato
 BeyondCompare_zhoujin7.json,zhoujin7/tomato
 apipost_zhoujin7.json,zhoujin7/tomato
-apifox_zhoujin7.json,zhoujin7/tomato
+apifox.json,zhoujin7/tomato
 subconverter_zhoujin7.json,zhoujin7/tomato
 zipkin.json,zhoujin7/tomato
 wnr_zhoujin7.json,zhoujin7/tomato
@@ -7805,7 +7805,7 @@ dismplusplus_akirco.json,akirco/aki-apps
 wavpack_akirco.json,akirco/aki-apps
 nero-aac_akirco.json,akirco/aki-apps
 dog_akirco.json,akirco/aki-apps
-vcredist2017_akirco.json,akirco/aki-apps
+vcredist2017.json,akirco/aki-apps
 Thunder.json,akirco/aki-apps
 warp_akirco.json,akirco/aki-apps
 upscaler.json,akirco/aki-apps
@@ -7814,6 +7814,7 @@ rclone_akirco.json,akirco/aki-apps
 marktext_akirco.json,akirco/aki-apps
 rclone-browser_akirco.json,akirco/aki-apps
 bilibili-livehime.json,akirco/aki-apps
+vcredist2019.json,akirco/aki-apps
 vcredist2022_akirco.json,akirco/aki-apps
 unxutils_akirco.json,akirco/aki-apps
 completionPredictor.json,akirco/aki-apps
@@ -7863,7 +7864,7 @@ zy-player.json,akirco/aki-apps
 lf_akirco.json,akirco/aki-apps
 msys2_akirco.json,akirco/aki-apps
 fat32format_akirco.json,akirco/aki-apps
-BaiduNetdisk.json,akirco/aki-apps
+BaiduNetdisk_akirco.json,akirco/aki-apps
 speedtest-cli_akirco.json,akirco/aki-apps
 koodo-reader_akirco.json,akirco/aki-apps
 qpdf_akirco.json,akirco/aki-apps
@@ -7935,10 +7936,11 @@ redis-desktop-manager_akirco.json,akirco/aki-apps
 netcat_akirco.json,akirco/aki-apps
 devsidecar_akirco.json,akirco/aki-apps
 fiddler_akirco.json,akirco/aki-apps
+vcredist2010_akirco.json,akirco/aki-apps
 wegame.json,akirco/aki-apps
 innounp_akirco.json,akirco/aki-apps
 nano_akirco.json,akirco/aki-apps
-vcredist2008_akirco.json,akirco/aki-apps
+vcredist2008.json,akirco/aki-apps
 handbrake-cli_akirco.json,akirco/aki-apps
 winxray_akirco.json,akirco/aki-apps
 wget_akirco.json,akirco/aki-apps
@@ -7997,7 +7999,7 @@ TianRuoOCR_akirco.json,akirco/aki-apps
 cyberduck_akirco.json,akirco/aki-apps
 time_akirco.json,akirco/aki-apps
 vcredist2015_akirco.json,akirco/aki-apps
-flutter-cn_akirco.json,akirco/aki-apps
+flutter-cn.json,akirco/aki-apps
 aria2_akirco.json,akirco/aki-apps
 cosbrowser_akirco.json,akirco/aki-apps
 pwsh_akirco.json,akirco/aki-apps
@@ -8055,6 +8057,7 @@ win-gpg.json,naderi/scoop-bucket
 firefox-developer-fa.json,naderi/scoop-bucket
 windedit.json,naderi/scoop-bucket
 stickies_naderi.json,naderi/scoop-bucket
+autorun-organizer.json,naderi/scoop-bucket
 nuclear.json,naderi/scoop-bucket
 wxmedit_naderi.json,naderi/scoop-bucket
 xpdf-reader.json,naderi/scoop-bucket
@@ -8369,7 +8372,7 @@ behinder.json,ViCrack/scoop-bucket
 ddns-go.json,ViCrack/scoop-bucket
 anew.json,ViCrack/scoop-bucket
 MonitorOff.json,ViCrack/scoop-bucket
-pot.json,ViCrack/scoop-bucket
+pot_ViCrack.json,ViCrack/scoop-bucket
 igdm_ViCrack.json,ViCrack/scoop-bucket
 gda.json,ViCrack/scoop-bucket
 scan4all.json,ViCrack/scoop-bucket
@@ -8601,6 +8604,7 @@ DDMonitor.json,ygguorun/scoop-bucket
 kaf-cli.json,ygguorun/scoop-bucket
 PDB2ePubChs.json,ygguorun/scoop-bucket
 Malware-Patch.json,ygguorun/scoop-bucket
+eaio.json,ygguorun/scoop-bucket
 CloudCompare.json,ygguorun/scoop-bucket
 git-repo-clean_ygguorun.json,ygguorun/scoop-bucket
 mahjong-helper.json,ygguorun/scoop-bucket
@@ -8628,7 +8632,6 @@ TerminusPlayer.json,ygguorun/scoop-bucket
 upgit_ygguorun.json,ygguorun/scoop-bucket
 CloudflareSpeedTest_ygguorun.json,ygguorun/scoop-bucket
 ShadowsocksR.json,ygguorun/scoop-bucket
-musicfox_ygguorun.json,ygguorun/scoop-bucket
 FontMod.json,ygguorun/scoop-bucket
 BetterNCM.json,ygguorun/scoop-bucket
 AxGlyph.json,ygguorun/scoop-bucket
@@ -8722,7 +8725,7 @@ wechat_amorphobia.json,amorphobia/siku
 stellarium_amorphobia.json,amorphobia/siku
 keep-jbl-go.json,amorphobia/siku
 xmcl.json,amorphobia/siku
-radarr_amorphobia.json,amorphobia/siku
+radarr.json,amorphobia/siku
 huorong-popblock.json,amorphobia/siku
 wechatexporter.json,amorphobia/siku
 snipaste-x86.json,amorphobia/siku
@@ -9098,7 +9101,7 @@ gitextensions_cc713.json,cc713/ownscoop
 mpv-lazy.json,cc713/ownscoop
 texlive-full_cc713.json,cc713/ownscoop
 kiwix_cc713.json,cc713/ownscoop
-thunderbird-zh-cn.json,cc713/ownscoop
+thunderbird-zh-cn_cc713.json,cc713/ownscoop
 goldendict-xapian.json,cc713/ownscoop
 aqt.json,cc713/ownscoop
 ghostscript_cc713.json,cc713/ownscoop
