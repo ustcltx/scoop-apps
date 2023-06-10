@@ -6518,6 +6518,7 @@ bluestacks4-hyperv-np.json,ScoopInstaller/Nonportable
 asio4all-np.json,ScoopInstaller/Nonportable
 lav-filters-megamix-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 textpad8-np.json,ScoopInstaller/Nonportable
+k-lite-codec-pack-basic-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 flash-drive-tester-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 openhashtab-np.json,ScoopInstaller/Nonportable
 workman-np_ScoopInstaller.json,ScoopInstaller/Nonportable
@@ -6529,6 +6530,7 @@ xysubfilter-libass-np.json,ScoopInstaller/Nonportable
 everything-beta-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 translucenttb-np.json,ScoopInstaller/Nonportable
 mullvadvpn-np.json,ScoopInstaller/Nonportable
+k-lite-codec-pack-standard-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 nvidia-display-driver-np.json,ScoopInstaller/Nonportable
 workman-p-uk-np_ScoopInstaller.json,ScoopInstaller/Nonportable
 ditto-np_ScoopInstaller.json,ScoopInstaller/Nonportable
@@ -7358,7 +7360,7 @@ visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
@@ -7821,7 +7823,7 @@ ShadowsocksR_akirco.json,akirco/aki-apps
 youtube-dl-gui_akirco.json,akirco/aki-apps
 nmap-portable.json,akirco/aki-apps
 kate_akirco.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 kodi_akirco.json,akirco/aki-apps
 alipan.json,akirco/aki-apps
 jabba_akirco.json,akirco/aki-apps
@@ -7839,7 +7841,7 @@ ClashDotNET.json,akirco/aki-apps
 pngquant_akirco.json,akirco/aki-apps
 tomcat8_akirco.json,akirco/aki-apps
 xmind.json,akirco/aki-apps
-firefox-zh-cn.json,akirco/aki-apps
+firefox-zh-cn_akirco.json,akirco/aki-apps
 draw.io_akirco.json,akirco/aki-apps
 nc.json,akirco/aki-apps
 sudo_akirco.json,akirco/aki-apps
@@ -7921,14 +7923,13 @@ handbrake-cli_akirco.json,akirco/aki-apps
 deno_akirco.json,akirco/aki-apps
 Thunder.json,akirco/aki-apps
 micro_akirco.json,akirco/aki-apps
-electerm.json,akirco/aki-apps
+electerm_akirco.json,akirco/aki-apps
 sox_akirco.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
 prs_akirco.json,akirco/aki-apps
 mysql_akirco.json,akirco/aki-apps
 svtplay-dl_akirco.json,akirco/aki-apps
 vcredist2019.json,akirco/aki-apps
-googlechrome_akirco.json,akirco/aki-apps
 qqmusic_akirco.json,akirco/aki-apps
 qrcp_akirco.json,akirco/aki-apps
 nu_akirco.json,akirco/aki-apps
@@ -8525,7 +8526,7 @@ dev-sidecar_ViCrack.json,ViCrack/scoop-bucket
 cpuz-cn.json,ViCrack/scoop-bucket
 mdut.json,ViCrack/scoop-bucket
 easy-context-menu_ViCrack.json,ViCrack/scoop-bucket
-pot_ViCrack.json,ViCrack/scoop-bucket
+pot.json,ViCrack/scoop-bucket
 bluelife-host-editor.json,ViCrack/scoop-bucket
 maye_ViCrack.json,ViCrack/scoop-bucket
 jar-analyzer.json,ViCrack/scoop-bucket
