@@ -2876,7 +2876,7 @@ mpv.net-cm.json,ivaquero/scoopet
 qq-nt.json,ivaquero/scoopet
 cursor.json,ivaquero/scoopet
 blender-cn.json,ivaquero/scoopet
-lx-music_ivaquero.json,ivaquero/scoopet
+lx-music.json,ivaquero/scoopet
 ting-en.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
 libreoffice-cn.json,ivaquero/scoopet
@@ -4525,7 +4525,7 @@ regfromapp_ScoopInstaller.json,ScoopInstaller/Nirsoft
 turnedontimesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 clipboardic_ScoopInstaller.json,ScoopInstaller/Nirsoft
 esedatabaseview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-simplewmiview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+simplewmiview.json,ScoopInstaller/Nirsoft
 winupdatesview.json,ScoopInstaller/Nirsoft
 wirelessnetview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 dnsquerysniffer_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -4816,7 +4816,7 @@ unity3d.json,scoopcn/scoopcn
 ade.json,scoopcn/scoopcn
 kugou.json,scoopcn/scoopcn
 kwmusic.json,scoopcn/scoopcn
-lx-music-desktop.json,scoopcn/scoopcn
+lx-music-desktop_scoopcn.json,scoopcn/scoopcn
 xt800agent.json,scoopcn/scoopcn
 sunlogin.json,scoopcn/scoopcn
 cloudmusic.json,scoopcn/scoopcn
@@ -7392,7 +7392,7 @@ project64-dev_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
 scummvm-nightly.json,borger/scoop-emulators
@@ -7408,7 +7408,7 @@ mesen_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 steam-rom-manager_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
@@ -7926,7 +7926,7 @@ hosts.json,akirco/aki-apps
 scrcpy_akirco.json,akirco/aki-apps
 devsidecar_akirco.json,akirco/aki-apps
 wp-cli_akirco.json,akirco/aki-apps
-jianyingpro_akirco.json,akirco/aki-apps
+jianyingpro.json,akirco/aki-apps
 dp.json,akirco/aki-apps
 uwd.json,akirco/aki-apps
 cpu-z_akirco.json,akirco/aki-apps
@@ -7958,7 +7958,6 @@ officetoolplus_akirco.json,akirco/aki-apps
 qpdf_akirco.json,akirco/aki-apps
 prince_akirco.json,akirco/aki-apps
 qqmusic_akirco.json,akirco/aki-apps
-youtubedownloader.json,akirco/aki-apps
 obs-studio_akirco.json,akirco/aki-apps
 mi-assistant.json,akirco/aki-apps
 unzip_akirco.json,akirco/aki-apps
@@ -8818,6 +8817,7 @@ hetty.json,arch3rPro/scoop-bucket
 yujianportscan.json,arch3rPro/scoop-bucket
 gitrob.json,arch3rPro/scoop-bucket
 afrog_arch3rPro.json,arch3rPro/scoop-bucket
+emeditor_arch3rPro.json,arch3rPro/scoop-bucket
 gda_arch3rPro.json,arch3rPro/scoop-bucket
 cudatext-cn_arch3rPro.json,arch3rPro/scoop-bucket
 notepad--_arch3rPro.json,arch3rPro/scoop-bucket
@@ -8846,6 +8846,7 @@ xray_arch3rPro.json,arch3rPro/scoop-bucket
 hackbrowserdata.json,arch3rPro/scoop-bucket
 termite.json,arch3rPro/scoop-bucket
 DeimosC2.json,arch3rPro/scoop-bucket
+gitGraber.json,arch3rPro/scoop-bucket
 antsword.json,arch3rPro/scoop-bucket
 ct.json,arch3rPro/scoop-bucket
 burpsuite-np.json,arch3rPro/scoop-bucket
@@ -9228,7 +9229,7 @@ PicView.json,cc713/ownscoop
 MisakaTranslator_cc713.json,cc713/ownscoop
 rstudio_cc713.json,cc713/ownscoop
 QMPlay2_cc713.json,cc713/ownscoop
-lx-music.json,cc713/ownscoop
+lx-music_cc713.json,cc713/ownscoop
 aqt.json,cc713/ownscoop
 ldplayer9.json,cc713/ownscoop
 work-crawler.json,cc713/ownscoop
