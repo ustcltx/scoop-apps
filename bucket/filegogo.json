@@ -1,20 +1,20 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.1",
     "description": "A file transfer tool that can be used in the browser WebRTC P2P.",
     "homepage": "https://github.com/a-wing/filegogo",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/a-wing/filegogo/releases/download/v0.13.0/filegogo_0.13.0_windows_amd64.tar.gz",
-            "hash": "b49e8f8c5c1fce90c1c95a314513dcf8b6e3ff3bf7d9fe6b229303f53c9154df"
+            "url": "https://github.com/a-wing/filegogo/releases/download/v0.14.1/filegogo_0.14.1_windows_amd64.tar.gz",
+            "hash": "479c777bb9cf16962470701121eecca3428cf1e8df212037de10e0f996ca1930"
         },
         "32bit": {
-            "url": "https://github.com/a-wing/filegogo/releases/download/v0.13.0/filegogo_0.13.0_windows_386.tar.gz",
-            "hash": "51baf3ca2a2c29a8dfc03168bef4cca8f574b5da22037b3d545cc6c259e146e3"
+            "url": "https://github.com/a-wing/filegogo/releases/download/v0.14.1/filegogo_0.14.1_windows_386.tar.gz",
+            "hash": "35b07c148564c92d9284e682a6f08ed150d55f7ccf5a24c8ccd1e3a461e9c099"
         },
         "arm64": {
-            "url": "https://github.com/a-wing/filegogo/releases/download/v0.13.0/filegogo_0.13.0_windows_arm64.tar.gz",
-            "hash": "4dd069f6d83676fea30c5d393baf36516ff6a2d40b15f6270726d802a235c881"
+            "url": "https://github.com/a-wing/filegogo/releases/download/v0.14.1/filegogo_0.14.1_windows_arm64.tar.gz",
+            "hash": "1f6bffd343760dda57f2046c942973b4a13022091cb51668e45537c880bf0da2"
         }
     },
     "bin": "filegogo.exe",
