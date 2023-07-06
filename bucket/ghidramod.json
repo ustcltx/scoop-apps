@@ -1,10 +1,10 @@
 {
     "homepage": "https://ghidra-sre.org/",
     "description": "GhidraMod - NyaMisty",
-    "version": "10.4-20230703-70c54bb1c",
+    "version": "10.4-20230706-58e129656",
     "license": "Apache-2.0",
-    "hash": "191ef9dba71d1d24c4e203eafeb52067550c0e4e7c307ff0cf0a832cbdb53095",
-    "url": "https://github.com/NyaMisty/ghidra_mod-ci/releases/download/2023-07-03-NyaMisty_ghidra_mod-70c54bb1c/ghidra_10.4_DEV_20230703.zip",
+    "hash": "521b503cc5e8efd5881e709604c0f2663b03042f843d3bcabb2056fb9fdf1a68",
+    "url": "https://github.com/NyaMisty/ghidra_mod-ci/releases/download/2023-07-06-NyaMisty_ghidra_mod-58e129656/ghidra_10.4_DEV_20230706.zip",
     "extract_dir": "ghidra_10.4_DEV",
     "bin": [
         [
