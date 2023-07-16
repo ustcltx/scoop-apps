@@ -6667,7 +6667,7 @@ citra_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
@@ -6703,7 +6703,7 @@ xenia_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
-ppsspp-dev_borger.json,borger/scoop-emulators
+ppsspp-dev.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 Exiv2.json,dodorz/scoop
 CCEnhancer.json,dodorz/scoop
@@ -9377,6 +9377,7 @@ Scilab_cc713.json,cc713/ownscoop
 PicView-noRT.json,cc713/ownscoop
 dnSpyEx_cc713.json,cc713/ownscoop
 picacg-qt.json,cc713/ownscoop
+bililiverecorder.json,cc713/ownscoop
 Weasel_cc713.json,cc713/ownscoop
 get-sauce.json,cc713/ownscoop
 mpv-lazy.json,cc713/ownscoop
