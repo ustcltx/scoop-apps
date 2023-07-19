@@ -1860,7 +1860,7 @@ elasticsearch.json,ScoopInstaller/Extras
 crystaldiskmark.json,ScoopInstaller/Extras
 catalyst.json,ScoopInstaller/Extras
 biblioteq.json,ScoopInstaller/Extras
-wingetui.json,ScoopInstaller/Extras
+wingetui_ScoopInstaller.json,ScoopInstaller/Extras
 servicebusexplorer.json,ScoopInstaller/Extras
 kiwi-for-gmail.json,ScoopInstaller/Extras
 lighttpd.json,ScoopInstaller/Extras
@@ -2170,7 +2170,7 @@ wizfile.json,ScoopInstaller/Extras
 fiji.json,ScoopInstaller/Extras
 tinymediamanager_ScoopInstaller.json,ScoopInstaller/Extras
 screen-saver-control.json,ScoopInstaller/Extras
-ccleaner_ScoopInstaller.json,ScoopInstaller/Extras
+ccleaner.json,ScoopInstaller/Extras
 praat.json,ScoopInstaller/Extras
 caffeine.json,ScoopInstaller/Extras
 keyferret.json,ScoopInstaller/Extras
@@ -2903,7 +2903,7 @@ m3u8-downloader.json,ivaquero/scoopet
 winrar_ivaquero.json,ivaquero/scoopet
 gimp-cn.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
-adrive.json,ivaquero/scoopet
+adrive_ivaquero.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
 mpv.net-cm.json,ivaquero/scoopet
 cnkiexpress.json,ivaquero/scoopet
@@ -4549,7 +4549,7 @@ outlookstatview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 controlmymonitor_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mobilefilesearch_ScoopInstaller.json,ScoopInstaller/Nirsoft
 bluetoothcl_ScoopInstaller.json,ScoopInstaller/Nirsoft
-fileaccesserrorview.json,ScoopInstaller/Nirsoft
+fileaccesserrorview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 iepv.json,ScoopInstaller/Nirsoft
 executedprogramslist_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mspass.json,ScoopInstaller/Nirsoft
@@ -4812,7 +4812,7 @@ todesk_scoopcn.json,scoopcn/scoopcn
 s3-browser.json,scoopcn/scoopcn
 wxwork.json,scoopcn/scoopcn
 xt800agent.json,scoopcn/scoopcn
-tim_scoopcn.json,scoopcn/scoopcn
+tim.json,scoopcn/scoopcn
 baidudisk_scoopcn.json,scoopcn/scoopcn
 unity3d.json,scoopcn/scoopcn
 neo4jbrowser.json,scoopcn/scoopcn
@@ -6640,7 +6640,7 @@ vlmcsd.json,everyx/scoop-bucket
 SourceHanSansHK.json,everyx/scoop-bucket
 CascadiaCode.json,everyx/scoop-bucket
 PingInfoView_everyx.json,everyx/scoop-bucket
-desmume_borger.json,borger/scoop-emulators
+desmume.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 ps3-system-software_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
@@ -7773,13 +7773,13 @@ neteasemusic_wzv5.json,wzv5/ScoopBucket
 vnote_wzv5.json,wzv5/ScoopBucket
 python_wzv5.json,wzv5/ScoopBucket
 besttrace.json,wzv5/ScoopBucket
-aliyundrive.json,wzv5/ScoopBucket
+aliyundrive_wzv5.json,wzv5/ScoopBucket
 utools_wzv5.json,wzv5/ScoopBucket
 openjdk-doc.json,wzv5/ScoopBucket
 sni.json,wzv5/ScoopBucket
 overture_wzv5.json,wzv5/ScoopBucket
 python-doc.json,wzv5/ScoopBucket
-evernote_wzv5.json,wzv5/ScoopBucket
+evernote.json,wzv5/ScoopBucket
 oleviewdotnet.json,wzv5/ScoopBucket
 lx-music-desktop_wzv5.json,wzv5/ScoopBucket
 phpmyadmin.json,wzv5/ScoopBucket
@@ -9004,6 +9004,7 @@ setacl-studio.json,amorphobia/siku
 tautulli.json,amorphobia/siku
 ls-interactive.json,amorphobia/siku
 rust-sl.json,amorphobia/siku
+clash-for-windows_amorphobia.json,amorphobia/siku
 mihome-token.json,amorphobia/siku
 bdinfo.json,amorphobia/siku
 scoop-hook.json,amorphobia/siku
@@ -9191,6 +9192,7 @@ super-xray_arch3rPro.json,arch3rPro/scoop-bucket
 POC-T.json,arch3rPro/scoop-bucket
 githacker.json,arch3rPro/scoop-bucket
 peass-ng.json,arch3rPro/scoop-bucket
+npcap.json,arch3rPro/scoop-bucket
 broxy.json,arch3rPro/scoop-bucket
 reverse_ssh.json,arch3rPro/scoop-bucket
 SuperSQLInjection.json,arch3rPro/scoop-bucket
@@ -9227,6 +9229,7 @@ commix.json,arch3rPro/scoop-bucket
 netsparker.json,arch3rPro/scoop-bucket
 mateuszex.json,arch3rPro/scoop-bucket
 av_evasion_tool.json,arch3rPro/scoop-bucket
+houndsploit.json,arch3rPro/scoop-bucket
 searchdiggity.json,arch3rPro/scoop-bucket
 pyshell.json,arch3rPro/scoop-bucket
 ksubdomain_arch3rPro.json,arch3rPro/scoop-bucket
@@ -10510,6 +10513,7 @@ extreme-injector.json,HUMORCE/nuke
 anime4kcpp-vapoursynth-plugin.json,HUMORCE/nuke
 insomnia_HUMORCE.json,HUMORCE/nuke
 nebula.json,HUMORCE/nuke
+nerd-font-patcher.json,HUMORCE/nuke
 ntlite_HUMORCE.json,HUMORCE/nuke
 windows-kill.json,HUMORCE/nuke
 bminer-lite.json,HUMORCE/nuke
