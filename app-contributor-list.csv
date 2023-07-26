@@ -431,7 +431,7 @@ svcat.json,ScoopInstaller/Extras
 sendto-menu-editor.json,ScoopInstaller/Extras
 authy.json,ScoopInstaller/Extras
 jd.json,ScoopInstaller/Extras
-wechat.json,ScoopInstaller/Extras
+wechat_ScoopInstaller.json,ScoopInstaller/Extras
 vapoursyntheditor.json,ScoopInstaller/Extras
 harmony.json,ScoopInstaller/Extras
 wincdemu.json,ScoopInstaller/Extras
@@ -987,7 +987,7 @@ mambaforge.json,ScoopInstaller/Extras
 bkchem.json,ScoopInstaller/Extras
 uget.json,ScoopInstaller/Extras
 noty.json,ScoopInstaller/Extras
-nuclear_ScoopInstaller.json,ScoopInstaller/Extras
+nuclear.json,ScoopInstaller/Extras
 emeditor.json,ScoopInstaller/Extras
 i2pd.json,ScoopInstaller/Extras
 trayweather.json,ScoopInstaller/Extras
@@ -2911,14 +2911,14 @@ adrive_ivaquero.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
 mpv.net-cm.json,ivaquero/scoopet
 cnkiexpress.json,ivaquero/scoopet
-wisecare365_ivaquero.json,ivaquero/scoopet
+wisecare365.json,ivaquero/scoopet
 chatgpt-cli.json,ivaquero/scoopet
 vlc-cn.json,ivaquero/scoopet
 autodarkmode_ivaquero.json,ivaquero/scoopet
 edgeless.json,ivaquero/scoopet
 obs-studio-cn.json,ivaquero/scoopet
 vmware-workstation-pro.json,ivaquero/scoopet
-baidunetdisk_ivaquero.json,ivaquero/scoopet
+baidunetdisk.json,ivaquero/scoopet
 activitiywatch.json,ivaquero/scoopet
 filecentipede.json,ivaquero/scoopet
 odamex.json,Calinou/scoop-games
@@ -7232,7 +7232,7 @@ CoverYourTracks_dodorz.json,dodorz/scoop
 DesktopNaotu.json,dodorz/scoop
 CompareAdvance.json,dodorz/scoop
 Wink.json,dodorz/scoop
-WeChat.json,dodorz/scoop
+WeChat_dodorz.json,dodorz/scoop
 RegSeeker.json,dodorz/scoop
 autojump-rs.json,dodorz/scoop
 grepWin_dodorz.json,dodorz/scoop
@@ -7453,6 +7453,7 @@ qv2ray-plugin-trojan-go_Qv2ray.json,Qv2ray/mochi
 qv2ray-plugin-ssr_Qv2ray.json,Qv2ray/mochi
 xray_Qv2ray.json,Qv2ray/mochi
 v2ray-domain-list-community_Qv2ray.json,Qv2ray/mochi
+sourcedepot.json,kiennq/scoop-misc
 cascadiacode-pl.json,kiennq/scoop-misc
 joyshockmapper.json,kiennq/scoop-misc
 emacs-x.json,kiennq/scoop-misc
@@ -7772,7 +7773,7 @@ yuque_akirco.json,akirco/aki-apps
 easywsl.json,akirco/aki-apps
 httpstat_akirco.json,akirco/aki-apps
 wrangler_akirco.json,akirco/aki-apps
-wechat_akirco.json,akirco/aki-apps
+wechat.json,akirco/aki-apps
 zstd_akirco.json,akirco/aki-apps
 optipng_akirco.json,akirco/aki-apps
 charles_akirco.json,akirco/aki-apps
@@ -7846,7 +7847,7 @@ windows-application-driver_akirco.json,akirco/aki-apps
 scrcpy_akirco.json,akirco/aki-apps
 oxipng_akirco.json,akirco/aki-apps
 tldr_akirco.json,akirco/aki-apps
-bilibili.json,akirco/aki-apps
+bilibili_akirco.json,akirco/aki-apps
 postman_akirco.json,akirco/aki-apps
 mysql_akirco.json,akirco/aki-apps
 nircmd_akirco.json,akirco/aki-apps
@@ -7984,7 +7985,7 @@ touch_akirco.json,akirco/aki-apps
 pure-live.json,akirco/aki-apps
 clashrauto.json,akirco/aki-apps
 bilibili-livehime.json,akirco/aki-apps
-wechatdevtools.json,akirco/aki-apps
+wechatdevtools_akirco.json,akirco/aki-apps
 typora_akirco.json,akirco/aki-apps
 imewlconverter.json,akirco/aki-apps
 mvndaemon_akirco.json,akirco/aki-apps
@@ -8070,7 +8071,7 @@ DNSAngel.json,akirco/aki-apps
 EasyContextMenu.json,akirco/aki-apps
 FixWin10.json,akirco/aki-apps
 zabbix-agent.json,wzv5/ScoopBucket
-wechat.json,wzv5/ScoopBucket
+wechat_wzv5.json,wzv5/ScoopBucket
 winscp_wzv5.json,wzv5/ScoopBucket
 nodejs-bin.json,wzv5/ScoopBucket
 yy-thunks.json,wzv5/ScoopBucket
@@ -10329,7 +10330,6 @@ ffmpeg_DoveBoy.json,DoveBoy/Apps
 telegram_DoveBoy.json,DoveBoy/Apps
 final2x-portable.json,DoveBoy/Apps
 go-proxy-bingai.json,DoveBoy/Apps
-googlechrome_DoveBoy.json,DoveBoy/Apps
 vcpkg_DoveBoy.json,DoveBoy/Apps
 starship_DoveBoy.json,DoveBoy/Apps
 7zip-beta_DoveBoy.json,DoveBoy/Apps
@@ -10483,7 +10483,6 @@ pscalendar.json,DoveBoy/Apps
 clash_DoveBoy.json,DoveBoy/Apps
 yarn-completion.json,DoveBoy/Apps
 clashrauto_DoveBoy.json,DoveBoy/Apps
-googlechrome-canary.json,DoveBoy/Apps
 scoop-backup-knoxdev.json,DoveBoy/Apps
 clash.meta-cgo-alpha.json,DoveBoy/Apps
 typora_DoveBoy.json,DoveBoy/Apps
@@ -10494,7 +10493,6 @@ youku.json,DoveBoy/Apps
 diskcheckup_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
 vim-nightly_DoveBoy.json,DoveBoy/Apps
-googlechrome-beta_DoveBoy.json,DoveBoy/Apps
 douyu_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic-np.json,DoveBoy/Apps
 grep_DoveBoy.json,DoveBoy/Apps
@@ -10580,6 +10578,7 @@ dreamscene2.json,DoveBoy/Apps
 nvm_DoveBoy.json,DoveBoy/Apps
 sox_DoveBoy.json,DoveBoy/Apps
 pwsh_DoveBoy.json,DoveBoy/Apps
+github_DoveBoy.json,DoveBoy/Apps
 7zip_DoveBoy.json,DoveBoy/Apps
 gsudo_DoveBoy.json,DoveBoy/Apps
 shadowsocks-qtun-plugin_DoveBoy.json,DoveBoy/Apps
@@ -10633,7 +10632,7 @@ peupdate.json,beerpiss/scoop-bucket
 evkey.json,beerpiss/scoop-bucket
 onetrueawk.json,beerpiss/scoop-bucket
 ntfs2btrfs_beerpiss.json,beerpiss/scoop-bucket
-adguardhome_beerpiss.json,beerpiss/scoop-bucket
+adguardhome.json,beerpiss/scoop-bucket
 majdata.json,beerpiss/scoop-bucket
 ariang-native_beerpiss.json,beerpiss/scoop-bucket
 absolutetouchex.json,beerpiss/scoop-bucket
@@ -10795,7 +10794,7 @@ quickcpu_HUMORCE.json,HUMORCE/nuke
 fiddler-classic-addon-sazdiff.json,HUMORCE/nuke
 anime4kcpp-cli_HUMORCE.json,HUMORCE/nuke
 dinorss.json,HUMORCE/nuke
-ungoogled-chromium.json,HUMORCE/nuke
+ungoogled-chromium_HUMORCE.json,HUMORCE/nuke
 fiddler-classic-addon-pdfview.json,HUMORCE/nuke
 xpdf-tools-LSP-thai.json,HUMORCE/nuke
 jc_HUMORCE.json,HUMORCE/nuke
