@@ -1203,6 +1203,7 @@ bulk-crap-uninstaller.json,ScoopInstaller/Extras
 conemu-color-themes.json,ScoopInstaller/Extras
 hwp-converter.json,ScoopInstaller/Extras
 trafficmonitor-lite.json,ScoopInstaller/Extras
+taskt.json,ScoopInstaller/Extras
 fun.json,ScoopInstaller/Extras
 dbvis.json,ScoopInstaller/Extras
 keepass-plugin-sequencer.json,ScoopInstaller/Extras
@@ -1323,7 +1324,6 @@ quicklook.json,ScoopInstaller/Extras
 ghidra.json,ScoopInstaller/Extras
 snaketail.json,ScoopInstaller/Extras
 meinplatz.json,ScoopInstaller/Extras
-git-credential-manager-core.json,ScoopInstaller/Extras
 labplot.json,ScoopInstaller/Extras
 spotube.json,ScoopInstaller/Extras
 fastglacier.json,ScoopInstaller/Extras
@@ -1401,7 +1401,7 @@ imagine.json,ScoopInstaller/Extras
 tagscanner.json,ScoopInstaller/Extras
 lens.json,ScoopInstaller/Extras
 rufus.json,ScoopInstaller/Extras
-nuclear.json,ScoopInstaller/Extras
+nuclear_ScoopInstaller.json,ScoopInstaller/Extras
 spacesniffer.json,ScoopInstaller/Extras
 mps.json,ScoopInstaller/Extras
 hyper.json,ScoopInstaller/Extras
@@ -2008,7 +2008,7 @@ komorebi.json,ScoopInstaller/Extras
 ncmpc.json,ScoopInstaller/Extras
 dhcp-server.json,ScoopInstaller/Extras
 ditto_ScoopInstaller.json,ScoopInstaller/Extras
-jetbrains-toolbox.json,ScoopInstaller/Extras
+jetbrains-toolbox_ScoopInstaller.json,ScoopInstaller/Extras
 bencode-editor.json,ScoopInstaller/Extras
 infekt.json,ScoopInstaller/Extras
 vuplayer.json,ScoopInstaller/Extras
@@ -2210,7 +2210,7 @@ opennetmeter.json,ScoopInstaller/Extras
 psfzf.json,ScoopInstaller/Extras
 ao.json,ScoopInstaller/Extras
 blisk.json,ScoopInstaller/Extras
-q-dir_ScoopInstaller.json,ScoopInstaller/Extras
+q-dir.json,ScoopInstaller/Extras
 pov-ray.json,ScoopInstaller/Extras
 hydrus-network.json,ScoopInstaller/Extras
 qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
@@ -2298,6 +2298,7 @@ riot.json,ScoopInstaller/Extras
 winrar-helper.json,ScoopInstaller/Extras
 kindlegen.json,ScoopInstaller/Extras
 ferdi.json,ScoopInstaller/Extras
+git-credential-manager-core.json,ScoopInstaller/Extras
 gpac_chawyehsu.json,chawyehsu/dorado
 wechat-np.json,chawyehsu/dorado
 nano_chawyehsu.json,chawyehsu/dorado
@@ -2874,7 +2875,7 @@ vlc-cn.json,ivaquero/scoopet
 kingdraw.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
 rectanglewin.json,ivaquero/scoopet
-adrive_ivaquero.json,ivaquero/scoopet
+adrive.json,ivaquero/scoopet
 tencent-meeting.json,ivaquero/scoopet
 cursor.json,ivaquero/scoopet
 edrawmax.json,ivaquero/scoopet
@@ -6657,7 +6658,7 @@ CascadiaMonoPL.json,everyx/scoop-bucket
 ToDesk_everyx.json,everyx/scoop-bucket
 VideoPanoramasPlayer.json,everyx/scoop-bucket
 retroarch_borger.json,borger/scoop-emulators
-xenia-canary_borger.json,borger/scoop-emulators
+xenia-canary.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 vita3k.json,borger/scoop-emulators
 steam-rom-manager_borger.json,borger/scoop-emulators
@@ -7811,7 +7812,7 @@ neteasemusic_wzv5.json,wzv5/ScoopBucket
 volumelock.json,wzv5/ScoopBucket
 nattypetester_wzv5.json,wzv5/ScoopBucket
 openjdk-doc.json,wzv5/ScoopBucket
-aliyundrive_wzv5.json,wzv5/ScoopBucket
+aliyundrive.json,wzv5/ScoopBucket
 phpmyadmin.json,wzv5/ScoopBucket
 nodejs-bin.json,wzv5/ScoopBucket
 python_wzv5.json,wzv5/ScoopBucket
@@ -7872,7 +7873,7 @@ handbrake-cli_akirco.json,akirco/aki-apps
 vscode_akirco.json,akirco/aki-apps
 PowerSession_akirco.json,akirco/aki-apps
 qpdf_akirco.json,akirco/aki-apps
-firefox-zh-cn.json,akirco/aki-apps
+firefox-zh-cn_akirco.json,akirco/aki-apps
 powertoys_akirco.json,akirco/aki-apps
 hosts.json,akirco/aki-apps
 hellofont_akirco.json,akirco/aki-apps
@@ -7980,7 +7981,6 @@ windows-terminal-quake.json,akirco/aki-apps
 tesseract-languages_akirco.json,akirco/aki-apps
 gof_akirco.json,akirco/aki-apps
 gitomatic_akirco.json,akirco/aki-apps
-imagine_akirco.json,akirco/aki-apps
 rufus_akirco.json,akirco/aki-apps
 php_akirco.json,akirco/aki-apps
 oxipng_akirco.json,akirco/aki-apps
@@ -8023,6 +8023,7 @@ flutter-cn_akirco.json,akirco/aki-apps
 translucenttb_akirco.json,akirco/aki-apps
 figma_akirco.json,akirco/aki-apps
 python_akirco.json,akirco/aki-apps
+go-cn.json,akirco/aki-apps
 wx_qq_revokeMsgPatcher.json,akirco/aki-apps
 upscaler.json,akirco/aki-apps
 fat32format_akirco.json,akirco/aki-apps
@@ -9664,7 +9665,7 @@ aegisub_aoisummer.json,aoisummer/scoop-bucket
 pcap-dnsproxy.json,aoisummer/scoop-bucket
 cdnget.json,aoisummer/scoop-bucket
 aliwangwang.json,aoisummer/scoop-bucket
-firefox-developer-zh-cn.json,aoisummer/scoop-bucket
+firefox-developer-zh-cn_aoisummer.json,aoisummer/scoop-bucket
 veracrypt-np.json,aoisummer/scoop-bucket
 gost_aoisummer.json,aoisummer/scoop-bucket
 tcpview_aoisummer.json,aoisummer/scoop-bucket
@@ -10399,6 +10400,7 @@ video-subtitle-extractor-cpu.json,DoveBoy/Apps
 crystaldiskmark-shizuku-edition_DoveBoy.json,DoveBoy/Apps
 sendto-menu-editor_DoveBoy.json,DoveBoy/Apps
 ntrace-core.json,DoveBoy/Apps
+lemonpush.json,DoveBoy/Apps
 wtv.json,DoveBoy/Apps
 snappy-driver-installer-origin_DoveBoy.json,DoveBoy/Apps
 text-generation-webui.json,DoveBoy/Apps
