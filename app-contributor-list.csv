@@ -2210,7 +2210,7 @@ opennetmeter.json,ScoopInstaller/Extras
 psfzf.json,ScoopInstaller/Extras
 ao.json,ScoopInstaller/Extras
 blisk.json,ScoopInstaller/Extras
-q-dir.json,ScoopInstaller/Extras
+q-dir_ScoopInstaller.json,ScoopInstaller/Extras
 pov-ray.json,ScoopInstaller/Extras
 hydrus-network.json,ScoopInstaller/Extras
 qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
@@ -2289,6 +2289,7 @@ paperwork.json,ScoopInstaller/Extras
 haskellx.json,ScoopInstaller/Extras
 shinjiru.json,ScoopInstaller/Extras
 veonim.json,ScoopInstaller/Extras
+git-credential-manager-core.json,ScoopInstaller/Extras
 pandownload.json,ScoopInstaller/Extras
 station_ScoopInstaller.json,ScoopInstaller/Extras
 terminus.json,ScoopInstaller/Extras
@@ -2298,7 +2299,6 @@ riot.json,ScoopInstaller/Extras
 winrar-helper.json,ScoopInstaller/Extras
 kindlegen.json,ScoopInstaller/Extras
 ferdi.json,ScoopInstaller/Extras
-git-credential-manager-core.json,ScoopInstaller/Extras
 gpac_chawyehsu.json,chawyehsu/dorado
 wechat-np.json,chawyehsu/dorado
 nano_chawyehsu.json,chawyehsu/dorado
@@ -2875,7 +2875,7 @@ vlc-cn.json,ivaquero/scoopet
 kingdraw.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
 rectanglewin.json,ivaquero/scoopet
-adrive.json,ivaquero/scoopet
+adrive_ivaquero.json,ivaquero/scoopet
 tencent-meeting.json,ivaquero/scoopet
 cursor.json,ivaquero/scoopet
 edrawmax.json,ivaquero/scoopet
@@ -5330,7 +5330,7 @@ bililive-recorder-cli.json,hoilc/scoop-lemon
 harmonyos-sans.json,hoilc/scoop-lemon
 amtool.json,hoilc/scoop-lemon
 xsnip.json,hoilc/scoop-lemon
-skylark_hoilc.json,hoilc/scoop-lemon
+skylark.json,hoilc/scoop-lemon
 syft_hoilc.json,hoilc/scoop-lemon
 mouseinc_hoilc.json,hoilc/scoop-lemon
 burrow.json,hoilc/scoop-lemon
@@ -7812,7 +7812,7 @@ neteasemusic_wzv5.json,wzv5/ScoopBucket
 volumelock.json,wzv5/ScoopBucket
 nattypetester_wzv5.json,wzv5/ScoopBucket
 openjdk-doc.json,wzv5/ScoopBucket
-aliyundrive.json,wzv5/ScoopBucket
+aliyundrive_wzv5.json,wzv5/ScoopBucket
 phpmyadmin.json,wzv5/ScoopBucket
 nodejs-bin.json,wzv5/ScoopBucket
 python_wzv5.json,wzv5/ScoopBucket
@@ -8023,7 +8023,6 @@ flutter-cn_akirco.json,akirco/aki-apps
 translucenttb_akirco.json,akirco/aki-apps
 figma_akirco.json,akirco/aki-apps
 python_akirco.json,akirco/aki-apps
-go-cn.json,akirco/aki-apps
 wx_qq_revokeMsgPatcher.json,akirco/aki-apps
 upscaler.json,akirco/aki-apps
 fat32format_akirco.json,akirco/aki-apps
@@ -8299,6 +8298,7 @@ fscan.json,arch3rPro/scoop-bucket
 tidefinger.json,arch3rPro/scoop-bucket
 pyxis_arch3rPro.json,arch3rPro/scoop-bucket
 oneforall.json,arch3rPro/scoop-bucket
+shellter.json,arch3rPro/scoop-bucket
 rport.json,arch3rPro/scoop-bucket
 socat_arch3rPro.json,arch3rPro/scoop-bucket
 hackbrowserdata.json,arch3rPro/scoop-bucket
@@ -8351,6 +8351,7 @@ scan4all_arch3rPro.json,arch3rPro/scoop-bucket
 reverse_ssh.json,arch3rPro/scoop-bucket
 hetty.json,arch3rPro/scoop-bucket
 pyshell.json,arch3rPro/scoop-bucket
+gost.json,arch3rPro/scoop-bucket
 txportmap.json,arch3rPro/scoop-bucket
 observerward_arch3rPro.json,arch3rPro/scoop-bucket
 LaZagne.json,arch3rPro/scoop-bucket
@@ -8473,7 +8474,7 @@ falkon_naderi.json,naderi/scoop-bucket
 wavebox-portable.json,naderi/scoop-bucket
 pycharm-portable.json,naderi/scoop-bucket
 mdview.json,naderi/scoop-bucket
-encrypto_naderi.json,naderi/scoop-bucket
+encrypto.json,naderi/scoop-bucket
 totalcommander-portable.json,naderi/scoop-bucket
 edge-portable-canary.json,naderi/scoop-bucket
 edge-portable-beta.json,naderi/scoop-bucket
@@ -9570,7 +9571,7 @@ icns.json,hu3rror/scoop-muggle
 musictag.json,hu3rror/scoop-muggle
 wpd.json,hu3rror/scoop-muggle
 md5checker.json,hu3rror/scoop-muggle
-vcredist-aio_hu3rror.json,hu3rror/scoop-muggle
+vcredist-aio.json,hu3rror/scoop-muggle
 dopamine-preview.json,hu3rror/scoop-muggle
 prtscr.json,hu3rror/scoop-muggle
 cdnlookup.json,hu3rror/scoop-muggle
@@ -10355,7 +10356,7 @@ clash-chinese-patch.json,DoveBoy/Apps
 cloudflarespeedtest_DoveBoy.json,DoveBoy/Apps
 adb_DoveBoy.json,DoveBoy/Apps
 scoop-backup-knoxdev.json,DoveBoy/Apps
-qq-nt.json,DoveBoy/Apps
+qq-nt_DoveBoy.json,DoveBoy/Apps
 cleanmywechat_DoveBoy.json,DoveBoy/Apps
 john-the-ripper_DoveBoy.json,DoveBoy/Apps
 fx_DoveBoy.json,DoveBoy/Apps
@@ -10422,6 +10423,7 @@ youku.json,DoveBoy/Apps
 optimizer.json,DoveBoy/Apps
 starship_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
+vcredist-aio_DoveBoy.json,DoveBoy/Apps
 everything-beta_DoveBoy.json,DoveBoy/Apps
 xx-net-win7.json,DoveBoy/Apps
 autoruns_DoveBoy.json,DoveBoy/Apps
@@ -10448,6 +10450,7 @@ ttime.json,DoveBoy/Apps
 ttime-portable.json,DoveBoy/Apps
 iwck.json,DoveBoy/Apps
 study-xxqg-sjkhsl.json,DoveBoy/Apps
+openai-translator.json,DoveBoy/Apps
 video-srt-windows-with-ffmpeg.json,DoveBoy/Apps
 pscalendar.json,DoveBoy/Apps
 douyu_DoveBoy.json,DoveBoy/Apps
@@ -10477,9 +10480,10 @@ gping_DoveBoy.json,DoveBoy/Apps
 everything_DoveBoy.json,DoveBoy/Apps
 volta-tab-completion.json,DoveBoy/Apps
 aria2_DoveBoy.json,DoveBoy/Apps
+idm-activation-script.json,DoveBoy/Apps
 quasar_DoveBoy.json,DoveBoy/Apps
 go-proxy-bingai.json,DoveBoy/Apps
-qq_DoveBoy.json,DoveBoy/Apps
+qq.json,DoveBoy/Apps
 context-menu-manager_DoveBoy.json,DoveBoy/Apps
 doggo_DoveBoy.json,DoveBoy/Apps
 vimtutor_DoveBoy.json,DoveBoy/Apps
@@ -10496,6 +10500,7 @@ gotop_DoveBoy.json,DoveBoy/Apps
 alist_DoveBoy.json,DoveBoy/Apps
 network-proxy-flutter.json,DoveBoy/Apps
 pandaocrpro_DoveBoy.json,DoveBoy/Apps
+sing-box.json,DoveBoy/Apps
 nekoray_DoveBoy.json,DoveBoy/Apps
 droppoint_DoveBoy.json,DoveBoy/Apps
 snipaste-beta_DoveBoy.json,DoveBoy/Apps
@@ -10794,7 +10799,7 @@ peupdate.json,beerpiss/scoop-bucket
 punzip.json,beerpiss/scoop-bucket
 rawcap-old.json,beerpiss/scoop-bucket
 miru_beerpiss.json,beerpiss/scoop-bucket
-microsoftedge_beerpiss.json,beerpiss/scoop-bucket
+microsoftedge.json,beerpiss/scoop-bucket
 xprop.json,beerpiss/scoop-bucket
 libretta.json,beerpiss/scoop-bucket
 libimobiledevice_beerpiss.json,beerpiss/scoop-bucket
@@ -10829,6 +10834,7 @@ gif2apng-gui.json,brian6932/dank-scoop
 pandoc-templates.json,brian6932/dank-scoop
 qttabbar-beta.json,brian6932/dank-scoop
 dankerino.json,brian6932/dank-scoop
+qview-nightly.json,brian6932/dank-scoop
 pwsh-syntax-highlighting.json,brian6932/dank-scoop
 eisa01-mpv-scripts.json,brian6932/dank-scoop
 mpv-sponsorblock-minimal.json,brian6932/dank-scoop
