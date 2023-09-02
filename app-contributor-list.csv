@@ -959,7 +959,7 @@ microsoft-teams.json,ScoopInstaller/Extras
 meow.json,ScoopInstaller/Extras
 polsedit.json,ScoopInstaller/Extras
 mailspring.json,ScoopInstaller/Extras
-waifu2x-extension-gui_ScoopInstaller.json,ScoopInstaller/Extras
+waifu2x-extension-gui.json,ScoopInstaller/Extras
 driverstoreexplorer.json,ScoopInstaller/Extras
 baka-mplayer.json,ScoopInstaller/Extras
 aimp.json,ScoopInstaller/Extras
@@ -2145,7 +2145,7 @@ geogebra.json,ScoopInstaller/Extras
 webcamoid.json,ScoopInstaller/Extras
 ktlint.json,ScoopInstaller/Extras
 mattermost.json,ScoopInstaller/Extras
-autohotkey_ScoopInstaller.json,ScoopInstaller/Extras
+autohotkey.json,ScoopInstaller/Extras
 islc.json,ScoopInstaller/Extras
 structurizr-cli.json,ScoopInstaller/Extras
 ripme.json,ScoopInstaller/Extras
@@ -2187,7 +2187,7 @@ mancy.json,ScoopInstaller/Extras
 fastglacier.json,ScoopInstaller/Extras
 msedgeredirect.json,ScoopInstaller/Extras
 roundedtb.json,ScoopInstaller/Extras
-smartsystemmenu_ScoopInstaller.json,ScoopInstaller/Extras
+smartsystemmenu.json,ScoopInstaller/Extras
 musicbee.json,ScoopInstaller/Extras
 checksum-compare.json,ScoopInstaller/Extras
 yubioath.json,ScoopInstaller/Extras
@@ -2402,7 +2402,7 @@ milton_chawyehsu.json,chawyehsu/dorado
 clash-verge_chawyehsu.json,chawyehsu/dorado
 redis-desktop-manager.json,chawyehsu/dorado
 setuna.json,chawyehsu/dorado
-clash-for-windows_chawyehsu.json,chawyehsu/dorado
+clash-for-windows.json,chawyehsu/dorado
 todesk.json,chawyehsu/dorado
 downkyi.json,chawyehsu/dorado
 texlive-full.json,chawyehsu/dorado
@@ -2822,6 +2822,7 @@ jf-open-huninn.json,matthewjberger/scoop-nerd-fonts
 Fahkwang.json,matthewjberger/scoop-nerd-fonts
 smiley-sans.json,matthewjberger/scoop-nerd-fonts
 Sarabun.json,matthewjberger/scoop-nerd-fonts
+NerdFontsSymbolsOnly.json,matthewjberger/scoop-nerd-fonts
 andika.json,matthewjberger/scoop-nerd-fonts
 Monocraft-otf.json,matthewjberger/scoop-nerd-fonts
 Maple-Mono-NF.json,matthewjberger/scoop-nerd-fonts
@@ -2915,7 +2916,7 @@ m3u8-downloader.json,ivaquero/scoopet
 rectanglewin.json,ivaquero/scoopet
 regester.json,ivaquero/scoopet
 mambaforge-cn.json,ivaquero/scoopet
-clash-for-windows.json,ivaquero/scoopet
+clash-for-windows_ivaquero.json,ivaquero/scoopet
 downkyi_ivaquero.json,ivaquero/scoopet
 julia-cn.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
@@ -4924,7 +4925,7 @@ libportable-iceweasel.json,hoilc/scoop-lemon
 garden.json,hoilc/scoop-lemon
 sclient.json,hoilc/scoop-lemon
 hyplayer.json,hoilc/scoop-lemon
-mongodb-atlas-cli.json,hoilc/scoop-lemon
+mongodb-atlas-cli_hoilc.json,hoilc/scoop-lemon
 whisper-ps.json,hoilc/scoop-lemon
 pdgcnteditor.json,hoilc/scoop-lemon
 tencent-transmart.json,hoilc/scoop-lemon
@@ -5357,7 +5358,7 @@ pinniped-cli.json,hoilc/scoop-lemon
 redis-rdb-cli.json,hoilc/scoop-lemon
 terraformer_hoilc.json,hoilc/scoop-lemon
 mongodb-compass-isolated.json,hoilc/scoop-lemon
-sing-box.json,hoilc/scoop-lemon
+sing-box_hoilc.json,hoilc/scoop-lemon
 arthas_hoilc.json,hoilc/scoop-lemon
 trdsql.json,hoilc/scoop-lemon
 terrascan.json,hoilc/scoop-lemon
@@ -6724,6 +6725,19 @@ SourceHanSansKR.json,everyx/scoop-bucket
 CascadiaCode.json,everyx/scoop-bucket
 exiftoolgui.json,everyx/scoop-bucket
 hellofont_everyx.json,everyx/scoop-bucket
+ffmpeg-for-audacity.json,TheRandomLabs/Scoop-Bucket
+neovim-dev.json,TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+custom-resolution-utility_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json,TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json,TheRandomLabs/Scoop-Bucket
+rfxgen.json,TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json,TheRandomLabs/Scoop-Bucket
+luyten_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json,TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
+corsair-icue.json,TheRandomLabs/Scoop-Bucket
 pcsx2_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
@@ -6736,7 +6750,7 @@ duckstation_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
-xenia-canary.json,borger/scoop-emulators
+xenia-canary_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
@@ -6755,7 +6769,7 @@ rpcs3_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
@@ -7486,19 +7500,6 @@ Random_dodorz.json,dodorz/scoop
 TorchBrowser.json,dodorz/scoop
 Sizer.json,dodorz/scoop
 Skylark_dodorz.json,dodorz/scoop
-ffmpeg-for-audacity.json,TheRandomLabs/Scoop-Bucket
-neovim-dev.json,TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-custom-resolution-utility_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script.json,TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools.json,TheRandomLabs/Scoop-Bucket
-rfxgen.json,TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard.json,TheRandomLabs/Scoop-Bucket
-luyten_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations.json,TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json,TheRandomLabs/Scoop-Bucket
-corsair-icue.json,TheRandomLabs/Scoop-Bucket
 qq-dreamcast.json,ZvonimirSun/scoop-iszy
 picgo_ZvonimirSun.json,ZvonimirSun/scoop-iszy
 oraclejdk8-8u151.json,ZvonimirSun/scoop-iszy
@@ -7829,7 +7830,7 @@ BaiduPCS-Go_zhoujin7.json,zhoujin7/tomato
 EmEditor_zhoujin7.json,zhoujin7/tomato
 alipan.json,akirco/aki-apps
 tokei_akirco.json,akirco/aki-apps
-jianyingpro.json,akirco/aki-apps
+jianyingpro_akirco.json,akirco/aki-apps
 zstd_akirco.json,akirco/aki-apps
 rufus_akirco.json,akirco/aki-apps
 tup_akirco.json,akirco/aki-apps
@@ -7999,7 +8000,6 @@ gdu_akirco.json,akirco/aki-apps
 helix_akirco.json,akirco/aki-apps
 ysyy.json,akirco/aki-apps
 x265_akirco.json,akirco/aki-apps
-youtubedownloader.json,akirco/aki-apps
 DefenderControl.json,akirco/aki-apps
 nu_akirco.json,akirco/aki-apps
 gof_akirco.json,akirco/aki-apps
@@ -9094,7 +9094,6 @@ bcdown.json,amorphobia/siku
 ls-interactive.json,amorphobia/siku
 scoop-find.json,amorphobia/siku
 clash-verge_amorphobia.json,amorphobia/siku
-clash-for-windows_amorphobia.json,amorphobia/siku
 todesk_amorphobia.json,amorphobia/siku
 hfsexplorer.json,amorphobia/siku
 wiliwili_amorphobia.json,amorphobia/siku
@@ -9560,6 +9559,7 @@ zoomit_DoveBoy.json,DoveBoy/Apps
 scoop-shim_DoveBoy.json,DoveBoy/Apps
 tim_DoveBoy.json,DoveBoy/Apps
 purewriter.json,DoveBoy/Apps
+min-portable.json,DoveBoy/Apps
 umi-ocr_DoveBoy.json,DoveBoy/Apps
 v2ray-rules-dat-git.json,DoveBoy/Apps
 shadowsocksr-hmbsbige-full.json,DoveBoy/Apps
@@ -9590,6 +9590,7 @@ auto-unlocker.json,DoveBoy/Apps
 runastool_DoveBoy.json,DoveBoy/Apps
 diskgeniuslite-zh.json,DoveBoy/Apps
 firewallappblocker_DoveBoy.json,DoveBoy/Apps
+min_DoveBoy.json,DoveBoy/Apps
 alist_DoveBoy.json,DoveBoy/Apps
 crystaldiskinfo-shizuku-edition_DoveBoy.json,DoveBoy/Apps
 betterncm.json,DoveBoy/Apps
@@ -9772,7 +9773,7 @@ hysteria_DoveBoy.json,DoveBoy/Apps
 baidupcs-go_DoveBoy.json,DoveBoy/Apps
 tldr_DoveBoy.json,DoveBoy/Apps
 iobit-system-information.json,DoveBoy/Apps
-sing-box.json,DoveBoy/Apps
+sing-box_DoveBoy.json,DoveBoy/Apps
 calctus.json,DoveBoy/Apps
 energystar_DoveBoy.json,DoveBoy/Apps
 geekuninstaller_DoveBoy.json,DoveBoy/Apps
@@ -9814,6 +9815,7 @@ scoop-backup-knoxdev.json,DoveBoy/Apps
 pixivutil2.json,DoveBoy/Apps
 folder-painter_DoveBoy.json,DoveBoy/Apps
 v2raya-unstable.json,DoveBoy/Apps
+wechat-backup.json,DoveBoy/Apps
 cntv.json,DoveBoy/Apps
 imageglass_DoveBoy.json,DoveBoy/Apps
 volta-tab-completion.json,DoveBoy/Apps
@@ -9878,7 +9880,7 @@ lanzou-cmd.json,DoveBoy/Apps
 grep_DoveBoy.json,DoveBoy/Apps
 lanzou-gui.json,DoveBoy/Apps
 text-generation-webui.json,DoveBoy/Apps
-upscayl.json,DoveBoy/Apps
+upscayl_DoveBoy.json,DoveBoy/Apps
 winget_DoveBoy.json,DoveBoy/Apps
 daisy.json,DoveBoy/Apps
 gimp_DoveBoy.json,DoveBoy/Apps
@@ -10022,6 +10024,7 @@ bbdown_cc713.json,cc713/ownscoop
 xdm-dev.json,cc713/ownscoop
 rstudio_cc713.json,cc713/ownscoop
 JMComic-qt.json,cc713/ownscoop
+bililiverecorder.json,cc713/ownscoop
 PicView-noRT.json,cc713/ownscoop
 Irfanview-plugins.json,cc713/ownscoop
 KeymouseGo_cc713.json,cc713/ownscoop
@@ -11124,7 +11127,7 @@ xprop.json,beerpiss/scoop-bucket
 plutil.json,beerpiss/scoop-bucket
 miru_beerpiss.json,beerpiss/scoop-bucket
 wpd_beerpiss.json,beerpiss/scoop-bucket
-microsoftedge_beerpiss.json,beerpiss/scoop-bucket
+microsoftedge.json,beerpiss/scoop-bucket
 enmitydebugger.json,beerpiss/scoop-bucket
 windowstoolbox-head.json,beerpiss/scoop-bucket
 punzip.json,beerpiss/scoop-bucket
@@ -11159,7 +11162,6 @@ gif2apng-cli.json,brian6932/dank-scoop
 OpenHardwareMonitorReport.json,brian6932/dank-scoop
 7zTC.json,brian6932/dank-scoop
 chatterino7.json,brian6932/dank-scoop
-gimagereader.json,brian6932/dank-scoop
 vtm.json,brian6932/dank-scoop
 memory-checker.json,brian6932/dank-scoop
 technorino-portable.json,brian6932/dank-scoop
@@ -11201,7 +11203,6 @@ misc.json,brian6932/dank-scoop
 apngopt-cli.json,brian6932/dank-scoop
 dankerino-qt6.json,brian6932/dank-scoop
 gameboosthd_brian6932.json,brian6932/dank-scoop
-wget2.json,brian6932/dank-scoop
 cache-monkey.json,brian6932/dank-scoop
 revoker.json,brian6932/dank-scoop
 sysdvr-client.json,brian6932/dank-scoop
@@ -11265,6 +11266,8 @@ mpv-persist-properties.json,brian6932/dank-scoop
 mozlz4.json,brian6932/dank-scoop
 clima.json,brian6932/dank-scoop
 OpenHashTab_brian6932.json,brian6932/dank-scoop
+gimagereader.json,brian6932/dank-scoop
+wget2.json,brian6932/dank-scoop
 z.lua_HUMORCE.json,HUMORCE/nuke
 gminer.json,HUMORCE/nuke
 hitomi-downloader_HUMORCE.json,HUMORCE/nuke
