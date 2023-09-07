@@ -1491,7 +1491,7 @@ outlook-google-calendar-sync.json,ScoopInstaller/Extras
 xdelta3-cross-gui.json,ScoopInstaller/Extras
 capframex.json,ScoopInstaller/Extras
 ngspice.json,ScoopInstaller/Extras
-electerm.json,ScoopInstaller/Extras
+electerm_ScoopInstaller.json,ScoopInstaller/Extras
 notepad2-mod_ScoopInstaller.json,ScoopInstaller/Extras
 shutter.json,ScoopInstaller/Extras
 madvr.json,ScoopInstaller/Extras
@@ -1998,7 +1998,7 @@ figma.json,ScoopInstaller/Extras
 secureuxtheme.json,ScoopInstaller/Extras
 wezterm.json,ScoopInstaller/Extras
 avrdudess.json,ScoopInstaller/Extras
-jetbrains-toolbox_ScoopInstaller.json,ScoopInstaller/Extras
+jetbrains-toolbox.json,ScoopInstaller/Extras
 linqpadless.json,ScoopInstaller/Extras
 explorerplusplus.json,ScoopInstaller/Extras
 so.json,ScoopInstaller/Extras
@@ -2116,7 +2116,7 @@ inky.json,ScoopInstaller/Extras
 todotxt-net.json,ScoopInstaller/Extras
 toggl.json,ScoopInstaller/Extras
 shiba.json,ScoopInstaller/Extras
-typora_ScoopInstaller.json,ScoopInstaller/Extras
+typora.json,ScoopInstaller/Extras
 rtss.json,ScoopInstaller/Extras
 radarr.json,ScoopInstaller/Extras
 ubports-installer.json,ScoopInstaller/Extras
@@ -2436,6 +2436,7 @@ douyin-ide.json,chawyehsu/dorado
 rustup-np.json,chawyehsu/dorado
 stairspeedtest-reborn.json,chawyehsu/dorado
 itch.json,chawyehsu/dorado
+openai-translator_chawyehsu.json,chawyehsu/dorado
 openethereum.json,chawyehsu/dorado
 binance.json,chawyehsu/dorado
 esbuild.json,chawyehsu/dorado
@@ -5710,7 +5711,7 @@ UAC.YoudaoDict.Pure.json,Paxxs/Cluttered-bucket
 Sakura_frpc.json,Paxxs/Cluttered-bucket
 NatTypeTester_Paxxs.json,Paxxs/Cluttered-bucket
 FastCopy-M.json,Paxxs/Cluttered-bucket
-logseq.json,Paxxs/Cluttered-bucket
+logseq_Paxxs.json,Paxxs/Cluttered-bucket
 UAC.Sketchpad.5.json,Paxxs/Cluttered-bucket
 PanDownloadServer.json,Paxxs/Cluttered-bucket
 IDA-Pro.64.json,Paxxs/Cluttered-bucket
@@ -7478,7 +7479,7 @@ mgba-dev_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
@@ -7494,7 +7495,7 @@ scummvm-nightly_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
-rpcs3.json,borger/scoop-emulators
+rpcs3_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
@@ -10357,7 +10358,7 @@ scoop-search-shilangyu.json,DoveBoy/Apps
 energystarx.json,DoveBoy/Apps
 qq-nt_DoveBoy.json,DoveBoy/Apps
 hyper-beta.json,DoveBoy/Apps
-telegram-downloader_DoveBoy.json,DoveBoy/Apps
+telegram-downloader.json,DoveBoy/Apps
 mpv.net-beta_DoveBoy.json,DoveBoy/Apps
 nano_DoveBoy.json,DoveBoy/Apps
 ttime.json,DoveBoy/Apps
@@ -10530,11 +10531,12 @@ shadowsocks-rust_DoveBoy.json,DoveBoy/Apps
 ffmpeg-shared-nightly_DoveBoy.json,DoveBoy/Apps
 alisthelper_DoveBoy.json,DoveBoy/Apps
 final2x.json,DoveBoy/Apps
+openai-translator.json,DoveBoy/Apps
 ghostscript_DoveBoy.json,DoveBoy/Apps
 pwsh-beta_DoveBoy.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
 wtv.json,DoveBoy/Apps
-nekoray_DoveBoy.json,DoveBoy/Apps
+nekoray.json,DoveBoy/Apps
 jo_DoveBoy.json,DoveBoy/Apps
 stable-diffusion-webui.json,DoveBoy/Apps
 waifu2x-snowshell_DoveBoy.json,DoveBoy/Apps
@@ -10588,7 +10590,6 @@ iobit-system-information.json,DoveBoy/Apps
 sing-box_DoveBoy.json,DoveBoy/Apps
 calctus.json,DoveBoy/Apps
 energystar_DoveBoy.json,DoveBoy/Apps
-geekuninstaller_DoveBoy.json,DoveBoy/Apps
 snipaste-beta_DoveBoy.json,DoveBoy/Apps
 cmder_DoveBoy.json,DoveBoy/Apps
 v2raya.json,DoveBoy/Apps
@@ -10697,7 +10698,7 @@ daisy.json,DoveBoy/Apps
 gimp_DoveBoy.json,DoveBoy/Apps
 7zip-beta_DoveBoy.json,DoveBoy/Apps
 video-srt-windows-with-ffmpeg.json,DoveBoy/Apps
-neteaseuu.json,DoveBoy/Apps
+neteaseuu_DoveBoy.json,DoveBoy/Apps
 scrcpy_DoveBoy.json,DoveBoy/Apps
 bbdown_DoveBoy.json,DoveBoy/Apps
 zoxide_DoveBoy.json,DoveBoy/Apps
@@ -11152,7 +11153,7 @@ aidoku-cli.json,beerpiss/scoop-bucket
 graboid.json,beerpiss/scoop-bucket
 itunes-np.json,beerpiss/scoop-bucket
 absolutetouchex.json,beerpiss/scoop-bucket
-adguardhome_beerpiss.json,beerpiss/scoop-bucket
+adguardhome.json,beerpiss/scoop-bucket
 adguardhome-beta.json,beerpiss/scoop-bucket
 cider.json,beerpiss/scoop-bucket
 slidershim.json,beerpiss/scoop-bucket
