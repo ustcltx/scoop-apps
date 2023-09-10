@@ -402,7 +402,7 @@ yapa.json,ScoopInstaller/Extras
 amfora.json,ScoopInstaller/Extras
 winauth.json,ScoopInstaller/Extras
 mangal.json,ScoopInstaller/Extras
-qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
+qownnotes.json,ScoopInstaller/Extras
 mediainfo-gui.json,ScoopInstaller/Extras
 keeweb.json,ScoopInstaller/Extras
 chk.json,ScoopInstaller/Extras
@@ -2142,7 +2142,6 @@ eclipse-committers.json,ScoopInstaller/Extras
 fbide.json,ScoopInstaller/Extras
 geogebra.json,ScoopInstaller/Extras
 webcamoid.json,ScoopInstaller/Extras
-ktlint.json,ScoopInstaller/Extras
 mattermost.json,ScoopInstaller/Extras
 autohotkey_ScoopInstaller.json,ScoopInstaller/Extras
 islc.json,ScoopInstaller/Extras
@@ -2436,7 +2435,6 @@ douyin-ide.json,chawyehsu/dorado
 rustup-np.json,chawyehsu/dorado
 stairspeedtest-reborn.json,chawyehsu/dorado
 itch.json,chawyehsu/dorado
-openai-translator_chawyehsu.json,chawyehsu/dorado
 openethereum.json,chawyehsu/dorado
 binance.json,chawyehsu/dorado
 esbuild.json,chawyehsu/dorado
@@ -4858,7 +4856,7 @@ feishu_scoopcn.json,scoopcn/scoopcn
 sunlogin.json,scoopcn/scoopcn
 baidudisk_scoopcn.json,scoopcn/scoopcn
 procexp.json,scoopcn/scoopcn
-lx-music-desktop.json,scoopcn/scoopcn
+lx-music-desktop_scoopcn.json,scoopcn/scoopcn
 locaspace.json,scoopcn/scoopcn
 procmon.json,scoopcn/scoopcn
 todesk_scoopcn.json,scoopcn/scoopcn
@@ -7496,7 +7494,7 @@ scummvm-nightly_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
@@ -9218,7 +9216,7 @@ git-branch-stash.json,batkiz/backit
 irust.json,batkiz/backit
 dotnet-core-uninstall.json,batkiz/backit
 pixeval.json,batkiz/backit
-eza.json,batkiz/backit
+eza_batkiz.json,batkiz/backit
 hey.json,batkiz/backit
 xq.json,batkiz/backit
 youtube-dl-wpf_batkiz.json,batkiz/backit
@@ -10704,7 +10702,7 @@ daisy.json,DoveBoy/Apps
 gimp_DoveBoy.json,DoveBoy/Apps
 7zip-beta_DoveBoy.json,DoveBoy/Apps
 video-srt-windows-with-ffmpeg.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 scrcpy_DoveBoy.json,DoveBoy/Apps
 bbdown_DoveBoy.json,DoveBoy/Apps
 zoxide_DoveBoy.json,DoveBoy/Apps
@@ -10723,7 +10721,7 @@ curl_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
 v2ray_DoveBoy.json,DoveBoy/Apps
 backup-start-menu-layout_DoveBoy.json,DoveBoy/Apps
-neovim-nightly_DoveBoy.json,DoveBoy/Apps
+neovim-nightly.json,DoveBoy/Apps
 context-menu-manager_DoveBoy.json,DoveBoy/Apps
 clashcross.json,DoveBoy/Apps
 xray_DoveBoy.json,DoveBoy/Apps
@@ -11204,7 +11202,7 @@ xprop.json,beerpiss/scoop-bucket
 plutil.json,beerpiss/scoop-bucket
 miru_beerpiss.json,beerpiss/scoop-bucket
 wpd_beerpiss.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 windowstoolbox-head.json,beerpiss/scoop-bucket
 punzip.json,beerpiss/scoop-bucket
 pingo.json,beerpiss/scoop-bucket
