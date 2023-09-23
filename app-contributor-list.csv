@@ -359,7 +359,7 @@ aida64.json,echoiron/echo-scoop
 wesing.json,echoiron/echo-scoop
 ditto.json,echoiron/echo-scoop
 baidunetdisk_echoiron.json,echoiron/echo-scoop
-bypass.json,echoiron/echo-scoop
+bypass_echoiron.json,echoiron/echo-scoop
 iobitdriverbooster.json,echoiron/echo-scoop
 protoc.json,echoiron/echo-scoop
 skylark.json,echoiron/echo-scoop
@@ -1500,7 +1500,7 @@ vncviewer.json,ScoopInstaller/Extras
 taiga.json,ScoopInstaller/Extras
 elisa.json,ScoopInstaller/Extras
 openai-translator.json,ScoopInstaller/Extras
-q-dir_ScoopInstaller.json,ScoopInstaller/Extras
+q-dir.json,ScoopInstaller/Extras
 firefox-esr.json,ScoopInstaller/Extras
 bomi.json,ScoopInstaller/Extras
 openmpt.json,ScoopInstaller/Extras
@@ -5131,7 +5131,7 @@ filefriend-cn.json,hoilc/scoop-lemon
 windows_exporter.json,hoilc/scoop-lemon
 qshell_hoilc.json,hoilc/scoop-lemon
 cozo.json,hoilc/scoop-lemon
-64gram_hoilc.json,hoilc/scoop-lemon
+64gram.json,hoilc/scoop-lemon
 flac_hoilc.json,hoilc/scoop-lemon
 x2goclient.json,hoilc/scoop-lemon
 comicenhancepro-eng.json,hoilc/scoop-lemon
@@ -6359,6 +6359,7 @@ FreeMove-Portable.json,ACooper81/scoop-apps
 VideoReDoTVSuiteV6-Install.json,ACooper81/scoop-apps
 Firefox-Portable.json,ACooper81/scoop-apps
 Tailscale-Portable.json,ACooper81/scoop-apps
+Simplewall-Portable.json,ACooper81/scoop-apps
 UniversalMediaCreationTool-Portable.json,ACooper81/scoop-apps
 MP4DownloaderPro-Install.json,ACooper81/scoop-apps
 IPVanish-Portable.json,ACooper81/scoop-apps
@@ -7526,7 +7527,7 @@ ares_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 scummvm-nightly_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
@@ -8151,7 +8152,7 @@ notion_akirco.json,akirco/aki-apps
 scrcpy_akirco.json,akirco/aki-apps
 gsudo_akirco.json,akirco/aki-apps
 xming_akirco.json,akirco/aki-apps
-ftnn_akirco.json,akirco/aki-apps
+ftnn.json,akirco/aki-apps
 m3u8downloader.json,akirco/aki-apps
 OpenHashTab.json,akirco/aki-apps
 sayit_akirco.json,akirco/aki-apps
@@ -8911,7 +8912,6 @@ iwck_amorphobia.json,amorphobia/siku
 shakemousetolocate.json,amorphobia/siku
 vfilename.json,amorphobia/siku
 winrar-zh-cn.json,amorphobia/siku
-clash-for-windows_amorphobia.json,amorphobia/siku
 idm-trial-reset.json,amorphobia/siku
 wiliwili_amorphobia.json,amorphobia/siku
 quark-cloud-drive.json,amorphobia/siku
@@ -9200,7 +9200,6 @@ nomachine-enterprise.json,42wim/scoop-bucket
 spystudio.json,42wim/scoop-bucket
 msedge-beta.json,42wim/scoop-bucket
 googlechrome-dev_42wim.json,42wim/scoop-bucket
-googlechrome_42wim.json,42wim/scoop-bucket
 googlechrome-portable_42wim.json,42wim/scoop-bucket
 googlechrome-canary_42wim.json,42wim/scoop-bucket
 gcc_42wim.json,42wim/scoop-bucket
@@ -9246,7 +9245,7 @@ python38_batkiz.json,batkiz/backit
 miktex_batkiz.json,batkiz/backit
 EnergyStar.json,batkiz/backit
 duckdb_batkiz.json,batkiz/backit
-Iosevka_batkiz.json,batkiz/backit
+Iosevka.json,batkiz/backit
 kreya.json,batkiz/backit
 es_batkiz.json,batkiz/backit
 obs-cli.json,batkiz/backit
@@ -9539,7 +9538,7 @@ sox_DoveBoy.json,DoveBoy/Apps
 speedtest-cli_DoveBoy.json,DoveBoy/Apps
 cacert_DoveBoy.json,DoveBoy/Apps
 monit-portable.json,DoveBoy/Apps
-qq-nt.json,DoveBoy/Apps
+qq-nt_DoveBoy.json,DoveBoy/Apps
 v2rayn-core.json,DoveBoy/Apps
 iwck_DoveBoy.json,DoveBoy/Apps
 compactgui-beta.json,DoveBoy/Apps
@@ -9659,6 +9658,7 @@ ariang-native_DoveBoy.json,DoveBoy/Apps
 dua_DoveBoy.json,DoveBoy/Apps
 zoxide_DoveBoy.json,DoveBoy/Apps
 pixeval_DoveBoy.json,DoveBoy/Apps
+64gram_DoveBoy.json,DoveBoy/Apps
 calctus.json,DoveBoy/Apps
 energystar_DoveBoy.json,DoveBoy/Apps
 officetoolplus_DoveBoy.json,DoveBoy/Apps
@@ -9805,7 +9805,7 @@ windows11-classic-context-menu_DoveBoy.json,DoveBoy/Apps
 telegram-downloader_DoveBoy.json,DoveBoy/Apps
 telegram_DoveBoy.json,DoveBoy/Apps
 gns3.json,DoveBoy/Apps
-upscayl.json,DoveBoy/Apps
+upscayl_DoveBoy.json,DoveBoy/Apps
 croc_DoveBoy.json,DoveBoy/Apps
 autoruns_DoveBoy.json,DoveBoy/Apps
 mycomputermanager_DoveBoy.json,DoveBoy/Apps
@@ -9813,7 +9813,7 @@ clashsinicizationtool.json,DoveBoy/Apps
 clashrauto_DoveBoy.json,DoveBoy/Apps
 v2raya-unstable.json,DoveBoy/Apps
 fileconverter.json,DoveBoy/Apps
-neteaseuu.json,DoveBoy/Apps
+neteaseuu_DoveBoy.json,DoveBoy/Apps
 clash.meta-alpha.json,DoveBoy/Apps
 spleetergui-portable_DoveBoy.json,DoveBoy/Apps
 handbrake-cli_DoveBoy.json,DoveBoy/Apps
