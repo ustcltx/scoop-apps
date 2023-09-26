@@ -13,40 +13,16 @@
             "hash": "sha1:701d07fb4e76af21271a1988d555130b60524016"
         }
     },
-    "installer": {
-        "script": [
-            "function CreateFile([String] $file, [String] $content = $null) {",
-            "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-            "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
-            "    }",
-            "}",
-            "CreateFile 'config.ini'",
-            "CreateFile 'splog.txt'"
-        ]
-    },
-    "uninstaller": {
-        "script": [
-            "function BackupFile([String] $file) {",
-            "    if (Test-Path \"$persist_dir\\$file\") {",
-            "        Remove-Item \"$persist_dir\\$file\" -Force",
-            "    }",
-            "    Copy-Item \"$dir\\$file\" \"$persist_dir\" -Force -ErrorAction SilentlyContinue",
-            "}",
-            "BackupFile 'config.ini'",
-            "BackupFile 'splog.txt'"
-        ]
-    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content \"$dir\\config.ini\" '' -Encoding ASCII }",
+    "persist": [
+        "history",
+        "config.ini"
+    ],
     "shortcuts": [
         [
             "Snipaste.exe",
             "Snipaste"
         ]
-    ],
-    "persist": [
-        "crashes",
-        "history",
-        "config.ini",
-        "splog.txt"
     ],
     "suggest": {
         "vcredist": "extras/vcredist2015"
