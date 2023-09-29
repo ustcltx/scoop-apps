@@ -1,9 +1,40 @@
 {
-    "version": "11.36",
-    "description": "Q-Dir the Quad Explorer for Microsoft's Windows Desktop and Server!",
+    "version": "11.37",
+    "description": "A quad window file manager based on Windows File Explorer",
     "homepage": "https://www.softwareok.com/?seite=Freeware/Q-Dir",
-    "license": "BSD-3-Clause",
-    "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.softwareok.com/?seite=Freeware/Q-Dir/Eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
+            "hash": "6b4ac2f7e969bbcdfcf20f2cc5d72e03f6f0d04691286ee2e9cccab4cc31c8d0",
+            "bin": [
+                [
+                    "Q-Dir_x64.exe",
+                    "Q-Dir"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Q-Dir_x64.exe",
+                    "Q-Dir"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip",
+            "hash": "05243a731cb4568c760c349cc67d2234fccd6142b58419686944f87f41a08c72",
+            "bin": "Q-Dir.exe",
+            "shortcuts": [
+                [
+                    "Q-Dir.exe",
+                    "Q-Dir"
+                ]
+            ]
+        }
+    },
     "extract_dir": "Q-Dir",
     "pre_install": "if (!(Test-Path \"$persist_dir\\start.qdr\")) { New-Item \"$dir\\start.qdr\" | Out-Null }",
     "persist": [
@@ -11,10 +42,22 @@
         "start.qdr",
         "Q-Dir.ini"
     ],
-    "shortcuts": [
-        [
-            "Q-Dir_x64.exe",
-            "Q-Dir"
-        ]
-    ]
+    "checkver": {
+        "url": "https://www.softwareok.com/?seite=Microsoft/Q-Dir/History",
+        "regex": "version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip"
+            }
+        },
+        "hash": {
+            "url": "https://www.softwareok.com/?Download=Q-Dir",
+            "regex": "$basename.*?$sha256<"
+        }
+    }
 }
