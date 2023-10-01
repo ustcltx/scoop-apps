@@ -4606,7 +4606,7 @@ pspv.json,ScoopInstaller/Nirsoft
 alternatestreamview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 clipboardic_ScoopInstaller.json,ScoopInstaller/Nirsoft
 imagecacheviewer_ScoopInstaller.json,ScoopInstaller/Nirsoft
-fileactivitywatch_ScoopInstaller.json,ScoopInstaller/Nirsoft
+fileactivitywatch.json,ScoopInstaller/Nirsoft
 searchfilterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mzcv.json,ScoopInstaller/Nirsoft
 domainhostingview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5658,7 +5658,7 @@ findstr.json,hoilc/scoop-lemon
 xiaolai.json,hoilc/scoop-lemon
 autok3s.json,hoilc/scoop-lemon
 step.json,hoilc/scoop-lemon
-pot.json,hoilc/scoop-lemon
+pot_hoilc.json,hoilc/scoop-lemon
 tts-vue.json,hoilc/scoop-lemon
 pazera-free-audio-extractor.json,hoilc/scoop-lemon
 bark-server.json,hoilc/scoop-lemon
@@ -7587,7 +7587,7 @@ whatweb.json,arch3rPro/PST-Bucket
 AlliN.json,arch3rPro/PST-Bucket
 mdut.json,arch3rPro/PST-Bucket
 dirmap.json,arch3rPro/PST-Bucket
-screentogif_arch3rPro.json,arch3rPro/PST-Bucket
+screentogif.json,arch3rPro/PST-Bucket
 merlin.json,arch3rPro/PST-Bucket
 gitGraber.json,arch3rPro/PST-Bucket
 termite.json,arch3rPro/PST-Bucket
@@ -8279,7 +8279,7 @@ uwd.json,akirco/aki-apps
 homedale_akirco.json,akirco/aki-apps
 poppler_akirco.json,akirco/aki-apps
 vcredist2010_akirco.json,akirco/aki-apps
-electerm_akirco.json,akirco/aki-apps
+electerm.json,akirco/aki-apps
 imewlconverter.json,akirco/aki-apps
 yddict.json,akirco/aki-apps
 neofetch_akirco.json,akirco/aki-apps
@@ -9528,6 +9528,7 @@ iobit-uninstaller.json,DoveBoy/Apps
 bat_DoveBoy.json,DoveBoy/Apps
 joinersplitter.json,DoveBoy/Apps
 wget_DoveBoy.json,DoveBoy/Apps
+mpv-easy-player.json,DoveBoy/Apps
 trafficmonitor_DoveBoy.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
 nvm-completion.json,DoveBoy/Apps
@@ -9594,7 +9595,7 @@ b23downloader_DoveBoy.json,DoveBoy/Apps
 ntrace-v1.json,DoveBoy/Apps
 pansy.json,DoveBoy/Apps
 gns3.json,DoveBoy/Apps
-neovim-nightly_DoveBoy.json,DoveBoy/Apps
+neovim-nightly.json,DoveBoy/Apps
 ali.json,DoveBoy/Apps
 nali_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic.json,DoveBoy/Apps
@@ -9687,6 +9688,7 @@ pixeval_DoveBoy.json,DoveBoy/Apps
 revokemsgpatcher-nightly.json,DoveBoy/Apps
 pixivbiu_DoveBoy.json,DoveBoy/Apps
 keymousego.json,DoveBoy/Apps
+64gram.json,DoveBoy/Apps
 compactgui_DoveBoy.json,DoveBoy/Apps
 v2ray-rules-dat-git.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
@@ -9815,7 +9817,7 @@ wingetui_DoveBoy.json,DoveBoy/Apps
 mediacreationtool-bat.json,DoveBoy/Apps
 alisthelper_DoveBoy.json,DoveBoy/Apps
 nano_DoveBoy.json,DoveBoy/Apps
-nekoray_DoveBoy.json,DoveBoy/Apps
+nekoray.json,DoveBoy/Apps
 windirstat_DoveBoy.json,DoveBoy/Apps
 webcam-on-off_DoveBoy.json,DoveBoy/Apps
 video-srt-windows-with-ffmpeg.json,DoveBoy/Apps
@@ -10163,7 +10165,7 @@ OpenHashTab_cc713.json,cc713/ownscoop
 aaru.json,cc713/ownscoop
 universal-android-debloater_cc713.json,cc713/ownscoop
 qimgv-dev.json,cc713/ownscoop
-lx-music_cc713.json,cc713/ownscoop
+lx-music.json,cc713/ownscoop
 Hitomi-Downloader_cc713.json,cc713/ownscoop
 cudatext-addons.json,cc713/ownscoop
 python-docs-zh-cn.json,cc713/ownscoop
@@ -11527,7 +11529,7 @@ apfs.json,beerpiss/scoop-bucket
 cider.json,beerpiss/scoop-bucket
 unxwb.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
-microsoftedge_beerpiss.json,beerpiss/scoop-bucket
+microsoftedge.json,beerpiss/scoop-bucket
 wpd_beerpiss.json,beerpiss/scoop-bucket
 justasplanned.json,beerpiss/scoop-bucket
 sl.json,beerpiss/scoop-bucket
