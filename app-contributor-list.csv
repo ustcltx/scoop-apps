@@ -594,7 +594,7 @@ gitextensions.json,ScoopInstaller/Extras
 ios-webkit-debug-proxy.json,ScoopInstaller/Extras
 yubikey-manager-qt.json,ScoopInstaller/Extras
 codeblocks.json,ScoopInstaller/Extras
-q-dir.json,ScoopInstaller/Extras
+q-dir_ScoopInstaller.json,ScoopInstaller/Extras
 echoargs.json,ScoopInstaller/Extras
 toggl.json,ScoopInstaller/Extras
 geekbench.json,ScoopInstaller/Extras
@@ -906,7 +906,7 @@ ffmpeg-batch.json,ScoopInstaller/Extras
 logseq.json,ScoopInstaller/Extras
 registry-key-jumper.json,ScoopInstaller/Extras
 rtlutility.json,ScoopInstaller/Extras
-waifu2x-extension-gui.json,ScoopInstaller/Extras
+waifu2x-extension-gui_ScoopInstaller.json,ScoopInstaller/Extras
 interlink.json,ScoopInstaller/Extras
 zeal.json,ScoopInstaller/Extras
 dont-sleep.json,ScoopInstaller/Extras
@@ -1926,7 +1926,7 @@ jpass.json,ScoopInstaller/Extras
 via.json,ScoopInstaller/Extras
 squalr.json,ScoopInstaller/Extras
 kawaii-player.json,ScoopInstaller/Extras
-fastcopy.json,ScoopInstaller/Extras
+fastcopy_ScoopInstaller.json,ScoopInstaller/Extras
 sts.json,ScoopInstaller/Extras
 fontcreator.json,ScoopInstaller/Extras
 mpc.json,ScoopInstaller/Extras
@@ -2964,7 +2964,7 @@ vmware-workstation-pro.json,ivaquero/scoopet
 ting-en.json,ivaquero/scoopet
 mambaforge-cn.json,ivaquero/scoopet
 activitiywatch.json,ivaquero/scoopet
-adrive.json,ivaquero/scoopet
+adrive_ivaquero.json,ivaquero/scoopet
 jigdo.json,ivaquero/scoopet
 miniconda-cn.json,ivaquero/scoopet
 texstudio-cn.json,ivaquero/scoopet
@@ -4606,7 +4606,7 @@ pspv.json,ScoopInstaller/Nirsoft
 alternatestreamview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 clipboardic_ScoopInstaller.json,ScoopInstaller/Nirsoft
 imagecacheviewer_ScoopInstaller.json,ScoopInstaller/Nirsoft
-fileactivitywatch.json,ScoopInstaller/Nirsoft
+fileactivitywatch_ScoopInstaller.json,ScoopInstaller/Nirsoft
 searchfilterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mzcv.json,ScoopInstaller/Nirsoft
 domainhostingview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5163,6 +5163,7 @@ makesfx.json,hoilc/scoop-lemon
 win11syscheck.json,hoilc/scoop-lemon
 baidupcs-go.json,hoilc/scoop-lemon
 start-reader.json,hoilc/scoop-lemon
+alixby_hoilc.json,hoilc/scoop-lemon
 arpsift.json,hoilc/scoop-lemon
 multidesk-chs.json,hoilc/scoop-lemon
 btrace.json,hoilc/scoop-lemon
@@ -8505,6 +8506,7 @@ ddns-go.json,ViCrack/scoop-bucket
 emeditor_ViCrack.json,ViCrack/scoop-bucket
 naabu_ViCrack.json,ViCrack/scoop-bucket
 godzilla_ViCrack.json,ViCrack/scoop-bucket
+java-echo-generator-release.json,ViCrack/scoop-bucket
 anew.json,ViCrack/scoop-bucket
 gda.json,ViCrack/scoop-bucket
 PowerRun_ViCrack.json,ViCrack/scoop-bucket
@@ -9303,7 +9305,7 @@ obs-cli.json,batkiz/backit
 forcebindip_batkiz.json,batkiz/backit
 git-branch-stash.json,batkiz/backit
 scc_batkiz.json,batkiz/backit
-vivaldi-snapshot.json,batkiz/backit
+vivaldi-snapshot_batkiz.json,batkiz/backit
 lunatic.json,batkiz/backit
 golangci-lint_batkiz.json,batkiz/backit
 tinytex_batkiz.json,batkiz/backit
@@ -9915,6 +9917,7 @@ iwck_DoveBoy.json,DoveBoy/Apps
 trafficmonitor-lite_DoveBoy.json,DoveBoy/Apps
 npm-tab-completion.json,DoveBoy/Apps
 everything-lite_DoveBoy.json,DoveBoy/Apps
+sfsu.json,DoveBoy/Apps
 purewriter.json,DoveBoy/Apps
 typioca_DoveBoy.json,DoveBoy/Apps
 monit.json,DoveBoy/Apps
@@ -10865,6 +10868,7 @@ uosc.json,brian6932/dank-scoop
 Dexios.json,brian6932/dank-scoop
 chatterino7.json,brian6932/dank-scoop
 chatterino-qt5.json,brian6932/dank-scoop
+streamsave.json,brian6932/dank-scoop
 sshfs-np-beta.json,brian6932/dank-scoop
 pwsh-man-highlighting.json,brian6932/dank-scoop
 apngopt-cli.json,brian6932/dank-scoop
@@ -11239,6 +11243,7 @@ ghz.json,aliesbelik/poldi
 ain.json,aliesbelik/poldi
 rewrk.json,aliesbelik/poldi
 gut.json,aliesbelik/poldi
+whris.json,aliesbelik/poldi
 ali_aliesbelik.json,aliesbelik/poldi
 httprobe.json,aliesbelik/poldi
 yj_aliesbelik.json,aliesbelik/poldi
