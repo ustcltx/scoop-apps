@@ -5659,7 +5659,7 @@ findstr.json,hoilc/scoop-lemon
 xiaolai.json,hoilc/scoop-lemon
 autok3s.json,hoilc/scoop-lemon
 step.json,hoilc/scoop-lemon
-pot_hoilc.json,hoilc/scoop-lemon
+pot.json,hoilc/scoop-lemon
 tts-vue.json,hoilc/scoop-lemon
 pazera-free-audio-extractor.json,hoilc/scoop-lemon
 bark-server.json,hoilc/scoop-lemon
@@ -6638,7 +6638,7 @@ atariplusplus.json,hermanjustnu/scoop-emulators
 xenia_hermanjustnu.json,hermanjustnu/scoop-emulators
 desmume.json,hermanjustnu/scoop-emulators
 z26.json,hermanjustnu/scoop-emulators
-yuzu_hermanjustnu.json,hermanjustnu/scoop-emulators
+yuzu.json,hermanjustnu/scoop-emulators
 dolphin-beta_hermanjustnu.json,hermanjustnu/scoop-emulators
 bsnes_hermanjustnu.json,hermanjustnu/scoop-emulators
 winfellow.json,hermanjustnu/scoop-emulators
@@ -7099,7 +7099,7 @@ ToothTray.json,dodorz/scoop
 ViDown.json,dodorz/scoop
 Shorten.json,dodorz/scoop
 SpleeterCLI.json,dodorz/scoop
-LyX.json,dodorz/scoop
+LyX_dodorz.json,dodorz/scoop
 XMPlay_dodorz.json,dodorz/scoop
 Wink.json,dodorz/scoop
 QQPlayer_dodorz.json,dodorz/scoop
@@ -7517,7 +7517,7 @@ mesen_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
@@ -7548,7 +7548,7 @@ citra-canary_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
@@ -8886,7 +8886,7 @@ mitec-network-scanner.json,naderi/scoop-bucket
 screenshot-captor.json,naderi/scoop-bucket
 firefox-developer-de.json,naderi/scoop-bucket
 qalculate_naderi.json,naderi/scoop-bucket
-veracrypt-portable_naderi.json,naderi/scoop-bucket
+veracrypt-portable.json,naderi/scoop-bucket
 windows-update-manager.json,naderi/scoop-bucket
 font-estedad.json,naderi/scoop-bucket
 font-vazir-code.json,naderi/scoop-bucket
@@ -9591,6 +9591,7 @@ cntv.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
 clashwarden.json,DoveBoy/Apps
 kaf-wifi.json,DoveBoy/Apps
+translumo.json,DoveBoy/Apps
 gnupg1_DoveBoy.json,DoveBoy/Apps
 b23downloader_DoveBoy.json,DoveBoy/Apps
 ntrace-v1.json,DoveBoy/Apps
@@ -9641,6 +9642,7 @@ typora-dev.json,DoveBoy/Apps
 yt-dlp_DoveBoy.json,DoveBoy/Apps
 jo_DoveBoy.json,DoveBoy/Apps
 grep_DoveBoy.json,DoveBoy/Apps
+reader.json,DoveBoy/Apps
 pscalendar.json,DoveBoy/Apps
 qqgame.json,DoveBoy/Apps
 curl_DoveBoy.json,DoveBoy/Apps
@@ -9650,6 +9652,7 @@ clashcross.json,DoveBoy/Apps
 dingtalk_DoveBoy.json,DoveBoy/Apps
 gimp_DoveBoy.json,DoveBoy/Apps
 tcping_DoveBoy.json,DoveBoy/Apps
+reqable.json,DoveBoy/Apps
 nomeiryoui_DoveBoy.json,DoveBoy/Apps
 everything-beta_DoveBoy.json,DoveBoy/Apps
 gopeed-web.json,DoveBoy/Apps
@@ -9693,6 +9696,7 @@ keymousego.json,DoveBoy/Apps
 64gram_DoveBoy.json,DoveBoy/Apps
 compactgui_DoveBoy.json,DoveBoy/Apps
 v2ray-rules-dat-git.json,DoveBoy/Apps
+lky-officetools.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 chfs-tab-completion.json,DoveBoy/Apps
 stable-diffusion-webui.json,DoveBoy/Apps
@@ -9917,7 +9921,6 @@ iwck_DoveBoy.json,DoveBoy/Apps
 trafficmonitor-lite_DoveBoy.json,DoveBoy/Apps
 npm-tab-completion.json,DoveBoy/Apps
 everything-lite_DoveBoy.json,DoveBoy/Apps
-sfsu.json,DoveBoy/Apps
 purewriter.json,DoveBoy/Apps
 typioca_DoveBoy.json,DoveBoy/Apps
 monit.json,DoveBoy/Apps
