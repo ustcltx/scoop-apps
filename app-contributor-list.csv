@@ -594,7 +594,7 @@ gitextensions.json,ScoopInstaller/Extras
 ios-webkit-debug-proxy.json,ScoopInstaller/Extras
 yubikey-manager-qt.json,ScoopInstaller/Extras
 codeblocks.json,ScoopInstaller/Extras
-q-dir.json,ScoopInstaller/Extras
+q-dir_ScoopInstaller.json,ScoopInstaller/Extras
 echoargs.json,ScoopInstaller/Extras
 toggl.json,ScoopInstaller/Extras
 geekbench.json,ScoopInstaller/Extras
@@ -2320,7 +2320,7 @@ sandboxie-plus_chawyehsu.json,chawyehsu/dorado
 lavfilters.json,chawyehsu/dorado
 esbuild.json,chawyehsu/dorado
 steampp.json,chawyehsu/dorado
-chfs.json,chawyehsu/dorado
+chfs_chawyehsu.json,chawyehsu/dorado
 neteaseuu.json,chawyehsu/dorado
 orwell-dev-cpp-no-compiler.json,chawyehsu/dorado
 kodi_chawyehsu.json,chawyehsu/dorado
@@ -2936,7 +2936,7 @@ sagemath-cn.json,ivaquero/scoopet
 baidunetdisk_ivaquero.json,ivaquero/scoopet
 m3u8-downloader.json,ivaquero/scoopet
 autodarkmode_ivaquero.json,ivaquero/scoopet
-clash-for-windows_ivaquero.json,ivaquero/scoopet
+clash-for-windows.json,ivaquero/scoopet
 rectanglewin.json,ivaquero/scoopet
 netlogo.json,ivaquero/scoopet
 subversion.json,ivaquero/scoopet
@@ -5344,7 +5344,7 @@ wincrypt-sshagent_hoilc.json,hoilc/scoop-lemon
 runcat_hoilc.json,hoilc/scoop-lemon
 hysteria2.json,hoilc/scoop-lemon
 meilisearch.json,hoilc/scoop-lemon
-skylark_hoilc.json,hoilc/scoop-lemon
+skylark.json,hoilc/scoop-lemon
 emby-pinyin.json,hoilc/scoop-lemon
 textify.json,hoilc/scoop-lemon
 orange.json,hoilc/scoop-lemon
@@ -5663,7 +5663,7 @@ findstr.json,hoilc/scoop-lemon
 xiaolai.json,hoilc/scoop-lemon
 autok3s.json,hoilc/scoop-lemon
 step.json,hoilc/scoop-lemon
-pot.json,hoilc/scoop-lemon
+pot_hoilc.json,hoilc/scoop-lemon
 tts-vue.json,hoilc/scoop-lemon
 pazera-free-audio-extractor.json,hoilc/scoop-lemon
 bark-server.json,hoilc/scoop-lemon
@@ -7739,7 +7739,7 @@ mesen_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
@@ -8072,7 +8072,7 @@ apifox_zhoujin7.json,zhoujin7/tomato
 Elasticsearch6.json,zhoujin7/tomato
 jd-gui_zhoujin7.json,zhoujin7/tomato
 notepadplusplus_zhoujin7.json,zhoujin7/tomato
-subconverter.json,zhoujin7/tomato
+subconverter_zhoujin7.json,zhoujin7/tomato
 QtDesigner.json,zhoujin7/tomato
 lockhunter-np_zhoujin7.json,zhoujin7/tomato
 HBuilder.json,zhoujin7/tomato
@@ -8289,7 +8289,7 @@ uwd.json,akirco/aki-apps
 homedale_akirco.json,akirco/aki-apps
 poppler_akirco.json,akirco/aki-apps
 vcredist2010_akirco.json,akirco/aki-apps
-electerm.json,akirco/aki-apps
+electerm_akirco.json,akirco/aki-apps
 imewlconverter.json,akirco/aki-apps
 yddict.json,akirco/aki-apps
 neofetch_akirco.json,akirco/aki-apps
@@ -8312,7 +8312,7 @@ nano_akirco.json,akirco/aki-apps
 youtube-dl-wpf_akirco.json,akirco/aki-apps
 firefox-zh-cn_akirco.json,akirco/aki-apps
 glow_akirco.json,akirco/aki-apps
-rustdesk.json,akirco/aki-apps
+rustdesk_akirco.json,akirco/aki-apps
 mubu_akirco.json,akirco/aki-apps
 audacity_akirco.json,akirco/aki-apps
 composer_akirco.json,akirco/aki-apps
@@ -9860,7 +9860,6 @@ idm-activation-script.json,DoveBoy/Apps
 html-comic.json,DoveBoy/Apps
 glow_DoveBoy.json,DoveBoy/Apps
 openbbterminal-pre.json,DoveBoy/Apps
-rustdesk_DoveBoy.json,DoveBoy/Apps
 v2ray-rules-dat.json,DoveBoy/Apps
 ultimatevocalremovergui.json,DoveBoy/Apps
 unblockneteasemusic-git.json,DoveBoy/Apps
@@ -10240,7 +10239,6 @@ jepgview-fork.json,cc713/ownscoop
 PicView-noRT.json,cc713/ownscoop
 nomacs.json,cc713/ownscoop
 aegisub-arch.json,cc713/ownscoop
-bililiverecorder.json,cc713/ownscoop
 Types.json,cc713/ownscoop
 GARbro-Mod.json,cc713/ownscoop
 freeplane_cc713.json,cc713/ownscoop
