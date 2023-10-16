@@ -1709,7 +1709,7 @@ vcredist2010.json,ScoopInstaller/Extras
 mindforger.json,ScoopInstaller/Extras
 jd-gui.json,ScoopInstaller/Extras
 moonscript.json,ScoopInstaller/Extras
-electerm_ScoopInstaller.json,ScoopInstaller/Extras
+electerm.json,ScoopInstaller/Extras
 alpinewsl.json,ScoopInstaller/Extras
 mypaint.json,ScoopInstaller/Extras
 hammultiplayer.json,ScoopInstaller/Extras
@@ -2453,7 +2453,7 @@ solana.json,chawyehsu/dorado
 lassie.json,chawyehsu/dorado
 lemon.json,chawyehsu/dorado
 processthreadsview.json,chawyehsu/dorado
-clash-for-windows.json,chawyehsu/dorado
+clash-for-windows_chawyehsu.json,chawyehsu/dorado
 epicgameslauncher.json,chawyehsu/dorado
 liko-12.json,chawyehsu/dorado
 duck.json,chawyehsu/dorado
@@ -2945,7 +2945,7 @@ subversion.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 texlive_ivaquero.json,ivaquero/scoopet
 kingdraw.json,ivaquero/scoopet
-wisecare365_ivaquero.json,ivaquero/scoopet
+wisecare365.json,ivaquero/scoopet
 tencent-meeting.json,ivaquero/scoopet
 tencent-edu.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
@@ -5347,7 +5347,7 @@ wincrypt-sshagent_hoilc.json,hoilc/scoop-lemon
 runcat_hoilc.json,hoilc/scoop-lemon
 hysteria2.json,hoilc/scoop-lemon
 meilisearch.json,hoilc/scoop-lemon
-skylark.json,hoilc/scoop-lemon
+skylark_hoilc.json,hoilc/scoop-lemon
 emby-pinyin.json,hoilc/scoop-lemon
 textify.json,hoilc/scoop-lemon
 orange.json,hoilc/scoop-lemon
@@ -5666,7 +5666,7 @@ findstr.json,hoilc/scoop-lemon
 xiaolai.json,hoilc/scoop-lemon
 autok3s.json,hoilc/scoop-lemon
 step.json,hoilc/scoop-lemon
-pot.json,hoilc/scoop-lemon
+pot_hoilc.json,hoilc/scoop-lemon
 tts-vue.json,hoilc/scoop-lemon
 pazera-free-audio-extractor.json,hoilc/scoop-lemon
 bark-server.json,hoilc/scoop-lemon
@@ -6699,7 +6699,7 @@ dolphin_hermanjustnu.json,hermanjustnu/scoop-emulators
 desmume-stable.json,hermanjustnu/scoop-emulators
 vice-gtk3.json,hermanjustnu/scoop-emulators
 fceux.json,hermanjustnu/scoop-emulators
-cxbx-reloaded_hermanjustnu.json,hermanjustnu/scoop-emulators
+cxbx-reloaded.json,hermanjustnu/scoop-emulators
 sameboy_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-qt-interim.json,hermanjustnu/scoop-emulators
 duckstation_hermanjustnu.json,hermanjustnu/scoop-emulators
@@ -7745,7 +7745,7 @@ melonds_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 cemuhook_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
@@ -7767,7 +7767,7 @@ dolphin-beta_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
-xenia-canary.json,borger/scoop-emulators
+xenia-canary_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 citra-canary_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
@@ -8194,7 +8194,7 @@ docker-desktop.json,akirco/aki-apps
 xsv_akirco.json,akirco/aki-apps
 chromedriver_akirco.json,akirco/aki-apps
 highlight_akirco.json,akirco/aki-apps
-officetoolplus.json,akirco/aki-apps
+officetoolplus_akirco.json,akirco/aki-apps
 zola_akirco.json,akirco/aki-apps
 x264_akirco.json,akirco/aki-apps
 say_akirco.json,akirco/aki-apps
@@ -8606,7 +8606,7 @@ capture2text-persian.json,naderi/scoop-bucket
 ant-renamer.json,naderi/scoop-bucket
 lingoes_naderi.json,naderi/scoop-bucket
 cpdf_naderi.json,naderi/scoop-bucket
-bitcomet_naderi.json,naderi/scoop-bucket
+bitcomet.json,naderi/scoop-bucket
 pulsar_naderi.json,naderi/scoop-bucket
 windirstat-portable.json,naderi/scoop-bucket
 epicgames.json,naderi/scoop-bucket
@@ -9547,7 +9547,7 @@ qownnotes_ChungZH.json,ChungZH/peach
 go-musicfox.json,DoveBoy/Apps
 cheat-engine_DoveBoy.json,DoveBoy/Apps
 shadowsocksr-hmbsbige_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 ariang-native_DoveBoy.json,DoveBoy/Apps
 iobit-uninstaller.json,DoveBoy/Apps
 bat_DoveBoy.json,DoveBoy/Apps
@@ -9566,7 +9566,6 @@ shadowsocks-rust_DoveBoy.json,DoveBoy/Apps
 ghostscript_DoveBoy.json,DoveBoy/Apps
 handbrake_DoveBoy.json,DoveBoy/Apps
 openoffice_DoveBoy.json,DoveBoy/Apps
-losslesscut.json,DoveBoy/Apps
 jenny.json,DoveBoy/Apps
 clash.meta_DoveBoy.json,DoveBoy/Apps
 reicon_DoveBoy.json,DoveBoy/Apps
@@ -9622,7 +9621,7 @@ b23downloader_DoveBoy.json,DoveBoy/Apps
 ntrace-v1.json,DoveBoy/Apps
 pansy.json,DoveBoy/Apps
 gns3.json,DoveBoy/Apps
-neovim-nightly.json,DoveBoy/Apps
+neovim-nightly_DoveBoy.json,DoveBoy/Apps
 ali.json,DoveBoy/Apps
 nali_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic.json,DoveBoy/Apps
@@ -9727,7 +9726,6 @@ ugrep_DoveBoy.json,DoveBoy/Apps
 chfs-tab-completion.json,DoveBoy/Apps
 stable-diffusion-webui.json,DoveBoy/Apps
 mgtv.json,DoveBoy/Apps
-clash.meta-cgo-alpha.json,DoveBoy/Apps
 calctus.json,DoveBoy/Apps
 zy-player_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
@@ -9823,7 +9821,6 @@ qq_DoveBoy.json,DoveBoy/Apps
 gping_DoveBoy.json,DoveBoy/Apps
 windterm_DoveBoy.json,DoveBoy/Apps
 lemonpush.json,DoveBoy/Apps
-clash.meta-alpha.json,DoveBoy/Apps
 v2raya-git.json,DoveBoy/Apps
 sniproxy.json,DoveBoy/Apps
 pls.json,DoveBoy/Apps
@@ -9967,8 +9964,10 @@ imageglass_DoveBoy.json,DoveBoy/Apps
 clashn-core.json,DoveBoy/Apps
 typoracracker.json,DoveBoy/Apps
 lama-cleaner.json,DoveBoy/Apps
+clash.meta-cgo-alpha.json,DoveBoy/Apps
 typoracracker-code.json,DoveBoy/Apps
 study-xxqg.json,DoveBoy/Apps
+clash.meta-alpha.json,DoveBoy/Apps
 study-xxqg-beta.json,DoveBoy/Apps
 stormhen-portapps.json,Velgus/Scoop-Portapps
 android-studio-portapps.json,Velgus/Scoop-Portapps
@@ -11754,7 +11753,7 @@ tabula-java.json,Zliced13/MyScoop
 windscribevpn-np.json,Zliced13/MyScoop
 mpc-hc-fork-np.json,Zliced13/MyScoop
 kdevelop-nightly.json,Zliced13/MyScoop
-cubepdf-utility_Zliced13.json,Zliced13/MyScoop
+cubepdf-utility.json,Zliced13/MyScoop
 control-uwp.json,Zliced13/MyScoop
 optimizer_Zliced13.json,Zliced13/MyScoop
 everything-toolbar-np.json,Zliced13/MyScoop
@@ -11997,6 +11996,7 @@ terrap.json,aliesbelik/poldi
 ntttcp_aliesbelik.json,aliesbelik/poldi
 mani.json,aliesbelik/poldi
 pewpew.json,aliesbelik/poldi
+gat.json,aliesbelik/poldi
 kafkactl.json,aliesbelik/poldi
 dnstrace.json,aliesbelik/poldi
 prom2json.json,aliesbelik/poldi
@@ -12270,7 +12270,7 @@ apfs.json,beerpiss/scoop-bucket
 cider.json,beerpiss/scoop-bucket
 unxwb.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 wpd_beerpiss.json,beerpiss/scoop-bucket
 justasplanned.json,beerpiss/scoop-bucket
 sl.json,beerpiss/scoop-bucket
@@ -12390,7 +12390,7 @@ inso.json,HUMORCE/nuke
 testmem5.json,HUMORCE/nuke
 thunderbird_HUMORCE.json,HUMORCE/nuke
 fiddler-classic-addon-sazdiff.json,HUMORCE/nuke
-insomnia.json,HUMORCE/nuke
+insomnia_HUMORCE.json,HUMORCE/nuke
 fiddler-classic-addon-contentblocker.json,HUMORCE/nuke
 7zip-nsis.json,HUMORCE/nuke
 vrf-decompiler.json,HUMORCE/nuke
