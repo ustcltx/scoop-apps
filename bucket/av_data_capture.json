@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/yoshiko2/Movie_Data_Capture/releases/download/7.0.0/MDC-7.0.0-Windows-amd64.zip",
-            "hash": "c75c5ac87461027fd13ff178377d4c78ff280eb5580ca4b9a9ce63ab71e97698"
+            "hash": "300c11e9313d05db08883e08a31b2301db2dcd5bc03474b01a6d5cc21a3349ae"
         }
     },
     "bin": [
