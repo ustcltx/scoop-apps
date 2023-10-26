@@ -1,5 +1,5 @@
 {
-    "version": "22621.2428.59.1_845d2b5",
+    "version": "22621.2428.59.1_a7c87ce",
     "description": "This project aims to enhance the working environment on Windows.",
     "homepage": "https://github.com/valinet/ExplorerPatcher",
     "license": {
@@ -8,8 +8,8 @@
     },
     "notes": "Wiki: <https://github.com/valinet/ExplorerPatcher/wiki>",
     "depends": "sudo",
-    "url": "https://github.com/valinet/ExplorerPatcher/releases/download/22621.2428.59.1_845d2b5/ep_setup.exe",
-    "hash": "64131f3b5fc24d28e6d0db0ed79867019a1ad5f684a66524c5f2e67c5df0a40f",
+    "url": "https://github.com/valinet/ExplorerPatcher/releases/download/22621.2428.59.1_a7c87ce/ep_setup.exe",
+    "hash": "b8325541afddc6cf781f0e5b6086cb5cc2a6a514ddb03d5d37b25083b6559d07",
     "installer": {
         "script": "Start-Process \"$dir\\ep_setup.exe\" -WorkingDirectory \"$dir\" -Wait"
     },
