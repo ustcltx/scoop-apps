@@ -1796,7 +1796,7 @@ stone-soup.json,ScoopInstaller/Extras
 moonlight.json,ScoopInstaller/Extras
 windows11-classic-context-menu.json,ScoopInstaller/Extras
 sts.json,ScoopInstaller/Extras
-electerm_ScoopInstaller.json,ScoopInstaller/Extras
+electerm.json,ScoopInstaller/Extras
 trojita.json,ScoopInstaller/Extras
 qmk-toolbox.json,ScoopInstaller/Extras
 imageglass.json,ScoopInstaller/Extras
@@ -2946,6 +2946,7 @@ wisecare365_ivaquero.json,ivaquero/scoopet
 adrive_ivaquero.json,ivaquero/scoopet
 vlc-cn.json,ivaquero/scoopet
 chatgpt-cli.json,ivaquero/scoopet
+evcapture.json,ivaquero/scoopet
 autodarkmode_ivaquero.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
 wpsoffice-cn.json,ivaquero/scoopet
@@ -2974,6 +2975,7 @@ sagemath-cn.json,ivaquero/scoopet
 git-cn.json,ivaquero/scoopet
 winrar_ivaquero.json,ivaquero/scoopet
 reader.json,ivaquero/scoopet
+viber.json,ivaquero/scoopet
 netlogo.json,ivaquero/scoopet
 aboboo.json,ivaquero/scoopet
 twitchdropsminer.json,Calinou/scoop-games
@@ -5233,6 +5235,7 @@ speex.json,hoilc/scoop-lemon
 avidemux_hoilc.json,hoilc/scoop-lemon
 nohttp-cli.json,hoilc/scoop-lemon
 sftpgo_hoilc.json,hoilc/scoop-lemon
+custommenu.json,hoilc/scoop-lemon
 lite_hoilc.json,hoilc/scoop-lemon
 ossutil_hoilc.json,hoilc/scoop-lemon
 jmol.json,hoilc/scoop-lemon
@@ -7085,12 +7088,14 @@ rpcs3_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 ppsspp-dev_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
+bsnes-hd-beta_borger.json,borger/scoop-emulators
 dolphin-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
+ryujinx-ava_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
@@ -7103,13 +7108,14 @@ cemu-dev_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
-retroarch_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
+cxbx-reloaded_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
+ppsspp_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
@@ -7972,6 +7978,7 @@ fnr_wangzq.json,wangzq/scoop-bucket
 protogen.json,wangzq/scoop-bucket
 muCommander_wangzq.json,wangzq/scoop-bucket
 testparser.json,wangzq/scoop-bucket
+linqpad8-beta.json,wangzq/scoop-bucket
 shntool_wangzq.json,wangzq/scoop-bucket
 OwinHost.json,wangzq/scoop-bucket
 ilmerge_wangzq.json,wangzq/scoop-bucket
@@ -8385,7 +8392,7 @@ docker-desktop.json,akirco/aki-apps
 nircmd_akirco.json,akirco/aki-apps
 uwd.json,akirco/aki-apps
 upscaler.json,akirco/aki-apps
-aliyundrive.json,akirco/aki-apps
+aliyundrive_akirco.json,akirco/aki-apps
 electerm_akirco.json,akirco/aki-apps
 gof_akirco.json,akirco/aki-apps
 pypy2_akirco.json,akirco/aki-apps
@@ -9009,6 +9016,7 @@ iconview.json,naderi/scoop-bucket
 uplay_naderi.json,naderi/scoop-bucket
 regcool.json,naderi/scoop-bucket
 lyx_naderi.json,naderi/scoop-bucket
+plexamp.json,naderi/scoop-bucket
 alwaysmousewheel.json,naderi/scoop-bucket
 wechat_amorphobia.json,amorphobia/siku
 stellarium_amorphobia.json,amorphobia/siku
@@ -10470,7 +10478,7 @@ josm-generic.json,seumsc/scoop-seu
 v2rayn-core_seumsc.json,seumsc/scoop-seu
 musicdecrypto.json,seumsc/scoop-seu
 waifu2x-ncnn-vulkan_seumsc.json,seumsc/scoop-seu
-kook_seumsc.json,seumsc/scoop-seu
+kook.json,seumsc/scoop-seu
 foobar2000-preview.json,seumsc/scoop-seu
 hmcl_seumsc.json,seumsc/scoop-seu
 cmake_rivy.json,rivy/scoop-bucket
@@ -12135,7 +12143,6 @@ spyder-lite.json,Zliced13/MyScoop
 shelbee.json,Zliced13/MyScoop
 eventlogviewer_Zliced13.json,Zliced13/MyScoop
 copytrans-contacts.json,Zliced13/MyScoop
-viber.json,Zliced13/MyScoop
 bluelife-keyfreeze.json,Zliced13/MyScoop
 exiftoolgui_Zliced13.json,Zliced13/MyScoop
 bluej_Zliced13.json,Zliced13/MyScoop
