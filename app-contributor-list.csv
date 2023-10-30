@@ -1798,7 +1798,7 @@ stone-soup.json,ScoopInstaller/Extras
 moonlight.json,ScoopInstaller/Extras
 windows11-classic-context-menu.json,ScoopInstaller/Extras
 sts.json,ScoopInstaller/Extras
-electerm_ScoopInstaller.json,ScoopInstaller/Extras
+electerm.json,ScoopInstaller/Extras
 trojita.json,ScoopInstaller/Extras
 qmk-toolbox.json,ScoopInstaller/Extras
 imageglass.json,ScoopInstaller/Extras
@@ -1814,7 +1814,7 @@ nvy.json,ScoopInstaller/Extras
 apache-ivy.json,ScoopInstaller/Extras
 windowsspyblocker.json,ScoopInstaller/Extras
 winmtr-live.json,ScoopInstaller/Extras
-q-dir_ScoopInstaller.json,ScoopInstaller/Extras
+q-dir.json,ScoopInstaller/Extras
 duplicati.json,ScoopInstaller/Extras
 micmute.json,ScoopInstaller/Extras
 heidisql.json,ScoopInstaller/Extras
@@ -5297,6 +5297,7 @@ royalts.json,hoilc/scoop-lemon
 kubecm.json,hoilc/scoop-lemon
 shntool.json,hoilc/scoop-lemon
 evernote-backup.json,hoilc/scoop-lemon
+space-cli.json,hoilc/scoop-lemon
 twolame.json,hoilc/scoop-lemon
 miniserve_hoilc.json,hoilc/scoop-lemon
 whisper-model-ggml-large.json,hoilc/scoop-lemon
@@ -5356,7 +5357,7 @@ tlsx.json,hoilc/scoop-lemon
 stern_hoilc.json,hoilc/scoop-lemon
 gsutil.json,hoilc/scoop-lemon
 amtool.json,hoilc/scoop-lemon
-pot_hoilc.json,hoilc/scoop-lemon
+pot.json,hoilc/scoop-lemon
 bbdown_hoilc.json,hoilc/scoop-lemon
 influxdb_exporter.json,hoilc/scoop-lemon
 autohidemousecursor.json,hoilc/scoop-lemon
@@ -5604,6 +5605,7 @@ good-mitm.json,hoilc/scoop-lemon
 4dnat.json,hoilc/scoop-lemon
 keepass-plugin-hibpofflinecheck.json,hoilc/scoop-lemon
 besttrace.json,hoilc/scoop-lemon
+mi-sans-l3.json,hoilc/scoop-lemon
 twexe.json,hoilc/scoop-lemon
 rav1e-gui.json,hoilc/scoop-lemon
 onenote-md-exporter.json,hoilc/scoop-lemon
@@ -6835,7 +6837,7 @@ fuxploider.json,arch3rPro/PST-Bucket
 dirmap.json,arch3rPro/PST-Bucket
 dig_arch3rPro.json,arch3rPro/PST-Bucket
 LFISuite.json,arch3rPro/PST-Bucket
-httpx_arch3rPro.json,arch3rPro/PST-Bucket
+httpx.json,arch3rPro/PST-Bucket
 ct.json,arch3rPro/PST-Bucket
 proguard.json,arch3rPro/PST-Bucket
 linux-exploit-suggester.json,arch3rPro/PST-Bucket
@@ -7112,7 +7114,7 @@ xemu_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
-vita3k.json,borger/scoop-emulators
+vita3k_borger.json,borger/scoop-emulators
 cxbx-reloaded_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
@@ -8206,7 +8208,7 @@ libwebp_akirco.json,akirco/aki-apps
 dim.json,akirco/aki-apps
 hwmonitor_akirco.json,akirco/aki-apps
 cyberduck_akirco.json,akirco/aki-apps
-windows-terminal-quake.json,akirco/aki-apps
+windows-terminal-quake_akirco.json,akirco/aki-apps
 redis5_akirco.json,akirco/aki-apps
 wget_akirco.json,akirco/aki-apps
 windows-application-driver_akirco.json,akirco/aki-apps
@@ -8488,7 +8490,7 @@ zoom_akirco.json,akirco/aki-apps
 time_akirco.json,akirco/aki-apps
 kodi_akirco.json,akirco/aki-apps
 potplayer_akirco.json,akirco/aki-apps
-bilibili_akirco.json,akirco/aki-apps
+bilibili.json,akirco/aki-apps
 wechatdevtools_akirco.json,akirco/aki-apps
 gitup-py.json,TheRandomLabs/Scoop-Python
 keyring-py.json,TheRandomLabs/Scoop-Python
@@ -9019,7 +9021,6 @@ iconview.json,naderi/scoop-bucket
 uplay_naderi.json,naderi/scoop-bucket
 regcool.json,naderi/scoop-bucket
 lyx_naderi.json,naderi/scoop-bucket
-plexamp.json,naderi/scoop-bucket
 alwaysmousewheel.json,naderi/scoop-bucket
 wechat_amorphobia.json,amorphobia/siku
 stellarium_amorphobia.json,amorphobia/siku
@@ -9179,6 +9180,7 @@ CJK-character-count_ygguorun.json,ygguorun/scoop-bucket
 CefDetectorX_ygguorun.json,ygguorun/scoop-bucket
 katrain_ygguorun.json,ygguorun/scoop-bucket
 netflix-verify.json,ygguorun/scoop-bucket
+musicfox_ygguorun.json,ygguorun/scoop-bucket
 aliyunpan-xiaobaiyang.json,ygguorun/scoop-bucket
 WindowTop_ygguorun.json,ygguorun/scoop-bucket
 Malware-Patch.json,ygguorun/scoop-bucket
@@ -9501,7 +9503,7 @@ fileconverter.json,DoveBoy/Apps
 delapp.json,DoveBoy/Apps
 zoomit_DoveBoy.json,DoveBoy/Apps
 nvm-windows_DoveBoy.json,DoveBoy/Apps
-qq_DoveBoy.json,DoveBoy/Apps
+qq.json,DoveBoy/Apps
 pansy.json,DoveBoy/Apps
 neovim-nightly.json,DoveBoy/Apps
 john-the-ripper_DoveBoy.json,DoveBoy/Apps
@@ -9549,7 +9551,6 @@ ali.json,DoveBoy/Apps
 scoop-search-chriscp.json,DoveBoy/Apps
 pandaocrpro_DoveBoy.json,DoveBoy/Apps
 compactgui-beta.json,DoveBoy/Apps
-forkgram.json,DoveBoy/Apps
 joplin-pre_DoveBoy.json,DoveBoy/Apps
 1remote_DoveBoy.json,DoveBoy/Apps
 gsudo_DoveBoy.json,DoveBoy/Apps
@@ -9697,6 +9698,7 @@ nssm_DoveBoy.json,DoveBoy/Apps
 kcleaner_DoveBoy.json,DoveBoy/Apps
 shadowsocksr-hmbsbige-full.json,DoveBoy/Apps
 retrieval-based-voice-conversion-webui.json,DoveBoy/Apps
+clumsy.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
 vim_DoveBoy.json,DoveBoy/Apps
 revokemsgpatcher-nightly.json,DoveBoy/Apps
@@ -10249,7 +10251,7 @@ spek-X.json,hu3rror/scoop-muggle
 context-menu-manager_hu3rror.json,hu3rror/scoop-muggle
 nanarun_hu3rror.json,hu3rror/scoop-muggle
 dopamine-preview.json,hu3rror/scoop-muggle
-space-cli.json,hu3rror/scoop-muggle
+space-cli_hu3rror.json,hu3rror/scoop-muggle
 icns.json,hu3rror/scoop-muggle
 universal-watermark-disabler.json,hu3rror/scoop-muggle
 neat-converter.json,hu3rror/scoop-muggle
@@ -11517,6 +11519,7 @@ sic.json,brian6932/dank-scoop
 OpenHardwareMonitorReport.json,brian6932/dank-scoop
 trackselect.json,brian6932/dank-scoop
 gql.json,brian6932/dank-scoop
+bulk-extractor.json,brian6932/dank-scoop
 chatterino-portable-qt5.json,brian6932/dank-scoop
 svg_to_ico.json,brian6932/dank-scoop
 jsoncomma.json,brian6932/dank-scoop
@@ -12443,7 +12446,7 @@ aidoku-cli.json,beerpiss/scoop-bucket
 absolutetouchex.json,beerpiss/scoop-bucket
 ib-jp.json,beerpiss/scoop-bucket
 thewitchshouse-jp.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 xprop.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
 stash_beerpiss.json,beerpiss/scoop-bucket
