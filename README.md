@@ -69,8 +69,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
 - hoilc/scoop-lemon
-- KNOXDEV/wsl
 - arch3rPro/PST-Bucket
+- KNOXDEV/wsl
 - Paxxs/Cluttered-bucket
 - echoiron/echo-scoop
 - ACooper81/scoop-apps
@@ -93,9 +93,9 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
+- jonz94/scoop-sarasa-nerd-fonts
 - charmbracelet/scoop-bucket
 - amorphobia/siku
-- jonz94/scoop-sarasa-nerd-fonts
 - iquiw/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
