@@ -1,10 +1,10 @@
 {
-    "version": "1.2.3",
+    "version": "1.2.2",
     "description": "下载豆丁、淘豆、道客巴巴、原创力、金锄头文档，并自动转换为PDF",
     "homepage": "https://github.com/rty813/doc_downloader",
     "license": "Unknown",
-    "url": "https://github.com/rty813/doc_downloader/releases/download/1.2.3/docDownloader.zip",
-    "hash": "5fb93234ebe78c74a0e6e838fbd30cfcad8dc2a981ec3ab6ba567bbb1ad6bc82",
+    "url": "https://github.com/rty813/doc_downloader/releases/download/1.2.2/docDownloader.zip",
+    "hash": "69321f229ea9be583db210fa293a22145d32d3d30823ffb9f7b1201493935014",
     "extract_dir": "docDownloader",
     "bin": "docDownloader.exe",
     "shortcuts": [
