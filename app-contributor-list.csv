@@ -957,7 +957,7 @@ pskubectlcompletion.json,ScoopInstaller/Extras
 mozregression-gui.json,ScoopInstaller/Extras
 speedfan.json,ScoopInstaller/Extras
 smartsystemmenu_ScoopInstaller.json,ScoopInstaller/Extras
-ccleaner.json,ScoopInstaller/Extras
+ccleaner_ScoopInstaller.json,ScoopInstaller/Extras
 pathod.json,ScoopInstaller/Extras
 database.net.json,ScoopInstaller/Extras
 notejoy.json,ScoopInstaller/Extras
@@ -1339,7 +1339,7 @@ obsidian_ScoopInstaller.json,ScoopInstaller/Extras
 gitahead.json,ScoopInstaller/Extras
 devdocs.json,ScoopInstaller/Extras
 ubports-installer.json,ScoopInstaller/Extras
-electerm.json,ScoopInstaller/Extras
+electerm_ScoopInstaller.json,ScoopInstaller/Extras
 alacritty.json,ScoopInstaller/Extras
 msiafterburner.json,ScoopInstaller/Extras
 kotatogram.json,ScoopInstaller/Extras
@@ -2558,7 +2558,7 @@ devpod.json,chawyehsu/dorado
 hellofont.json,chawyehsu/dorado
 axure.json,chawyehsu/dorado
 wayback.json,chawyehsu/dorado
-cosbrowser_chawyehsu.json,chawyehsu/dorado
+cosbrowser.json,chawyehsu/dorado
 zap.json,chawyehsu/dorado
 ediary.json,chawyehsu/dorado
 kitch.json,chawyehsu/dorado
@@ -2922,6 +2922,7 @@ scihubeva.json,ivaquero/scoopet
 tencent-edu.json,ivaquero/scoopet
 libreoffice-cn.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
+feishu.json,ivaquero/scoopet
 lky-officetools.json,ivaquero/scoopet
 weasel.json,ivaquero/scoopet
 texlive_ivaquero.json,ivaquero/scoopet
@@ -3424,6 +3425,7 @@ sapmachine12-jdk.json,ScoopInstaller/Java
 liberica8-full-jdk.json,ScoopInstaller/Java
 gluon-openjfx-sdk-ea.json,ScoopInstaller/Java
 liberica12-jdk.json,ScoopInstaller/Java
+semeru20-jre.json,ScoopInstaller/Java
 liberica15-full-jdk.json,ScoopInstaller/Java
 graalvm22.json,ScoopInstaller/Java
 graalvm-nightly.json,ScoopInstaller/Java
@@ -3498,8 +3500,9 @@ oraclejdk.json,ScoopInstaller/Java
 temurin19-jre.json,ScoopInstaller/Java
 ojdkbuild9-full.json,ScoopInstaller/Java
 openjdk20.json,ScoopInstaller/Java
-semeru-jre.json,ScoopInstaller/Java
 liberica-full-jre.json,ScoopInstaller/Java
+semeru20-jdk.json,ScoopInstaller/Java
+semeru19-jdk.json,ScoopInstaller/Java
 liberica13-jdk.json,ScoopInstaller/Java
 corretto-lts-jdk.json,ScoopInstaller/Java
 liberica-full-lts-jre.json,ScoopInstaller/Java
@@ -3518,12 +3521,15 @@ intellij-jbr11.json,ScoopInstaller/Java
 liberica14-lite-jdk.json,ScoopInstaller/Java
 ojdkbuild13-full.json,ScoopInstaller/Java
 microsoft-lts-jdk.json,ScoopInstaller/Java
+temurin20-jre.json,ScoopInstaller/Java
+semeru18-jre.json,ScoopInstaller/Java
 zulufx15-jre.json,ScoopInstaller/Java
 openjdk18.json,ScoopInstaller/Java
 semeru11-jdk.json,ScoopInstaller/Java
 zulu8-jre.json,ScoopInstaller/Java
 zulufx15-jdk.json,ScoopInstaller/Java
 liberica16-jdk.json,ScoopInstaller/Java
+temurin20-jdk.json,ScoopInstaller/Java
 liberica16-jre.json,ScoopInstaller/Java
 sapmachine16-jdk.json,ScoopInstaller/Java
 openjdk21.json,ScoopInstaller/Java
@@ -3535,6 +3541,7 @@ zulu15-jre.json,ScoopInstaller/Java
 liberica13-full-jdk.json,ScoopInstaller/Java
 zulufx17-jre.json,ScoopInstaller/Java
 ojdkbuild11.json,ScoopInstaller/Java
+semeru19-jre.json,ScoopInstaller/Java
 zulufx14-jdk.json,ScoopInstaller/Java
 sapmachine-lts-jdk.json,ScoopInstaller/Java
 graalvm-jdk11.json,ScoopInstaller/Java
@@ -3566,7 +3573,6 @@ dragonwell17-jdk.json,ScoopInstaller/Java
 liberica8-jdk.json,ScoopInstaller/Java
 openjdk12.json,ScoopInstaller/Java
 zulufx16-jre.json,ScoopInstaller/Java
-semeru-jdk.json,ScoopInstaller/Java
 graalvm20-jdk8.json,ScoopInstaller/Java
 zulu12-jre.json,ScoopInstaller/Java
 liberica11-jre.json,ScoopInstaller/Java
@@ -4825,7 +4831,7 @@ nk2view_ScoopInstaller.json,ScoopInstaller/Nirsoft
 vncpassview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 hotkeyslist_ScoopInstaller.json,ScoopInstaller/Nirsoft
 siteshoter_ScoopInstaller.json,ScoopInstaller/Nirsoft
-extpassword_ScoopInstaller.json,ScoopInstaller/Nirsoft
+extpassword.json,ScoopInstaller/Nirsoft
 outlookstatview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 csvfileview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 networkopenedfiles_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5038,6 +5044,7 @@ whalebird.json,hoilc/scoop-lemon
 uupmediacreator.json,hoilc/scoop-lemon
 mstream.json,hoilc/scoop-lemon
 whisper-model-ggml-base-en.json,hoilc/scoop-lemon
+fontmod.json,hoilc/scoop-lemon
 cmix.json,hoilc/scoop-lemon
 yuzu-ea.json,hoilc/scoop-lemon
 imgdrivecmd.json,hoilc/scoop-lemon
@@ -5224,7 +5231,7 @@ rdb-cli.json,hoilc/scoop-lemon
 rickrack.json,hoilc/scoop-lemon
 avidemux_hoilc.json,hoilc/scoop-lemon
 juicity.json,hoilc/scoop-lemon
-pot_hoilc.json,hoilc/scoop-lemon
+pot.json,hoilc/scoop-lemon
 websocat.json,hoilc/scoop-lemon
 terminal.icu.json,hoilc/scoop-lemon
 iwck.json,hoilc/scoop-lemon
@@ -6372,6 +6379,7 @@ KMS_VL_All_AiO-Portable.json,ACooper81/scoop-apps
 Microsoft.NETDesktopRuntimeLTS-Install.json,ACooper81/scoop-apps
 VoiceCLI-Portable.json,ACooper81/scoop-apps
 OfflineInsiderEnroll-Portable.json,ACooper81/scoop-apps
+Vivaldi-Portable.json,ACooper81/scoop-apps
 FixWin10-Portable.json,ACooper81/scoop-apps
 AutoHotkey2-UserInstall.json,ACooper81/scoop-apps
 OpenHAB-Portable.json,ACooper81/scoop-apps
@@ -7141,7 +7149,7 @@ project64-dev_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
 dolphin-dev_borger.json,borger/scoop-emulators
-ryujinx.json,borger/scoop-emulators
+ryujinx_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
@@ -7176,7 +7184,7 @@ vita3k_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
-ryujinx-ava.json,borger/scoop-emulators
+ryujinx-ava_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
@@ -8355,7 +8363,7 @@ youtube-dl-wpf_akirco.json,akirco/aki-apps
 qrcp_akirco.json,akirco/aki-apps
 vscode_akirco.json,akirco/aki-apps
 dingtalk_akirco.json,akirco/aki-apps
-ftnn_akirco.json,akirco/aki-apps
+ftnn.json,akirco/aki-apps
 github_akirco.json,akirco/aki-apps
 gsudo_akirco.json,akirco/aki-apps
 poetry_akirco.json,akirco/aki-apps
@@ -8428,7 +8436,7 @@ s_akirco.json,akirco/aki-apps
 snipaste.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
 screentogif_akirco.json,akirco/aki-apps
-officetoolplus.json,akirco/aki-apps
+officetoolplus_akirco.json,akirco/aki-apps
 firefox-zh-cn_akirco.json,akirco/aki-apps
 neofetch_akirco.json,akirco/aki-apps
 7zip_akirco.json,akirco/aki-apps
@@ -8478,7 +8486,7 @@ dim.json,akirco/aki-apps
 php74_akirco.json,akirco/aki-apps
 hub_akirco.json,akirco/aki-apps
 windows11manager.json,akirco/aki-apps
-cosbrowser.json,akirco/aki-apps
+cosbrowser_akirco.json,akirco/aki-apps
 scoop-completion_akirco.json,akirco/aki-apps
 zoom_akirco.json,akirco/aki-apps
 fl980.json,akirco/aki-apps
@@ -8603,6 +8611,7 @@ woodpecker.json,ViCrack/scoop-bucket
 katana_ViCrack.json,ViCrack/scoop-bucket
 PowerRun_ViCrack.json,ViCrack/scoop-bucket
 webshell_generate_ViCrack.json,ViCrack/scoop-bucket
+ztasker.json,ViCrack/scoop-bucket
 fvuln.json,ViCrack/scoop-bucket
 sliver_ViCrack.json,ViCrack/scoop-bucket
 rakshasa_ViCrack.json,ViCrack/scoop-bucket
@@ -9268,7 +9277,7 @@ aliyunpan-xiaobaiyang.json,ygguorun/scoop-bucket
 BaiduNetdisk_ygguorun.json,ygguorun/scoop-bucket
 winscppwd.json,ygguorun/scoop-bucket
 go-cqhttp.json,ygguorun/scoop-bucket
-FontMod.json,ygguorun/scoop-bucket
+FontMod_ygguorun.json,ygguorun/scoop-bucket
 CloudCompare.json,ygguorun/scoop-bucket
 Reso.json,ygguorun/scoop-bucket
 bookhunter.json,ygguorun/scoop-bucket
@@ -9441,7 +9450,7 @@ umi-ocr_DoveBoy.json,DoveBoy/Apps
 crystaldiskinfo-shizuku-edition_DoveBoy.json,DoveBoy/Apps
 unblockneteasemusic-git.json,DoveBoy/Apps
 wechatvideodownloader.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 scoop-search-shilangyu.json,DoveBoy/Apps
 spleetergui-portable_DoveBoy.json,DoveBoy/Apps
 hitomi-downloader_DoveBoy.json,DoveBoy/Apps
@@ -9525,7 +9534,7 @@ ariang-native_DoveBoy.json,DoveBoy/Apps
 sing-box_DoveBoy.json,DoveBoy/Apps
 jq_DoveBoy.json,DoveBoy/Apps
 gallery-dl_DoveBoy.json,DoveBoy/Apps
-handbrake_DoveBoy.json,DoveBoy/Apps
+handbrake.json,DoveBoy/Apps
 sing-box-beta.json,DoveBoy/Apps
 gitalias.json,DoveBoy/Apps
 douyu_DoveBoy.json,DoveBoy/Apps
@@ -9569,7 +9578,7 @@ dreamscene2.json,DoveBoy/Apps
 litespeedtest.json,DoveBoy/Apps
 gnirehtet_DoveBoy.json,DoveBoy/Apps
 iwck_DoveBoy.json,DoveBoy/Apps
-dingtalk_DoveBoy.json,DoveBoy/Apps
+dingtalk.json,DoveBoy/Apps
 obs-studio-pre.json,DoveBoy/Apps
 upscayl_DoveBoy.json,DoveBoy/Apps
 hashcat_DoveBoy.json,DoveBoy/Apps
@@ -9718,10 +9727,12 @@ downkyi_DoveBoy.json,DoveBoy/Apps
 ssrr-windows.json,DoveBoy/Apps
 audio-share-gui.json,DoveBoy/Apps
 lx-music-desktop-win7.json,DoveBoy/Apps
+clash-rev.json,DoveBoy/Apps
 pscompletions.json,DoveBoy/Apps
 brackets_DoveBoy.json,DoveBoy/Apps
 perl_DoveBoy.json,DoveBoy/Apps
 tai.json,DoveBoy/Apps
+clash-rev-compatible-go120.json,DoveBoy/Apps
 monit-portable.json,DoveBoy/Apps
 bililive-go_DoveBoy.json,DoveBoy/Apps
 czkawka_DoveBoy.json,DoveBoy/Apps
@@ -9732,6 +9743,7 @@ droppoint-portable_DoveBoy.json,DoveBoy/Apps
 xray_DoveBoy.json,DoveBoy/Apps
 everything-lite_DoveBoy.json,DoveBoy/Apps
 reicon_DoveBoy.json,DoveBoy/Apps
+clash-rev-cgo.json,DoveBoy/Apps
 neteasemusic_DoveBoy.json,DoveBoy/Apps
 binggpt.json,DoveBoy/Apps
 pwsh-beta_DoveBoy.json,DoveBoy/Apps
@@ -9755,6 +9767,7 @@ littletips.json,DoveBoy/Apps
 stable-diffusion-webui.json,DoveBoy/Apps
 whynotwin11_DoveBoy.json,DoveBoy/Apps
 yank-note_DoveBoy.json,DoveBoy/Apps
+clash-rev-go120.json,DoveBoy/Apps
 lemonpush.json,DoveBoy/Apps
 curl_DoveBoy.json,DoveBoy/Apps
 bulk-crap-uninstaller.json,DoveBoy/Apps
@@ -9770,6 +9783,7 @@ v2ray-rules-dat.json,DoveBoy/Apps
 clash.meta-cgo.json,DoveBoy/Apps
 keyviz_DoveBoy.json,DoveBoy/Apps
 energystar.json,DoveBoy/Apps
+pot-desktop.json,DoveBoy/Apps
 grex_DoveBoy.json,DoveBoy/Apps
 keymousego.json,DoveBoy/Apps
 lsd_DoveBoy.json,DoveBoy/Apps
@@ -9862,6 +9876,7 @@ lanzou-gui.json,DoveBoy/Apps
 vcpkg_DoveBoy.json,DoveBoy/Apps
 psreadlineviextension.json,DoveBoy/Apps
 cacert_DoveBoy.json,DoveBoy/Apps
+clash-rev-compatible.json,DoveBoy/Apps
 picotorrent_DoveBoy.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
 psgithub_DoveBoy.json,DoveBoy/Apps
@@ -10351,7 +10366,7 @@ propertree_hu3rror.json,hu3rror/scoop-muggle
 cdnlookup.json,hu3rror/scoop-muggle
 supergrate.json,hu3rror/scoop-muggle
 yomikiru.json,hu3rror/scoop-muggle
-pot-desktop.json,hu3rror/scoop-muggle
+pot-desktop_hu3rror.json,hu3rror/scoop-muggle
 ImTip_hu3rror.json,hu3rror/scoop-muggle
 tianruoocr_hu3rror.json,hu3rror/scoop-muggle
 weylus_hu3rror.json,hu3rror/scoop-muggle
@@ -11151,6 +11166,7 @@ OpenHashTab_brian6932.json,brian6932/dank-scoop
 gif2apng-gui.json,brian6932/dank-scoop
 gonk.json,brian6932/dank-scoop
 tidy-viewer.json,brian6932/dank-scoop
+comicrack.json,brian6932/dank-scoop
 mercury.json,brian6932/dank-scoop
 dmde.json,brian6932/dank-scoop
 winfsp-np-beta.json,brian6932/dank-scoop
@@ -11748,6 +11764,7 @@ font-hackgen35-console-nf-j.json,mo-san/scoop-bucket
 PsTools_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
 Windows-screenFetch-alt.json,AkariiinMKII/Scoop4kariiin
 LNE-LINK.json,AkariiinMKII/Scoop4kariiin
+sleep-on-lan.json,AkariiinMKII/Scoop4kariiin
 Cinebench-R23.json,AkariiinMKII/Scoop4kariiin
 Windows-screenFetch.json,AkariiinMKII/Scoop4kariiin
 youtube-dl-gui_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
@@ -12241,6 +12258,7 @@ stacher.io.json,Zliced13/MyScoop
 kotatogram_fixed.json,Zliced13/MyScoop
 droidcam-np.json,Zliced13/MyScoop
 regcool_Zliced13.json,Zliced13/MyScoop
+viber.json,Zliced13/MyScoop
 deemix-gui.json,Zliced13/MyScoop
 rvgl-launcher.json,Zliced13/MyScoop
 copytrans-drivers.json,Zliced13/MyScoop
