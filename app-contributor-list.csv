@@ -2921,14 +2921,14 @@ utools_ivaquero.json,ivaquero/scoopet
 reader.json,ivaquero/scoopet
 viber.json,ivaquero/scoopet
 texstudio-cn.json,ivaquero/scoopet
-wechatwork_ivaquero.json,ivaquero/scoopet
+wechatwork.json,ivaquero/scoopet
 gimp-cn.json,ivaquero/scoopet
 weasel.json,ivaquero/scoopet
 cajviewer_ivaquero.json,ivaquero/scoopet
 vlc-cn.json,ivaquero/scoopet
 clash-for-windows_ivaquero.json,ivaquero/scoopet
 libreoffice-cn.json,ivaquero/scoopet
-wisecare365_ivaquero.json,ivaquero/scoopet
+wisecare365.json,ivaquero/scoopet
 kingdraw.json,ivaquero/scoopet
 chatgpt-cli.json,ivaquero/scoopet
 mambaforge-cn.json,ivaquero/scoopet
@@ -4959,6 +4959,7 @@ w3cschool.json,arch3rPro/PST-Bucket
 finalshell.json,arch3rPro/PST-Bucket
 FlowUs_arch3rPro.json,arch3rPro/PST-Bucket
 confuserex-cli.json,arch3rPro/PST-Bucket
+xunlei.json,arch3rPro/PST-Bucket
 igdm_arch3rPro.json,arch3rPro/PST-Bucket
 easy-context-menu_arch3rPro.json,arch3rPro/PST-Bucket
 gda.json,arch3rPro/PST-Bucket
@@ -8532,7 +8533,7 @@ cosbrowser_akirco.json,akirco/aki-apps
 yarn_akirco.json,akirco/aki-apps
 gallery-dl_akirco.json,akirco/aki-apps
 git_akirco.json,akirco/aki-apps
-firefox-zh-cn_akirco.json,akirco/aki-apps
+firefox-zh-cn.json,akirco/aki-apps
 psutils_akirco.json,akirco/aki-apps
 dark_akirco.json,akirco/aki-apps
 netch_akirco.json,akirco/aki-apps
@@ -8807,7 +8808,7 @@ officetoolplus_naderi.json,naderi/scoop-bucket
 bitmana.json,naderi/scoop-bucket
 xpdf-tools_naderi.json,naderi/scoop-bucket
 chrome-beta-portable.json,naderi/scoop-bucket
-encrypto_naderi.json,naderi/scoop-bucket
+encrypto.json,naderi/scoop-bucket
 firefox-nightly-portable.json,naderi/scoop-bucket
 encfs.json,naderi/scoop-bucket
 qbittorrent-enhanced_naderi.json,naderi/scoop-bucket
@@ -8892,7 +8893,7 @@ miktex_naderi.json,naderi/scoop-bucket
 cleanmgrplus-de.json,naderi/scoop-bucket
 mitec-json-viewer.json,naderi/scoop-bucket
 chromium-portable.json,naderi/scoop-bucket
-tweakpower.json,naderi/scoop-bucket
+tweakpower_naderi.json,naderi/scoop-bucket
 cppcryptfs_naderi.json,naderi/scoop-bucket
 wise-program-uninstaller.json,naderi/scoop-bucket
 picosmos-tools.json,naderi/scoop-bucket
@@ -8988,7 +8989,7 @@ audacity-ffmpeg-plugin.json,naderi/scoop-bucket
 copy-handler.json,naderi/scoop-bucket
 autorun-organizer.json,naderi/scoop-bucket
 chrome-canary-portable.json,naderi/scoop-bucket
-teracopy.json,naderi/scoop-bucket
+teracopy_naderi.json,naderi/scoop-bucket
 capture2text-persian.json,naderi/scoop-bucket
 portable-registrator.json,naderi/scoop-bucket
 junkctrl.json,naderi/scoop-bucket
@@ -8998,7 +8999,7 @@ alacritty-portable.json,naderi/scoop-bucket
 locate_naderi.json,naderi/scoop-bucket
 win-aio.json,naderi/scoop-bucket
 alwaysmousewheel.json,naderi/scoop-bucket
-hdcleaner.json,naderi/scoop-bucket
+hdcleaner_naderi.json,naderi/scoop-bucket
 wavepad_naderi.json,naderi/scoop-bucket
 smart-svg-viewer.json,naderi/scoop-bucket
 wise-registry-cleaner.json,naderi/scoop-bucket
@@ -9090,6 +9091,16 @@ colorcatcher.json,naderi/scoop-bucket
 awgg.json,naderi/scoop-bucket
 winrar-fa.json,naderi/scoop-bucket
 totalcommander-beta-portable.json,naderi/scoop-bucket
+melt.json,charmbracelet/scoop-bucket
+gum_charmbracelet.json,charmbracelet/scoop-bucket
+pop.json,charmbracelet/scoop-bucket
+glow_charmbracelet.json,charmbracelet/scoop-bucket
+mods_charmbracelet.json,charmbracelet/scoop-bucket
+charm.json,charmbracelet/scoop-bucket
+vhs_charmbracelet.json,charmbracelet/scoop-bucket
+confettysh.json,charmbracelet/scoop-bucket
+wishlist.json,charmbracelet/scoop-bucket
+soft-serve.json,charmbracelet/scoop-bucket
 sarasa-nerd-font-ttc.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-mono-slab-k-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-gothic-tc-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
@@ -9139,16 +9150,6 @@ sarasa-fixed-tc-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-fixed-hc-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-term-slab-hc-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-fixed-k-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
-melt.json,charmbracelet/scoop-bucket
-gum_charmbracelet.json,charmbracelet/scoop-bucket
-pop.json,charmbracelet/scoop-bucket
-glow_charmbracelet.json,charmbracelet/scoop-bucket
-mods_charmbracelet.json,charmbracelet/scoop-bucket
-charm.json,charmbracelet/scoop-bucket
-vhs_charmbracelet.json,charmbracelet/scoop-bucket
-confettysh.json,charmbracelet/scoop-bucket
-wishlist.json,charmbracelet/scoop-bucket
-soft-serve.json,charmbracelet/scoop-bucket
 dgmpgdec.json,amorphobia/siku
 parallels-client.json,amorphobia/siku
 posh-cargo.json,amorphobia/siku
@@ -9287,7 +9288,7 @@ neo4j-community.json,ygguorun/scoop-bucket
 netflix-verify.json,ygguorun/scoop-bucket
 DotNetVersions.json,ygguorun/scoop-bucket
 AxMath.json,ygguorun/scoop-bucket
-CJK-character-count.json,ygguorun/scoop-bucket
+CJK-character-count_ygguorun.json,ygguorun/scoop-bucket
 rimage.json,ygguorun/scoop-bucket
 ttfname3.json,ygguorun/scoop-bucket
 apifox_ygguorun.json,ygguorun/scoop-bucket
@@ -9555,6 +9556,7 @@ walk_DoveBoy.json,DoveBoy/Apps
 min-portable.json,DoveBoy/Apps
 xray_DoveBoy.json,DoveBoy/Apps
 crystaldiskmark-shizuku-edition_DoveBoy.json,DoveBoy/Apps
+winmemorycleaner_DoveBoy.json,DoveBoy/Apps
 zyplayer.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
 winget-preview_DoveBoy.json,DoveBoy/Apps
@@ -9658,11 +9660,10 @@ ttime.json,DoveBoy/Apps
 winget_DoveBoy.json,DoveBoy/Apps
 imagemagick_DoveBoy.json,DoveBoy/Apps
 min_DoveBoy.json,DoveBoy/Apps
-buzz.json,DoveBoy/Apps
+buzz_DoveBoy.json,DoveBoy/Apps
 onlyoffice-desktopeditors_DoveBoy.json,DoveBoy/Apps
 biliup-rs_DoveBoy.json,DoveBoy/Apps
 pandaocrpro_DoveBoy.json,DoveBoy/Apps
-kcleaner_DoveBoy.json,DoveBoy/Apps
 speedtest-cli_DoveBoy.json,DoveBoy/Apps
 youku.json,DoveBoy/Apps
 bbk-cli_DoveBoy.json,DoveBoy/Apps
@@ -9831,9 +9832,8 @@ act_DoveBoy.json,DoveBoy/Apps
 ffmpeg-nightly_DoveBoy.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 v2rayn-core.json,DoveBoy/Apps
-ama.json,DoveBoy/Apps
 innounp_DoveBoy.json,DoveBoy/Apps
-optimizer.json,DoveBoy/Apps
+optimizer_DoveBoy.json,DoveBoy/Apps
 autoruns_DoveBoy.json,DoveBoy/Apps
 chfs-tab-completion.json,DoveBoy/Apps
 study-xxqg-sjkhsl.json,DoveBoy/Apps
@@ -9862,7 +9862,6 @@ scoop-sd_DoveBoy.json,DoveBoy/Apps
 aria2_DoveBoy.json,DoveBoy/Apps
 gopeed-web.json,DoveBoy/Apps
 folder-painter_DoveBoy.json,DoveBoy/Apps
-umi-ocr_DoveBoy.json,DoveBoy/Apps
 xiaochao.json,DoveBoy/Apps
 v2ray-rules-dat-git.json,DoveBoy/Apps
 idm.json,DoveBoy/Apps
@@ -9888,6 +9887,7 @@ everything-lite_DoveBoy.json,DoveBoy/Apps
 yarn-completion.json,DoveBoy/Apps
 emeditor-random-keygen.json,DoveBoy/Apps
 hwinfo_DoveBoy.json,DoveBoy/Apps
+wechatdownload.json,DoveBoy/Apps
 npm-tab-completion.json,DoveBoy/Apps
 termscp_DoveBoy.json,DoveBoy/Apps
 reqable-beta.json,DoveBoy/Apps
@@ -9919,6 +9919,7 @@ jasmine.json,DoveBoy/Apps
 final2x-portable.json,DoveBoy/Apps
 shadowsocks-qtun-plugin_DoveBoy.json,DoveBoy/Apps
 clash-verge_DoveBoy.json,DoveBoy/Apps
+umi-ocr-rapid.json,DoveBoy/Apps
 nomeiryoui_DoveBoy.json,DoveBoy/Apps
 downkyi_DoveBoy.json,DoveBoy/Apps
 imagemagick-lean_DoveBoy.json,DoveBoy/Apps
@@ -9982,6 +9983,7 @@ dingtalk_DoveBoy.json,DoveBoy/Apps
 lx-music-desktop_DoveBoy.json,DoveBoy/Apps
 upscayl_DoveBoy.json,DoveBoy/Apps
 deeplx_DoveBoy.json,DoveBoy/Apps
+umi-ocr-paddle.json,DoveBoy/Apps
 scoop-search_DoveBoy.json,DoveBoy/Apps
 pscalendar.json,DoveBoy/Apps
 firewallappblocker_DoveBoy.json,DoveBoy/Apps
@@ -9991,6 +9993,7 @@ v2ray-rules-dat.json,DoveBoy/Apps
 picpick_DoveBoy.json,DoveBoy/Apps
 xmusicdownloader.json,DoveBoy/Apps
 pls.json,DoveBoy/Apps
+opentrace_DoveBoy.json,DoveBoy/Apps
 scoop-search-chriscp.json,DoveBoy/Apps
 video-subtitle-extractor-gpu.json,DoveBoy/Apps
 sunloginclientsos.json,DoveBoy/Apps
@@ -10026,12 +10029,14 @@ crystaldiskmark_DoveBoy.json,DoveBoy/Apps
 clashn-core.json,DoveBoy/Apps
 pdf-guru.json,DoveBoy/Apps
 clash-for-windows_DoveBoy.json,DoveBoy/Apps
+kcleaner_DoveBoy.json,DoveBoy/Apps
 clash-chinese-patch.json,DoveBoy/Apps
 clash-multiplatform-runtime.json,DoveBoy/Apps
 lama-cleaner.json,DoveBoy/Apps
 study-xxqg.json,DoveBoy/Apps
 clash_DoveBoy.json,DoveBoy/Apps
 clash.meta-alpha.json,DoveBoy/Apps
+ama.json,DoveBoy/Apps
 typoracracker-code.json,DoveBoy/Apps
 clashy.json,DoveBoy/Apps
 study-xxqg-beta.json,DoveBoy/Apps
@@ -11369,7 +11374,7 @@ ollydbg_SayCV.json,SayCV/scoop-cvp
 microchip-mplabmindi.json,SayCV/scoop-cvp
 adobeacrobatdcpro.json,SayCV/scoop-cvp
 nircmd_SayCV.json,SayCV/scoop-cvp
-xunlei.json,SayCV/scoop-cvp
+xunlei_SayCV.json,SayCV/scoop-cvp
 ebomgen.json,SayCV/scoop-cvp
 360drvmgr_SayCV.json,SayCV/scoop-cvp
 ths-desktop.json,SayCV/scoop-cvp
@@ -12268,7 +12273,7 @@ sidebar-diagnostics-np.json,Zliced13/MyScoop
 control-uwp.json,Zliced13/MyScoop
 burp-suite-community-java.json,Zliced13/MyScoop
 packet-tracer.json,Zliced13/MyScoop
-cubepdf-utility.json,Zliced13/MyScoop
+cubepdf-utility_Zliced13.json,Zliced13/MyScoop
 pnotes.net.json,Zliced13/MyScoop
 flashpoint.json,Zliced13/MyScoop
 pcloud-drive.json,Zliced13/MyScoop
@@ -12553,7 +12558,7 @@ aidoku-cli.json,beerpiss/scoop-bucket
 susplayer.json,beerpiss/scoop-bucket
 absolutetouchex.json,beerpiss/scoop-bucket
 libretta.json,beerpiss/scoop-bucket
-adguardhome.json,beerpiss/scoop-bucket
+adguardhome_beerpiss.json,beerpiss/scoop-bucket
 jpeg-bin.json,beerpiss/scoop-bucket
 windowstoolbox-head.json,beerpiss/scoop-bucket
 adguardhome-beta.json,beerpiss/scoop-bucket
@@ -12770,7 +12775,7 @@ presto.json,hulucc/bucket
 vim90.json,hulucc/bucket
 dapr_hulucc.json,hulucc/bucket
 wsl2host.json,hulucc/bucket
-gn_hulucc.json,hulucc/bucket
+gn.json,hulucc/bucket
 android-sdk.json,hulucc/bucket
 zookeeper_hulucc.json,hulucc/bucket
 sentry-cli_hulucc.json,hulucc/bucket
