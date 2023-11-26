@@ -1079,7 +1079,7 @@ mullvad-browser.json,ScoopInstaller/Extras
 depends.json,ScoopInstaller/Extras
 hibit-uninstaller.json,ScoopInstaller/Extras
 mp3tag.json,ScoopInstaller/Extras
-electerm_ScoopInstaller.json,ScoopInstaller/Extras
+electerm.json,ScoopInstaller/Extras
 vcredist-aio.json,ScoopInstaller/Extras
 bgpkiller.json,ScoopInstaller/Extras
 musique.json,ScoopInstaller/Extras
@@ -1160,7 +1160,7 @@ ffqueue.json,ScoopInstaller/Extras
 azurestorageexplorer.json,ScoopInstaller/Extras
 apkeep.json,ScoopInstaller/Extras
 psfzf.json,ScoopInstaller/Extras
-ccleaner.json,ScoopInstaller/Extras
+ccleaner_ScoopInstaller.json,ScoopInstaller/Extras
 sfk.json,ScoopInstaller/Extras
 qflipper.json,ScoopInstaller/Extras
 foto-mosaik-edda.json,ScoopInstaller/Extras
@@ -1520,6 +1520,7 @@ simpletransfer.json,ScoopInstaller/Extras
 emule.json,ScoopInstaller/Extras
 paint.net-plugin-pyrochild.json,ScoopInstaller/Extras
 vcredist2005.json,ScoopInstaller/Extras
+bruno.json,ScoopInstaller/Extras
 notejoy.json,ScoopInstaller/Extras
 roslynpad.json,ScoopInstaller/Extras
 geekbench.json,ScoopInstaller/Extras
@@ -7204,7 +7205,7 @@ xenia-canary_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
-dolphin-dev.json,borger/scoop-emulators
+dolphin-dev_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
@@ -7239,7 +7240,7 @@ melonds_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
@@ -8244,7 +8245,7 @@ Elasticsearch7.json,zhoujin7/tomato
 arthas_zhoujin7.json,zhoujin7/tomato
 HBuilderX-Full-Alpha.json,zhoujin7/tomato
 HBuilder.json,zhoujin7/tomato
-HBuilderX_zhoujin7.json,zhoujin7/tomato
+HBuilderX.json,zhoujin7/tomato
 OracleJDK8.json,zhoujin7/tomato
 notepadplusplus_zhoujin7.json,zhoujin7/tomato
 notepad--.json,zhoujin7/tomato
@@ -9361,7 +9362,7 @@ reduce-memory_DoveBoy.json,DoveBoy/Apps
 gsudo_DoveBoy.json,DoveBoy/Apps
 gpg_DoveBoy.json,DoveBoy/Apps
 retrieval-based-voice-conversion-webui.json,DoveBoy/Apps
-neovim-nightly_DoveBoy.json,DoveBoy/Apps
+neovim-nightly.json,DoveBoy/Apps
 mpv.net_DoveBoy.json,DoveBoy/Apps
 xx-net-win7.json,DoveBoy/Apps
 typioca_DoveBoy.json,DoveBoy/Apps
@@ -9467,7 +9468,7 @@ emeditor_DoveBoy.json,DoveBoy/Apps
 keymousego.json,DoveBoy/Apps
 gh_DoveBoy.json,DoveBoy/Apps
 easymusic.json,DoveBoy/Apps
-saber_DoveBoy.json,DoveBoy/Apps
+saber.json,DoveBoy/Apps
 mgtv.json,DoveBoy/Apps
 inkscape_DoveBoy.json,DoveBoy/Apps
 monit.json,DoveBoy/Apps
@@ -9591,7 +9592,7 @@ v2raya.json,DoveBoy/Apps
 mingw_DoveBoy.json,DoveBoy/Apps
 github_DoveBoy.json,DoveBoy/Apps
 joinersplitter.json,DoveBoy/Apps
-chatbox_DoveBoy.json,DoveBoy/Apps
+chatbox.json,DoveBoy/Apps
 tiny11builder.json,DoveBoy/Apps
 ssrr-windows.json,DoveBoy/Apps
 wget_DoveBoy.json,DoveBoy/Apps
