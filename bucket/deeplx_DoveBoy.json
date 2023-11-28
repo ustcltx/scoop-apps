@@ -1,5 +1,5 @@
 {
-    "version": "0.8.3",
+    "version": "0.8.7",
     "description": "DeepL Free API (No TOKEN required)",
     "homepage": "https://github.com/OwO-Network/DeepLX",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OwO-Network/DeepLX/releases/download/v0.8.3/deeplx_windows_amd64.exe#/deeplx.exe",
-            "hash": "f8db4174e0de972893c77c44e3d103413bdec4d6bdc90d1c434a7fe1a9a5fa61"
+            "url": "https://github.com/OwO-Network/DeepLX/releases/download/v0.8.7/deeplx_windows_amd64.exe#/deeplx.exe",
+            "hash": "6b61181408cac291db1a9d43a6fb495a307223513070669fc739e1f4cb72a77d"
         },
         "32bit": {
-            "url": "https://github.com/OwO-Network/DeepLX/releases/download/v0.8.3/deeplx_windows_386.exe#/deeplx.exe",
-            "hash": "40a8961b2dd135df698bd6d4225ac4686ac38f8f3f4ad1f4d8083b0a1424aafc"
+            "url": "https://github.com/OwO-Network/DeepLX/releases/download/v0.8.7/deeplx_windows_386.exe#/deeplx.exe",
+            "hash": "3b153a83f2e02cdc18e1bb6513825002a0b3a13f431bb4a36a3464e7e10fe186"
         }
     },
     "bin": "deeplx.exe",
