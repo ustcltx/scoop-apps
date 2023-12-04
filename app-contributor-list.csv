@@ -3010,6 +3010,7 @@ lky-officetools.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 freecad-cn.json,ivaquero/scoopet
 autodarkmode_ivaquero.json,ivaquero/scoopet
+feishu.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
 lyx-cn.json,ivaquero/scoopet
 amazon-kindle.json,ivaquero/scoopet
@@ -3241,7 +3242,6 @@ unrealmodloader.json,Calinou/scoop-games
 pcsx2.json,Calinou/scoop-games
 nester.json,Calinou/scoop-games
 zdbsp.json,Calinou/scoop-games
-multimc_Calinou.json,Calinou/scoop-games
 wfinfo.json,Calinou/scoop-games
 project64.json,Calinou/scoop-games
 itch_Calinou.json,Calinou/scoop-games
@@ -5953,7 +5953,7 @@ libportable.json,hoilc/scoop-lemon
 strings2.json,hoilc/scoop-lemon
 pngquant_hoilc.json,hoilc/scoop-lemon
 mbox-viewer.json,hoilc/scoop-lemon
-skylark.json,hoilc/scoop-lemon
+skylark_hoilc.json,hoilc/scoop-lemon
 kyverno-cli_hoilc.json,hoilc/scoop-lemon
 proxypin.json,hoilc/scoop-lemon
 rare_hoilc.json,hoilc/scoop-lemon
@@ -6185,6 +6185,8 @@ UAC.HashTab.json,Paxxs/Cluttered-bucket
 Mellow_Paxxs.json,Paxxs/Cluttered-bucket
 winrar-sc.json,Paxxs/Cluttered-bucket
 LightProxy_Paxxs.json,Paxxs/Cluttered-bucket
+ossutil_echoiron.json,echoiron/echo-scoop
+n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 BingWallpaper-Install.json,ACooper81/scoop-apps
 uplay_ACooper81.json,ACooper81/scoop-apps
 shutup10_ACooper81.json,ACooper81/scoop-apps
@@ -6920,8 +6922,6 @@ PSModule.json,ACooper81/scoop-apps
 installmsi.json,ACooper81/scoop-apps
 portable.json,ACooper81/scoop-apps
 installexe.json,ACooper81/scoop-apps
-ossutil_echoiron.json,echoiron/echo-scoop
-n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 files-np.json,ScoopInstaller/Nonportable
 lantern-np.json,ScoopInstaller/Nonportable
 winfsp-np_ScoopInstaller.json,ScoopInstaller/Nonportable
@@ -7209,7 +7209,7 @@ xenia-canary_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
-dolphin-dev.json,borger/scoop-emulators
+dolphin-dev_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
@@ -7229,7 +7229,7 @@ cemuhook_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 retroarch-nightly_borger.json,borger/scoop-emulators
-ryujinx-ava_borger.json,borger/scoop-emulators
+ryujinx-ava.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
@@ -7248,7 +7248,7 @@ pcsx2-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
-ryujinx_borger.json,borger/scoop-emulators
+ryujinx.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
@@ -8669,7 +8669,7 @@ pidkey.json,ViCrack/scoop-bucket
 scan4all_ViCrack.json,ViCrack/scoop-bucket
 xpoc.json,ViCrack/scoop-bucket
 notepad--_ViCrack.json,ViCrack/scoop-bucket
-apifox_ViCrack.json,ViCrack/scoop-bucket
+apifox.json,ViCrack/scoop-bucket
 pot_ViCrack.json,ViCrack/scoop-bucket
 sliver_ViCrack.json,ViCrack/scoop-bucket
 yakit_ViCrack.json,ViCrack/scoop-bucket
@@ -9332,7 +9332,6 @@ zyplayer.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
 winget-preview_DoveBoy.json,DoveBoy/Apps
 windows11-classic-context-menu_DoveBoy.json,DoveBoy/Apps
-openai-translator.json,DoveBoy/Apps
 v2rayn-core-with-runtime.json,DoveBoy/Apps
 bilibilitoolpro.json,DoveBoy/Apps
 sandboxie-classic.json,DoveBoy/Apps
@@ -9511,7 +9510,6 @@ trafficmonitor-lite_DoveBoy.json,DoveBoy/Apps
 vim-nightly_DoveBoy.json,DoveBoy/Apps
 posh-maven.json,DoveBoy/Apps
 hackbrowserdata_DoveBoy.json,DoveBoy/Apps
-ccleaner_DoveBoy.json,DoveBoy/Apps
 nvm-tab-completion.json,DoveBoy/Apps
 ripgrep_DoveBoy.json,DoveBoy/Apps
 yt-dlp_DoveBoy.json,DoveBoy/Apps
@@ -9573,7 +9571,7 @@ bulk-crap-uninstaller_DoveBoy.json,DoveBoy/Apps
 nvm_DoveBoy.json,DoveBoy/Apps
 neovim_DoveBoy.json,DoveBoy/Apps
 watttoolkit-beta.json,DoveBoy/Apps
-libreoffice_DoveBoy.json,DoveBoy/Apps
+libreoffice.json,DoveBoy/Apps
 youtube-dl-gui_DoveBoy.json,DoveBoy/Apps
 lanzou-gui.json,DoveBoy/Apps
 ffmpeg-shared-nightly_DoveBoy.json,DoveBoy/Apps
@@ -9802,7 +9800,7 @@ dreamscene2.json,DoveBoy/Apps
 gnupg1_DoveBoy.json,DoveBoy/Apps
 clash-mini.json,DoveBoy/Apps
 qr_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 crystaldiskmark_DoveBoy.json,DoveBoy/Apps
 clashn-core.json,DoveBoy/Apps
 pdf-guru.json,DoveBoy/Apps
@@ -10067,9 +10065,11 @@ ACNH-design-pattern-editor.json,hu3rror/scoop-muggle
 eza_hu3rror.json,hu3rror/scoop-muggle
 limitpng.json,hu3rror/scoop-muggle
 pixivbiu_hu3rror.json,hu3rror/scoop-muggle
+sing-box-pre.json,hu3rror/scoop-muggle
 gopeed_hu3rror.json,hu3rror/scoop-muggle
 neat-converter.json,hu3rror/scoop-muggle
 FFRename-pro.json,hu3rror/scoop-muggle
+bilibili-manga-downloader.json,hu3rror/scoop-muggle
 gingko.json,hu3rror/scoop-muggle
 musictag.json,hu3rror/scoop-muggle
 dota2_realblood.json,hu3rror/scoop-muggle
@@ -11322,7 +11322,6 @@ dnsping.json,aliesbelik/poldi
 jvms.json,aliesbelik/poldi
 ntttcp_aliesbelik.json,aliesbelik/poldi
 httplab.json,aliesbelik/poldi
-gickup_aliesbelik.json,aliesbelik/poldi
 hetty_aliesbelik.json,aliesbelik/poldi
 dsq.json,aliesbelik/poldi
 rewrk.json,aliesbelik/poldi
@@ -11375,6 +11374,7 @@ kafkactl.json,aliesbelik/poldi
 terjang.json,aliesbelik/poldi
 goku.json,aliesbelik/poldi
 plow_aliesbelik.json,aliesbelik/poldi
+openpomodoro.json,aliesbelik/poldi
 helmify_aliesbelik.json,aliesbelik/poldi
 xq_aliesbelik.json,aliesbelik/poldi
 gocannon.json,aliesbelik/poldi
@@ -12360,7 +12360,7 @@ gajim.json,Zliced13/MyScoop
 whocrashed.json,Zliced13/MyScoop
 unified-remote-server.json,Zliced13/MyScoop
 reicon_fixed.json,Zliced13/MyScoop
-innoextractor_Zliced13.json,Zliced13/MyScoop
+innoextractor.json,Zliced13/MyScoop
 peazip-np.json,Zliced13/MyScoop
 davmail.json,Zliced13/MyScoop
 64gram_fixed.json,Zliced13/MyScoop
