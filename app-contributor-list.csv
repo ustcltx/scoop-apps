@@ -2125,7 +2125,7 @@ lamexp.json,ScoopInstaller/Extras
 mkvmergebatcher.json,ScoopInstaller/Extras
 honeyview.json,ScoopInstaller/Extras
 natural-docs.json,ScoopInstaller/Extras
-jetbrains-toolbox.json,ScoopInstaller/Extras
+jetbrains-toolbox_ScoopInstaller.json,ScoopInstaller/Extras
 wonderpen.json,ScoopInstaller/Extras
 shadowsocks-qtun-plugin.json,ScoopInstaller/Extras
 cutter.json,ScoopInstaller/Extras
@@ -4920,7 +4920,7 @@ addrview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 faview.json,ScoopInstaller/Nirsoft
 gdiview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 passwordfox_ScoopInstaller.json,ScoopInstaller/Nirsoft
-tcplogview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+tcplogview.json,ScoopInstaller/Nirsoft
 videocacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 usbdrivelog_ScoopInstaller.json,ScoopInstaller/Nirsoft
 appcompatibilityview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5219,6 +5219,7 @@ multi-gitter.json,hoilc/scoop-lemon
 snova-asio.json,hoilc/scoop-lemon
 minihex.json,hoilc/scoop-lemon
 emby-plugin-javscraper.json,hoilc/scoop-lemon
+dtlspipe.json,hoilc/scoop-lemon
 phrase-cli.json,hoilc/scoop-lemon
 snctl.json,hoilc/scoop-lemon
 redumper.json,hoilc/scoop-lemon
@@ -5586,7 +5587,7 @@ cosbrowser_hoilc.json,hoilc/scoop-lemon
 pilotedit-lite.json,hoilc/scoop-lemon
 smuxi_hoilc.json,hoilc/scoop-lemon
 colored-text.json,hoilc/scoop-lemon
-rssguard.json,hoilc/scoop-lemon
+rssguard_hoilc.json,hoilc/scoop-lemon
 foobox-en.json,hoilc/scoop-lemon
 cloudquery.json,hoilc/scoop-lemon
 unlock-music_hoilc.json,hoilc/scoop-lemon
@@ -5835,6 +5836,7 @@ trzsz_hoilc.json,hoilc/scoop-lemon
 lossywav.json,hoilc/scoop-lemon
 double-entry-generator.json,hoilc/scoop-lemon
 mdsilo.json,hoilc/scoop-lemon
+pixpin_hoilc.json,hoilc/scoop-lemon
 stegify.json,hoilc/scoop-lemon
 biniware-run.json,hoilc/scoop-lemon
 deeplx.json,hoilc/scoop-lemon
@@ -6067,6 +6069,7 @@ libvips_hoilc.json,hoilc/scoop-lemon
 pinniped-cli.json,hoilc/scoop-lemon
 arpsift.json,hoilc/scoop-lemon
 oggdropxpd-libvorbis.json,hoilc/scoop-lemon
+swgp-go.json,hoilc/scoop-lemon
 go-wol.json,hoilc/scoop-lemon
 dapr.json,hoilc/scoop-lemon
 nps-server.json,hoilc/scoop-lemon
@@ -7253,6 +7256,7 @@ eSpeak.json,dodorz/scoop
 browsh.json,dodorz/scoop
 XPad.json,dodorz/scoop
 AESCrypt-CLI.json,dodorz/scoop
+AnyTXTSearcher-OCR-np.json,dodorz/scoop
 LaTeXDraw.json,dodorz/scoop
 CLCL.json,dodorz/scoop
 shell2http.json,dodorz/scoop
@@ -7443,6 +7447,7 @@ tagLyst.json,dodorz/scoop
 odiff.json,dodorz/scoop
 CCleaner_dodorz.json,dodorz/scoop
 Windows-Terminal.json,dodorz/scoop
+AnyTXTSearcher-np.json,dodorz/scoop
 NirLauncher_dodorz.json,dodorz/scoop
 Eudic_dodorz.json,dodorz/scoop
 Noto-Sans-Font_dodorz.json,dodorz/scoop
@@ -7736,7 +7741,6 @@ ApabiReader.json,dodorz/scoop
 DeleteProfiles_dodorz.json,dodorz/scoop
 NoteExpress.json,dodorz/scoop
 FriCAS.json,dodorz/scoop
-AnyTXTSearcher-np.json,dodorz/scoop
 MPUI.json,dodorz/scoop
 EverythingToolbar_dodorz.json,dodorz/scoop
 MediaPreview-np.json,dodorz/scoop
@@ -7986,7 +7990,7 @@ mgba_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 cxbx-reloaded_borger.json,borger/scoop-emulators
@@ -8012,7 +8016,7 @@ ppsspp-dev_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 ryujinx-ava_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
@@ -8323,7 +8327,7 @@ wnr_zhoujin7.json,zhoujin7/tomato
 notepadplusplus_zhoujin7.json,zhoujin7/tomato
 PartAssist_zhoujin7.json,zhoujin7/tomato
 HBuilderX-Full.json,zhoujin7/tomato
-Quicker.json,zhoujin7/tomato
+Quicker_zhoujin7.json,zhoujin7/tomato
 RegistryWorkshop.json,zhoujin7/tomato
 PhotoFiltre11.json,zhoujin7/tomato
 lealone.json,zhoujin7/tomato
@@ -8415,7 +8419,7 @@ tomcat8_akirco.json,akirco/aki-apps
 marktext_akirco.json,akirco/aki-apps
 potplayer_akirco.json,akirco/aki-apps
 mtn_akirco.json,akirco/aki-apps
-electerm.json,akirco/aki-apps
+electerm_akirco.json,akirco/aki-apps
 scoop-completion_akirco.json,akirco/aki-apps
 dark_akirco.json,akirco/aki-apps
 hub_akirco.json,akirco/aki-apps
@@ -9367,7 +9371,6 @@ logcli_iquiw.json,iquiw/scoop-bucket
 ct_iquiw.json,iquiw/scoop-bucket
 pinentry-w32-ncg.json,iquiw/scoop-bucket
 emacs-tree-sitter-module.json,iquiw/scoop-bucket
-cudatext.json,DoveBoy/Apps
 volta-tab-completion.json,DoveBoy/Apps
 autodarkmode_DoveBoy.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
@@ -9517,6 +9520,7 @@ pnpm-tab-completion.json,DoveBoy/Apps
 qqmusic_DoveBoy.json,DoveBoy/Apps
 sandboxie-plus-np_DoveBoy.json,DoveBoy/Apps
 winsw_DoveBoy.json,DoveBoy/Apps
+dnsjumper_DoveBoy.json,DoveBoy/Apps
 termscp_DoveBoy.json,DoveBoy/Apps
 everything-alpha_DoveBoy.json,DoveBoy/Apps
 officetoolplus-with-runtime.json,DoveBoy/Apps
@@ -9563,7 +9567,6 @@ retrieval-based-voice-conversion-webui.json,DoveBoy/Apps
 kaf-wifi.json,DoveBoy/Apps
 yt-dlp_DoveBoy.json,DoveBoy/Apps
 explorerpatcher.json,DoveBoy/Apps
-openai-translator.json,DoveBoy/Apps
 openssl_DoveBoy.json,DoveBoy/Apps
 xx-net-win7.json,DoveBoy/Apps
 ssrr-windows.json,DoveBoy/Apps
@@ -9672,7 +9675,7 @@ rustdesk_DoveBoy.json,DoveBoy/Apps
 whynotwin11_DoveBoy.json,DoveBoy/Apps
 littletips.json,DoveBoy/Apps
 pikapika.json,DoveBoy/Apps
-pandaocrpro_DoveBoy.json,DoveBoy/Apps
+pandaocrpro.json,DoveBoy/Apps
 gopeed-web.json,DoveBoy/Apps
 umi-ocr-paddle.json,DoveBoy/Apps
 scoop-sd_DoveBoy.json,DoveBoy/Apps
@@ -10937,7 +10940,7 @@ cinebench.json,aoisummer/scoop-bucket
 ddtv2.json,aoisummer/scoop-bucket
 thunderbird-zh-cn_aoisummer.json,aoisummer/scoop-bucket
 waifu2x-ncnn-vulkan_seumsc.json,seumsc/scoop-seu
-kook.json,seumsc/scoop-seu
+kook_seumsc.json,seumsc/scoop-seu
 firetools.json,seumsc/scoop-seu
 srmd-ncnn-vulkan.json,seumsc/scoop-seu
 leanify.json,seumsc/scoop-seu
@@ -12766,7 +12769,7 @@ cider_beerpiss.json,beerpiss/scoop-bucket
 susplayer.json,beerpiss/scoop-bucket
 stash-dev_beerpiss.json,beerpiss/scoop-bucket
 ib-en.json,beerpiss/scoop-bucket
-microsoftedge_beerpiss.json,beerpiss/scoop-bucket
+microsoftedge.json,beerpiss/scoop-bucket
 punzip.json,beerpiss/scoop-bucket
 onetrueawk.json,beerpiss/scoop-bucket
 majdata.json,beerpiss/scoop-bucket
