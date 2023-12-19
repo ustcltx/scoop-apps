@@ -2127,7 +2127,7 @@ lamexp.json,ScoopInstaller/Extras
 mkvmergebatcher.json,ScoopInstaller/Extras
 honeyview.json,ScoopInstaller/Extras
 natural-docs.json,ScoopInstaller/Extras
-jetbrains-toolbox_ScoopInstaller.json,ScoopInstaller/Extras
+jetbrains-toolbox.json,ScoopInstaller/Extras
 wonderpen.json,ScoopInstaller/Extras
 shadowsocks-qtun-plugin.json,ScoopInstaller/Extras
 cutter.json,ScoopInstaller/Extras
@@ -2985,7 +2985,7 @@ eudic.json,ivaquero/scoopet
 mambaforge-cn.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 libreoffice-cn.json,ivaquero/scoopet
-baidunetdisk.json,ivaquero/scoopet
+baidunetdisk_ivaquero.json,ivaquero/scoopet
 texstudio-cn.json,ivaquero/scoopet
 netlogo.json,ivaquero/scoopet
 rectanglewin.json,ivaquero/scoopet
@@ -4842,7 +4842,7 @@ dumpedid_ScoopInstaller.json,ScoopInstaller/Nirsoft
 downtester_ScoopInstaller.json,ScoopInstaller/Nirsoft
 exifdataview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 networktools.json,ScoopInstaller/Nirsoft
-vaultpasswordview.json,ScoopInstaller/Nirsoft
+vaultpasswordview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mozillahistoryview.json,ScoopInstaller/Nirsoft
 installedappview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 flashcookiesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -4922,7 +4922,7 @@ addrview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 faview.json,ScoopInstaller/Nirsoft
 gdiview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 passwordfox_ScoopInstaller.json,ScoopInstaller/Nirsoft
-tcplogview.json,ScoopInstaller/Nirsoft
+tcplogview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 videocacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 usbdrivelog_ScoopInstaller.json,ScoopInstaller/Nirsoft
 appcompatibilityview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5252,6 +5252,7 @@ musictag.json,hoilc/scoop-lemon
 steascree.json,hoilc/scoop-lemon
 simple-vhd-manager.json,hoilc/scoop-lemon
 oggdropxpd-libvorbis-aotuv-lancer.json,hoilc/scoop-lemon
+tone.json,hoilc/scoop-lemon
 oda-file-converter.json,hoilc/scoop-lemon
 diskbench.json,hoilc/scoop-lemon
 another-redis-desktop-manager_hoilc.json,hoilc/scoop-lemon
@@ -5281,6 +5282,7 @@ kubeconform_hoilc.json,hoilc/scoop-lemon
 lucy.json,hoilc/scoop-lemon
 library.net-standard.json,hoilc/scoop-lemon
 zorba.json,hoilc/scoop-lemon
+s3scanner.json,hoilc/scoop-lemon
 keepass-plugin-kpenhentryview_hoilc.json,hoilc/scoop-lemon
 textlocator.json,hoilc/scoop-lemon
 lpvpn.json,hoilc/scoop-lemon
@@ -8472,7 +8474,7 @@ shimo.json,akirco/aki-apps
 gdu_akirco.json,akirco/aki-apps
 dotfiles.json,akirco/aki-apps
 sox_akirco.json,akirco/aki-apps
-firefox-zh-cn_akirco.json,akirco/aki-apps
+firefox-zh-cn.json,akirco/aki-apps
 xh_akirco.json,akirco/aki-apps
 completion-predictor.json,akirco/aki-apps
 yt-dlp_akirco.json,akirco/aki-apps
@@ -9092,7 +9094,7 @@ pushbullet.json,naderi/scoop-bucket
 font-shahab.json,naderi/scoop-bucket
 ant-renamer.json,naderi/scoop-bucket
 mitec-photoview.json,naderi/scoop-bucket
-ocam_naderi.json,naderi/scoop-bucket
+ocam.json,naderi/scoop-bucket
 appget_naderi.json,naderi/scoop-bucket
 cryfs.json,naderi/scoop-bucket
 uget-portable.json,naderi/scoop-bucket
@@ -9573,6 +9575,7 @@ firewallappblocker_DoveBoy.json,DoveBoy/Apps
 officetoolplus_DoveBoy.json,DoveBoy/Apps
 sox_DoveBoy.json,DoveBoy/Apps
 nomeiryoui_DoveBoy.json,DoveBoy/Apps
+mitmproxy.json,DoveBoy/Apps
 hackbrowserdata_DoveBoy.json,DoveBoy/Apps
 video-srt-windows.json,DoveBoy/Apps
 doc-downloader.json,DoveBoy/Apps
@@ -9589,7 +9592,6 @@ scoop-validator_DoveBoy.json,DoveBoy/Apps
 pdfpatcher_DoveBoy.json,DoveBoy/Apps
 dreamscene2.json,DoveBoy/Apps
 npm-tab-completion.json,DoveBoy/Apps
-hwinfo_DoveBoy.json,DoveBoy/Apps
 mihomo_DoveBoy.json,DoveBoy/Apps
 ariang-native_DoveBoy.json,DoveBoy/Apps
 idcard-generator.json,DoveBoy/Apps
@@ -9627,6 +9629,7 @@ pixivutil2.json,DoveBoy/Apps
 spleetergui-portable_DoveBoy.json,DoveBoy/Apps
 mycomputermanager_DoveBoy.json,DoveBoy/Apps
 cloudflarespeedtest_DoveBoy.json,DoveBoy/Apps
+memreduct_DoveBoy.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 bili-cli-rs.json,DoveBoy/Apps
 gns3.json,DoveBoy/Apps
@@ -9762,7 +9765,7 @@ everything-cli_DoveBoy.json,DoveBoy/Apps
 clink-completions_DoveBoy.json,DoveBoy/Apps
 gopeed_DoveBoy.json,DoveBoy/Apps
 croc_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 upx_DoveBoy.json,DoveBoy/Apps
 ipcalc_DoveBoy.json,DoveBoy/Apps
 obs-studio_DoveBoy.json,DoveBoy/Apps
@@ -10737,6 +10740,7 @@ technorino.json,brian6932/dank-scoop
 dankerino-portable.json,brian6932/dank-scoop
 mpv-autoload.json,brian6932/dank-scoop
 powercolorls.json,brian6932/dank-scoop
+ssh3.json,brian6932/dank-scoop
 winfsp-np-beta.json,brian6932/dank-scoop
 streamlink-nightly-lean.json,brian6932/dank-scoop
 get-mediainfo.json,brian6932/dank-scoop
@@ -10881,7 +10885,7 @@ FreeFileSync_cc713.json,cc713/ownscoop
 aaru.json,cc713/ownscoop
 diskgeniusCN.json,cc713/ownscoop
 TsubakiTranslator.json,cc713/ownscoop
-rstudio_cc713.json,cc713/ownscoop
+rstudio.json,cc713/ownscoop
 downkyi_cc713.json,cc713/ownscoop
 kiwix_cc713.json,cc713/ownscoop
 opencomic.json,cc713/ownscoop
@@ -11550,6 +11554,7 @@ ghz.json,aliesbelik/poldi
 tcping-go_aliesbelik.json,aliesbelik/poldi
 speedbump.json,aliesbelik/poldi
 kafkactl.json,aliesbelik/poldi
+gickup_aliesbelik.json,aliesbelik/poldi
 gobench.json,aliesbelik/poldi
 jaq.json,aliesbelik/poldi
 httpx_aliesbelik.json,aliesbelik/poldi
@@ -12334,7 +12339,7 @@ explorerpatcher-np.json,FlawlessCasual17/MyScoop
 capslock-indicator.json,FlawlessCasual17/MyScoop
 unified-remote-server.json,FlawlessCasual17/MyScoop
 huffyuv-multithreaded.json,FlawlessCasual17/MyScoop
-innoextractor.json,FlawlessCasual17/MyScoop
+innoextractor_FlawlessCasual17.json,FlawlessCasual17/MyScoop
 nora_FlawlessCasual17.json,FlawlessCasual17/MyScoop
 lagarith-lossless-video-codec.json,FlawlessCasual17/MyScoop
 rvgl-launcher.json,FlawlessCasual17/MyScoop
