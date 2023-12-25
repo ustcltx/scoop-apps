@@ -633,6 +633,7 @@ commandbox.json,ScoopInstaller/Extras
 jaspersoft-studio.json,ScoopInstaller/Extras
 translucenttb.json,ScoopInstaller/Extras
 baka-mplayer.json,ScoopInstaller/Extras
+clash-verge-rev.json,ScoopInstaller/Extras
 blender-launcher.json,ScoopInstaller/Extras
 castle-view-image.json,ScoopInstaller/Extras
 ezunlock.json,ScoopInstaller/Extras
@@ -812,7 +813,7 @@ appbuster.json,ScoopInstaller/Extras
 dockercompletion.json,ScoopInstaller/Extras
 mendeley.json,ScoopInstaller/Extras
 devdocs.json,ScoopInstaller/Extras
-electerm_ScoopInstaller.json,ScoopInstaller/Extras
+electerm.json,ScoopInstaller/Extras
 pidgin.json,ScoopInstaller/Extras
 debugviewpp.json,ScoopInstaller/Extras
 windows95.json,ScoopInstaller/Extras
@@ -1736,7 +1737,7 @@ hyper.json,ScoopInstaller/Extras
 renpy.json,ScoopInstaller/Extras
 sdl2.json,ScoopInstaller/Extras
 typora_ScoopInstaller.json,ScoopInstaller/Extras
-fscapture.json,ScoopInstaller/Extras
+fscapture_ScoopInstaller.json,ScoopInstaller/Extras
 hxd.json,ScoopInstaller/Extras
 jabref.json,ScoopInstaller/Extras
 hysteria.json,ScoopInstaller/Extras
@@ -2965,7 +2966,7 @@ subversion.json,ivaquero/scoopet
 m3u8-downloader.json,ivaquero/scoopet
 cursor.json,ivaquero/scoopet
 winrar_ivaquero.json,ivaquero/scoopet
-clash-verge-rev.json,ivaquero/scoopet
+clash-verge-rev_ivaquero.json,ivaquero/scoopet
 edgeless.json,ivaquero/scoopet
 adrive_ivaquero.json,ivaquero/scoopet
 lx-music_ivaquero.json,ivaquero/scoopet
@@ -3020,6 +3021,7 @@ chatgpt-cli.json,ivaquero/scoopet
 utools_ivaquero.json,ivaquero/scoopet
 lky-officetools.json,ivaquero/scoopet
 sagemath-cn.json,ivaquero/scoopet
+vscode-win7.json,ivaquero/scoopet
 umi-ocr.json,ivaquero/scoopet
 clash-nyanpasu.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
@@ -4593,7 +4595,7 @@ noto-sans-font.json,rasa/scoops
 ztree.json,rasa/scoops
 dskwipe.json,rasa/scoops
 path-set.json,rasa/scoops
-brave_rasa.json,rasa/scoops
+brave.json,rasa/scoops
 regdelta.json,rasa/scoops
 usbdeview-ids.json,rasa/scoops
 diskspd_rasa.json,rasa/scoops
@@ -5211,6 +5213,7 @@ shutter-encoder_hoilc.json,hoilc/scoop-lemon
 hostess.json,hoilc/scoop-lemon
 visipics.json,hoilc/scoop-lemon
 zhconv-rs.json,hoilc/scoop-lemon
+bitrock-unpacker.json,hoilc/scoop-lemon
 jotta-cli.json,hoilc/scoop-lemon
 glooctl.json,hoilc/scoop-lemon
 flydav.json,hoilc/scoop-lemon
@@ -5420,6 +5423,7 @@ path-locate.json,hoilc/scoop-lemon
 archisteamfarm_hoilc.json,hoilc/scoop-lemon
 ibeverythingext.json,hoilc/scoop-lemon
 elasticsearch_exporter.json,hoilc/scoop-lemon
+appfire-cli.json,hoilc/scoop-lemon
 multidesk-chs.json,hoilc/scoop-lemon
 radius.json,hoilc/scoop-lemon
 twolame.json,hoilc/scoop-lemon
@@ -5432,7 +5436,7 @@ lredit.json,hoilc/scoop-lemon
 3body-lang.json,hoilc/scoop-lemon
 lal.json,hoilc/scoop-lemon
 cs-script.json,hoilc/scoop-lemon
-wingetui.json,hoilc/scoop-lemon
+wingetui_hoilc.json,hoilc/scoop-lemon
 cpix.json,hoilc/scoop-lemon
 anime4kcpp-cli.json,hoilc/scoop-lemon
 kodo-browser.json,hoilc/scoop-lemon
@@ -5579,6 +5583,7 @@ azd_hoilc.json,hoilc/scoop-lemon
 pot_hoilc.json,hoilc/scoop-lemon
 catsxp.json,hoilc/scoop-lemon
 bookxnote.json,hoilc/scoop-lemon
+sdx.json,hoilc/scoop-lemon
 curlie_hoilc.json,hoilc/scoop-lemon
 securefs.json,hoilc/scoop-lemon
 qbittorrent-enhanced_hoilc.json,hoilc/scoop-lemon
@@ -6063,6 +6068,7 @@ mixctl.json,hoilc/scoop-lemon
 dnsproxy_hoilc.json,hoilc/scoop-lemon
 bart.json,hoilc/scoop-lemon
 pulumictl.json,hoilc/scoop-lemon
+tclkitsh.json,hoilc/scoop-lemon
 custommenu.json,hoilc/scoop-lemon
 bbdown-nightly.json,hoilc/scoop-lemon
 jib-cli.json,hoilc/scoop-lemon
@@ -6106,6 +6112,7 @@ kubecm.json,hoilc/scoop-lemon
 tlsx.json,hoilc/scoop-lemon
 kcptun_hoilc.json,hoilc/scoop-lemon
 libvips_hoilc.json,hoilc/scoop-lemon
+tclkit.json,hoilc/scoop-lemon
 pinniped-cli.json,hoilc/scoop-lemon
 arpsift.json,hoilc/scoop-lemon
 oggdropxpd-libvorbis.json,hoilc/scoop-lemon
@@ -9391,7 +9398,7 @@ autodarkmode_DoveBoy.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
 biliup-rs_DoveBoy.json,DoveBoy/Apps
 gitalias.json,DoveBoy/Apps
-telegram-downloader.json,DoveBoy/Apps
+telegram-downloader_DoveBoy.json,DoveBoy/Apps
 nanazip_DoveBoy.json,DoveBoy/Apps
 gnupg_DoveBoy.json,DoveBoy/Apps
 easymusic.json,DoveBoy/Apps
@@ -9696,7 +9703,7 @@ rustdesk_DoveBoy.json,DoveBoy/Apps
 whynotwin11_DoveBoy.json,DoveBoy/Apps
 littletips.json,DoveBoy/Apps
 pikapika.json,DoveBoy/Apps
-pandaocrpro.json,DoveBoy/Apps
+pandaocrpro_DoveBoy.json,DoveBoy/Apps
 gopeed-web.json,DoveBoy/Apps
 umi-ocr-paddle.json,DoveBoy/Apps
 scoop-sd_DoveBoy.json,DoveBoy/Apps
@@ -9722,7 +9729,7 @@ nvm_DoveBoy.json,DoveBoy/Apps
 shadowsocksr-hmbsbige_DoveBoy.json,DoveBoy/Apps
 chromedriver_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
-qq-nt_DoveBoy.json,DoveBoy/Apps
+qq-nt.json,DoveBoy/Apps
 energystarx.json,DoveBoy/Apps
 helix_DoveBoy.json,DoveBoy/Apps
 opensearcher.json,DoveBoy/Apps
@@ -9739,7 +9746,7 @@ vhs_DoveBoy.json,DoveBoy/Apps
 musicfreedesktop.json,DoveBoy/Apps
 waifu2x-extension-gui-beta.json,DoveBoy/Apps
 openoffice_DoveBoy.json,DoveBoy/Apps
-handbrake.json,DoveBoy/Apps
+handbrake_DoveBoy.json,DoveBoy/Apps
 daisy.json,DoveBoy/Apps
 qrcp_DoveBoy.json,DoveBoy/Apps
 onlyoffice-desktopeditors_DoveBoy.json,DoveBoy/Apps
@@ -9840,8 +9847,7 @@ etcher-portable.json,DoveBoy/Apps
 everything-beta_DoveBoy.json,DoveBoy/Apps
 network-profile-name-changer_DoveBoy.json,DoveBoy/Apps
 freecontrol.json,DoveBoy/Apps
-forkgram.json,DoveBoy/Apps
-clash-nyanpasu.json,DoveBoy/Apps
+clash-nyanpasu_DoveBoy.json,DoveBoy/Apps
 typora-dev.json,DoveBoy/Apps
 windterm_DoveBoy.json,DoveBoy/Apps
 npm-completion_DoveBoy.json,DoveBoy/Apps
@@ -10693,6 +10699,7 @@ jiq.json,brian6932/dank-scoop
 chatterino7-portable.json,brian6932/dank-scoop
 dmde.json,brian6932/dank-scoop
 OpenHashTab_brian6932.json,brian6932/dank-scoop
+hagoromo.json,brian6932/dank-scoop
 EleDo.json,brian6932/dank-scoop
 dankerino-qt5.json,brian6932/dank-scoop
 memo.json,brian6932/dank-scoop
@@ -12979,6 +12986,7 @@ acnet-glsl.json,HUMORCE/nuke
 officetool-plus.json,HUMORCE/nuke
 motrix_HUMORCE.json,HUMORCE/nuke
 otfcc_HUMORCE.json,HUMORCE/nuke
+autohotkey_HUMORCE.json,HUMORCE/nuke
 anime4kcpp-avisynthplus-plugin.json,HUMORCE/nuke
 localsend_HUMORCE.json,HUMORCE/nuke
 xpdf-tools-LSP-schinese.json,HUMORCE/nuke
