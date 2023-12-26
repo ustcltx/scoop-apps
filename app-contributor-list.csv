@@ -813,7 +813,7 @@ appbuster.json,ScoopInstaller/Extras
 dockercompletion.json,ScoopInstaller/Extras
 mendeley.json,ScoopInstaller/Extras
 devdocs.json,ScoopInstaller/Extras
-electerm.json,ScoopInstaller/Extras
+electerm_ScoopInstaller.json,ScoopInstaller/Extras
 pidgin.json,ScoopInstaller/Extras
 debugviewpp.json,ScoopInstaller/Extras
 windows95.json,ScoopInstaller/Extras
@@ -1360,7 +1360,7 @@ twitchtest.json,ScoopInstaller/Extras
 jqp.json,ScoopInstaller/Extras
 superf4.json,ScoopInstaller/Extras
 nunustudio.json,ScoopInstaller/Extras
-obsidian_ScoopInstaller.json,ScoopInstaller/Extras
+obsidian.json,ScoopInstaller/Extras
 insomnia.json,ScoopInstaller/Extras
 7ztm.json,ScoopInstaller/Extras
 tailblazer.json,ScoopInstaller/Extras
@@ -8360,7 +8360,7 @@ HBuilder.json,zhoujin7/tomato
 jd-gui_zhoujin7.json,zhoujin7/tomato
 hsqldb.json,zhoujin7/tomato
 Q-Dir_zhoujin7.json,zhoujin7/tomato
-HBuilderX_zhoujin7.json,zhoujin7/tomato
+HBuilderX.json,zhoujin7/tomato
 PasteEx_zhoujin7.json,zhoujin7/tomato
 arthas_zhoujin7.json,zhoujin7/tomato
 zipkin-dependencies.json,zhoujin7/tomato
@@ -8558,7 +8558,7 @@ tokei_akirco.json,akirco/aki-apps
 vcredist2019.json,akirco/aki-apps
 redis-desktop-manager_akirco.json,akirco/aki-apps
 draw.io_akirco.json,akirco/aki-apps
-telegram_akirco.json,akirco/aki-apps
+telegram.json,akirco/aki-apps
 pyflow_akirco.json,akirco/aki-apps
 mvndaemon_akirco.json,akirco/aki-apps
 topgrade_akirco.json,akirco/aki-apps
@@ -8614,7 +8614,7 @@ nu_akirco.json,akirco/aki-apps
 xming_akirco.json,akirco/aki-apps
 github_akirco.json,akirco/aki-apps
 bilibili-livehime_akirco.json,akirco/aki-apps
-aliyundrive_akirco.json,akirco/aki-apps
+aliyundrive.json,akirco/aki-apps
 qrcp_akirco.json,akirco/aki-apps
 clashrauto.json,akirco/aki-apps
 opus-tools_akirco.json,akirco/aki-apps
@@ -8801,7 +8801,7 @@ java-memshell-generator.json,ViCrack/scoop-bucket
 maye_ViCrack.json,ViCrack/scoop-bucket
 ysomap_ViCrack.json,ViCrack/scoop-bucket
 wub_ViCrack.json,ViCrack/scoop-bucket
-apifox.json,ViCrack/scoop-bucket
+apifox_ViCrack.json,ViCrack/scoop-bucket
 jndinjector_ViCrack.json,ViCrack/scoop-bucket
 godzilla_ViCrack.json,ViCrack/scoop-bucket
 dnsx_ViCrack.json,ViCrack/scoop-bucket
@@ -9729,7 +9729,7 @@ nvm_DoveBoy.json,DoveBoy/Apps
 shadowsocksr-hmbsbige_DoveBoy.json,DoveBoy/Apps
 chromedriver_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
-qq-nt.json,DoveBoy/Apps
+qq-nt_DoveBoy.json,DoveBoy/Apps
 energystarx.json,DoveBoy/Apps
 helix_DoveBoy.json,DoveBoy/Apps
 opensearcher.json,DoveBoy/Apps
@@ -10034,6 +10034,7 @@ MajsoulPlus.json,ygguorun/scoop-bucket
 Macast_ygguorun.json,ygguorun/scoop-bucket
 LyricTools.json,ygguorun/scoop-bucket
 VideoManager.json,ygguorun/scoop-bucket
+aDrive_ygguorun.json,ygguorun/scoop-bucket
 TextLocator_ygguorun.json,ygguorun/scoop-bucket
 Legendary_ygguorun.json,ygguorun/scoop-bucket
 wodeabc.json,ygguorun/scoop-bucket
@@ -11570,6 +11571,7 @@ focus_aliesbelik.json,aliesbelik/poldi
 curlie_aliesbelik.json,aliesbelik/poldi
 jo_aliesbelik.json,aliesbelik/poldi
 gotop_aliesbelik.json,aliesbelik/poldi
+jaq_aliesbelik.json,aliesbelik/poldi
 dnslookup_aliesbelik.json,aliesbelik/poldi
 walk_aliesbelik.json,aliesbelik/poldi
 tcping_aliesbelik.json,aliesbelik/poldi
@@ -11616,7 +11618,6 @@ tcping-go_aliesbelik.json,aliesbelik/poldi
 speedbump.json,aliesbelik/poldi
 kafkactl.json,aliesbelik/poldi
 gobench.json,aliesbelik/poldi
-jaq.json,aliesbelik/poldi
 httpx_aliesbelik.json,aliesbelik/poldi
 wombat.json,aliesbelik/poldi
 reqstress_aliesbelik.json,aliesbelik/poldi
