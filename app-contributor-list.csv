@@ -4858,7 +4858,7 @@ bluetoothview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 operapassview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wirelessnetview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 myeventviewer_ScoopInstaller.json,ScoopInstaller/Nirsoft
-shadowcopyview.json,ScoopInstaller/Nirsoft
+shadowcopyview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 driveletterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 processtcpsummary_ScoopInstaller.json,ScoopInstaller/Nirsoft
 webcacheimageinfo_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -6658,6 +6658,7 @@ IObitSoftwareUpdater-Portable.json,ACooper81/scoop-apps
 ScoopUpdates-Alias.json,ACooper81/scoop-apps
 TinyNvidiaUpdateChecker-Portable.json,ACooper81/scoop-apps
 ZMeter-Portable.json,ACooper81/scoop-apps
+WinSW2CLI-Portable.json,ACooper81/scoop-apps
 AquaSnap-Portable.json,ACooper81/scoop-apps
 VNCViewer-Portable.json,ACooper81/scoop-apps
 MicrosoftOneDriveInsiders-UserInstall.json,ACooper81/scoop-apps
@@ -7184,7 +7185,7 @@ sameboy_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-qt-interim.json,hermanjustnu/scoop-emulators
 winuae.json,hermanjustnu/scoop-emulators
 mesen_hermanjustnu.json,hermanjustnu/scoop-emulators
-cxbx-reloaded_hermanjustnu.json,hermanjustnu/scoop-emulators
+cxbx-reloaded.json,hermanjustnu/scoop-emulators
 vice-sdl2-snapshot.json,hermanjustnu/scoop-emulators
 ppsspp_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-qt.json,hermanjustnu/scoop-emulators
@@ -8035,7 +8036,7 @@ scummvm-nightly_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
-rpcs3.json,borger/scoop-emulators
+rpcs3_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
@@ -8062,7 +8063,7 @@ xenia_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
-ppsspp-dev.json,borger/scoop-emulators
+ppsspp-dev_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
@@ -8377,7 +8378,7 @@ wnr_zhoujin7.json,zhoujin7/tomato
 notepadplusplus_zhoujin7.json,zhoujin7/tomato
 PartAssist_zhoujin7.json,zhoujin7/tomato
 HBuilderX-Full.json,zhoujin7/tomato
-Quicker_zhoujin7.json,zhoujin7/tomato
+Quicker.json,zhoujin7/tomato
 RegistryWorkshop.json,zhoujin7/tomato
 PhotoFiltre11.json,zhoujin7/tomato
 lealone.json,zhoujin7/tomato
@@ -9514,7 +9515,7 @@ clash-rev-compatible.json,DoveBoy/Apps
 v2ray_DoveBoy.json,DoveBoy/Apps
 shadowsocksr-hmbsbige-full.json,DoveBoy/Apps
 xx-net_DoveBoy.json,DoveBoy/Apps
-optimizer_DoveBoy.json,DoveBoy/Apps
+optimizer.json,DoveBoy/Apps
 godmode.json,DoveBoy/Apps
 scoop-completion_DoveBoy.json,DoveBoy/Apps
 translumo.json,DoveBoy/Apps
@@ -9600,6 +9601,7 @@ openssl_DoveBoy.json,DoveBoy/Apps
 xx-net-win7.json,DoveBoy/Apps
 ssrr-windows.json,DoveBoy/Apps
 deoldify-net.json,DoveBoy/Apps
+mobaxterm.json,DoveBoy/Apps
 scoop-validator_DoveBoy.json,DoveBoy/Apps
 pdfpatcher_DoveBoy.json,DoveBoy/Apps
 dreamscene2.json,DoveBoy/Apps
@@ -9653,7 +9655,7 @@ crystaldiskinfo-kureikei.json,DoveBoy/Apps
 powerping_DoveBoy.json,DoveBoy/Apps
 winget_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic-np_DoveBoy.json,DoveBoy/Apps
-draw.io.json,DoveBoy/Apps
+draw.io_DoveBoy.json,DoveBoy/Apps
 ruffle.json,DoveBoy/Apps
 pnpm_DoveBoy.json,DoveBoy/Apps
 rickrack_DoveBoy.json,DoveBoy/Apps
