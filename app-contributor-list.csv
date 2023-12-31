@@ -605,7 +605,7 @@ plex-mpv-shim.json,ScoopInstaller/Extras
 inboxer.json,ScoopInstaller/Extras
 devhub.json,ScoopInstaller/Extras
 butane.json,ScoopInstaller/Extras
-qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
+qownnotes.json,ScoopInstaller/Extras
 quodlibet.json,ScoopInstaller/Extras
 kid3.json,ScoopInstaller/Extras
 irfanview.json,ScoopInstaller/Extras
@@ -814,7 +814,7 @@ appbuster.json,ScoopInstaller/Extras
 dockercompletion.json,ScoopInstaller/Extras
 mendeley.json,ScoopInstaller/Extras
 devdocs.json,ScoopInstaller/Extras
-electerm_ScoopInstaller.json,ScoopInstaller/Extras
+electerm.json,ScoopInstaller/Extras
 pidgin.json,ScoopInstaller/Extras
 debugviewpp.json,ScoopInstaller/Extras
 windows95.json,ScoopInstaller/Extras
@@ -8063,7 +8063,7 @@ xenia_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
-ppsspp-dev_borger.json,borger/scoop-emulators
+ppsspp-dev.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
@@ -8996,7 +8996,7 @@ alacritty-portable.json,naderi/scoop-bucket
 firefox-nightly-portable.json,naderi/scoop-bucket
 dev-cpp-no-compiler.json,naderi/scoop-bucket
 boom_naderi.json,naderi/scoop-bucket
-hdcleaner_naderi.json,naderi/scoop-bucket
+hdcleaner.json,naderi/scoop-bucket
 winamp.json,naderi/scoop-bucket
 converter-now.json,naderi/scoop-bucket
 windows-update-viewer.json,naderi/scoop-bucket
@@ -9007,7 +9007,7 @@ reicon_naderi.json,naderi/scoop-bucket
 teamviewer-portable_naderi.json,naderi/scoop-bucket
 firefox-portable-de.json,naderi/scoop-bucket
 lyx_naderi.json,naderi/scoop-bucket
-tweakpower_naderi.json,naderi/scoop-bucket
+tweakpower.json,naderi/scoop-bucket
 scoop-completion_naderi.json,naderi/scoop-bucket
 mitec-system-information-x.json,naderi/scoop-bucket
 font-ganjnameh.json,naderi/scoop-bucket
@@ -9202,7 +9202,6 @@ audacity-ffmpeg-plugin.json,naderi/scoop-bucket
 local-wp.json,naderi/scoop-bucket
 console2_naderi.json,naderi/scoop-bucket
 vscode-insider.json,naderi/scoop-bucket
-plexamp.json,naderi/scoop-bucket
 doublecmd-portable.json,naderi/scoop-bucket
 icofx.json,naderi/scoop-bucket
 sqlite-gui.json,naderi/scoop-bucket
@@ -9241,7 +9240,7 @@ firefox-esr-portable.json,naderi/scoop-bucket
 alwaysmousewheel.json,naderi/scoop-bucket
 firefox-beta-de.json,naderi/scoop-bucket
 csvsort_naderi.json,naderi/scoop-bucket
-encrypto.json,naderi/scoop-bucket
+encrypto_naderi.json,naderi/scoop-bucket
 easy-context-menu_naderi.json,naderi/scoop-bucket
 picard-portable.json,naderi/scoop-bucket
 bitmana.json,naderi/scoop-bucket
@@ -9601,7 +9600,6 @@ openssl_DoveBoy.json,DoveBoy/Apps
 xx-net-win7.json,DoveBoy/Apps
 ssrr-windows.json,DoveBoy/Apps
 deoldify-net.json,DoveBoy/Apps
-mobaxterm.json,DoveBoy/Apps
 scoop-validator_DoveBoy.json,DoveBoy/Apps
 pdfpatcher_DoveBoy.json,DoveBoy/Apps
 dreamscene2.json,DoveBoy/Apps
@@ -9660,7 +9658,7 @@ ruffle.json,DoveBoy/Apps
 pnpm_DoveBoy.json,DoveBoy/Apps
 rickrack_DoveBoy.json,DoveBoy/Apps
 kobi.json,DoveBoy/Apps
-telegram_DoveBoy.json,DoveBoy/Apps
+telegram.json,DoveBoy/Apps
 yank-note_DoveBoy.json,DoveBoy/Apps
 autoruns_DoveBoy.json,DoveBoy/Apps
 ripgrep_DoveBoy.json,DoveBoy/Apps
@@ -12218,7 +12216,7 @@ vscode1740.json,FlawlessCasual17/MyScoop
 msi-afterburner.json,FlawlessCasual17/MyScoop
 everything-toolbar-scripts.json,FlawlessCasual17/MyScoop
 r_fixed.json,FlawlessCasual17/MyScoop
-encrypto_FlawlessCasual17.json,FlawlessCasual17/MyScoop
+encrypto.json,FlawlessCasual17/MyScoop
 gwsl.json,FlawlessCasual17/MyScoop
 setpoint.json,FlawlessCasual17/MyScoop
 010editor_fixed.json,FlawlessCasual17/MyScoop
