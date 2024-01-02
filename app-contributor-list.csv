@@ -605,7 +605,7 @@ plex-mpv-shim.json,ScoopInstaller/Extras
 inboxer.json,ScoopInstaller/Extras
 devhub.json,ScoopInstaller/Extras
 butane.json,ScoopInstaller/Extras
-qownnotes.json,ScoopInstaller/Extras
+qownnotes_ScoopInstaller.json,ScoopInstaller/Extras
 quodlibet.json,ScoopInstaller/Extras
 kid3.json,ScoopInstaller/Extras
 irfanview.json,ScoopInstaller/Extras
@@ -954,7 +954,7 @@ picpick.json,ScoopInstaller/Extras
 quarto.json,ScoopInstaller/Extras
 coppeliasim.json,ScoopInstaller/Extras
 seafile-syncing-client.json,ScoopInstaller/Extras
-q-dir.json,ScoopInstaller/Extras
+q-dir_ScoopInstaller.json,ScoopInstaller/Extras
 godot-mono.json,ScoopInstaller/Extras
 linphone.json,ScoopInstaller/Extras
 compactor.json,ScoopInstaller/Extras
@@ -2999,6 +2999,7 @@ evcapture.json,ivaquero/scoopet
 dingtalk_ivaquero.json,ivaquero/scoopet
 aboboo.json,ivaquero/scoopet
 tencent-meeting.json,ivaquero/scoopet
+inkscape-ext-textext.json,ivaquero/scoopet
 qq-nt.json,ivaquero/scoopet
 aboboo-full.json,ivaquero/scoopet
 downkyi_ivaquero.json,ivaquero/scoopet
@@ -4729,6 +4730,7 @@ controlmymonitor_ScoopInstaller.json,ScoopInstaller/Nirsoft
 safarihistoryview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 simplecodegenerator_ScoopInstaller.json,ScoopInstaller/Nirsoft
 appcrashview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+browserautofillview.json,ScoopInstaller/Nirsoft
 simplewmiview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wincrashreport_ScoopInstaller.json,ScoopInstaller/Nirsoft
 videoaudiotools.json,ScoopInstaller/Nirsoft
@@ -5423,7 +5425,7 @@ steam-cloud-file-manager.json,hoilc/scoop-lemon
 crypto-notepad.json,hoilc/scoop-lemon
 hubble.json,hoilc/scoop-lemon
 path-locate.json,hoilc/scoop-lemon
-archisteamfarm_hoilc.json,hoilc/scoop-lemon
+archisteamfarm.json,hoilc/scoop-lemon
 ibeverythingext.json,hoilc/scoop-lemon
 elasticsearch_exporter.json,hoilc/scoop-lemon
 appfire-cli.json,hoilc/scoop-lemon
@@ -5660,7 +5662,7 @@ kaminari.json,hoilc/scoop-lemon
 maxthon.json,hoilc/scoop-lemon
 exescope-ha.json,hoilc/scoop-lemon
 qsftpd.json,hoilc/scoop-lemon
-qshell_hoilc.json,hoilc/scoop-lemon
+qshell.json,hoilc/scoop-lemon
 ark-pixel-font-16px-monospaced.json,hoilc/scoop-lemon
 maye-lite_hoilc.json,hoilc/scoop-lemon
 double-mouse-downloader.json,hoilc/scoop-lemon
@@ -5800,7 +5802,7 @@ drmemory-nightly.json,hoilc/scoop-lemon
 websocat_hoilc.json,hoilc/scoop-lemon
 pipe-rename.json,hoilc/scoop-lemon
 oggenc2-libvorbis-aotuv-lancer.json,hoilc/scoop-lemon
-64gram_hoilc.json,hoilc/scoop-lemon
+64gram.json,hoilc/scoop-lemon
 fvm_hoilc.json,hoilc/scoop-lemon
 tencent-transmart.json,hoilc/scoop-lemon
 realm.json,hoilc/scoop-lemon
@@ -8036,12 +8038,12 @@ scummvm-nightly_borger.json,borger/scoop-emulators
 citra_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 cxbx-reloaded_borger.json,borger/scoop-emulators
@@ -8601,7 +8603,7 @@ koodo-reader_akirco.json,akirco/aki-apps
 charles_akirco.json,akirco/aki-apps
 pypy2_akirco.json,akirco/aki-apps
 win32-openssh.json,akirco/aki-apps
-wechatdevtools_akirco.json,akirco/aki-apps
+wechatdevtools.json,akirco/aki-apps
 gow_akirco.json,akirco/aki-apps
 nvm_akirco.json,akirco/aki-apps
 TianRuoOCR_akirco.json,akirco/aki-apps
@@ -9148,6 +9150,7 @@ radarr_naderi.json,naderi/scoop-bucket
 edge-portable-dev.json,naderi/scoop-bucket
 xnview-classic-min.json,naderi/scoop-bucket
 firefox-portable_naderi.json,naderi/scoop-bucket
+whatspc.json,naderi/scoop-bucket
 pulsar_naderi.json,naderi/scoop-bucket
 mitec-task-manager-deluxe.json,naderi/scoop-bucket
 java-editor_naderi.json,naderi/scoop-bucket
@@ -9258,7 +9261,7 @@ falkon_naderi.json,naderi/scoop-bucket
 chord.json,naderi/scoop-bucket
 chrome-dev-portable.json,naderi/scoop-bucket
 win11rct.json,naderi/scoop-bucket
-cpod_naderi.json,naderi/scoop-bucket
+cpod.json,naderi/scoop-bucket
 universal-viewer-free.json,naderi/scoop-bucket
 tad_naderi.json,naderi/scoop-bucket
 gitnote_naderi.json,naderi/scoop-bucket
@@ -9654,6 +9657,7 @@ powerping_DoveBoy.json,DoveBoy/Apps
 winget_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic-np_DoveBoy.json,DoveBoy/Apps
 draw.io_DoveBoy.json,DoveBoy/Apps
+waifu2x-extension-gui.json,DoveBoy/Apps
 ruffle.json,DoveBoy/Apps
 pnpm_DoveBoy.json,DoveBoy/Apps
 rickrack_DoveBoy.json,DoveBoy/Apps
@@ -10205,6 +10209,7 @@ locale-remulator.json,hu3rror/scoop-muggle
 neat-converter.json,hu3rror/scoop-muggle
 context-menu-manager_hu3rror.json,hu3rror/scoop-muggle
 mpv-lazy_hu3rror.json,hu3rror/scoop-muggle
+wmpu-cli.json,hu3rror/scoop-muggle
 NsEmuTools.json,hu3rror/scoop-muggle
 nora.json,hu3rror/scoop-muggle
 desktopnaotu_hu3rror.json,hu3rror/scoop-muggle
@@ -10279,7 +10284,7 @@ sudo_jfut.json,jfut/scoop-jfut
 brynhildr.json,jfut/scoop-jfut
 vivaldi-snapshot_batkiz.json,batkiz/backit
 arc_batkiz.json,batkiz/backit
-filebrowser_batkiz.json,batkiz/backit
+filebrowser.json,batkiz/backit
 latexindent_batkiz.json,batkiz/backit
 contour_batkiz.json,batkiz/backit
 goread.json,batkiz/backit
