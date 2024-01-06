@@ -9205,6 +9205,7 @@ audacity-ffmpeg-plugin.json,naderi/scoop-bucket
 local-wp.json,naderi/scoop-bucket
 console2_naderi.json,naderi/scoop-bucket
 vscode-insider.json,naderi/scoop-bucket
+plexamp.json,naderi/scoop-bucket
 doublecmd-portable.json,naderi/scoop-bucket
 icofx.json,naderi/scoop-bucket
 sqlite-gui.json,naderi/scoop-bucket
@@ -9813,7 +9814,7 @@ glow_DoveBoy.json,DoveBoy/Apps
 baidupcs-go_DoveBoy.json,DoveBoy/Apps
 freefilesync.json,DoveBoy/Apps
 everything-lite_DoveBoy.json,DoveBoy/Apps
-v2rayn_DoveBoy.json,DoveBoy/Apps
+v2rayn.json,DoveBoy/Apps
 posh-maven.json,DoveBoy/Apps
 alist_DoveBoy.json,DoveBoy/Apps
 ps-guicompletion.json,DoveBoy/Apps
@@ -9844,7 +9845,7 @@ audio-share.json,DoveBoy/Apps
 nssm_DoveBoy.json,DoveBoy/Apps
 sing-box_DoveBoy.json,DoveBoy/Apps
 grex_DoveBoy.json,DoveBoy/Apps
-joplin-pre_DoveBoy.json,DoveBoy/Apps
+joplin-pre.json,DoveBoy/Apps
 nvm-tab-completion.json,DoveBoy/Apps
 idm.json,DoveBoy/Apps
 pwsh_DoveBoy.json,DoveBoy/Apps
@@ -10722,6 +10723,7 @@ dnsproxy_aliesbelik.json,aliesbelik/poldi
 doggo_aliesbelik.json,aliesbelik/poldi
 yc.json,aliesbelik/poldi
 plumber_aliesbelik.json,aliesbelik/poldi
+hgrep_aliesbelik.json,aliesbelik/poldi
 ali_aliesbelik.json,aliesbelik/poldi
 cassowary_aliesbelik.json,aliesbelik/poldi
 grpcui.json,aliesbelik/poldi
