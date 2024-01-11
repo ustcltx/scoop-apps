@@ -214,6 +214,7 @@ utools-persist.json,Weidows-projects/scoop-3rd
 UltraUXThemePatcher.json,Weidows-projects/scoop-3rd
 DevEco-Studio.json,Weidows-projects/scoop-3rd
 KikoPlay.json,Weidows-projects/scoop-3rd
+TagUI.json,Weidows-projects/scoop-3rd
 YoudaoDict-portable.json,Weidows-projects/scoop-3rd
 UmamusumeResponseAnalyzer.json,Weidows-projects/scoop-3rd
 aws-portable.json,Weidows-projects/scoop-3rd
@@ -286,6 +287,7 @@ Jeenpi.json,Weidows-projects/scoop-3rd
 CefDetectorX.json,Weidows-projects/scoop-3rd
 Jvedio.json,Weidows-projects/scoop-3rd
 RunCat-zhiyin.json,Weidows-projects/scoop-3rd
+BADownloaderUI.json,Weidows-projects/scoop-3rd
 bw_add_sshkeys.json,Weidows-projects/scoop-3rd
 AIO-Boot.json,Weidows-projects/scoop-3rd
 intel-one-mono.json,Weidows-projects/scoop-3rd
@@ -2975,8 +2977,10 @@ lx-music_ivaquero.json,ivaquero/scoopet
 viber.json,ivaquero/scoopet
 regester.json,ivaquero/scoopet
 weasel.json,ivaquero/scoopet
+whepfrom.json,ivaquero/scoopet
 octave-cn.json,ivaquero/scoopet
 n-m3u8dl-re.json,ivaquero/scoopet
+whipinto.json,ivaquero/scoopet
 cajviewer_ivaquero.json,ivaquero/scoopet
 diskgenius-cn.json,ivaquero/scoopet
 music-dl.json,ivaquero/scoopet
@@ -3016,8 +3020,9 @@ filecentipede.json,ivaquero/scoopet
 spyder.json,ivaquero/scoopet
 yuque_ivaquero.json,ivaquero/scoopet
 scihubeva.json,ivaquero/scoopet
-wisecare365_ivaquero.json,ivaquero/scoopet
+wisecare365.json,ivaquero/scoopet
 blender-cn.json,ivaquero/scoopet
+live777.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
 inkscape-cn.json,ivaquero/scoopet
 chatgpt-cli.json,ivaquero/scoopet
@@ -3034,6 +3039,7 @@ cnkiexpress.json,ivaquero/scoopet
 umi-ocr-all-lang.json,ivaquero/scoopet
 lyx-cn.json,ivaquero/scoopet
 freecad-cn.json,ivaquero/scoopet
+feishu.json,ivaquero/scoopet
 kega-fusion.json,Calinou/scoop-games
 iortcw.json,Calinou/scoop-games
 advanced-combat-tracker.json,Calinou/scoop-games
@@ -5366,7 +5372,7 @@ vorbis-tools.json,hoilc/scoop-lemon
 uncover.json,hoilc/scoop-lemon
 clash-speedtest.json,hoilc/scoop-lemon
 topaz.json,hoilc/scoop-lemon
-opentofu.json,hoilc/scoop-lemon
+opentofu_hoilc.json,hoilc/scoop-lemon
 textify.json,hoilc/scoop-lemon
 classviewer.json,hoilc/scoop-lemon
 4dnat.json,hoilc/scoop-lemon
@@ -5666,7 +5672,7 @@ exescope-ha.json,hoilc/scoop-lemon
 qsftpd.json,hoilc/scoop-lemon
 qshell.json,hoilc/scoop-lemon
 ark-pixel-font-16px-monospaced.json,hoilc/scoop-lemon
-maye-lite.json,hoilc/scoop-lemon
+maye-lite_hoilc.json,hoilc/scoop-lemon
 supervisord-go.json,hoilc/scoop-lemon
 actions-usage.json,hoilc/scoop-lemon
 jujutsu.json,hoilc/scoop-lemon
@@ -8711,7 +8717,7 @@ rnr_akirco.json,akirco/aki-apps
 yuque_akirco.json,akirco/aki-apps
 snipaste.json,akirco/aki-apps
 upx_akirco.json,akirco/aki-apps
-ftnn_akirco.json,akirco/aki-apps
+ftnn.json,akirco/aki-apps
 okular_akirco.json,akirco/aki-apps
 kodi_akirco.json,akirco/aki-apps
 xidel_akirco.json,akirco/aki-apps
@@ -9248,7 +9254,7 @@ alwaysmousewheel.json,naderi/scoop-bucket
 firefox-beta-de.json,naderi/scoop-bucket
 unsplash-wallpapers.json,naderi/scoop-bucket
 csvsort_naderi.json,naderi/scoop-bucket
-encrypto_naderi.json,naderi/scoop-bucket
+encrypto.json,naderi/scoop-bucket
 easy-context-menu_naderi.json,naderi/scoop-bucket
 picard-portable.json,naderi/scoop-bucket
 bitmana.json,naderi/scoop-bucket
@@ -9515,7 +9521,7 @@ innounp_DoveBoy.json,DoveBoy/Apps
 psreadlineviextension.json,DoveBoy/Apps
 saber_DoveBoy.json,DoveBoy/Apps
 webcam-on-off_DoveBoy.json,DoveBoy/Apps
-min.json,DoveBoy/Apps
+min_DoveBoy.json,DoveBoy/Apps
 ttyd_DoveBoy.json,DoveBoy/Apps
 video-subtitle-extractor-cpu.json,DoveBoy/Apps
 potplayer_DoveBoy.json,DoveBoy/Apps
@@ -9642,6 +9648,7 @@ v2ray-rules-dat.json,DoveBoy/Apps
 zyplayer.json,DoveBoy/Apps
 powerline-go_DoveBoy.json,DoveBoy/Apps
 openbbterminal.json,DoveBoy/Apps
+keymap.json,DoveBoy/Apps
 mediacreationtool-bat.json,DoveBoy/Apps
 64gram-release.json,DoveBoy/Apps
 neteasemusic_DoveBoy.json,DoveBoy/Apps
@@ -9794,7 +9801,7 @@ everything-cli_DoveBoy.json,DoveBoy/Apps
 clink-completions_DoveBoy.json,DoveBoy/Apps
 gopeed_DoveBoy.json,DoveBoy/Apps
 croc_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 upx_DoveBoy.json,DoveBoy/Apps
 ipcalc_DoveBoy.json,DoveBoy/Apps
 obs-studio_DoveBoy.json,DoveBoy/Apps
@@ -9869,6 +9876,7 @@ typora-dev.json,DoveBoy/Apps
 windterm_DoveBoy.json,DoveBoy/Apps
 npm-completion_DoveBoy.json,DoveBoy/Apps
 tim_DoveBoy.json,DoveBoy/Apps
+pydebloatx.json,DoveBoy/Apps
 clash-rev-go120.json,DoveBoy/Apps
 energystar.json,DoveBoy/Apps
 crystaldiskmark-shizuku-edition_DoveBoy.json,DoveBoy/Apps
@@ -12252,7 +12260,7 @@ vscode1740.json,FlawlessCasual17/MyScoop
 msi-afterburner.json,FlawlessCasual17/MyScoop
 everything-toolbar-scripts.json,FlawlessCasual17/MyScoop
 r_fixed.json,FlawlessCasual17/MyScoop
-encrypto.json,FlawlessCasual17/MyScoop
+encrypto_FlawlessCasual17.json,FlawlessCasual17/MyScoop
 gwsl.json,FlawlessCasual17/MyScoop
 setpoint.json,FlawlessCasual17/MyScoop
 010editor_fixed.json,FlawlessCasual17/MyScoop
