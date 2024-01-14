@@ -764,6 +764,7 @@ vieas.json,ScoopInstaller/Extras
 windowsdesktop-runtime-lts.json,ScoopInstaller/Extras
 mancy.json,ScoopInstaller/Extras
 sidebar-diagnostics.json,ScoopInstaller/Extras
+retrobar.json,ScoopInstaller/Extras
 landrop.json,ScoopInstaller/Extras
 openvpn.json,ScoopInstaller/Extras
 kicad.json,ScoopInstaller/Extras
@@ -943,7 +944,7 @@ universal-mediacreationtool.json,ScoopInstaller/Extras
 ssh-agent-wsl.json,ScoopInstaller/Extras
 lepton.json,ScoopInstaller/Extras
 moderndeck.json,ScoopInstaller/Extras
-fastcopy_ScoopInstaller.json,ScoopInstaller/Extras
+fastcopy.json,ScoopInstaller/Extras
 foxit-reader.json,ScoopInstaller/Extras
 nexttrace.json,ScoopInstaller/Extras
 sidekick-browser.json,ScoopInstaller/Extras
@@ -1884,6 +1885,7 @@ oss-browser_ScoopInstaller.json,ScoopInstaller/Extras
 makehuman.json,ScoopInstaller/Extras
 keepass.json,ScoopInstaller/Extras
 lazygit.json,ScoopInstaller/Extras
+live777.json,ScoopInstaller/Extras
 notepad2_ScoopInstaller.json,ScoopInstaller/Extras
 posh-git.json,ScoopInstaller/Extras
 infoqube.json,ScoopInstaller/Extras
@@ -1916,6 +1918,7 @@ everything-lite.json,ScoopInstaller/Extras
 material-maker.json,ScoopInstaller/Extras
 v2rayn_ScoopInstaller.json,ScoopInstaller/Extras
 ipfs-desktop.json,ScoopInstaller/Extras
+sasm.json,ScoopInstaller/Extras
 monitorprofileswitcher.json,ScoopInstaller/Extras
 mp3directcut.json,ScoopInstaller/Extras
 hibit-system-information.json,ScoopInstaller/Extras
@@ -3031,7 +3034,6 @@ yuque_ivaquero.json,ivaquero/scoopet
 scihubeva.json,ivaquero/scoopet
 wisecare365.json,ivaquero/scoopet
 blender-cn.json,ivaquero/scoopet
-live777.json,ivaquero/scoopet
 misakatranslator_ivaquero.json,ivaquero/scoopet
 inkscape-cn.json,ivaquero/scoopet
 chatgpt-cli.json,ivaquero/scoopet
@@ -5974,7 +5976,7 @@ pdgthumbviewer.json,hoilc/scoop-lemon
 wind.json,hoilc/scoop-lemon
 fpm.json,hoilc/scoop-lemon
 legendary_hoilc.json,hoilc/scoop-lemon
-live777.json,hoilc/scoop-lemon
+live777_hoilc.json,hoilc/scoop-lemon
 ffrename.json,hoilc/scoop-lemon
 libportable-floorp-lightning.json,hoilc/scoop-lemon
 homedale_hoilc.json,hoilc/scoop-lemon
@@ -7684,7 +7686,6 @@ sift_dodorz.json,dodorz/scoop
 Chocolatey.json,dodorz/scoop
 cjoe-static.json,dodorz/scoop
 MCI-Browser.json,dodorz/scoop
-Koodo-Reader_dodorz.json,dodorz/scoop
 IndexYourFiles.json,dodorz/scoop
 jsonui.json,dodorz/scoop
 HoeKey.json,dodorz/scoop
@@ -9421,7 +9422,7 @@ wechat_amorphobia.json,amorphobia/siku
 wiliwili_amorphobia.json,amorphobia/siku
 stellarium_amorphobia.json,amorphobia/siku
 keep-jbl-go.json,amorphobia/siku
-cudatext_DoveBoy.json,DoveBoy/Apps
+cudatext.json,DoveBoy/Apps
 volta-tab-completion.json,DoveBoy/Apps
 autodarkmode_DoveBoy.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
@@ -9431,7 +9432,7 @@ telegram-downloader_DoveBoy.json,DoveBoy/Apps
 nanazip_DoveBoy.json,DoveBoy/Apps
 gnupg_DoveBoy.json,DoveBoy/Apps
 easymusic.json,DoveBoy/Apps
-hiddify-next_DoveBoy.json,DoveBoy/Apps
+hiddify-next.json,DoveBoy/Apps
 mingw_DoveBoy.json,DoveBoy/Apps
 vimtutor_DoveBoy.json,DoveBoy/Apps
 clashcross.json,DoveBoy/Apps
@@ -9869,7 +9870,7 @@ audio-share.json,DoveBoy/Apps
 nssm_DoveBoy.json,DoveBoy/Apps
 sing-box_DoveBoy.json,DoveBoy/Apps
 grex_DoveBoy.json,DoveBoy/Apps
-joplin-pre_DoveBoy.json,DoveBoy/Apps
+joplin-pre.json,DoveBoy/Apps
 nvm-tab-completion.json,DoveBoy/Apps
 idm.json,DoveBoy/Apps
 pwsh_DoveBoy.json,DoveBoy/Apps
@@ -10836,7 +10837,7 @@ dijo.json,aliesbelik/poldi
 trdsql_aliesbelik.json,aliesbelik/poldi
 dt.json,aliesbelik/poldi
 fast.json,aliesbelik/poldi
-tailspin.json,aliesbelik/poldi
+tailspin_aliesbelik.json,aliesbelik/poldi
 hey_aliesbelik.json,aliesbelik/poldi
 mturoute_aliesbelik.json,aliesbelik/poldi
 rewrk.json,aliesbelik/poldi
@@ -11660,7 +11661,6 @@ chatterino.json,brian6932/dank-scoop
 galaxy-integration-legendary.json,brian6932/dank-scoop
 thumbfast.json,brian6932/dank-scoop
 mpv-sub-select.json,brian6932/dank-scoop
-glfw.json,brian6932/dank-scoop
 Dexios.json,brian6932/dank-scoop
 chatterino7.json,brian6932/dank-scoop
 c2-logs.json,brian6932/dank-scoop
@@ -11668,7 +11668,6 @@ uosc.json,brian6932/dank-scoop
 tgpt.json,brian6932/dank-scoop
 mpv-sponsorblock-minimal.json,brian6932/dank-scoop
 streamsave-dev.json,brian6932/dank-scoop
-libjpeg-turbo.json,brian6932/dank-scoop
 mozlz4.json,brian6932/dank-scoop
 technorino-qt5.json,brian6932/dank-scoop
 apngopt-cli.json,brian6932/dank-scoop
@@ -11677,7 +11676,6 @@ apng2gif-gui.json,brian6932/dank-scoop
 cache-monkey.json,brian6932/dank-scoop
 fcc.json,brian6932/dank-scoop
 rustdesk-nightly.json,brian6932/dank-scoop
-cc65.json,brian6932/dank-scoop
 memory-checker.json,brian6932/dank-scoop
 pwsh-man-highlighting.json,brian6932/dank-scoop
 chatterino7-portable-qt5.json,brian6932/dank-scoop
@@ -11710,7 +11708,6 @@ technorino.json,brian6932/dank-scoop
 dankerino-portable.json,brian6932/dank-scoop
 mpv-autoload.json,brian6932/dank-scoop
 powercolorls.json,brian6932/dank-scoop
-ssh3.json,brian6932/dank-scoop
 winfsp-np-beta.json,brian6932/dank-scoop
 streamlink-nightly-lean.json,brian6932/dank-scoop
 get-mediainfo.json,brian6932/dank-scoop
@@ -12900,7 +12897,7 @@ cider_beerpiss.json,beerpiss/scoop-bucket
 susplayer.json,beerpiss/scoop-bucket
 stash-dev_beerpiss.json,beerpiss/scoop-bucket
 ib-en.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 punzip.json,beerpiss/scoop-bucket
 onetrueawk.json,beerpiss/scoop-bucket
 majdata.json,beerpiss/scoop-bucket
