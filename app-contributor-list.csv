@@ -327,7 +327,7 @@ Synergy-Binaries.json,Weidows-projects/scoop-3rd
 stellarplayer.json,echoiron/echo-scoop
 shadowsocksrr.json,echoiron/echo-scoop
 coodesker.json,echoiron/echo-scoop
-bypass_echoiron.json,echoiron/echo-scoop
+bypass.json,echoiron/echo-scoop
 ultraiso_echoiron.json,echoiron/echo-scoop
 edge.json,echoiron/echo-scoop
 iobituninstaller.json,echoiron/echo-scoop
@@ -1778,7 +1778,7 @@ freemind.json,ScoopInstaller/Extras
 hyper.json,ScoopInstaller/Extras
 renpy.json,ScoopInstaller/Extras
 sdl2.json,ScoopInstaller/Extras
-typora_ScoopInstaller.json,ScoopInstaller/Extras
+typora.json,ScoopInstaller/Extras
 fscapture_ScoopInstaller.json,ScoopInstaller/Extras
 hxd.json,ScoopInstaller/Extras
 jabref.json,ScoopInstaller/Extras
@@ -1964,6 +1964,7 @@ launchy.json,ScoopInstaller/Extras
 manifold.json,ScoopInstaller/Extras
 camstudio.json,ScoopInstaller/Extras
 gyroflow.json,ScoopInstaller/Extras
+space.json,ScoopInstaller/Extras
 fix-print-spooler.json,ScoopInstaller/Extras
 sleek.json,ScoopInstaller/Extras
 vuplayer.json,ScoopInstaller/Extras
@@ -2219,7 +2220,7 @@ imdone.json,ScoopInstaller/Extras
 tftputil-gui.json,ScoopInstaller/Extras
 i2p-zero-gui.json,ScoopInstaller/Extras
 xnview.json,ScoopInstaller/Extras
-ccleaner.json,ScoopInstaller/Extras
+ccleaner_ScoopInstaller.json,ScoopInstaller/Extras
 persepolis.json,ScoopInstaller/Extras
 brave.json,ScoopInstaller/Extras
 zerobrane-studio.json,ScoopInstaller/Extras
@@ -5102,13 +5103,13 @@ webcacheimageinfo_ScoopInstaller.json,ScoopInstaller/Nirsoft
 passrec.json,ScoopInstaller/Nirsoft
 winupdatesview.json,ScoopInstaller/Nirsoft
 mobilefilesearch_ScoopInstaller.json,ScoopInstaller/Nirsoft
-lsasecretsview.json,ScoopInstaller/Nirsoft
+lsasecretsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 productkeyscanner_ScoopInstaller.json,ScoopInstaller/Nirsoft
 firefoxdownloadsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 seqdownload_ScoopInstaller.json,ScoopInstaller/Nirsoft
 hashmyfiles_ScoopInstaller.json,ScoopInstaller/Nirsoft
 netrouteview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-winmailpassrec.json,ScoopInstaller/Nirsoft
+winmailpassrec_ScoopInstaller.json,ScoopInstaller/Nirsoft
 networkcounterswatch_ScoopInstaller.json,ScoopInstaller/Nirsoft
 nk2view_ScoopInstaller.json,ScoopInstaller/Nirsoft
 usblogview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5660,6 +5661,7 @@ chkssl.json,hoilc/scoop-lemon
 grafana-agent.json,hoilc/scoop-lemon
 azd_hoilc.json,hoilc/scoop-lemon
 pot_hoilc.json,hoilc/scoop-lemon
+imbatch.json,hoilc/scoop-lemon
 catsxp.json,hoilc/scoop-lemon
 bookxnote.json,hoilc/scoop-lemon
 sdx.json,hoilc/scoop-lemon
@@ -5723,6 +5725,7 @@ whisper-model-ggml-medium-en.json,hoilc/scoop-lemon
 asnmap.json,hoilc/scoop-lemon
 edgedb-cli.json,hoilc/scoop-lemon
 jellycli.json,hoilc/scoop-lemon
+mdx-editor.json,hoilc/scoop-lemon
 rundeck-cli.json,hoilc/scoop-lemon
 cmail.json,hoilc/scoop-lemon
 mycomputermanager.json,hoilc/scoop-lemon
@@ -6045,6 +6048,7 @@ libportable-floorp-lightning.json,hoilc/scoop-lemon
 homedale_hoilc.json,hoilc/scoop-lemon
 bililive-go.json,hoilc/scoop-lemon
 rmedir.json,hoilc/scoop-lemon
+woterm.json,hoilc/scoop-lemon
 psgen.json,hoilc/scoop-lemon
 chirp-next.json,hoilc/scoop-lemon
 keepassxc-snapshot.json,hoilc/scoop-lemon
@@ -10249,7 +10253,7 @@ RyuSAK_hu3rror.json,hu3rror/scoop-muggle
 roadkil-disk-image.json,hu3rror/scoop-muggle
 NatTypeTester_hu3rror.json,hu3rror/scoop-muggle
 lx-music-desktop_hu3rror.json,hu3rror/scoop-muggle
-rimage.json,hu3rror/scoop-muggle
+rimage_hu3rror.json,hu3rror/scoop-muggle
 dota2_realblood.json,hu3rror/scoop-muggle
 yomikiru.json,hu3rror/scoop-muggle
 fehviewer.json,hu3rror/scoop-muggle
