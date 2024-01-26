@@ -1841,7 +1841,7 @@ qtox.json,ScoopInstaller/Extras
 inboxer.json,ScoopInstaller/Extras
 nomacs.json,ScoopInstaller/Extras
 skaffold.json,ScoopInstaller/Extras
-emeditor.json,ScoopInstaller/Extras
+emeditor_ScoopInstaller.json,ScoopInstaller/Extras
 msxml4.json,ScoopInstaller/Extras
 cherrytree.json,ScoopInstaller/Extras
 sozi.json,ScoopInstaller/Extras
@@ -2087,7 +2087,7 @@ another-redis-desktop-manager.json,ScoopInstaller/Extras
 keypirinha.json,ScoopInstaller/Extras
 linqpad.json,ScoopInstaller/Extras
 amp-winoff.json,ScoopInstaller/Extras
-typora.json,ScoopInstaller/Extras
+typora_ScoopInstaller.json,ScoopInstaller/Extras
 tileiconifier.json,ScoopInstaller/Extras
 coreftp.json,ScoopInstaller/Extras
 chipmunk.json,ScoopInstaller/Extras
@@ -3085,7 +3085,7 @@ julia-cn.json,ivaquero/scoopet
 mpv.net-cm.json,ivaquero/scoopet
 edrawmax.json,ivaquero/scoopet
 ting-en.json,ivaquero/scoopet
-adrive.json,ivaquero/scoopet
+adrive_ivaquero.json,ivaquero/scoopet
 partition-assistant.json,ivaquero/scoopet
 sagemath-cn.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
@@ -3982,7 +3982,6 @@ omnisharp-http-net6.json,ScoopInstaller/Versions
 winpython37cod.json,ScoopInstaller/Versions
 nodejs9.json,ScoopInstaller/Versions
 cuda10.1.json,ScoopInstaller/Versions
-spark-hadoop2.json,ScoopInstaller/Versions
 dotnet7-sdk.json,ScoopInstaller/Versions
 xmind8.json,ScoopInstaller/Versions
 godot-alpha.json,ScoopInstaller/Versions
@@ -4007,6 +4006,7 @@ oracle-instant-client-odbc19.json,ScoopInstaller/Versions
 biber-prev.json,ScoopInstaller/Versions
 camunda-operate1.3.json,ScoopInstaller/Versions
 sharex-dev.json,ScoopInstaller/Versions
+spark-hadoop3.json,ScoopInstaller/Versions
 mongodb-rc.json,ScoopInstaller/Versions
 clion-eap.json,ScoopInstaller/Versions
 prusaslicer-pre.json,ScoopInstaller/Versions
@@ -5131,7 +5131,7 @@ smsniff.json,ScoopInstaller/Nirsoft
 simpleprogramdebugger_ScoopInstaller.json,ScoopInstaller/Nirsoft
 firefoxdownloadsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wirelesskeyview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-networkusageview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+networkusageview.json,ScoopInstaller/Nirsoft
 csvfileview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 whosip_ScoopInstaller.json,ScoopInstaller/Nirsoft
 muicacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -8147,7 +8147,7 @@ snes9x_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
-ryujinx_borger.json,borger/scoop-emulators
+ryujinx.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
@@ -8163,7 +8163,7 @@ rpcs3_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
-ryujinx-ava_borger.json,borger/scoop-emulators
+ryujinx-ava.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
@@ -8528,7 +8528,7 @@ yddict.json,akirco/aki-apps
 nero-aac_akirco.json,akirco/aki-apps
 gow_akirco.json,akirco/aki-apps
 opus-tools_akirco.json,akirco/aki-apps
-ftnn_akirco.json,akirco/aki-apps
+ftnn.json,akirco/aki-apps
 vcredist2008.json,akirco/aki-apps
 youtube-dl-gui_akirco.json,akirco/aki-apps
 topgrade_akirco.json,akirco/aki-apps
@@ -8574,7 +8574,7 @@ nginx_akirco.json,akirco/aki-apps
 bcut.json,akirco/aki-apps
 scoop-completion_akirco.json,akirco/aki-apps
 fu_akirco.json,akirco/aki-apps
-aliyundrive.json,akirco/aki-apps
+aliyundrive_akirco.json,akirco/aki-apps
 highlight_akirco.json,akirco/aki-apps
 you-get_akirco.json,akirco/aki-apps
 sudo_akirco.json,akirco/aki-apps
@@ -9116,6 +9116,7 @@ ydl-ui-portable.json,naderi/scoop-bucket
 amp-font-viewer.json,naderi/scoop-bucket
 xpipe_naderi.json,naderi/scoop-bucket
 pulsar_naderi.json,naderi/scoop-bucket
+plexamp.json,naderi/scoop-bucket
 explorerplusplus_naderi.json,naderi/scoop-bucket
 windows-10-update-assistant.json,naderi/scoop-bucket
 sqlite-gui.json,naderi/scoop-bucket
@@ -9557,7 +9558,7 @@ sniproxy.json,DoveBoy/Apps
 umi-ocr-paddle_DoveBoy.json,DoveBoy/Apps
 openssl_DoveBoy.json,DoveBoy/Apps
 audio-share.json,DoveBoy/Apps
-qq-nt.json,DoveBoy/Apps
+qq-nt_DoveBoy.json,DoveBoy/Apps
 saber_DoveBoy.json,DoveBoy/Apps
 scoop-validator_DoveBoy.json,DoveBoy/Apps
 imageglass_DoveBoy.json,DoveBoy/Apps
@@ -9722,7 +9723,7 @@ wxdatviewerautoexportrust.json,DoveBoy/Apps
 qq_DoveBoy.json,DoveBoy/Apps
 ttime.json,DoveBoy/Apps
 monit-portable.json,DoveBoy/Apps
-hiddify-next_DoveBoy.json,DoveBoy/Apps
+hiddify-next.json,DoveBoy/Apps
 walk_DoveBoy.json,DoveBoy/Apps
 gopeed-web.json,DoveBoy/Apps
 study-xxqg-sjkhsl.json,DoveBoy/Apps
@@ -9803,7 +9804,7 @@ perl_DoveBoy.json,DoveBoy/Apps
 monit.json,DoveBoy/Apps
 typora-plugin.json,DoveBoy/Apps
 crystaldiskinfo-kureikei.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 wechat_DoveBoy.json,DoveBoy/Apps
 context-menu-manager_DoveBoy.json,DoveBoy/Apps
@@ -9895,10 +9896,8 @@ waifu2x-ncnn-vulkan_DoveBoy.json,DoveBoy/Apps
 163musiclyrics.json,DoveBoy/Apps
 clone-voice.json,DoveBoy/Apps
 hashcat_DoveBoy.json,DoveBoy/Apps
-emeditor_DoveBoy.json,DoveBoy/Apps
 b23downloader-win7.json,DoveBoy/Apps
 clashxw.json,DoveBoy/Apps
-cudatext_DoveBoy.json,DoveBoy/Apps
 mihomo-go120.json,DoveBoy/Apps
 wget_DoveBoy.json,DoveBoy/Apps
 neovim_DoveBoy.json,DoveBoy/Apps
@@ -10019,7 +10018,6 @@ openssh_DoveBoy.json,DoveBoy/Apps
 nomeiryoui_DoveBoy.json,DoveBoy/Apps
 tiny11builder.json,DoveBoy/Apps
 cmder_DoveBoy.json,DoveBoy/Apps
-gnupg-np.json,DoveBoy/Apps
 clink-completions_DoveBoy.json,DoveBoy/Apps
 network-proxy-flutter.json,DoveBoy/Apps
 daisy.json,DoveBoy/Apps
