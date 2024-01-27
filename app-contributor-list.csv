@@ -5131,7 +5131,7 @@ smsniff.json,ScoopInstaller/Nirsoft
 simpleprogramdebugger_ScoopInstaller.json,ScoopInstaller/Nirsoft
 firefoxdownloadsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wirelesskeyview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-networkusageview.json,ScoopInstaller/Nirsoft
+networkusageview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 csvfileview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 whosip_ScoopInstaller.json,ScoopInstaller/Nirsoft
 muicacheview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5365,6 +5365,7 @@ capnproto.json,hoilc/scoop-lemon
 resource.net.json,hoilc/scoop-lemon
 minder.json,hoilc/scoop-lemon
 voice.json,hoilc/scoop-lemon
+jan.json,hoilc/scoop-lemon
 bosh-cli.json,hoilc/scoop-lemon
 64gram_hoilc.json,hoilc/scoop-lemon
 vultr-cli.json,hoilc/scoop-lemon
@@ -5504,6 +5505,7 @@ anime4kcpp-cli.json,hoilc/scoop-lemon
 cmail.json,hoilc/scoop-lemon
 interactsh.json,hoilc/scoop-lemon
 wincontig.json,hoilc/scoop-lemon
+foobox6-en.json,hoilc/scoop-lemon
 mongodb-compass_hoilc.json,hoilc/scoop-lemon
 lyricify.json,hoilc/scoop-lemon
 oggdropxpd-libvorbis-aotuv-lancer.json,hoilc/scoop-lemon
@@ -5911,6 +5913,7 @@ royalts.json,hoilc/scoop-lemon
 visipics.json,hoilc/scoop-lemon
 edgedb-cli.json,hoilc/scoop-lemon
 emby.json,hoilc/scoop-lemon
+foobox6-cn.json,hoilc/scoop-lemon
 nexusfile.json,hoilc/scoop-lemon
 mongodb-compass-isolated.json,hoilc/scoop-lemon
 besttrace.json,hoilc/scoop-lemon
@@ -8147,7 +8150,7 @@ snes9x_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
-ryujinx.json,borger/scoop-emulators
+ryujinx_borger.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
@@ -8163,7 +8166,7 @@ rpcs3_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
-ryujinx-ava.json,borger/scoop-emulators
+ryujinx-ava_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
@@ -8172,7 +8175,7 @@ dolphin-dev_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
 yuzu-dev.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
@@ -8528,7 +8531,7 @@ yddict.json,akirco/aki-apps
 nero-aac_akirco.json,akirco/aki-apps
 gow_akirco.json,akirco/aki-apps
 opus-tools_akirco.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 vcredist2008.json,akirco/aki-apps
 youtube-dl-gui_akirco.json,akirco/aki-apps
 topgrade_akirco.json,akirco/aki-apps
@@ -8746,7 +8749,7 @@ unbound_akirco.json,akirco/aki-apps
 monolith_akirco.json,akirco/aki-apps
 phantomjs_akirco.json,akirco/aki-apps
 youtube-dl_akirco.json,akirco/aki-apps
-imewlconverter.json,akirco/aki-apps
+imewlconverter_akirco.json,akirco/aki-apps
 pngquant_akirco.json,akirco/aki-apps
 kate_akirco.json,akirco/aki-apps
 ffmpeg_akirco.json,akirco/aki-apps
@@ -9804,7 +9807,7 @@ perl_DoveBoy.json,DoveBoy/Apps
 monit.json,DoveBoy/Apps
 typora-plugin.json,DoveBoy/Apps
 crystaldiskinfo-kureikei.json,DoveBoy/Apps
-neteaseuu.json,DoveBoy/Apps
+neteaseuu_DoveBoy.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 wechat_DoveBoy.json,DoveBoy/Apps
 context-menu-manager_DoveBoy.json,DoveBoy/Apps
@@ -10404,7 +10407,7 @@ telegram-beta.json,hu3rror/scoop-muggle
 calibre-cjk-patch.json,hu3rror/scoop-muggle
 oh-my-posh_hu3rror.json,hu3rror/scoop-muggle
 b23downloader_hu3rror.json,hu3rror/scoop-muggle
-foobox-cn.json,hu3rror/scoop-muggle
+foobox-cn_hu3rror.json,hu3rror/scoop-muggle
 wonderpen-beta.json,hu3rror/scoop-muggle
 logseq-legacy.json,hu3rror/scoop-muggle
 chromium-dev-avx2-nosync.json,hu3rror/scoop-muggle
@@ -10522,6 +10525,7 @@ MiSans.json,hu3rror/scoop-muggle
 weylus_hu3rror.json,hu3rror/scoop-muggle
 k2pdfopt.json,hu3rror/scoop-muggle
 dota2_realblood.json,hu3rror/scoop-muggle
+imewlconverter_hu3rror.json,hu3rror/scoop-muggle
 musictag_hu3rror.json,hu3rror/scoop-muggle
 imagine_hu3rror.json,hu3rror/scoop-muggle
 logseq_hu3rror.json,hu3rror/scoop-muggle
@@ -11048,7 +11052,7 @@ get-sauce.json,cc713/ownscoop
 qbittorrent-enhanced_cc713.json,cc713/ownscoop
 AnyTXT.json,cc713/ownscoop
 scribus-dev_cc713.json,cc713/ownscoop
-foobox-cn.json,cc713/ownscoop
+foobox-cn_cc713.json,cc713/ownscoop
 diskgeniusCN.json,cc713/ownscoop
 imgbrd-grabber.json,cc713/ownscoop
 gpac_cc713.json,cc713/ownscoop
@@ -11088,7 +11092,7 @@ kiwix-tools.json,cc713/ownscoop
 MisakaTranslator_cc713.json,cc713/ownscoop
 kiwix_cc713.json,cc713/ownscoop
 qimgv-dev.json,cc713/ownscoop
-goldendict-ng.json,cc713/ownscoop
+goldendict-ng_cc713.json,cc713/ownscoop
 NeeView_cc713.json,cc713/ownscoop
 picacg-qt.json,cc713/ownscoop
 ImDiskToolkit.json,cc713/ownscoop
@@ -13025,7 +13029,7 @@ unikey.json,beerpiss/scoop-bucket
 miru_beerpiss.json,beerpiss/scoop-bucket
 ntlite_beerpiss.json,beerpiss/scoop-bucket
 rawcap.json,beerpiss/scoop-bucket
-microsoftedge_beerpiss.json,beerpiss/scoop-bucket
+microsoftedge.json,beerpiss/scoop-bucket
 scoop-search_beerpiss.json,beerpiss/scoop-bucket
 ib-jp.json,beerpiss/scoop-bucket
 pingo.json,beerpiss/scoop-bucket
@@ -13232,7 +13236,7 @@ neo4j.json,hulucc/bucket
 tilt_hulucc.json,hulucc/bucket
 presto.json,hulucc/bucket
 android-sdk.json,hulucc/bucket
-gn.json,hulucc/bucket
+gn_hulucc.json,hulucc/bucket
 depot_tools_hulucc.json,hulucc/bucket
 sentry-cli_hulucc.json,hulucc/bucket
 remoteapp-tool_jingyu9575.json,jingyu9575/scoop-jingyu9575
