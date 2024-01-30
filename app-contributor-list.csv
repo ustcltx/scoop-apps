@@ -442,6 +442,7 @@ lightcord.json,ScoopInstaller/Extras
 libreoffice-fresh.json,ScoopInstaller/Extras
 kindlegen.json,ScoopInstaller/Extras
 chefdk.json,ScoopInstaller/Extras
+appium.json,ScoopInstaller/Extras
 automake.json,ScoopInstaller/Extras
 android-sdk.json,ScoopInstaller/Extras
 paperwork.json,ScoopInstaller/Extras
@@ -669,6 +670,7 @@ encryptpad.json,ScoopInstaller/Extras
 tightvnc.json,ScoopInstaller/Extras
 airdroid.json,ScoopInstaller/Extras
 foxe.json,ScoopInstaller/Extras
+litedb-studio.json,ScoopInstaller/Extras
 ghostwriter.json,ScoopInstaller/Extras
 oni.json,ScoopInstaller/Extras
 hakuneko.json,ScoopInstaller/Extras
@@ -1357,7 +1359,7 @@ ksnip.json,ScoopInstaller/Extras
 coppeliasim.json,ScoopInstaller/Extras
 gpxsee.json,ScoopInstaller/Extras
 eclipse-rcp.json,ScoopInstaller/Extras
-electerm.json,ScoopInstaller/Extras
+electerm_ScoopInstaller.json,ScoopInstaller/Extras
 opennetmeter.json,ScoopInstaller/Extras
 markn.json,ScoopInstaller/Extras
 protobuf.json,ScoopInstaller/Extras
@@ -1922,7 +1924,6 @@ autoactions.json,ScoopInstaller/Extras
 godot-mono.json,ScoopInstaller/Extras
 matterircd.json,ScoopInstaller/Extras
 kryptor.json,ScoopInstaller/Extras
-appium.json,ScoopInstaller/Extras
 oranda.json,ScoopInstaller/Extras
 vidi.json,ScoopInstaller/Extras
 fluidsynth.json,ScoopInstaller/Extras
@@ -1976,6 +1977,7 @@ treesize-free.json,ScoopInstaller/Extras
 rabbitmq.json,ScoopInstaller/Extras
 fluent-search.json,ScoopInstaller/Extras
 tikzit.json,ScoopInstaller/Extras
+appium-inspector.json,ScoopInstaller/Extras
 eclipse-sdk.json,ScoopInstaller/Extras
 micswitch.json,ScoopInstaller/Extras
 chromium.json,ScoopInstaller/Extras
@@ -5373,6 +5375,7 @@ bosh-cli.json,hoilc/scoop-lemon
 64gram_hoilc.json,hoilc/scoop-lemon
 vultr-cli.json,hoilc/scoop-lemon
 classviewer.json,hoilc/scoop-lemon
+tunnelmole.json,hoilc/scoop-lemon
 clashn.json,hoilc/scoop-lemon
 mi-sans.json,hoilc/scoop-lemon
 simplejavamail-cli.json,hoilc/scoop-lemon
@@ -5760,6 +5763,7 @@ gtk-sharp-libs.json,hoilc/scoop-lemon
 clockpod.json,hoilc/scoop-lemon
 cpix-cn.json,hoilc/scoop-lemon
 winfrgui.json,hoilc/scoop-lemon
+beeceptor-cli.json,hoilc/scoop-lemon
 amazon-ec2-instance-selector.json,hoilc/scoop-lemon
 haylxon.json,hoilc/scoop-lemon
 fvm_hoilc.json,hoilc/scoop-lemon
@@ -5788,6 +5792,7 @@ rj-texted.json,hoilc/scoop-lemon
 bililive-go.json,hoilc/scoop-lemon
 fuso.json,hoilc/scoop-lemon
 craftbasic.json,hoilc/scoop-lemon
+jprq.json,hoilc/scoop-lemon
 gopeed.json,hoilc/scoop-lemon
 pode.json,hoilc/scoop-lemon
 vocabulary.net.json,hoilc/scoop-lemon
@@ -6086,6 +6091,7 @@ subfinder_hoilc.json,hoilc/scoop-lemon
 container-structure-test.json,hoilc/scoop-lemon
 gsutil.json,hoilc/scoop-lemon
 droppoint.json,hoilc/scoop-lemon
+tunnelto.json,hoilc/scoop-lemon
 djvutoy.json,hoilc/scoop-lemon
 piping-server-rust.json,hoilc/scoop-lemon
 bazelisk.json,hoilc/scoop-lemon
@@ -8146,7 +8152,7 @@ snes9x_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
 mesen_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
-ryujinx_borger.json,borger/scoop-emulators
+ryujinx.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
@@ -8162,7 +8168,7 @@ rpcs3_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
-ryujinx-ava_borger.json,borger/scoop-emulators
+ryujinx-ava.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
@@ -8691,7 +8697,7 @@ yddict.json,akirco/aki-apps
 nero-aac_akirco.json,akirco/aki-apps
 gow_akirco.json,akirco/aki-apps
 opus-tools_akirco.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 vcredist2008.json,akirco/aki-apps
 youtube-dl-gui_akirco.json,akirco/aki-apps
 topgrade_akirco.json,akirco/aki-apps
@@ -9167,6 +9173,7 @@ xpipe_naderi.json,naderi/scoop-bucket
 pulsar_naderi.json,naderi/scoop-bucket
 explorerplusplus_naderi.json,naderi/scoop-bucket
 windows-10-update-assistant.json,naderi/scoop-bucket
+filevoyager-portable.json,naderi/scoop-bucket
 sqlite-gui.json,naderi/scoop-bucket
 affine_naderi.json,naderi/scoop-bucket
 font-estedad.json,naderi/scoop-bucket
@@ -9697,6 +9704,7 @@ dark_DoveBoy.json,DoveBoy/Apps
 treesize_DoveBoy.json,DoveBoy/Apps
 ghostscript_DoveBoy.json,DoveBoy/Apps
 kms-vl-all-aio.json,DoveBoy/Apps
+delapp_DoveBoy.json,DoveBoy/Apps
 youku.json,DoveBoy/Apps
 ntrace-v1.json,DoveBoy/Apps
 dart-simple-live.json,DoveBoy/Apps
@@ -9802,7 +9810,7 @@ perl_DoveBoy.json,DoveBoy/Apps
 monit.json,DoveBoy/Apps
 typora-plugin.json,DoveBoy/Apps
 crystaldiskinfo-kureikei.json,DoveBoy/Apps
-neteaseuu.json,DoveBoy/Apps
+neteaseuu_DoveBoy.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 wechat_DoveBoy.json,DoveBoy/Apps
 context-menu-manager_DoveBoy.json,DoveBoy/Apps
@@ -9817,7 +9825,7 @@ pywxdump.json,DoveBoy/Apps
 sharex-dev_DoveBoy.json,DoveBoy/Apps
 mgtv.json,DoveBoy/Apps
 vhs_DoveBoy.json,DoveBoy/Apps
-aliyunpan_DoveBoy.json,DoveBoy/Apps
+aliyunpan.json,DoveBoy/Apps
 64gram-release.json,DoveBoy/Apps
 autodarkmode_DoveBoy.json,DoveBoy/Apps
 qqlive_DoveBoy.json,DoveBoy/Apps
@@ -9987,7 +9995,7 @@ joinersplitter.json,DoveBoy/Apps
 v2rayn_DoveBoy.json,DoveBoy/Apps
 youtube-dl_DoveBoy.json,DoveBoy/Apps
 posh-git_DoveBoy.json,DoveBoy/Apps
-clash-nyanpasu.json,DoveBoy/Apps
+clash-nyanpasu_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic-np_DoveBoy.json,DoveBoy/Apps
 mingw_DoveBoy.json,DoveBoy/Apps
 tai.json,DoveBoy/Apps
@@ -10861,6 +10869,7 @@ rewrk.json,aliesbelik/poldi
 claws.json,aliesbelik/poldi
 schemacheck.json,aliesbelik/poldi
 blast.json,aliesbelik/poldi
+pict_aliesbelik.json,aliesbelik/poldi
 muffet.json,aliesbelik/poldi
 hey_aliesbelik.json,aliesbelik/poldi
 hq.json,aliesbelik/poldi
@@ -13305,7 +13314,7 @@ godot-mono_HUMORCE.json,HUMORCE/nuke
 anime4kcpp-gui_HUMORCE.json,HUMORCE/nuke
 appflowy_HUMORCE.json,HUMORCE/nuke
 extreme-injector.json,HUMORCE/nuke
-appium-inspector.json,HUMORCE/nuke
+appium-inspector_HUMORCE.json,HUMORCE/nuke
 vale_HUMORCE.json,HUMORCE/nuke
 localsend_HUMORCE.json,HUMORCE/nuke
 anime4kcpp-avisynthplus-plugin.json,HUMORCE/nuke
