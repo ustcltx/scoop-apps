@@ -760,6 +760,7 @@ memreduct.json,ScoopInstaller/Extras
 webpicmd.json,ScoopInstaller/Extras
 cloudcompare.json,ScoopInstaller/Extras
 ytsubconverter.json,ScoopInstaller/Extras
+recyclarr.json,ScoopInstaller/Extras
 iographica.json,ScoopInstaller/Extras
 lbry.json,ScoopInstaller/Extras
 windirstat.json,ScoopInstaller/Extras
@@ -2135,6 +2136,7 @@ windows-terminal.json,ScoopInstaller/Extras
 vosviewer.json,ScoopInstaller/Extras
 ssd-z.json,ScoopInstaller/Extras
 eclipse-scout.json,ScoopInstaller/Extras
+swift-mesonlsp.json,ScoopInstaller/Extras
 notesnook.json,ScoopInstaller/Extras
 ksnip.json,ScoopInstaller/Extras
 virtualdub.json,ScoopInstaller/Extras
@@ -2304,6 +2306,7 @@ gcc-arm-none-linux-gnueabihf.json,ScoopInstaller/Extras
 bitmessage.json,ScoopInstaller/Extras
 pdf-xchange-editor.json,ScoopInstaller/Extras
 steam-desktop-authenticator.json,ScoopInstaller/Extras
+restic-browser.json,ScoopInstaller/Extras
 keystore-explorer.json,ScoopInstaller/Extras
 spotify.json,ScoopInstaller/Extras
 meinplatz.json,ScoopInstaller/Extras
@@ -3090,7 +3093,7 @@ tencent-meeting.json,ivaquero/scoopet
 filecentipede.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 chatbox.json,ivaquero/scoopet
-texlive_ivaquero.json,ivaquero/scoopet
+texlive.json,ivaquero/scoopet
 qq-nt.json,ivaquero/scoopet
 vscodium-cn.json,ivaquero/scoopet
 rectanglewin.json,ivaquero/scoopet
@@ -8376,7 +8379,7 @@ weylus_hu3rror.json,hu3rror/scoop-muggle
 neovim_hu3rror.json,hu3rror/scoop-muggle
 clipboard-online.json,hu3rror/scoop-muggle
 DocBox.json,hu3rror/scoop-muggle
-NatTypeTester.json,hu3rror/scoop-muggle
+NatTypeTester_hu3rror.json,hu3rror/scoop-muggle
 lito-music.json,hu3rror/scoop-muggle
 mpv-handler.json,hu3rror/scoop-muggle
 gingko.json,hu3rror/scoop-muggle
@@ -8840,7 +8843,7 @@ adguardhome-beta.json,beerpiss/scoop-bucket
 thewitchshouse-jp.json,beerpiss/scoop-bucket
 miru_beerpiss.json,beerpiss/scoop-bucket
 libretta.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 ariang-native_beerpiss.json,beerpiss/scoop-bucket
 ib-en.json,beerpiss/scoop-bucket
 unxwb.json,beerpiss/scoop-bucket
