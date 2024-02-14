@@ -1130,6 +1130,7 @@ baidunetdisk_ivaquero.json,ivaquero/scoopet
 inkscape-ext-textext.json,ivaquero/scoopet
 jigdo.json,ivaquero/scoopet
 gimp-cn.json,ivaquero/scoopet
+pot-desktop.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 veracrypt.json,ivaquero/scoopet
 twitchdropsminer.json,Calinou/scoop-games
@@ -4655,7 +4656,7 @@ utvideo.json,couleur-tweak-tips/utils
 qualitymuncher.json,couleur-tweak-tips/utils
 privacysexy.json,couleur-tweak-tips/utils
 mesen_borger.json,borger/scoop-emulators
-snes9x-dev_borger.json,borger/scoop-emulators
+snes9x-dev.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
@@ -5889,7 +5890,7 @@ terminus.json,akirco/aki-apps
 grex_akirco.json,akirco/aki-apps
 memreduct.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
-scoop-completion.json,akirco/aki-apps
+scoop-completion_akirco.json,akirco/aki-apps
 libwebp_akirco.json,akirco/aki-apps
 npm-completion.json,akirco/aki-apps
 wp-cli_akirco.json,akirco/aki-apps
@@ -6172,7 +6173,7 @@ brackets.json,DoveBoy/Apps
 shadowsocksr-hmbsbige.json,DoveBoy/Apps
 nano_DoveBoy.json,DoveBoy/Apps
 biliup-rs_DoveBoy.json,DoveBoy/Apps
-blockthespot_DoveBoy.json,DoveBoy/Apps
+blockthespot.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
 mpv.json,DoveBoy/Apps
 mpv-git.json,DoveBoy/Apps
@@ -6284,7 +6285,7 @@ tiktokdownloader.json,DoveBoy/Apps
 tai.json,DoveBoy/Apps
 opensearcher-win7.json,DoveBoy/Apps
 upx_DoveBoy.json,DoveBoy/Apps
-ccleaner_DoveBoy.json,DoveBoy/Apps
+ccleaner.json,DoveBoy/Apps
 posh-git.json,DoveBoy/Apps
 qq-nt_DoveBoy.json,DoveBoy/Apps
 dust_DoveBoy.json,DoveBoy/Apps
@@ -6526,7 +6527,7 @@ lanzou-cmd.json,DoveBoy/Apps
 xmusicdownloader.json,DoveBoy/Apps
 grex_DoveBoy.json,DoveBoy/Apps
 memreduct_DoveBoy.json,DoveBoy/Apps
-scoop-completion.json,DoveBoy/Apps
+scoop-completion_DoveBoy.json,DoveBoy/Apps
 mpv-easy-player.json,DoveBoy/Apps
 v2rayn-core-with-runtime.json,DoveBoy/Apps
 irfanview-lean.json,DoveBoy/Apps
@@ -6549,7 +6550,7 @@ clash-nyanpasu_DoveBoy.json,DoveBoy/Apps
 show-disk-partition-style.json,DoveBoy/Apps
 tldr_DoveBoy.json,DoveBoy/Apps
 vlc.json,DoveBoy/Apps
-handbrake.json,DoveBoy/Apps
+handbrake_DoveBoy.json,DoveBoy/Apps
 lively.json,DoveBoy/Apps
 mapdownload.json,DoveBoy/Apps
 qbittorrent-enhanced_DoveBoy.json,DoveBoy/Apps
@@ -6580,7 +6581,6 @@ openai-translator.json,DoveBoy/Apps
 whisper.json,DoveBoy/Apps
 host-editor.json,DoveBoy/Apps
 sandboxie-classic.json,DoveBoy/Apps
-pot-desktop.json,DoveBoy/Apps
 sing-box_DoveBoy.json,DoveBoy/Apps
 binggpt-portable.json,DoveBoy/Apps
 winget_DoveBoy.json,DoveBoy/Apps
@@ -6862,7 +6862,7 @@ delete-self-poc.json,batkiz/backit
 muffet.json,batkiz/backit
 gotip.json,batkiz/backit
 fraidycat.json,batkiz/backit
-vivaldi-snapshot_batkiz.json,batkiz/backit
+vivaldi-snapshot.json,batkiz/backit
 termshark_batkiz.json,batkiz/backit
 wsltty.json,batkiz/backit
 g-np.json,batkiz/backit
@@ -7526,7 +7526,7 @@ wpd_beerpiss.json,beerpiss/scoop-bucket
 windowstoolbox.json,beerpiss/scoop-bucket
 stash.json,beerpiss/scoop-bucket
 absolutetouch.json,beerpiss/scoop-bucket
-adguardhome.json,beerpiss/scoop-bucket
+adguardhome_beerpiss.json,beerpiss/scoop-bucket
 microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 sound-of-sorting.json,beerpiss/scoop-bucket
 sl-h.json,beerpiss/scoop-bucket
