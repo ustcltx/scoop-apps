@@ -1115,6 +1115,7 @@ weasel.json,ivaquero/scoopet
 filecentipede.json,ivaquero/scoopet
 autodarkmode_ivaquero.json,ivaquero/scoopet
 obs-studio-cn.json,ivaquero/scoopet
+buzz.json,ivaquero/scoopet
 winrar_ivaquero.json,ivaquero/scoopet
 tencent-meeting.json,ivaquero/scoopet
 git-cn.json,ivaquero/scoopet
@@ -2768,7 +2769,7 @@ confuserex-cli.json,arch3rPro/PST-Bucket
 edx.json,arch3rPro/PST-Bucket
 windterm.json,arch3rPro/PST-Bucket
 clash-windows.json,arch3rPro/PST-Bucket
-newfiletime_arch3rPro.json,arch3rPro/PST-Bucket
+newfiletime.json,arch3rPro/PST-Bucket
 fastgithub.json,arch3rPro/PST-Bucket
 rport.json,arch3rPro/PST-Bucket
 socat.json,arch3rPro/PST-Bucket
@@ -3074,7 +3075,7 @@ bluetoothcl_ScoopInstaller.json,ScoopInstaller/Nirsoft
 iconsext.json,ScoopInstaller/Nirsoft
 turnedontimesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 fulleventlogview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-chromecookiesview.json,ScoopInstaller/Nirsoft
+chromecookiesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wifihistoryview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 winlister_ScoopInstaller.json,ScoopInstaller/Nirsoft
 lsasecretsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -3184,7 +3185,7 @@ myeventviewer_ScoopInstaller.json,ScoopInstaller/Nirsoft
 winmailpassrec_ScoopInstaller.json,ScoopInstaller/Nirsoft
 diskcountersview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 firmwaretablesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-filetypesman.json,ScoopInstaller/Nirsoft
+filetypesman_ScoopInstaller.json,ScoopInstaller/Nirsoft
 simpleprogramdebugger_ScoopInstaller.json,ScoopInstaller/Nirsoft
 websitesniffer_ScoopInstaller.json,ScoopInstaller/Nirsoft
 nirext_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -4664,7 +4665,7 @@ snes9x-dev_borger.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
-xenia-canary.json,borger/scoop-emulators
+xenia-canary_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
@@ -4764,7 +4765,7 @@ ExplorerXP.json,dodorz/scoop
 src-highlight.json,dodorz/scoop
 WinSW.Net4.json,dodorz/scoop
 Capture2Text-zh-cn.json,dodorz/scoop
-Buzz.json,dodorz/scoop
+Buzz_dodorz.json,dodorz/scoop
 CoverYourTracks.json,dodorz/scoop
 Umi-OCR1.json,dodorz/scoop
 Yosoro.json,dodorz/scoop
@@ -6011,6 +6012,7 @@ etcher.json,DoveBoy/Apps
 reqable.json,DoveBoy/Apps
 clink-flex-prompt_DoveBoy.json,DoveBoy/Apps
 ttyd_DoveBoy.json,DoveBoy/Apps
+raptor-standalone.json,DoveBoy/Apps
 pwsh-beta_DoveBoy.json,DoveBoy/Apps
 mihomo-compatible-go120.json,DoveBoy/Apps
 dua_DoveBoy.json,DoveBoy/Apps
@@ -6101,7 +6103,7 @@ quasar_DoveBoy.json,DoveBoy/Apps
 cmder-full_DoveBoy.json,DoveBoy/Apps
 littletips-portable.json,DoveBoy/Apps
 capture2text_DoveBoy.json,DoveBoy/Apps
-typora.json,DoveBoy/Apps
+typora_DoveBoy.json,DoveBoy/Apps
 heu-kms-activator.json,DoveBoy/Apps
 musicfreedesktop.json,DoveBoy/Apps
 adb_DoveBoy.json,DoveBoy/Apps
@@ -6197,6 +6199,7 @@ joinersplitter.json,DoveBoy/Apps
 mpv.net.json,DoveBoy/Apps
 ffmpeg-nightly_DoveBoy.json,DoveBoy/Apps
 shotcut.json,DoveBoy/Apps
+chromedriver-canary.json,DoveBoy/Apps
 winfetch_DoveBoy.json,DoveBoy/Apps
 revokemsgpatcher_DoveBoy.json,DoveBoy/Apps
 waifu2x-ncnn-vulkan_DoveBoy.json,DoveBoy/Apps
@@ -6317,6 +6320,7 @@ sudo_DoveBoy.json,DoveBoy/Apps
 waifu2x-snowshell_DoveBoy.json,DoveBoy/Apps
 v2raya-git.json,DoveBoy/Apps
 ps-guicompletion.json,DoveBoy/Apps
+raptor-integrated.json,DoveBoy/Apps
 naiveproxy_DoveBoy.json,DoveBoy/Apps
 winscp.json,DoveBoy/Apps
 refreshenv_DoveBoy.json,DoveBoy/Apps
@@ -6406,6 +6410,7 @@ pwsh_DoveBoy.json,DoveBoy/Apps
 calibre.json,DoveBoy/Apps
 typioca_DoveBoy.json,DoveBoy/Apps
 pywxdump.json,DoveBoy/Apps
+liveautorecord.json,DoveBoy/Apps
 handbrake-cli_DoveBoy.json,DoveBoy/Apps
 pixivutil2.json,DoveBoy/Apps
 spacedrive.json,DoveBoy/Apps
@@ -6441,7 +6446,7 @@ clash-verge_DoveBoy.json,DoveBoy/Apps
 autodarkmode_DoveBoy.json,DoveBoy/Apps
 calctus.json,DoveBoy/Apps
 buzz_DoveBoy.json,DoveBoy/Apps
-fastcopy_DoveBoy.json,DoveBoy/Apps
+fastcopy.json,DoveBoy/Apps
 openoffice.json,DoveBoy/Apps
 scoop-search-chriscp.json,DoveBoy/Apps
 shadowsocks-qtun-plugin.json,DoveBoy/Apps
