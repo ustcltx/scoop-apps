@@ -1064,7 +1064,6 @@ n-m3u8dl-re.json,ivaquero/scoopet
 freecad-cn.json,ivaquero/scoopet
 partition-assistant.json,ivaquero/scoopet
 diskgenius-cn.json,ivaquero/scoopet
-feishu.json,ivaquero/scoopet
 umi-ocr-all-lang.json,ivaquero/scoopet
 miniconda-cn.json,ivaquero/scoopet
 lyx-cn.json,ivaquero/scoopet
@@ -1133,6 +1132,7 @@ baidunetdisk_ivaquero.json,ivaquero/scoopet
 inkscape-ext-textext.json,ivaquero/scoopet
 jigdo.json,ivaquero/scoopet
 gimp-cn.json,ivaquero/scoopet
+pot-desktop.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 veracrypt.json,ivaquero/scoopet
 twitchdropsminer.json,Calinou/scoop-games
@@ -3906,7 +3906,7 @@ aliyundrive-webdav_hoilc.json,hoilc/scoop-lemon
 astro-cli.json,hoilc/scoop-lemon
 sleep.json,hoilc/scoop-lemon
 chinesesubfinder.json,hoilc/scoop-lemon
-pot_hoilc.json,hoilc/scoop-lemon
+pot.json,hoilc/scoop-lemon
 xdown.json,hoilc/scoop-lemon
 coscli.json,hoilc/scoop-lemon
 worsttrace.json,hoilc/scoop-lemon
@@ -4221,7 +4221,7 @@ tencent-transmart.json,hoilc/scoop-lemon
 qbittorrent-enhanced.json,hoilc/scoop-lemon
 cow.json,hoilc/scoop-lemon
 arp-ping.json,hoilc/scoop-lemon
-archisteamfarm.json,hoilc/scoop-lemon
+archisteamfarm_hoilc.json,hoilc/scoop-lemon
 skylark_hoilc.json,hoilc/scoop-lemon
 tun2brook.json,hoilc/scoop-lemon
 videoduplicatefinder.json,hoilc/scoop-lemon
@@ -5434,7 +5434,7 @@ NPowerTray.json,dodorz/scoop
 justmd.json,dodorz/scoop
 Notepad--_dodorz.json,dodorz/scoop
 DiagramDesigner.json,dodorz/scoop
-CCleaner.json,dodorz/scoop
+CCleaner_dodorz.json,dodorz/scoop
 TarTool.json,dodorz/scoop
 adobe-source-han-sans-tw-fonts.json,dodorz/scoop
 TesseractData-cn.json,dodorz/scoop
@@ -5674,7 +5674,7 @@ fluent-reader.json,akirco/aki-apps
 wx_qq_revokeMsgPatcher.json,akirco/aki-apps
 pup_akirco.json,akirco/aki-apps
 draw.io.json,akirco/aki-apps
-electerm_akirco.json,akirco/aki-apps
+electerm.json,akirco/aki-apps
 fzf_akirco.json,akirco/aki-apps
 homedale_akirco.json,akirco/aki-apps
 fastbootEnhance.json,akirco/aki-apps
@@ -5994,7 +5994,7 @@ hyper-beta.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 clashwarden.json,DoveBoy/Apps
 sublime-text_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 7zip_DoveBoy.json,DoveBoy/Apps
 hgrep.json,DoveBoy/Apps
 keymousego.json,DoveBoy/Apps
@@ -6530,7 +6530,7 @@ winsw_DoveBoy.json,DoveBoy/Apps
 clone-voice.json,DoveBoy/Apps
 googletranslateipcheck.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
-dingtalk.json,DoveBoy/Apps
+dingtalk_DoveBoy.json,DoveBoy/Apps
 7zip-beta_DoveBoy.json,DoveBoy/Apps
 optimizer_DoveBoy.json,DoveBoy/Apps
 puttytel.json,DoveBoy/Apps
@@ -6550,7 +6550,7 @@ sandboxie-plus-np.json,DoveBoy/Apps
 reader.json,DoveBoy/Apps
 anyburn.json,DoveBoy/Apps
 superrdp.json,DoveBoy/Apps
-clash-verge-rev.json,DoveBoy/Apps
+clash-verge-rev_DoveBoy.json,DoveBoy/Apps
 zy-player_DoveBoy.json,DoveBoy/Apps
 scoop-shim_DoveBoy.json,DoveBoy/Apps
 bbk-cli_DoveBoy.json,DoveBoy/Apps
@@ -7025,7 +7025,7 @@ gluttonyPNG.json,hu3rror/scoop-muggle
 win11-classic-context-menu.json,hu3rror/scoop-muggle
 usbeam-consoles-dns_hu3rror.json,hu3rror/scoop-muggle
 chatbox_hu3rror.json,hu3rror/scoop-muggle
-chromium.json,hu3rror/scoop-muggle
+chromium_hu3rror.json,hu3rror/scoop-muggle
 ilyrics.json,hu3rror/scoop-muggle
 caesium_hu3rror.json,hu3rror/scoop-muggle
 mpv.net-cm.json,hu3rror/scoop-muggle
@@ -7132,7 +7132,7 @@ neeview.json,hu3rror/scoop-muggle
 neat-reader.json,hu3rror/scoop-muggle
 cheat-engine.json,hu3rror/scoop-muggle
 imagine_hu3rror.json,hu3rror/scoop-muggle
-pot-desktop.json,hu3rror/scoop-muggle
+pot-desktop_hu3rror.json,hu3rror/scoop-muggle
 goodsync-10.json,hu3rror/scoop-muggle
 pixivbiu_hu3rror.json,hu3rror/scoop-muggle
 nhse.json,hu3rror/scoop-muggle
@@ -7160,7 +7160,7 @@ shadowsocks-rust-gnu.json,aoisummer/scoop-bucket
 cinebench.json,aoisummer/scoop-bucket
 pcap-dnsproxy.json,aoisummer/scoop-bucket
 veracrypt-legacy-np.json,aoisummer/scoop-bucket
-thunderbird-zh-cn.json,aoisummer/scoop-bucket
+thunderbird-zh-cn_aoisummer.json,aoisummer/scoop-bucket
 cpu-z-zh.json,aoisummer/scoop-bucket
 veracrypt-np.json,aoisummer/scoop-bucket
 crystaldiskmark-shizuku.json,aoisummer/scoop-bucket
