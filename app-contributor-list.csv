@@ -200,6 +200,7 @@ steam-theme-Zehn.json,Weidows-projects/scoop-3rd
 g-helper.json,Weidows-projects/scoop-3rd
 Jeenpi.json,Weidows-projects/scoop-3rd
 psmodule-GuiCompletion.json,Weidows-projects/scoop-3rd
+GUI.for.SingBox.json,Weidows-projects/scoop-3rd
 wutils.json,Weidows-projects/scoop-3rd
 QuickCut.json,Weidows-projects/scoop-3rd
 clash.net.json,Weidows-projects/scoop-3rd
@@ -234,9 +235,11 @@ ApiPost_Weidows-projects.json,Weidows-projects/scoop-3rd
 UmamusumeResponseAnalyzer.json,Weidows-projects/scoop-3rd
 dev-sidecar.json,Weidows-projects/scoop-3rd
 TagUI.json,Weidows-projects/scoop-3rd
+fav.json,Weidows-projects/scoop-3rd
 encore.json,Weidows-projects/scoop-3rd
 BADownloaderUI.json,Weidows-projects/scoop-3rd
 pipx-poetry.json,Weidows-projects/scoop-3rd
+WePE.json,Weidows-projects/scoop-3rd
 Windows-Theme-HighContract-Tokyo-Night.json,Weidows-projects/scoop-3rd
 WingetUI.json,Weidows-projects/scoop-3rd
 WondershareUniconverter.json,Weidows-projects/scoop-3rd
@@ -1132,7 +1135,6 @@ baidunetdisk_ivaquero.json,ivaquero/scoopet
 inkscape-ext-textext.json,ivaquero/scoopet
 jigdo.json,ivaquero/scoopet
 gimp-cn.json,ivaquero/scoopet
-pot-desktop.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 veracrypt.json,ivaquero/scoopet
 twitchdropsminer.json,Calinou/scoop-games
@@ -1143,6 +1145,7 @@ vkquake2.json,Calinou/scoop-games
 snes9x-dev.json,Calinou/scoop-games
 tickompiler.json,Calinou/scoop-games
 scummvm.json,Calinou/scoop-games
+steam-achievement-manager-syntaxtm.json,Calinou/scoop-games
 redeclipse.json,Calinou/scoop-games
 ryujinx.json,Calinou/scoop-games
 dwarf-fortress-lnp.json,Calinou/scoop-games
@@ -1216,6 +1219,7 @@ xenia.json,Calinou/scoop-games
 stuntrally.json,Calinou/scoop-games
 retroarch-nightly.json,Calinou/scoop-games
 supertuxkart.json,Calinou/scoop-games
+csauto.json,Calinou/scoop-games
 kega-fusion.json,Calinou/scoop-games
 wemod.json,Calinou/scoop-games
 fillets.json,Calinou/scoop-games
@@ -1774,6 +1778,7 @@ nodejs12.json,ScoopInstaller/Versions
 logseq-nightly.json,ScoopInstaller/Versions
 v-weekly.json,ScoopInstaller/Versions
 postgresql15.json,ScoopInstaller/Versions
+miniconda3-py39.json,ScoopInstaller/Versions
 kdeconnect-nightly.json,ScoopInstaller/Versions
 gcc45.json,ScoopInstaller/Versions
 postgresql14.json,ScoopInstaller/Versions
@@ -1871,7 +1876,6 @@ kodi-nightly.json,ScoopInstaller/Versions
 mariadb103.json,ScoopInstaller/Versions
 ngrok2.json,ScoopInstaller/Versions
 handbrake-cli-snapshot.json,ScoopInstaller/Versions
-godot4-mono.json,ScoopInstaller/Versions
 xdman-beta.json,ScoopInstaller/Versions
 everything-alpha.json,ScoopInstaller/Versions
 rtools40.json,ScoopInstaller/Versions
@@ -1901,7 +1905,6 @@ stunnel-beta.json,ScoopInstaller/Versions
 vim-tux.json,ScoopInstaller/Versions
 mysql56.json,ScoopInstaller/Versions
 python39.json,ScoopInstaller/Versions
-godot4.json,ScoopInstaller/Versions
 de4dot-net45.json,ScoopInstaller/Versions
 ruby26.json,ScoopInstaller/Versions
 gimp-dev.json,ScoopInstaller/Versions
@@ -1939,14 +1942,17 @@ gogs0.json,ScoopInstaller/Versions
 chromedriver-canary.json,ScoopInstaller/Versions
 winpython37.json,ScoopInstaller/Versions
 tesseract4.json,ScoopInstaller/Versions
+miniconda3-py311.json,ScoopInstaller/Versions
 phantomjs19.json,ScoopInstaller/Versions
 php81.json,ScoopInstaller/Versions
 php80-xdebug.json,ScoopInstaller/Versions
 idea-ultimate-rc.json,ScoopInstaller/Versions
 nodejs012.json,ScoopInstaller/Versions
+miniconda3-py37.json,ScoopInstaller/Versions
 mingw-winlibs-llvm-ucrt.json,ScoopInstaller/Versions
 r41.json,ScoopInstaller/Versions
 docker-nightly.json,ScoopInstaller/Versions
+miniconda3-py310.json,ScoopInstaller/Versions
 spotbugs-beta.json,ScoopInstaller/Versions
 fluxctl.json,ScoopInstaller/Versions
 neovide-dev.json,ScoopInstaller/Versions
@@ -1960,6 +1966,7 @@ wireshark3.6.json,ScoopInstaller/Versions
 teamcity-rc.json,ScoopInstaller/Versions
 premake5.json,ScoopInstaller/Versions
 php54.json,ScoopInstaller/Versions
+godot3.json,ScoopInstaller/Versions
 musescore3-nightly.json,ScoopInstaller/Versions
 python312.json,ScoopInstaller/Versions
 php83.json,ScoopInstaller/Versions
@@ -2092,6 +2099,7 @@ python38.json,ScoopInstaller/Versions
 zig-dev.json,ScoopInstaller/Versions
 anaconda2.json,ScoopInstaller/Versions
 python35.json,ScoopInstaller/Versions
+godot3-mono.json,ScoopInstaller/Versions
 goneovim-nightly.json,ScoopInstaller/Versions
 biber-prev.json,ScoopInstaller/Versions
 php73-xdebug.json,ScoopInstaller/Versions
@@ -2125,6 +2133,7 @@ xmind8.json,ScoopInstaller/Versions
 vscode-insiders.json,ScoopInstaller/Versions
 putty-cac.json,ScoopInstaller/Versions
 mongodb-rc.json,ScoopInstaller/Versions
+miniconda3-py38.json,ScoopInstaller/Versions
 php82-xdebug.json,ScoopInstaller/Versions
 caret-beta.json,ScoopInstaller/Versions
 kate-nightly.json,ScoopInstaller/Versions
@@ -2132,6 +2141,7 @@ kicad-lite-nightly.json,ScoopInstaller/Versions
 brave-beta.json,ScoopInstaller/Versions
 influxdb1.json,ScoopInstaller/Versions
 php74-xdebug.json,ScoopInstaller/Versions
+wixtoolset3.json,ScoopInstaller/Versions
 rambox-ce.json,ScoopInstaller/Versions
 chromedriver-dev.json,ScoopInstaller/Versions
 odin-dev.json,ScoopInstaller/Versions
@@ -3058,7 +3068,7 @@ browseraddonsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 searchmyfiles_ScoopInstaller.json,ScoopInstaller/Nirsoft
 netconnectchoose_ScoopInstaller.json,ScoopInstaller/Nirsoft
 shellbagsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-productkeyscanner_ScoopInstaller.json,ScoopInstaller/Nirsoft
+productkeyscanner.json,ScoopInstaller/Nirsoft
 searchfilterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 madpassext_ScoopInstaller.json,ScoopInstaller/Nirsoft
 networkinterfacesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -3360,7 +3370,7 @@ fuso.json,hoilc/scoop-lemon
 hostess.json,hoilc/scoop-lemon
 kubeshark_hoilc.json,hoilc/scoop-lemon
 winfi-lite.json,hoilc/scoop-lemon
-cosbrowser_hoilc.json,hoilc/scoop-lemon
+cosbrowser.json,hoilc/scoop-lemon
 jj_hoilc.json,hoilc/scoop-lemon
 fusion-lang.json,hoilc/scoop-lemon
 nvenc.json,hoilc/scoop-lemon
@@ -3906,7 +3916,7 @@ aliyundrive-webdav_hoilc.json,hoilc/scoop-lemon
 astro-cli.json,hoilc/scoop-lemon
 sleep.json,hoilc/scoop-lemon
 chinesesubfinder.json,hoilc/scoop-lemon
-pot.json,hoilc/scoop-lemon
+pot_hoilc.json,hoilc/scoop-lemon
 xdown.json,hoilc/scoop-lemon
 coscli.json,hoilc/scoop-lemon
 worsttrace.json,hoilc/scoop-lemon
@@ -4836,6 +4846,7 @@ DSynchronize.json,dodorz/scoop
 IcecreamPDFEditor.json,dodorz/scoop
 speak.json,dodorz/scoop
 ToolBox.json,dodorz/scoop
+ruff_dodorz.json,dodorz/scoop
 tkdiff.json,dodorz/scoop
 TiddlyDesktop.json,dodorz/scoop
 Clash_dodorz.json,dodorz/scoop
@@ -4903,6 +4914,7 @@ ditaa.json,dodorz/scoop
 gomi.json,dodorz/scoop
 Ollama.json,dodorz/scoop
 PicPick.json,dodorz/scoop
+uv_dodorz.json,dodorz/scoop
 Notable.json,dodorz/scoop
 ViDown.json,dodorz/scoop
 Shorten.json,dodorz/scoop
@@ -5242,7 +5254,7 @@ NetAlias_dodorz.json,dodorz/scoop
 DesktopOK.json,dodorz/scoop
 sK1.json,dodorz/scoop
 fsum.json,dodorz/scoop
-FastCopy.json,dodorz/scoop
+FastCopy_dodorz.json,dodorz/scoop
 cht.sh.json,dodorz/scoop
 UniversalViewerFree.json,dodorz/scoop
 CopyHandler.json,dodorz/scoop
@@ -5674,7 +5686,7 @@ fluent-reader.json,akirco/aki-apps
 wx_qq_revokeMsgPatcher.json,akirco/aki-apps
 pup_akirco.json,akirco/aki-apps
 draw.io.json,akirco/aki-apps
-electerm.json,akirco/aki-apps
+electerm_akirco.json,akirco/aki-apps
 fzf_akirco.json,akirco/aki-apps
 homedale_akirco.json,akirco/aki-apps
 fastbootEnhance.json,akirco/aki-apps
@@ -5994,7 +6006,7 @@ hyper-beta.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 clashwarden.json,DoveBoy/Apps
 sublime-text_DoveBoy.json,DoveBoy/Apps
-neteaseuu.json,DoveBoy/Apps
+neteaseuu_DoveBoy.json,DoveBoy/Apps
 7zip_DoveBoy.json,DoveBoy/Apps
 hgrep.json,DoveBoy/Apps
 keymousego.json,DoveBoy/Apps
@@ -6003,7 +6015,7 @@ listen1desktop_DoveBoy.json,DoveBoy/Apps
 perl_DoveBoy.json,DoveBoy/Apps
 qqlive.json,DoveBoy/Apps
 jq_DoveBoy.json,DoveBoy/Apps
-treesize_DoveBoy.json,DoveBoy/Apps
+treesize.json,DoveBoy/Apps
 wiliwili.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 sandboxie-plus_DoveBoy.json,DoveBoy/Apps
@@ -6166,7 +6178,7 @@ gopeed-web.json,DoveBoy/Apps
 chatgpt.json,DoveBoy/Apps
 obs-studio-pre_DoveBoy.json,DoveBoy/Apps
 telegram-downloader.json,DoveBoy/Apps
-picpick_DoveBoy.json,DoveBoy/Apps
+picpick.json,DoveBoy/Apps
 potplayer_DoveBoy.json,DoveBoy/Apps
 hyper.json,DoveBoy/Apps
 v2rayn-core.json,DoveBoy/Apps
@@ -7132,7 +7144,7 @@ neeview.json,hu3rror/scoop-muggle
 neat-reader.json,hu3rror/scoop-muggle
 cheat-engine.json,hu3rror/scoop-muggle
 imagine_hu3rror.json,hu3rror/scoop-muggle
-pot-desktop_hu3rror.json,hu3rror/scoop-muggle
+pot-desktop.json,hu3rror/scoop-muggle
 goodsync-10.json,hu3rror/scoop-muggle
 pixivbiu_hu3rror.json,hu3rror/scoop-muggle
 nhse.json,hu3rror/scoop-muggle
