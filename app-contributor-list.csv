@@ -1135,6 +1135,7 @@ baidunetdisk_ivaquero.json,ivaquero/scoopet
 inkscape-ext-textext.json,ivaquero/scoopet
 jigdo.json,ivaquero/scoopet
 gimp-cn.json,ivaquero/scoopet
+pot-desktop.json,ivaquero/scoopet
 neteasemusic_ivaquero.json,ivaquero/scoopet
 veracrypt.json,ivaquero/scoopet
 twitchdropsminer.json,Calinou/scoop-games
@@ -3068,7 +3069,7 @@ browseraddonsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 searchmyfiles_ScoopInstaller.json,ScoopInstaller/Nirsoft
 netconnectchoose_ScoopInstaller.json,ScoopInstaller/Nirsoft
 shellbagsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
-productkeyscanner.json,ScoopInstaller/Nirsoft
+productkeyscanner_ScoopInstaller.json,ScoopInstaller/Nirsoft
 searchfilterview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 madpassext_ScoopInstaller.json,ScoopInstaller/Nirsoft
 networkinterfacesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -3855,7 +3856,7 @@ mtputty.json,hoilc/scoop-lemon
 soundswitch.json,hoilc/scoop-lemon
 vtex2.json,hoilc/scoop-lemon
 libportable-floorp-lightning.json,hoilc/scoop-lemon
-gitlab-release-cli.json,hoilc/scoop-lemon
+gitlab-release-cli_hoilc.json,hoilc/scoop-lemon
 gosmee.json,hoilc/scoop-lemon
 smuxi.json,hoilc/scoop-lemon
 space-cli.json,hoilc/scoop-lemon
@@ -3916,7 +3917,7 @@ aliyundrive-webdav_hoilc.json,hoilc/scoop-lemon
 astro-cli.json,hoilc/scoop-lemon
 sleep.json,hoilc/scoop-lemon
 chinesesubfinder.json,hoilc/scoop-lemon
-pot_hoilc.json,hoilc/scoop-lemon
+pot.json,hoilc/scoop-lemon
 xdown.json,hoilc/scoop-lemon
 coscli.json,hoilc/scoop-lemon
 worsttrace.json,hoilc/scoop-lemon
@@ -4682,6 +4683,7 @@ privacysexy.json,couleur-tweak-tips/utils
 mesen_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
+scummvm_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
@@ -6015,7 +6017,7 @@ listen1desktop_DoveBoy.json,DoveBoy/Apps
 perl_DoveBoy.json,DoveBoy/Apps
 qqlive.json,DoveBoy/Apps
 jq_DoveBoy.json,DoveBoy/Apps
-treesize.json,DoveBoy/Apps
+treesize_DoveBoy.json,DoveBoy/Apps
 wiliwili.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 sandboxie-plus_DoveBoy.json,DoveBoy/Apps
@@ -6170,7 +6172,7 @@ brackets.json,DoveBoy/Apps
 shadowsocksr-hmbsbige.json,DoveBoy/Apps
 nano_DoveBoy.json,DoveBoy/Apps
 biliup-rs_DoveBoy.json,DoveBoy/Apps
-blockthespot.json,DoveBoy/Apps
+blockthespot_DoveBoy.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
 mpv.json,DoveBoy/Apps
 mpv-git.json,DoveBoy/Apps
@@ -6366,7 +6368,7 @@ yank-note_DoveBoy.json,DoveBoy/Apps
 vimtutor_DoveBoy.json,DoveBoy/Apps
 kobi.json,DoveBoy/Apps
 everything-lite.json,DoveBoy/Apps
-crystaldiskmark-shizuku-edition_DoveBoy.json,DoveBoy/Apps
+crystaldiskmark-shizuku-edition.json,DoveBoy/Apps
 iobit-software-updater.json,DoveBoy/Apps
 yt-dlp_DoveBoy.json,DoveBoy/Apps
 gping_DoveBoy.json,DoveBoy/Apps
@@ -6562,7 +6564,7 @@ sandboxie-plus-np.json,DoveBoy/Apps
 reader.json,DoveBoy/Apps
 anyburn.json,DoveBoy/Apps
 superrdp.json,DoveBoy/Apps
-clash-verge-rev_DoveBoy.json,DoveBoy/Apps
+clash-verge-rev.json,DoveBoy/Apps
 zy-player_DoveBoy.json,DoveBoy/Apps
 scoop-shim_DoveBoy.json,DoveBoy/Apps
 bbk-cli_DoveBoy.json,DoveBoy/Apps
@@ -7144,7 +7146,7 @@ neeview.json,hu3rror/scoop-muggle
 neat-reader.json,hu3rror/scoop-muggle
 cheat-engine.json,hu3rror/scoop-muggle
 imagine_hu3rror.json,hu3rror/scoop-muggle
-pot-desktop.json,hu3rror/scoop-muggle
+pot-desktop_hu3rror.json,hu3rror/scoop-muggle
 goodsync-10.json,hu3rror/scoop-muggle
 pixivbiu_hu3rror.json,hu3rror/scoop-muggle
 nhse.json,hu3rror/scoop-muggle
