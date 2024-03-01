@@ -2843,8 +2843,6 @@ goby-redteam.json,arch3rPro/PST-Bucket
 natpass.json,arch3rPro/PST-Bucket
 xssor2.json,arch3rPro/PST-Bucket
 easysrv.json,arch3rPro/PST-Bucket
-nmap_kkzzhizhou.json,kkzzhizhou/scoop-zapps
-WinSW_kkzzhizhou.json,kkzzhizhou/scoop-zapps
 babun.json,rasa/scoops
 nirsoft-installer.json,rasa/scoops
 si-installer.json,rasa/scoops
@@ -2933,6 +2931,8 @@ fat32format-gui.json,rasa/scoops
 openssh-win32.json,rasa/scoops
 tmac.json,rasa/scoops
 vlc-bluray-plugin.json,rasa/scoops
+nmap_kkzzhizhou.json,kkzzhizhou/scoop-zapps
+WinSW_kkzzhizhou.json,kkzzhizhou/scoop-zapps
 fileactivitywatch_ScoopInstaller.json,ScoopInstaller/Nirsoft
 operapassview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 dotnetresourcesextract_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -3780,7 +3780,7 @@ fixcue.json,hoilc/scoop-lemon
 altsnap.json,hoilc/scoop-lemon
 mongodb-compass.json,hoilc/scoop-lemon
 evernote2onenote.json,hoilc/scoop-lemon
-alixby.json,hoilc/scoop-lemon
+alixby_hoilc.json,hoilc/scoop-lemon
 dtlspipe.json,hoilc/scoop-lemon
 greptime.json,hoilc/scoop-lemon
 spacectl.json,hoilc/scoop-lemon
@@ -3969,6 +3969,7 @@ shutter.json,hoilc/scoop-lemon
 memcached_exporter.json,hoilc/scoop-lemon
 alexandria.json,hoilc/scoop-lemon
 kubedb-cli.json,hoilc/scoop-lemon
+goose.json,hoilc/scoop-lemon
 vgrep.json,hoilc/scoop-lemon
 syft_hoilc.json,hoilc/scoop-lemon
 zhudou-sans.json,hoilc/scoop-lemon
@@ -6554,7 +6555,7 @@ figlet_akirco.json,akirco/aki-apps
 oss-browser_akirco.json,akirco/aki-apps
 mysql_akirco.json,akirco/aki-apps
 netcat_akirco.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 dotfiles.json,akirco/aki-apps
 mdbook_akirco.json,akirco/aki-apps
 m3u8downloader.json,akirco/aki-apps
@@ -6571,7 +6572,7 @@ xh_akirco.json,akirco/aki-apps
 restic_akirco.json,akirco/aki-apps
 nexusfont.json,akirco/aki-apps
 powertoys.json,akirco/aki-apps
-aliyundrive_akirco.json,akirco/aki-apps
+aliyundrive.json,akirco/aki-apps
 zola_akirco.json,akirco/aki-apps
 zstd_akirco.json,akirco/aki-apps
 BaiduNetdisk_akirco.json,akirco/aki-apps
@@ -6770,7 +6771,7 @@ hyper-beta.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 clashwarden.json,DoveBoy/Apps
 sublime-text_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 7zip_DoveBoy.json,DoveBoy/Apps
 hgrep.json,DoveBoy/Apps
 keymousego.json,DoveBoy/Apps
@@ -7147,7 +7148,7 @@ doc-downloader.json,DoveBoy/Apps
 lux_DoveBoy.json,DoveBoy/Apps
 nu_DoveBoy.json,DoveBoy/Apps
 sunloginclientsos.json,DoveBoy/Apps
-emeditor.json,DoveBoy/Apps
+emeditor_DoveBoy.json,DoveBoy/Apps
 translumo.json,DoveBoy/Apps
 youtube-dl_DoveBoy.json,DoveBoy/Apps
 qalculate.json,DoveBoy/Apps
@@ -8330,7 +8331,7 @@ windowstoolbox.json,beerpiss/scoop-bucket
 stash.json,beerpiss/scoop-bucket
 absolutetouch.json,beerpiss/scoop-bucket
 adguardhome_beerpiss.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 sound-of-sorting.json,beerpiss/scoop-bucket
 sl-h.json,beerpiss/scoop-bucket
 cider-nightly.json,beerpiss/scoop-bucket
@@ -8453,7 +8454,7 @@ julia_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 r-4.3.2.json,ShuguangSun/sgs-scoop-bucket
 kondo_Small-Ku.json,Small-Ku/turbo-bucket
 dmm-fast-launcher.json,Small-Ku/turbo-bucket
-fleet.json,Small-Ku/turbo-bucket
+fleet_Small-Ku.json,Small-Ku/turbo-bucket
 icalingua-plus-plus-dev.json,Small-Ku/turbo-bucket
 starward_Small-Ku.json,Small-Ku/turbo-bucket
 nodai-shark.json,Small-Ku/turbo-bucket
