@@ -3553,7 +3553,7 @@ lame-front-end.json,hoilc/scoop-lemon
 openra_hoilc.json,hoilc/scoop-lemon
 a2fa.json,hoilc/scoop-lemon
 plow.json,hoilc/scoop-lemon
-cosbrowser.json,hoilc/scoop-lemon
+cosbrowser_hoilc.json,hoilc/scoop-lemon
 zeno.json,hoilc/scoop-lemon
 worsttrace.json,hoilc/scoop-lemon
 swgp-go.json,hoilc/scoop-lemon
@@ -4078,7 +4078,7 @@ autohidemousecursor.json,hoilc/scoop-lemon
 terminus-player.json,hoilc/scoop-lemon
 windowtop.json,hoilc/scoop-lemon
 gif123.json,hoilc/scoop-lemon
-pestudio.json,hoilc/scoop-lemon
+pestudio_hoilc.json,hoilc/scoop-lemon
 whisper-model-ggml-medium.json,hoilc/scoop-lemon
 graphite_exporter.json,hoilc/scoop-lemon
 litomusic.json,hoilc/scoop-lemon
@@ -6473,7 +6473,7 @@ hellofont_akirco.json,akirco/aki-apps
 linear-desktop.json,akirco/aki-apps
 uwd.json,akirco/aki-apps
 TianRuoOCR_akirco.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 fiddler.json,akirco/aki-apps
 composer_akirco.json,akirco/aki-apps
 cosbrowser_akirco.json,akirco/aki-apps
@@ -6618,7 +6618,7 @@ s_akirco.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
 gradle_akirco.json,akirco/aki-apps
 optipng_akirco.json,akirco/aki-apps
-firefox-zh-cn.json,akirco/aki-apps
+firefox-zh-cn_akirco.json,akirco/aki-apps
 aria2_akirco.json,akirco/aki-apps
 winxray_akirco.json,akirco/aki-apps
 dp.json,akirco/aki-apps
@@ -6870,7 +6870,7 @@ motrix.json,DoveBoy/Apps
 photodemon.json,DoveBoy/Apps
 winscp.json,DoveBoy/Apps
 gnupg_DoveBoy.json,DoveBoy/Apps
-dingtalk_DoveBoy.json,DoveBoy/Apps
+dingtalk.json,DoveBoy/Apps
 autodarkmode_DoveBoy.json,DoveBoy/Apps
 sandboxie-classic.json,DoveBoy/Apps
 imageglass.json,DoveBoy/Apps
@@ -6893,6 +6893,7 @@ r3nzskin.json,DoveBoy/Apps
 idm.json,DoveBoy/Apps
 tai.json,DoveBoy/Apps
 vim-nightly_DoveBoy.json,DoveBoy/Apps
+r3playx_DoveBoy.json,DoveBoy/Apps
 nu_DoveBoy.json,DoveBoy/Apps
 bili-cli-rs.json,DoveBoy/Apps
 vivetool_DoveBoy.json,DoveBoy/Apps
@@ -6955,7 +6956,7 @@ monit.json,DoveBoy/Apps
 fiddler_DoveBoy.json,DoveBoy/Apps
 blockthespot_DoveBoy.json,DoveBoy/Apps
 lemonpush.json,DoveBoy/Apps
-pandaocrpro_DoveBoy.json,DoveBoy/Apps
+pandaocrpro.json,DoveBoy/Apps
 mpv.net.json,DoveBoy/Apps
 waifu2x-extension-gui_DoveBoy.json,DoveBoy/Apps
 chromedriver_DoveBoy.json,DoveBoy/Apps
@@ -7068,7 +7069,7 @@ librespeed-cli_DoveBoy.json,DoveBoy/Apps
 convert.net.json,DoveBoy/Apps
 wechat_DoveBoy.json,DoveBoy/Apps
 jasmine.json,DoveBoy/Apps
-ffmpeg-shared-nightly_DoveBoy.json,DoveBoy/Apps
+ffmpeg-shared-nightly.json,DoveBoy/Apps
 reqable.json,DoveBoy/Apps
 iobit-system-information.json,DoveBoy/Apps
 transmission.json,DoveBoy/Apps
@@ -7126,7 +7127,7 @@ lessmsi_DoveBoy.json,DoveBoy/Apps
 musicfreedesktop.json,DoveBoy/Apps
 winmemorycleaner_DoveBoy.json,DoveBoy/Apps
 bililive-go_DoveBoy.json,DoveBoy/Apps
-neteaseuu_DoveBoy.json,DoveBoy/Apps
+neteaseuu.json,DoveBoy/Apps
 tageditor.json,DoveBoy/Apps
 lanzou-gui.json,DoveBoy/Apps
 droppoint_DoveBoy.json,DoveBoy/Apps
@@ -7344,7 +7345,7 @@ go-musicfox.json,DoveBoy/Apps
 cloudflarespeedtest_DoveBoy.json,DoveBoy/Apps
 compactgui.json,DoveBoy/Apps
 gopeed-portable.json,DoveBoy/Apps
-qqlive.json,DoveBoy/Apps
+qqlive_DoveBoy.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 bulk-crap-uninstaller.json,DoveBoy/Apps
 freefilesync.json,DoveBoy/Apps
@@ -7416,7 +7417,7 @@ gitextensions.json,DoveBoy/Apps
 sniproxy.json,DoveBoy/Apps
 imagemagick-lean_DoveBoy.json,DoveBoy/Apps
 calibre.json,DoveBoy/Apps
-picpick.json,DoveBoy/Apps
+picpick_DoveBoy.json,DoveBoy/Apps
 ariang-native.json,DoveBoy/Apps
 show-disk-partition-style.json,DoveBoy/Apps
 b23downloader_DoveBoy.json,DoveBoy/Apps
@@ -7542,7 +7543,7 @@ pbgopy.json,batkiz/backit
 less-windows.json,batkiz/backit
 raven-reader.json,batkiz/backit
 typora_batkiz.json,batkiz/backit
-bitcomet.json,batkiz/backit
+bitcomet_batkiz.json,batkiz/backit
 golangci-lint_batkiz.json,batkiz/backit
 tinytex_batkiz.json,batkiz/backit
 murphysec.json,batkiz/backit
@@ -8542,6 +8543,7 @@ mort.json,Small-Ku/turbo-bucket
 PsTools_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
 LNE-LINK.json,AkariiinMKII/Scoop4kariiin
 Windows-screenFetch-alt.json,AkariiinMKII/Scoop4kariiin
+CrystalDiskInfo-Aoi.json,AkariiinMKII/Scoop4kariiin
 EmbyServer.json,AkariiinMKII/Scoop4kariiin
 sleep-on-lan.json,AkariiinMKII/Scoop4kariiin
 TencentQQNT.json,AkariiinMKII/Scoop4kariiin
@@ -8549,6 +8551,7 @@ link-plus.json,AkariiinMKII/Scoop4kariiin
 Cinebench-R15.json,AkariiinMKII/Scoop4kariiin
 EmbyTheater.json,AkariiinMKII/Scoop4kariiin
 Cinebench-R20.json,AkariiinMKII/Scoop4kariiin
+CrystalDiskMark-Aoi.json,AkariiinMKII/Scoop4kariiin
 ClashforWindows.json,AkariiinMKII/Scoop4kariiin
 TwinkleTray.json,AkariiinMKII/Scoop4kariiin
 CrystalDiskInfo-Shizuku_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
