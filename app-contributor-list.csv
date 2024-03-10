@@ -3164,7 +3164,7 @@ iconsext.json,ScoopInstaller/Nirsoft
 cleanafterme_ScoopInstaller.json,ScoopInstaller/Nirsoft
 rtmpdumphelper_ScoopInstaller.json,ScoopInstaller/Nirsoft
 mailpv.json,ScoopInstaller/Nirsoft
-windeflogview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+windeflogview.json,ScoopInstaller/Nirsoft
 runfromprocess_ScoopInstaller.json,ScoopInstaller/Nirsoft
 hashmyfiles_ScoopInstaller.json,ScoopInstaller/Nirsoft
 runtimeclassesview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -6535,7 +6535,7 @@ httpstat_akirco.json,akirco/aki-apps
 z.json,akirco/aki-apps
 regexp.json,akirco/aki-apps
 clean-my-pc.json,akirco/aki-apps
-aliyundrive.json,akirco/aki-apps
+aliyundrive_akirco.json,akirco/aki-apps
 nali_akirco.json,akirco/aki-apps
 bilibili_akirco.json,akirco/aki-apps
 dart_akirco.json,akirco/aki-apps
@@ -7712,7 +7712,7 @@ scrcpy_DoveBoy.json,DoveBoy/Apps
 pls.json,DoveBoy/Apps
 picturecleaner_DoveBoy.json,DoveBoy/Apps
 tiktokdownloader.json,DoveBoy/Apps
-fastcopy_DoveBoy.json,DoveBoy/Apps
+fastcopy.json,DoveBoy/Apps
 network-profile-name-changer.json,DoveBoy/Apps
 n_m3u8dl-cli_DoveBoy.json,DoveBoy/Apps
 termscp_DoveBoy.json,DoveBoy/Apps
@@ -8710,7 +8710,7 @@ stash.json,beerpiss/scoop-bucket
 imazing.json,beerpiss/scoop-bucket
 unxwb.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 absolutetouchex.json,beerpiss/scoop-bucket
 arrayv.json,beerpiss/scoop-bucket
 scoop-search_beerpiss.json,beerpiss/scoop-bucket
