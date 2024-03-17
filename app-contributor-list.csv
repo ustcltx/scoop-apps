@@ -6213,7 +6213,7 @@ mgba-dev_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
@@ -6444,7 +6444,7 @@ vim_akirco.json,akirco/aki-apps
 php_akirco.json,akirco/aki-apps
 charles_akirco.json,akirco/aki-apps
 cpu-z.json,akirco/aki-apps
-ftnn_akirco.json,akirco/aki-apps
+ftnn.json,akirco/aki-apps
 wechat_akirco.json,akirco/aki-apps
 time_akirco.json,akirco/aki-apps
 mdcat_akirco.json,akirco/aki-apps
@@ -7200,10 +7200,10 @@ clone-voice.json,DoveBoy/Apps
 fileconverter.json,DoveBoy/Apps
 pikapika.json,DoveBoy/Apps
 droppoint-portable_DoveBoy.json,DoveBoy/Apps
-aliyunpan_DoveBoy.json,DoveBoy/Apps
+aliyunpan.json,DoveBoy/Apps
 cloc_DoveBoy.json,DoveBoy/Apps
 git-aliases.json,DoveBoy/Apps
-wingetui.json,DoveBoy/Apps
+wingetui_DoveBoy.json,DoveBoy/Apps
 nu_DoveBoy.json,DoveBoy/Apps
 chatgpt.json,DoveBoy/Apps
 downkyi_DoveBoy.json,DoveBoy/Apps
@@ -7241,7 +7241,7 @@ pscalendar.json,DoveBoy/Apps
 clashsinicizationtool.json,DoveBoy/Apps
 mapdownload.json,DoveBoy/Apps
 bbdown-beta.json,DoveBoy/Apps
-clash-verge-rev_DoveBoy.json,DoveBoy/Apps
+clash-verge-rev.json,DoveBoy/Apps
 fd_DoveBoy.json,DoveBoy/Apps
 scoop-validator_DoveBoy.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
@@ -7486,7 +7486,7 @@ trafficmonitor_DoveBoy.json,DoveBoy/Apps
 auto-unlocker.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
 imagemagick-lean_DoveBoy.json,DoveBoy/Apps
-fastcopy_DoveBoy.json,DoveBoy/Apps
+fastcopy.json,DoveBoy/Apps
 ali.json,DoveBoy/Apps
 watttoolkit.json,DoveBoy/Apps
 qbittorrent.json,DoveBoy/Apps
@@ -8697,7 +8697,7 @@ graboid.json,beerpiss/scoop-bucket
 oneko.json,beerpiss/scoop-bucket
 apfs.json,beerpiss/scoop-bucket
 stash.json,beerpiss/scoop-bucket
-microsoftedge.json,beerpiss/scoop-bucket
+microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 libimobiledevice_beerpiss.json,beerpiss/scoop-bucket
 plutil.json,beerpiss/scoop-bucket
 rawcap-old.json,beerpiss/scoop-bucket
