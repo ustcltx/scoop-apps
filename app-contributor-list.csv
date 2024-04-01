@@ -332,6 +332,7 @@ SmartSystemMenu.json,Weidows-projects/scoop-3rd
 Lively-Wallpaper.json,Weidows-projects/scoop-3rd
 psmodule-7Zip4Powershell.json,Weidows-projects/scoop-3rd
 RM-ATKtools.json,Weidows-projects/scoop-3rd
+bottom_Weidows-projects.json,Weidows-projects/scoop-3rd
 SamToki-pack.json,Weidows-projects/scoop-3rd
 MyDockFinder.json,Weidows-projects/scoop-3rd
 MouseInc.json,echoiron/echo-scoop
@@ -1433,7 +1434,7 @@ lx-music_ivaquero.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
 lky-officetools.json,ivaquero/scoopet
 fishing-funds.json,ivaquero/scoopet
-wisecare365.json,ivaquero/scoopet
+wisecare365_ivaquero.json,ivaquero/scoopet
 chatbox.json,ivaquero/scoopet
 edgeless.json,ivaquero/scoopet
 doxygen-gui.json,ivaquero/scoopet
@@ -6260,7 +6261,7 @@ mgba-dev_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
@@ -6658,7 +6659,7 @@ gof_akirco.json,akirco/aki-apps
 tomcat8_akirco.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
 yarn_akirco.json,akirco/aki-apps
-yuque_akirco.json,akirco/aki-apps
+yuque.json,akirco/aki-apps
 yq_akirco.json,akirco/aki-apps
 registry-finder_akirco.json,akirco/aki-apps
 scrcpy_akirco.json,akirco/aki-apps
@@ -6680,7 +6681,7 @@ python_akirco.json,akirco/aki-apps
 vcredist2022.json,akirco/aki-apps
 figlet_akirco.json,akirco/aki-apps
 rustdesk.json,akirco/aki-apps
-electerm.json,akirco/aki-apps
+electerm_akirco.json,akirco/aki-apps
 gh_akirco.json,akirco/aki-apps
 nc.json,akirco/aki-apps
 youtube-dl-wpf_akirco.json,akirco/aki-apps
@@ -6700,7 +6701,7 @@ gsudo_akirco.json,akirco/aki-apps
 typora_akirco.json,akirco/aki-apps
 hub_akirco.json,akirco/aki-apps
 pwsh_akirco.json,akirco/aki-apps
-officetoolplus_akirco.json,akirco/aki-apps
+officetoolplus.json,akirco/aki-apps
 mvndaemon_akirco.json,akirco/aki-apps
 shim_akirco.json,akirco/aki-apps
 directoryPredictor.json,akirco/aki-apps
@@ -6863,7 +6864,7 @@ waifu2x-ncnn-vulkan_DoveBoy.json,DoveBoy/Apps
 cntv.json,DoveBoy/Apps
 vim-nightly_DoveBoy.json,DoveBoy/Apps
 apkeep.json,DoveBoy/Apps
-listen1desktop_DoveBoy.json,DoveBoy/Apps
+listen1desktop.json,DoveBoy/Apps
 clashwarden.json,DoveBoy/Apps
 purewriter.json,DoveBoy/Apps
 sharpthief.json,DoveBoy/Apps
@@ -6936,7 +6937,7 @@ lx-music-desktop-win7.json,DoveBoy/Apps
 shadowsocksr-hmbsbige-full.json,DoveBoy/Apps
 mpv-lazy.json,DoveBoy/Apps
 ytdlp-interface.json,DoveBoy/Apps
-freefilesync_DoveBoy.json,DoveBoy/Apps
+freefilesync.json,DoveBoy/Apps
 iwck_DoveBoy.json,DoveBoy/Apps
 everything-alpha_DoveBoy.json,DoveBoy/Apps
 bookget_DoveBoy.json,DoveBoy/Apps
@@ -7525,7 +7526,7 @@ stdu-xml-editor.json,naderi/scoop-bucket
 nanarun.json,naderi/scoop-bucket
 stdu-viewer.json,naderi/scoop-bucket
 winpaletter.json,naderi/scoop-bucket
-hdcleaner_naderi.json,naderi/scoop-bucket
+hdcleaner.json,naderi/scoop-bucket
 centbrowser-portable.json,naderi/scoop-bucket
 cinta-notes.json,naderi/scoop-bucket
 wxmedit_naderi.json,naderi/scoop-bucket
@@ -7591,7 +7592,7 @@ processko_naderi.json,naderi/scoop-bucket
 telegram_naderi.json,naderi/scoop-bucket
 font-estedad.json,naderi/scoop-bucket
 smart-svg-viewer.json,naderi/scoop-bucket
-encrypto_naderi.json,naderi/scoop-bucket
+encrypto.json,naderi/scoop-bucket
 winrar-de.json,naderi/scoop-bucket
 tenacity.json,naderi/scoop-bucket
 easy-context-menu_naderi.json,naderi/scoop-bucket
@@ -7712,7 +7713,7 @@ chromium-portable.json,naderi/scoop-bucket
 xnview-classic-full.json,naderi/scoop-bucket
 winsetview.json,naderi/scoop-bucket
 mitec-icon-explorer.json,naderi/scoop-bucket
-tweakpower_naderi.json,naderi/scoop-bucket
+tweakpower.json,naderi/scoop-bucket
 birdfont.json,naderi/scoop-bucket
 xpdf-tools_naderi.json,naderi/scoop-bucket
 uplay_naderi.json,naderi/scoop-bucket
@@ -7883,6 +7884,7 @@ jijidown.json,amorphobia/siku
 yahei-fira-icon-hybrid.json,amorphobia/siku
 idm-trial-reset.json,amorphobia/siku
 fido.json,amorphobia/siku
+clash-for-windows_amorphobia.json,amorphobia/siku
 hfsexplorer.json,amorphobia/siku
 wechatexporter.json,amorphobia/siku
 pijul_amorphobia.json,amorphobia/siku
@@ -7986,7 +7988,6 @@ silk2mp3.json,ygguorun/scoop-bucket
 typora1.2.5.json,ygguorun/scoop-bucket
 ShadowExplorer.json,ygguorun/scoop-bucket
 PDB2ePubChs.json,ygguorun/scoop-bucket
-musicfox_ygguorun.json,ygguorun/scoop-bucket
 embyToLocalPlayer.json,ygguorun/scoop-bucket
 jpfont-nds.json,ygguorun/scoop-bucket
 WinFontPlus.json,ygguorun/scoop-bucket
@@ -8176,7 +8177,7 @@ fnm_batkiz.json,batkiz/backit
 legendary_batkiz.json,batkiz/backit
 onefetch.json,batkiz/backit
 autocorrect_batkiz.json,batkiz/backit
-filebrowser_batkiz.json,batkiz/backit
+filebrowser.json,batkiz/backit
 latexindent_batkiz.json,batkiz/backit
 fsql_batkiz.json,batkiz/backit
 youtube-dl-wpf_batkiz.json,batkiz/backit
