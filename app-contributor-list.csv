@@ -1083,6 +1083,7 @@ cdogs-sdl.json,Calinou/scoop-games
 trenchbroom.json,Calinou/scoop-games
 rtcwcoop.json,Calinou/scoop-games
 urbanterror.json,Calinou/scoop-games
+ff-logs-uploader.json,Calinou/scoop-games
 applewin.json,Calinou/scoop-games
 shipwright.json,Calinou/scoop-games
 pacmc.json,Calinou/scoop-games
@@ -6685,7 +6686,7 @@ python_akirco.json,akirco/aki-apps
 vcredist2022.json,akirco/aki-apps
 figlet_akirco.json,akirco/aki-apps
 rustdesk.json,akirco/aki-apps
-electerm_akirco.json,akirco/aki-apps
+electerm.json,akirco/aki-apps
 gh_akirco.json,akirco/aki-apps
 nc.json,akirco/aki-apps
 youtube-dl-wpf_akirco.json,akirco/aki-apps
@@ -7304,7 +7305,7 @@ ipcalc_DoveBoy.json,DoveBoy/Apps
 wxdatviewerautoexportrust.json,DoveBoy/Apps
 cleanmywechat_DoveBoy.json,DoveBoy/Apps
 scoop-completion_DoveBoy.json,DoveBoy/Apps
-emeditor_DoveBoy.json,DoveBoy/Apps
+emeditor.json,DoveBoy/Apps
 weylus.json,DoveBoy/Apps
 qqlive_DoveBoy.json,DoveBoy/Apps
 scoop-search_DoveBoy.json,DoveBoy/Apps
@@ -8353,7 +8354,7 @@ imagine_hu3rror.json,hu3rror/scoop-muggle
 geminicommit-cli.json,hu3rror/scoop-muggle
 cdnlookup.json,hu3rror/scoop-muggle
 mangadex-dl.json,hu3rror/scoop-muggle
-umi-ocr-paddle_hu3rror.json,hu3rror/scoop-muggle
+umi-ocr-paddle.json,hu3rror/scoop-muggle
 qaac-qtfiles.json,hu3rror/scoop-muggle
 slk-img2pixel.json,hu3rror/scoop-muggle
 win11-classic-context-menu.json,hu3rror/scoop-muggle
@@ -8471,7 +8472,7 @@ imewlconverter_hu3rror.json,hu3rror/scoop-muggle
 foobar2000-foobox-en-pack.json,hu3rror/scoop-muggle
 chatbox_hu3rror.json,hu3rror/scoop-muggle
 nora.json,hu3rror/scoop-muggle
-umi-ocr-rapid_hu3rror.json,hu3rror/scoop-muggle
+umi-ocr-rapid.json,hu3rror/scoop-muggle
 mpv-handler.json,hu3rror/scoop-muggle
 uup-download-wizard-converter.json,hu3rror/scoop-muggle
 rimage_hu3rror.json,hu3rror/scoop-muggle
