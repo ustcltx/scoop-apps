@@ -1,0 +1,28 @@
+{
+    "homepage": "https://affine.pro/",
+    "desciption": "A workspace with fully merged docs, whiteboards and databases.",
+    "version": "0.13.4",
+    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.13.4/affine-0.13.4-stable-windows-x64.exe#/dl.7z",
+    "hash": "0c404306fc4c586af39a5fa89a4cb2d8bfa4751dcf4e9a5ba0a5fe40e0c0aa7b",
+    "installer": {
+        "script": [
+            "$nupkg = (Get-ChildItem \"$dir\" 'AFFiNE-*-full.nupkg' | Select-Object -First 1).FullName",
+            "Expand-7ZipArchive \"$nupkg\" \"$dir\"",
+            "Move-Item \"$dir\\lib\\net45\\*\" \"$dir\""
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\package\",\"$dir\\_rels\",\"$dir\\AFFiNE.nuspec\",\"$dir\\[Content_Types].xml\",\"$dir\\*.nupkg\" -Recurse",
+    "bin": "AFFiNE.exe",
+    "shortcuts": [
+        [
+            "AFFiNE.exe",
+            "AFFiNE"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/toeverything/AFFiNE"
+    },
+    "autoupdate": {
+        "url": "https://github.com/toeverything/AFFiNE/releases/download/v$version/affine-$version-stable-windows-x64.exe#/dl.7z"
+    }
+}
