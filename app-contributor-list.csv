@@ -173,7 +173,7 @@ premotem.json,HCLonely/my-scoop-bucket
 video-srt-gui.json,HCLonely/my-scoop-bucket
 devsidecar.json,HCLonely/my-scoop-bucket
 baidudisk.json,HCLonely/my-scoop-bucket
-irreader_HCLonely.json,HCLonely/my-scoop-bucket
+irreader.json,HCLonely/my-scoop-bucket
 shudaxia.json,HCLonely/my-scoop-bucket
 misakatranslator.json,HCLonely/my-scoop-bucket
 oss-browser.json,HCLonely/my-scoop-bucket
@@ -1472,6 +1472,7 @@ ojdkbuild10.json,ScoopInstaller/Java
 libericamc8.json,ScoopInstaller/Java
 liberica11-lite-jdk.json,ScoopInstaller/Java
 corretto16-jdk.json,ScoopInstaller/Java
+temurin22-jdk.json,ScoopInstaller/Java
 ojdkbuild9.json,ScoopInstaller/Java
 liberica11-full-jre.json,ScoopInstaller/Java
 zulu16-jdk.json,ScoopInstaller/Java
@@ -1571,6 +1572,7 @@ ojdkbuild13-jre.json,ScoopInstaller/Java
 temurin11-jdk.json,ScoopInstaller/Java
 liberica12-jdk.json,ScoopInstaller/Java
 zulu16-jre.json,ScoopInstaller/Java
+microsoft21-jdk.json,ScoopInstaller/Java
 graalvm21.json,ScoopInstaller/Java
 sapmachine13-jre.json,ScoopInstaller/Java
 zulufx14-jre.json,ScoopInstaller/Java
@@ -1630,6 +1632,7 @@ zulu-jdk.json,ScoopInstaller/Java
 semeru19-jdk.json,ScoopInstaller/Java
 zulufx13-jre.json,ScoopInstaller/Java
 semeru-lts-jdk.json,ScoopInstaller/Java
+temurin22-jre.json,ScoopInstaller/Java
 microsoft17-jdk.json,ScoopInstaller/Java
 graalvm19-jdk8.json,ScoopInstaller/Java
 openjdk20.json,ScoopInstaller/Java
@@ -2720,7 +2723,7 @@ crawlergo.json,arch3rPro/PST-Bucket
 gda.json,arch3rPro/PST-Bucket
 FlowUs_arch3rPro.json,arch3rPro/PST-Bucket
 cudatext-cn.json,arch3rPro/PST-Bucket
-dev-sidecar.json,arch3rPro/PST-Bucket
+dev-sidecar_arch3rPro.json,arch3rPro/PST-Bucket
 emeditor_arch3rPro.json,arch3rPro/PST-Bucket
 notepad--.json,arch3rPro/PST-Bucket
 gowitness.json,arch3rPro/PST-Bucket
@@ -3262,6 +3265,7 @@ bbdown_hoilc.json,hoilc/scoop-lemon
 lal.json,hoilc/scoop-lemon
 fork-cleaner.json,hoilc/scoop-lemon
 go-wol.json,hoilc/scoop-lemon
+cosmo-rsync.json,hoilc/scoop-lemon
 enigma-virtual-box.json,hoilc/scoop-lemon
 clockpod.json,hoilc/scoop-lemon
 influxdb_exporter.json,hoilc/scoop-lemon
@@ -3380,6 +3384,7 @@ cs-script.json,hoilc/scoop-lemon
 libportable-iceweasel-zh-cn.json,hoilc/scoop-lemon
 uplink.json,hoilc/scoop-lemon
 complete-internet-repair.json,hoilc/scoop-lemon
+cosmos.json,hoilc/scoop-lemon
 equinix-metal-cli.json,hoilc/scoop-lemon
 bililive-go.json,hoilc/scoop-lemon
 rmedir.json,hoilc/scoop-lemon
@@ -3456,6 +3461,7 @@ pineapple-pictures.json,hoilc/scoop-lemon
 javsp.json,hoilc/scoop-lemon
 pacaptr.json,hoilc/scoop-lemon
 shoutrrr.json,hoilc/scoop-lemon
+tsac.json,hoilc/scoop-lemon
 pshash.json,hoilc/scoop-lemon
 cmailgui.json,hoilc/scoop-lemon
 piclist.json,hoilc/scoop-lemon
@@ -3747,6 +3753,7 @@ bkviewer-pro.json,hoilc/scoop-lemon
 keepass-plugin-kpenhentryview.json,hoilc/scoop-lemon
 imgdrive.json,hoilc/scoop-lemon
 localxpose.json,hoilc/scoop-lemon
+cosmo-pigz.json,hoilc/scoop-lemon
 bore.json,hoilc/scoop-lemon
 diskbench.json,hoilc/scoop-lemon
 whisper-model-ggml-large-v1.json,hoilc/scoop-lemon
@@ -3892,6 +3899,7 @@ wssocks.json,hoilc/scoop-lemon
 exeinfo-pe.json,hoilc/scoop-lemon
 ediary_hoilc.json,hoilc/scoop-lemon
 policy.json,hoilc/scoop-lemon
+cosmo-redbean.json,hoilc/scoop-lemon
 timevertor.json,hoilc/scoop-lemon
 strarc.json,hoilc/scoop-lemon
 amtool.json,hoilc/scoop-lemon
@@ -4009,6 +4017,7 @@ jpegoptim_hoilc.json,hoilc/scoop-lemon
 ffrename.json,hoilc/scoop-lemon
 arend.json,hoilc/scoop-lemon
 zip2dir-eng.json,hoilc/scoop-lemon
+cosmo-emacs.json,hoilc/scoop-lemon
 metabase.json,hoilc/scoop-lemon
 wininfo.json,hoilc/scoop-lemon
 smuxi.json,hoilc/scoop-lemon
@@ -4169,6 +4178,7 @@ freevk.json,hoilc/scoop-lemon
 flashpad.json,hoilc/scoop-lemon
 wsl-ssh-agent.json,hoilc/scoop-lemon
 skylark_hoilc.json,hoilc/scoop-lemon
+quickjs.json,hoilc/scoop-lemon
 wxautoexim.json,hoilc/scoop-lemon
 fslac.json,hoilc/scoop-lemon
 rssguard.json,hoilc/scoop-lemon
@@ -4472,8 +4482,6 @@ wsl-ubuntu1804.json,KNOXDEV/wsl
 wsl-ubuntu1604.json,KNOXDEV/wsl
 wsl-sles.json,KNOXDEV/wsl
 wsl-ubuntu1804-arm.json,KNOXDEV/wsl
-ossutil_echoiron.json,echoiron/echo-scoop
-n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 iddsampledriver-ge9-np.json,ScoopInstaller/Nonportable
 files-np.json,ScoopInstaller/Nonportable
 omnidb-np_ScoopInstaller.json,ScoopInstaller/Nonportable
@@ -4582,6 +4590,8 @@ glasswire-lite-np.json,ScoopInstaller/Nonportable
 bluestacks4-hyperv-np.json,ScoopInstaller/Nonportable
 mactype-np.json,ScoopInstaller/Nonportable
 ditto-np_ScoopInstaller.json,ScoopInstaller/Nonportable
+ossutil_echoiron.json,echoiron/echo-scoop
+n-m3u8dl-cli_echoiron.json,echoiron/echo-scoop
 eXdupeCLI-Portable.json,ACooper81/scoop-apps
 TerminusPlayer-Portable.json,ACooper81/scoop-apps
 CloneAppUA-Portable.json,ACooper81/scoop-apps
@@ -6233,7 +6243,7 @@ dolphin-dev_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
 scummvm-nightly_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
@@ -6707,7 +6717,7 @@ libwebp_akirco.json,akirco/aki-apps
 nali_akirco.json,akirco/aki-apps
 hbuilderx_akirco.json,akirco/aki-apps
 xh_akirco.json,akirco/aki-apps
-electerm_akirco.json,akirco/aki-apps
+electerm.json,akirco/aki-apps
 TianRuoOCR_akirco.json,akirco/aki-apps
 unbound_akirco.json,akirco/aki-apps
 vcredist2017.json,akirco/aki-apps
@@ -6719,7 +6729,7 @@ gh_akirco.json,akirco/aki-apps
 geekuninstaller.json,akirco/aki-apps
 qqmusic_akirco.json,akirco/aki-apps
 vcredist2019.json,akirco/aki-apps
-cyberduck_akirco.json,akirco/aki-apps
+cyberduck.json,akirco/aki-apps
 speedtest-cli_akirco.json,akirco/aki-apps
 format-factory.json,akirco/aki-apps
 vcredist2010_akirco.json,akirco/aki-apps
@@ -6942,7 +6952,7 @@ youtubedownloader.json,akirco/aki-apps
 hellofont_akirco.json,akirco/aki-apps
 tldr_akirco.json,akirco/aki-apps
 composer_akirco.json,akirco/aki-apps
-qtscrcpy.json,akirco/aki-apps
+qtscrcpy_akirco.json,akirco/aki-apps
 poppler_akirco.json,akirco/aki-apps
 zstd_akirco.json,akirco/aki-apps
 BaiduNetdisk_akirco.json,akirco/aki-apps
@@ -7325,7 +7335,7 @@ shadowsocks-v2ray-plugin.json,DoveBoy/Apps
 pytranscriber.json,DoveBoy/Apps
 clink_DoveBoy.json,DoveBoy/Apps
 freefilesync.json,DoveBoy/Apps
-clash-nyanpasu.json,DoveBoy/Apps
+clash-nyanpasu_DoveBoy.json,DoveBoy/Apps
 sumatrapdf.json,DoveBoy/Apps
 scoop-search-shilangyu.json,DoveBoy/Apps
 iobit-uninstaller.json,DoveBoy/Apps
@@ -7379,7 +7389,7 @@ wechatdownload.json,DoveBoy/Apps
 imageglass.json,DoveBoy/Apps
 ttyd_DoveBoy.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
-telegram_DoveBoy.json,DoveBoy/Apps
+telegram.json,DoveBoy/Apps
 so-novel.json,DoveBoy/Apps
 dua_DoveBoy.json,DoveBoy/Apps
 putty.json,DoveBoy/Apps
@@ -7506,7 +7516,7 @@ vim-nightly_DoveBoy.json,DoveBoy/Apps
 snipaste_DoveBoy.json,DoveBoy/Apps
 drive-letter-changer.json,DoveBoy/Apps
 inkscape.json,DoveBoy/Apps
-ffmpeg-shared-nightly.json,DoveBoy/Apps
+ffmpeg-shared-nightly_DoveBoy.json,DoveBoy/Apps
 hgrep.json,DoveBoy/Apps
 ss.json,DoveBoy/Apps
 hitomi-downloader_DoveBoy.json,DoveBoy/Apps
@@ -7961,6 +7971,7 @@ webcatalog.json,naderi/scoop-bucket
 affine_naderi.json,naderi/scoop-bucket
 winusb.json,naderi/scoop-bucket
 doublecmd-portable.json,naderi/scoop-bucket
+duck_naderi.json,naderi/scoop-bucket
 audacity-ffmpeg-plugin.json,naderi/scoop-bucket
 mitec-photoview.json,naderi/scoop-bucket
 font-estedad.json,naderi/scoop-bucket
@@ -8326,6 +8337,7 @@ ClashDotNetFramework.json,ygguorun/scoop-bucket
 majsoul-ex.json,ygguorun/scoop-bucket
 schema.json,batkiz/backit
 hurl_batkiz.json,batkiz/backit
+redli.json,batkiz/backit
 micro_batkiz.json,batkiz/backit
 ibmcloud-cli_batkiz.json,batkiz/backit
 ghdl.json,batkiz/backit
@@ -9483,7 +9495,7 @@ source-han-serif-vf-ttc.json,Small-Ku/turbo-bucket
 yap.json,Small-Ku/turbo-bucket
 dorion_Small-Ku.json,Small-Ku/turbo-bucket
 pso2-tweaker_Small-Ku.json,Small-Ku/turbo-bucket
-fleet.json,Small-Ku/turbo-bucket
+fleet_Small-Ku.json,Small-Ku/turbo-bucket
 coqui-stt.json,Small-Ku/turbo-bucket
 source-han-sans-vf-ttc.json,Small-Ku/turbo-bucket
 opencc.json,Small-Ku/turbo-bucket
