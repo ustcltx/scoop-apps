@@ -2057,6 +2057,7 @@ nodejs14.json,ScoopInstaller/Versions
 php70.json,ScoopInstaller/Versions
 winpython38cod.json,ScoopInstaller/Versions
 obs-studio-pre.json,ScoopInstaller/Versions
+spark33.json,ScoopInstaller/Versions
 windowsdesktop-runtime-6.0.json,ScoopInstaller/Versions
 pdfbox-alpha.json,ScoopInstaller/Versions
 influxdb1.json,ScoopInstaller/Versions
@@ -2102,6 +2103,7 @@ cuda7.0.json,ScoopInstaller/Versions
 dotnet-sdk-lts.json,ScoopInstaller/Versions
 orca3.json,ScoopInstaller/Versions
 godot-beta.json,ScoopInstaller/Versions
+doublecmd-beta.json,ScoopInstaller/Versions
 winget1.4.json,ScoopInstaller/Versions
 mingw-winlibs-llvm-ucrt.json,ScoopInstaller/Versions
 openssl1.json,ScoopInstaller/Versions
@@ -2155,6 +2157,7 @@ postgresql11.json,ScoopInstaller/Versions
 elasticsearch5.json,ScoopInstaller/Versions
 neovide-dev.json,ScoopInstaller/Versions
 vscode-insiders.json,ScoopInstaller/Versions
+obs-studio28.json,ScoopInstaller/Versions
 nodejs7.json,ScoopInstaller/Versions
 php71-xdebug.json,ScoopInstaller/Versions
 aria2-134.json,ScoopInstaller/Versions
@@ -2695,6 +2698,7 @@ termite.json,arch3rPro/PST-Bucket
 behinder.json,arch3rPro/PST-Bucket
 bantam.json,arch3rPro/PST-Bucket
 cobaltstrike.json,arch3rPro/PST-Bucket
+goproxy.json,arch3rPro/PST-Bucket
 winscp-zh.json,arch3rPro/PST-Bucket
 dirmap.json,arch3rPro/PST-Bucket
 dismap.json,arch3rPro/PST-Bucket
@@ -4053,7 +4057,7 @@ obs-browser-plus.json,hoilc/scoop-lemon
 pictor.json,hoilc/scoop-lemon
 microsoft-error-lookup-tool.json,hoilc/scoop-lemon
 pinwin.json,hoilc/scoop-lemon
-wingetui_hoilc.json,hoilc/scoop-lemon
+wingetui.json,hoilc/scoop-lemon
 lyricify.json,hoilc/scoop-lemon
 classviewer.json,hoilc/scoop-lemon
 statsd_exporter.json,hoilc/scoop-lemon
@@ -5362,6 +5366,7 @@ rstudio-2022.02.json,cderv/r-bucket
 tinitex.json,cderv/r-bucket
 rstudio-pro-preview.json,cderv/r-bucket
 fq_cderv.json,cderv/r-bucket
+sass-migrator.json,cderv/r-bucket
 rig.json,cderv/r-bucket
 rstudio-1.4.json,cderv/r-bucket
 rstudio-daily_cderv.json,cderv/r-bucket
@@ -6765,7 +6770,7 @@ nginx_akirco.json,akirco/aki-apps
 youtube-dl-gui.json,akirco/aki-apps
 figma.json,akirco/aki-apps
 bilibili_akirco.json,akirco/aki-apps
-ftnn_akirco.json,akirco/aki-apps
+ftnn.json,akirco/aki-apps
 youtube-dl_akirco.json,akirco/aki-apps
 qpdf_akirco.json,akirco/aki-apps
 unzip_akirco.json,akirco/aki-apps
@@ -7209,7 +7214,7 @@ everything-alpha_DoveBoy.json,DoveBoy/Apps
 vcpkg_DoveBoy.json,DoveBoy/Apps
 scoop-search-chriscp.json,DoveBoy/Apps
 lessmsi_DoveBoy.json,DoveBoy/Apps
-neteaseuu.json,DoveBoy/Apps
+neteaseuu_DoveBoy.json,DoveBoy/Apps
 nhentai-cross.json,DoveBoy/Apps
 refreshenv_DoveBoy.json,DoveBoy/Apps
 crystaldiskmark.json,DoveBoy/Apps
@@ -7321,7 +7326,7 @@ windows11-classic-context-menu.json,DoveBoy/Apps
 nilesoft-shell.json,DoveBoy/Apps
 final2x-portable.json,DoveBoy/Apps
 handbrake_DoveBoy.json,DoveBoy/Apps
-powertoys.json,DoveBoy/Apps
+powertoys_DoveBoy.json,DoveBoy/Apps
 lanzou-gui.json,DoveBoy/Apps
 cleanmywechat_DoveBoy.json,DoveBoy/Apps
 bulk-crap-uninstaller.json,DoveBoy/Apps
@@ -7429,7 +7434,7 @@ openssh_DoveBoy.json,DoveBoy/Apps
 lively.json,DoveBoy/Apps
 clash-verge-rev-portable.json,DoveBoy/Apps
 typora-dev.json,DoveBoy/Apps
-sandboxie-classic-np_DoveBoy.json,DoveBoy/Apps
+sandboxie-classic-np.json,DoveBoy/Apps
 nu_DoveBoy.json,DoveBoy/Apps
 wax.json,DoveBoy/Apps
 kotatogram.json,DoveBoy/Apps
@@ -7451,7 +7456,7 @@ wincompose.json,DoveBoy/Apps
 qrcp_DoveBoy.json,DoveBoy/Apps
 host-editor.json,DoveBoy/Apps
 mycomputermanager_DoveBoy.json,DoveBoy/Apps
-sandboxie-plus-np_DoveBoy.json,DoveBoy/Apps
+sandboxie-plus-np.json,DoveBoy/Apps
 chromedriver-canary.json,DoveBoy/Apps
 qr_DoveBoy.json,DoveBoy/Apps
 fastcopy.json,DoveBoy/Apps
@@ -7555,7 +7560,7 @@ ddu.json,DoveBoy/Apps
 obs-studio-pre_DoveBoy.json,DoveBoy/Apps
 sudo_DoveBoy.json,DoveBoy/Apps
 brackets.json,DoveBoy/Apps
-wechat_DoveBoy.json,DoveBoy/Apps
+wechat.json,DoveBoy/Apps
 eartrumpet.json,DoveBoy/Apps
 picpick_DoveBoy.json,DoveBoy/Apps
 chromedriver-dev.json,DoveBoy/Apps
@@ -8556,7 +8561,7 @@ tinytex-min_batkiz.json,batkiz/backit
 hey.json,batkiz/backit
 fluent-reader_batkiz.json,batkiz/backit
 buildkit.json,batkiz/backit
-dotnet-sdk-preview_batkiz.json,batkiz/backit
+dotnet-sdk-preview.json,batkiz/backit
 tokei_batkiz.json,batkiz/backit
 dotter_batkiz.json,batkiz/backit
 posh-cargo_batkiz.json,batkiz/backit
