@@ -759,7 +759,9 @@ D2Coding-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 Go-Mono-NF.json,matthewjberger/scoop-nerd-fonts
 Cousine-NF.json,matthewjberger/scoop-nerd-fonts
 Meslo-NF-Mono.json,matthewjberger/scoop-nerd-fonts
+ZedMono-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 SpaceMono-NF.json,matthewjberger/scoop-nerd-fonts
+UbuntuSans-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 smiley-sans.json,matthewjberger/scoop-nerd-fonts
 Monoid-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 Lilex-NF-Mono.json,matthewjberger/scoop-nerd-fonts
@@ -820,6 +822,7 @@ Monofur-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 Mitr.json,matthewjberger/scoop-nerd-fonts
 IBMPlexMono.json,matthewjberger/scoop-nerd-fonts
 Monaspace-NF.json,matthewjberger/scoop-nerd-fonts
+ZedMono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 SarasaGothic-unhinted.json,matthewjberger/scoop-nerd-fonts
 Ubuntu-NF.json,matthewjberger/scoop-nerd-fonts
 MPlus-NF-Mono.json,matthewjberger/scoop-nerd-fonts
@@ -849,6 +852,8 @@ Raleway.json,matthewjberger/scoop-nerd-fonts
 Noto-CJK-Mega-OTC.json,matthewjberger/scoop-nerd-fonts
 FiraMono-NF.json,matthewjberger/scoop-nerd-fonts
 GlowSansJ-Wide.json,matthewjberger/scoop-nerd-fonts
+Recursive-NF-Mono.json,matthewjberger/scoop-nerd-fonts
+Recursive-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 AnonymousPro-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 D2Coding-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 Sriracha.json,matthewjberger/scoop-nerd-fonts
@@ -881,6 +886,7 @@ Charmonman.json,matthewjberger/scoop-nerd-fonts
 BitstreamVeraSansMono-NF.json,matthewjberger/scoop-nerd-fonts
 Gohu-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 UbuntuMono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
+UbuntuSans-NF.json,matthewjberger/scoop-nerd-fonts
 Monocraft.json,matthewjberger/scoop-nerd-fonts
 OpenDyslexic-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 CascadiaMono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
@@ -903,6 +909,7 @@ IosevkaTermSlab-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 FantasqueSansMono-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 SarasaGothic-ttc-unhinted.json,matthewjberger/scoop-nerd-fonts
 Tanuki-Permanent-Marker.json,matthewjberger/scoop-nerd-fonts
+ZedMono-NF.json,matthewjberger/scoop-nerd-fonts
 Overpass-NF.json,matthewjberger/scoop-nerd-fonts
 Wenquanyi-Zenhei.json,matthewjberger/scoop-nerd-fonts
 CommitMono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
@@ -967,6 +974,7 @@ Lilex-NF-Propo.json,matthewjberger/scoop-nerd-fonts
 Noto-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 RobotoMono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 3270-NF-Mono.json,matthewjberger/scoop-nerd-fonts
+UbuntuSans-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 MPlus-NF.json,matthewjberger/scoop-nerd-fonts
 iA-Writer-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 Monaspace-NF-Propo.json,matthewjberger/scoop-nerd-fonts
@@ -1030,6 +1038,7 @@ Delugia-Nerd-Font-Complete.json,matthewjberger/scoop-nerd-fonts
 SpaceMono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 FantasqueSansMono-NF.json,matthewjberger/scoop-nerd-fonts
 IBMPlexSans-KR.json,matthewjberger/scoop-nerd-fonts
+Recursive-NF.json,matthewjberger/scoop-nerd-fonts
 Go-Mono-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 InconsolataGo-NF-Mono.json,matthewjberger/scoop-nerd-fonts
 Wenquanyi-Microhei.json,matthewjberger/scoop-nerd-fonts
@@ -1780,6 +1789,16 @@ adoptopenjdk14-openj9.json,ScoopInstaller/Java
 adoptopenjdk8-openj9.json,ScoopInstaller/Java
 adoptopenjdk9-hotspot.json,ScoopInstaller/Java
 adoptopenjdk15-openj9.json,ScoopInstaller/Java
+genius-spicetify.json,TheRandomLabs/Scoop-Spotify
+spicetify-jqbx.json,TheRandomLabs/Scoop-Spotify
+spicetify-autovolume.json,TheRandomLabs/Scoop-Spotify
+spotify-tui_TheRandomLabs.json,TheRandomLabs/Scoop-Spotify
+google-spicetify.json,TheRandomLabs/Scoop-Spotify
+blockthespot.json,TheRandomLabs/Scoop-Spotify
+spotify-latest.json,TheRandomLabs/Scoop-Spotify
+spicetify-themes.json,TheRandomLabs/Scoop-Spotify
+spotify-with-blockthespot.json,TheRandomLabs/Scoop-Spotify
+spicetify-cli_TheRandomLabs.json,TheRandomLabs/Scoop-Spotify
 gogs0.json,ScoopInstaller/Versions
 prusaslicer-pre.json,ScoopInstaller/Versions
 nodejs16.json,ScoopInstaller/Versions
@@ -2226,16 +2245,6 @@ helm2.json,ScoopInstaller/Versions
 php73-xdebug.json,ScoopInstaller/Versions
 emule-cv.json,ScoopInstaller/Versions
 chromium-dev-nosync.json,ScoopInstaller/Versions
-genius-spicetify.json,TheRandomLabs/Scoop-Spotify
-spicetify-jqbx.json,TheRandomLabs/Scoop-Spotify
-spicetify-autovolume.json,TheRandomLabs/Scoop-Spotify
-spotify-tui_TheRandomLabs.json,TheRandomLabs/Scoop-Spotify
-google-spicetify.json,TheRandomLabs/Scoop-Spotify
-blockthespot.json,TheRandomLabs/Scoop-Spotify
-spotify-latest.json,TheRandomLabs/Scoop-Spotify
-spicetify-themes.json,TheRandomLabs/Scoop-Spotify
-spotify-with-blockthespot.json,TheRandomLabs/Scoop-Spotify
-spicetify-cli_TheRandomLabs.json,TheRandomLabs/Scoop-Spotify
 recaf.json,TheCjw/scoop-retools
 libimobiledevice.json,TheCjw/scoop-retools
 flare-floss.json,TheCjw/scoop-retools
@@ -2698,7 +2707,6 @@ termite.json,arch3rPro/PST-Bucket
 behinder.json,arch3rPro/PST-Bucket
 bantam.json,arch3rPro/PST-Bucket
 cobaltstrike.json,arch3rPro/PST-Bucket
-goproxy.json,arch3rPro/PST-Bucket
 winscp-zh.json,arch3rPro/PST-Bucket
 dirmap.json,arch3rPro/PST-Bucket
 dismap.json,arch3rPro/PST-Bucket
@@ -3782,6 +3790,7 @@ terminal.icu.json,hoilc/scoop-lemon
 maye-lite_hoilc.json,hoilc/scoop-lemon
 bookget.json,hoilc/scoop-lemon
 opscan.json,hoilc/scoop-lemon
+portr.json,hoilc/scoop-lemon
 jumppad.json,hoilc/scoop-lemon
 niconvert.json,hoilc/scoop-lemon
 perfview.json,hoilc/scoop-lemon
@@ -3938,7 +3947,6 @@ radius_hoilc.json,hoilc/scoop-lemon
 verysimple.json,hoilc/scoop-lemon
 little-tips.json,hoilc/scoop-lemon
 winfrgui.json,hoilc/scoop-lemon
-worsttrace.json,hoilc/scoop-lemon
 keepass-plugin-hibpofflinecheck.json,hoilc/scoop-lemon
 a5m2.json,hoilc/scoop-lemon
 tanoshi.json,hoilc/scoop-lemon
@@ -4018,6 +4026,7 @@ appfire-cli.json,hoilc/scoop-lemon
 alexandria.json,hoilc/scoop-lemon
 stegify.json,hoilc/scoop-lemon
 oggdropxpd-libvorbis.json,hoilc/scoop-lemon
+echosync.json,hoilc/scoop-lemon
 windows-terminal-quake.json,hoilc/scoop-lemon
 dns-jumper.json,hoilc/scoop-lemon
 aardio.json,hoilc/scoop-lemon
@@ -4057,7 +4066,7 @@ obs-browser-plus.json,hoilc/scoop-lemon
 pictor.json,hoilc/scoop-lemon
 microsoft-error-lookup-tool.json,hoilc/scoop-lemon
 pinwin.json,hoilc/scoop-lemon
-wingetui.json,hoilc/scoop-lemon
+wingetui_hoilc.json,hoilc/scoop-lemon
 lyricify.json,hoilc/scoop-lemon
 classviewer.json,hoilc/scoop-lemon
 statsd_exporter.json,hoilc/scoop-lemon
@@ -4315,6 +4324,7 @@ priv10.json,hoilc/scoop-lemon
 terraform-validator.json,hoilc/scoop-lemon
 hibernation-recon.json,hoilc/scoop-lemon
 arsenal-image-mounter.json,hoilc/scoop-lemon
+worsttrace.json,hoilc/scoop-lemon
 avdc.json,hoilc/scoop-lemon
 av_data_capture.json,hoilc/scoop-lemon
 redis-assistant.json,hoilc/scoop-lemon
@@ -5732,7 +5742,7 @@ CleanUp_dodorz.json,dodorz/scoop
 png2ico.json,dodorz/scoop
 KISSPlayer.json,dodorz/scoop
 ModifyProfile_dodorz.json,dodorz/scoop
-Echosync.json,dodorz/scoop
+Echosync_dodorz.json,dodorz/scoop
 mimeTeX.json,dodorz/scoop
 FocusWriter.json,dodorz/scoop
 Clash-for-Windows_dodorz.json,dodorz/scoop
@@ -6249,7 +6259,7 @@ desmume.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
 ps3-system-software_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
@@ -6770,7 +6780,7 @@ nginx_akirco.json,akirco/aki-apps
 youtube-dl-gui.json,akirco/aki-apps
 figma.json,akirco/aki-apps
 bilibili_akirco.json,akirco/aki-apps
-ftnn.json,akirco/aki-apps
+ftnn_akirco.json,akirco/aki-apps
 youtube-dl_akirco.json,akirco/aki-apps
 qpdf_akirco.json,akirco/aki-apps
 unzip_akirco.json,akirco/aki-apps
@@ -8059,10 +8069,9 @@ epicgames.json,naderi/scoop-bucket
 caffeinated.json,naderi/scoop-bucket
 mitec-network-scanner.json,naderi/scoop-bucket
 webcatalog.json,naderi/scoop-bucket
-affine_naderi.json,naderi/scoop-bucket
+affine.json,naderi/scoop-bucket
 winusb.json,naderi/scoop-bucket
 doublecmd-portable.json,naderi/scoop-bucket
-duck_naderi.json,naderi/scoop-bucket
 audacity-ffmpeg-plugin.json,naderi/scoop-bucket
 mitec-photoview.json,naderi/scoop-bucket
 font-estedad.json,naderi/scoop-bucket
@@ -8078,7 +8087,7 @@ api-monitor_naderi.json,naderi/scoop-bucket
 font-gandom.json,naderi/scoop-bucket
 context.json,naderi/scoop-bucket
 reicon_naderi.json,naderi/scoop-bucket
-encrypto.json,naderi/scoop-bucket
+encrypto_naderi.json,naderi/scoop-bucket
 local-wp.json,naderi/scoop-bucket
 font-noon.json,naderi/scoop-bucket
 fan-control.json,naderi/scoop-bucket
@@ -8561,7 +8570,7 @@ tinytex-min_batkiz.json,batkiz/backit
 hey.json,batkiz/backit
 fluent-reader_batkiz.json,batkiz/backit
 buildkit.json,batkiz/backit
-dotnet-sdk-preview.json,batkiz/backit
+dotnet-sdk-preview_batkiz.json,batkiz/backit
 tokei_batkiz.json,batkiz/backit
 dotter_batkiz.json,batkiz/backit
 posh-cargo_batkiz.json,batkiz/backit
