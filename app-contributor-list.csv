@@ -259,6 +259,7 @@ MiFlash-with-BL_Unlocker.json,Weidows-projects/scoop-3rd
 CefDetectorX.json,Weidows-projects/scoop-3rd
 Nyushu-font.json,Weidows-projects/scoop-3rd
 webbrain.json,Weidows-projects/scoop-3rd
+griddycode.json,Weidows-projects/scoop-3rd
 utools-persist.json,Weidows-projects/scoop-3rd
 Snap.Hutao.json,Weidows-projects/scoop-3rd
 yas.json,Weidows-projects/scoop-3rd
@@ -1428,7 +1429,7 @@ vmware-workstation-pro.json,ivaquero/scoopet
 adrive_ivaquero.json,ivaquero/scoopet
 dingtalk_ivaquero.json,ivaquero/scoopet
 winrar_ivaquero.json,ivaquero/scoopet
-lx-music_ivaquero.json,ivaquero/scoopet
+lx-music.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
 libreoffice-cn.json,ivaquero/scoopet
 fishing-funds.json,ivaquero/scoopet
@@ -2706,7 +2707,6 @@ termite.json,arch3rPro/PST-Bucket
 behinder.json,arch3rPro/PST-Bucket
 bantam.json,arch3rPro/PST-Bucket
 cobaltstrike.json,arch3rPro/PST-Bucket
-goproxy.json,arch3rPro/PST-Bucket
 winscp-zh.json,arch3rPro/PST-Bucket
 dirmap.json,arch3rPro/PST-Bucket
 dismap.json,arch3rPro/PST-Bucket
@@ -3874,7 +3874,7 @@ hostess.json,hoilc/scoop-lemon
 terraformer_hoilc.json,hoilc/scoop-lemon
 lock-cursor-tools.json,hoilc/scoop-lemon
 bluelife-hosts-editor.json,hoilc/scoop-lemon
-pot_hoilc.json,hoilc/scoop-lemon
+pot.json,hoilc/scoop-lemon
 uninstalr.json,hoilc/scoop-lemon
 cozo.json,hoilc/scoop-lemon
 meilisearch.json,hoilc/scoop-lemon
@@ -5636,7 +5636,6 @@ BuiltIn.json,dodorz/scoop
 Random.json,dodorz/scoop
 DeleteProfiles.json,dodorz/scoop
 MindMaster.json,dodorz/scoop
-FireAlpaca_dodorz.json,dodorz/scoop
 EmptyRecycleBin.json,dodorz/scoop
 Citrio.json,dodorz/scoop
 GaaihoReader.json,dodorz/scoop
@@ -5972,6 +5971,7 @@ RuckZuck.json,dodorz/scoop
 DeleteProfiles_dodorz.json,dodorz/scoop
 jump.json,dodorz/scoop
 MCI-Browser.json,dodorz/scoop
+FireAlpaca_dodorz.json,dodorz/scoop
 QuickHash.json,dodorz/scoop
 mdfmt.json,dodorz/scoop
 jstar-static.json,dodorz/scoop
@@ -9109,7 +9109,7 @@ oneko.json,beerpiss/scoop-bucket
 stash-dev_beerpiss.json,beerpiss/scoop-bucket
 unxwb.json,beerpiss/scoop-bucket
 thewitchshouse-jp.json,beerpiss/scoop-bucket
-microsoftedge_beerpiss.json,beerpiss/scoop-bucket
+microsoftedge.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
 adguardhome-beta.json,beerpiss/scoop-bucket
 ntfs2btrfs_beerpiss.json,beerpiss/scoop-bucket
