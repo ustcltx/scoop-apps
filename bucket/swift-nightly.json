@@ -1,5 +1,5 @@
 {
-    "version": "20240414.1",
+    "version": "20240415.2",
     "homepage": "https://www.swift.org/",
     "description": "A general-purpose programming language built using a modern approach to safety, performance, and software design patterns.",
     "license": "Apache-2.0",
@@ -13,12 +13,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20240414.1/installer-amd64.exe#/swiftsetup.exe",
-            "hash": "1fa7e8fb59874dfd0ce3a6ccd081da1eb2808c44efc0816cf471c1c7ff2465b8"
+            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20240415.2/installer-amd64.exe#/swiftsetup.exe",
+            "hash": "19a82ae2e43b84ecfb4bd311c63329cd101a3abcd254251c03344053690ac1f7"
         },
         "arm64": {
-            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20240414.1/installer-arm64.exe#/swiftsetup.exe",
-            "hash": "d80e523329f43022f595d6a73b938dfe2104e8658c739417fde018ebbc3ab29f"
+            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20240415.2/installer-arm64.exe#/swiftsetup.exe",
+            "hash": "efd0e53147e27863d385a7ccd3bec031a6ecb0500928910e70899b89b0ba80dc"
         }
     },
     "pre_install": [
