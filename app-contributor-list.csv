@@ -2739,7 +2739,7 @@ dev-sidecar_arch3rPro.json,arch3rPro/PST-Bucket
 emeditor_arch3rPro.json,arch3rPro/PST-Bucket
 notepad--.json,arch3rPro/PST-Bucket
 gowitness.json,arch3rPro/PST-Bucket
-another-redis-desktop-manager_arch3rPro.json,arch3rPro/PST-Bucket
+another-redis-desktop-manager.json,arch3rPro/PST-Bucket
 filezilla.json,arch3rPro/PST-Bucket
 transfer.json,arch3rPro/PST-Bucket
 windynamicdesktop.json,arch3rPro/PST-Bucket
@@ -3820,7 +3820,7 @@ wpinternals.json,hoilc/scoop-lemon
 soundswitch.json,hoilc/scoop-lemon
 myqrcodescanner.json,hoilc/scoop-lemon
 trzsz_hoilc.json,hoilc/scoop-lemon
-another-redis-desktop-manager.json,hoilc/scoop-lemon
+another-redis-desktop-manager_hoilc.json,hoilc/scoop-lemon
 nebula-importer.json,hoilc/scoop-lemon
 jellyfin-media-player.json,hoilc/scoop-lemon
 dooit.json,hoilc/scoop-lemon
@@ -7014,9 +7014,9 @@ yt-dlp_akirco.json,akirco/aki-apps
 nvm_akirco.json,akirco/aki-apps
 zoom.json,akirco/aki-apps
 opus-tools_akirco.json,akirco/aki-apps
-yuque.json,akirco/aki-apps
+yuque_akirco.json,akirco/aki-apps
 android-sdk.json,akirco/aki-apps
-jetbrains-toolbox_akirco.json,akirco/aki-apps
+jetbrains-toolbox.json,akirco/aki-apps
 docker-desktop.json,akirco/aki-apps
 cosbrowser_akirco.json,akirco/aki-apps
 tar_akirco.json,akirco/aki-apps
@@ -7061,7 +7061,7 @@ phpmyadmin.json,wzv5/ScoopBucket
 xnview.json,wzv5/ScoopBucket
 python-doc-zh-cn.json,wzv5/ScoopBucket
 applicationinspector.json,wzv5/ScoopBucket
-wechat_wzv5.json,wzv5/ScoopBucket
+wechat.json,wzv5/ScoopBucket
 overture_wzv5.json,wzv5/ScoopBucket
 pspad.json,wzv5/ScoopBucket
 inno-setup.json,wzv5/ScoopBucket
@@ -7398,7 +7398,7 @@ autodarkmode_DoveBoy.json,DoveBoy/Apps
 mobaxterm.json,DoveBoy/Apps
 krita.json,DoveBoy/Apps
 whisper-cpp-blas.json,DoveBoy/Apps
-64gram_DoveBoy.json,DoveBoy/Apps
+64gram.json,DoveBoy/Apps
 clash-rev.json,DoveBoy/Apps
 r3playx_DoveBoy.json,DoveBoy/Apps
 qqgame.json,DoveBoy/Apps
@@ -7490,7 +7490,7 @@ wechatdownload.json,DoveBoy/Apps
 imageglass.json,DoveBoy/Apps
 ttyd_DoveBoy.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
-telegram.json,DoveBoy/Apps
+telegram_DoveBoy.json,DoveBoy/Apps
 so-novel.json,DoveBoy/Apps
 dua_DoveBoy.json,DoveBoy/Apps
 putty.json,DoveBoy/Apps
@@ -8881,7 +8881,6 @@ kubestr_aliesbelik.json,aliesbelik/poldi
 unfurl.json,aliesbelik/poldi
 dnsx_aliesbelik.json,aliesbelik/poldi
 chrono.json,aliesbelik/poldi
-gickup_aliesbelik.json,aliesbelik/poldi
 flog.json,aliesbelik/poldi
 kubedump.json,aliesbelik/poldi
 ck-cli.json,aliesbelik/poldi
@@ -9141,7 +9140,9 @@ microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
 adguardhome-beta.json,beerpiss/scoop-bucket
 ntfs2btrfs_beerpiss.json,beerpiss/scoop-bucket
+zalo.json,beerpiss/scoop-bucket
 sl-h.json,beerpiss/scoop-bucket
+beeper.json,beerpiss/scoop-bucket
 rawcap-old.json,beerpiss/scoop-bucket
 susplayer.json,beerpiss/scoop-bucket
 majdata.json,beerpiss/scoop-bucket
