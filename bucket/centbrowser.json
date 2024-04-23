@@ -1,37 +1,14 @@
 {
-    "homepage": "https://www.centbrowser.com/",
-    "description": "The Most Feature Rich Chromium",
     "version": "5.1.1130.82",
-    "license": "Freeware",
-    "architecture": {
-        "64bit": {
-            "url": "http://static.centbrowser.com/win_stable/5.1.1130.82/centbrowser_5.1.1130.82_x64_portable.exe#/dl.7z",
-            "hash": "eed69dbef93ea1b6d9f9a8ffc367575c07dd95176eb969458fee851baf114aa6"
-        },
-        "32bit": {
-            "url": "http://static.centbrowser.com/win_stable/5.1.1130.82/centbrowser_5.1.1130.82_portable.exe#/dl.7z",
-            "hash": "d816a358a57de0778a4fd9d5431d9c70ffeb34b1848bf7bb78726b2e0daaa1fb"
-        }
-    },
+    "description": "The Most Feature Rich Chromium",
+    "homepage": "https://www.centbrowser.com/",
+    "license": "BSD-3-Clause",
+    "url": "https://static.centbrowser.com/win_stable/5.1.1130.82/centbrowser_5.1.1130.82_x64_portable.exe#/dl.7z",
+    "persist": "User Data",
     "shortcuts": [
         [
             "chrome.exe",
             "Cent Browser"
         ]
-    ],
-    "persist": "User Data",
-    "checkver": {
-        "url": "https://www.centbrowser.com/history.html",
-        "re": "<p id=\"[\\d.]+\">v([\\d.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_x64_portable.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_portable.exe#/dl.7z"
-            }
-        }
-    }
+    ]
 }
