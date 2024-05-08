@@ -1,18 +1,18 @@
 {
-    "version": "2.48.2-202405071703",
+    "version": "2.49.1-202405081915",
     "description": "LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.48.2/LunaTranslator.zip",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.49.1/LunaTranslator.zip",
             "extract_dir": "LunaTranslator",
-            "hash": "9580ef0792b57929dc88de8fed127f120a428ba1e455062d16b86c0513de8276"
+            "hash": "d8bbff50945c97444a23670d466557e655eea1805560d28ca223a20fba5de52f"
         },
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.48.2/LunaTranslator_x86.zip",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v2.49.1/LunaTranslator_x86.zip",
             "extract_dir": "LunaTranslator_x86",
-            "hash": "b79c71b4899160bd4f12b06ee32c97f8ad16fd9c88937674374577887259e698"
+            "hash": "4f583d66a336adc8623c94b98971a8a77e625ffb3dee866684aa4107870daba7"
         }
     },
     "shortcuts": [
@@ -34,7 +34,8 @@
         "script": [
             "try { $detail = Invoke-WebRequest 'https://github.com/HIllya51/LunaTranslator/releases.atom' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
             "$atom = [xml]$detail.Content",
-            "$result =  $atom.feed.entry[0].id + '-' + ([DateTime]$atom.feed.entry[0].updated).ToUniversalTime().AddHours(8).ToString('yyyyMMddHHmm')",
+            "$latest = $atom.feed.entry | Select-Object -First 1",
+            "$result =  $latest.id + '-' + ([DateTime]$latest.updated).ToUniversalTime().AddHours(8).ToString('yyyyMMddHHmm')",
             "return $result"
         ],
         "regex": "v((?<main>[\\d.]+)-\\d+)"
