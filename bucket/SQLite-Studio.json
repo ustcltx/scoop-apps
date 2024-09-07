@@ -1,5 +1,5 @@
 {
-    "version": "0.1.8",
+    "version": "0.1.26",
     "description": "Single binary, single command SQLite database explorer.",
     "homepage": "https://sqlite-studio.frectonz.io/",
     "license": "MIT",
