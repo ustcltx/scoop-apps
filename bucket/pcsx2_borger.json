@@ -27,6 +27,7 @@
         "   }",
         "}"
     ],
+    "post_install": "Set-Content -Value $null -Path \"$dir\\portable.ini\"",
     "bin": "pcsx2.exe",
     "shortcuts": [
         [
