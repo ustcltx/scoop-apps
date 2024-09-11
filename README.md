@@ -62,8 +62,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - TheCjw/scoop-retools
 - TheRandomLabs/scoop-nonportable
 - kodybrown/scoop-nirsoft
-- arch3rPro/PST-Bucket
 - littleli/scoop-clojure
+- arch3rPro/PST-Bucket
 - hoilc/scoop-lemon
 - ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
@@ -97,8 +97,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - naderi/scoop-bucket
 - charmbracelet/scoop-bucket
-- NyaMisty/scoop_bucket_misty
 - hu3rror/scoop-muggle
+- NyaMisty/scoop_bucket_misty
 - ygguorun/scoop-bucket
 - noql-net/scoop
 - iquiw/scoop-bucket
@@ -114,13 +114,13 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - starise/Scoop-Gaming
 - SayCV/scoop-cvp
-- starise/Scoop-Confetti
+- littleli/Scoop-littleli
 - seumsc/scoop-seu
 - Weidows-projects/scoop-3rd
+- starise/Scoop-Confetti
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - AkariiinMKII/Scoop4kariiin
-- littleli/Scoop-littleli
 - rivy/scoop-bucket
 - alextwothousand/scoop-bucket
 - beer-psi/scoop-bucket
