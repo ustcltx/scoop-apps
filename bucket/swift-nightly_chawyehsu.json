@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.swift.org/",
-    "description": "The Swift Programming Language (Snapshot build)",
+    "description": "The Swift Programming Language (Nightly builds)",
     "license": "Apache-2.0",
-    "version": "snapshot-2024-11-14-a",
+    "version": "20241115.3",
     "architecture": {
         "64bit": {
-            "url": "https://download.swift.org/development/windows10/swift-DEVELOPMENT-SNAPSHOT-2024-11-14-a/swift-DEVELOPMENT-SNAPSHOT-2024-11-14-a-windows10.exe",
-            "hash": "953b77cdab9906100cecf25f49462481d1c2b7e73ff93fca932d6cf623cd09f8"
+            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20241115.3/installer-amd64.exe",
+            "hash": "92e76f45dee5c8c62bade61f6d214c94391aa3680a6f6de9fe8259a3f1f21b48"
         },
         "arm64": {
-            "url": "https://download.swift.org/development/windows10-arm64/swift-DEVELOPMENT-SNAPSHOT-2024-11-14-a/swift-DEVELOPMENT-SNAPSHOT-2024-11-14-a-windows10-arm64.exe",
-            "hash": "5f7aa029f21ac1768a12c7e937329ff0b020577798ab4814ccd7c200c4815dd1"
+            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20241115.3/installer-arm64.exe",
+            "hash": "84b0ce7543cf2c233ac23f3fafa2befc04f517520e240f24255ac249d579af64"
         }
     },
     "depends": "main/wixtoolset",
@@ -21,7 +21,7 @@
     "installer": {
         "script": [
             "wix.exe burn extract \"$dir\\$fname\" -o \"$dir\\extracted\" -oba \"$dir\\extracted\"",
-            "$productVersion = ([xml](Get-Content -Raw \"$dir\\extracted\\manifest.xml\" -Encoding utf8)).BurnManifest.Registration.Version",
+            "$productVersion = '0.0.0'",
             "Get-ChildItem \"$dir\\extracted\\WixAttachedContainer\\*.msi\" | ForEach-Object {",
             "    if ($_.Name -match 'rtl.msi') {",
             "        Expand-MsiArchive $_ \"$dir\\Runtimes\\usr\\bin\"",
@@ -57,18 +57,20 @@
         "SDKROOT": "$dir\\Platforms\\Windows.platform\\Developer\\SDKs\\Windows.sdk"
     },
     "checkver": {
-        "url": "https://download.swift.org/development/windows10/latest-build.json",
-        "regex": "swift-DEVELOPMENT-SNAPSHOT-(?<build>[\\w\\-]+)-windows10.exe",
-        "replace": "snapshot-${build}"
+        "github": "https://api.github.com/repos/thebrowsercompany/swift-build/releases?per_page=50",
+        "regex": "tag/([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.swift.org/development/windows10/swift-DEVELOPMENT-SNAPSHOT-$matchBuild/swift-DEVELOPMENT-SNAPSHOT-$matchBuild-windows10.exe"
+                "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe"
             },
             "arm64": {
-                "url": "https://download.swift.org/development/windows10-arm64/swift-DEVELOPMENT-SNAPSHOT-$matchBuild/swift-DEVELOPMENT-SNAPSHOT-$matchBuild-windows10-arm64.exe"
+                "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     },
     "notes": [
