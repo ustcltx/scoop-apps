@@ -117,9 +117,9 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - cc713/ownscoop
 - aoisummer/scoop-bucket
 - starise/Scoop-Gaming
-- Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - seumsc/scoop-seu
+- Darkatse/Scoop-Darkatse
 - Weidows-projects/scoop-3rd
 - starise/Scoop-Confetti
 - kengwang/scoop-ctftools-bucket
@@ -133,10 +133,10 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - BenjaminMichaelis/Config
 - Toddli468/Pentest-Scoop-Bucket
 - Small-Ku/turbo-bucket
+- babo4d/scoop-xrtools
 - ShuguangSun/sgs-scoop-bucket
 - WinApps-share/WinApps-bucket
 - FlawlessCasual17/MyScoop
-- babo4d/scoop-xrtools
 - The-Simples/scoop-minecraft
 - natecohen/scoop-av
 - Deide/deide-bucket
