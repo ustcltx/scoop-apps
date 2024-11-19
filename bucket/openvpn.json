@@ -1,55 +1,52 @@
 {
-    "version": "2.4.9",
-    "description": "A flexible virtual private network (VPN) solution to secure data communications.",
+    "version": "3.5.1.3946",
+    "description": "The official OpenVPN Connect client software developed and maintained by OpenVPN Inc.",
     "homepage": "https://openvpn.net",
     "license": "GPL-2.0-only",
-    "suggest": {
-        "openssl": "openssl"
+    "architecture": {
+        "64bit": {
+            "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.5.1.3946_signed.msi#/setup.msi_",
+            "hash": "ffd922b8afbcaf62079131d663e3eefb63ef173ad6cee6877b9d4945db43a7cf"
+        },
+        "32bit": {
+            "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.5.1.3946_signed_x86.msi#/setup.msi_",
+            "hash": "a3ec4ae45d960b9188174cc6184f192927419469e9f828d5669ccc66bc4bb724"
+        }
     },
-    "url": "https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.9-I601-Win10.exe",
-    "hash": "4f95a674c3ffafd85062df995a182cfb57ca56d96084472a48a65c546c815f0c",
-    "pre_install": [
-        "if ([Environment]::OSVersion.Version.Major -lt 10) { error 'Windows 10 is required since version 2.4.8. Use \"versions/openvpn-w7\" instead'; break }",
-        "if (-not (is_admin)) { error 'Administrator privileges are needed for installation'; break }"
-    ],
     "installer": {
-        "args": [
-            "/S",
-            "/SELECT_OPENVPN=1",
-            "/SELECT_SHORTCUTS=0",
-            "/SELECT_SERVICE=1",
-            "/SELECT_TAP=1",
-            "/SELECT_OPENVPNGUI=1",
-            "/SELECT_ASSOCIATIONS=1",
-            "/SELECT_OPENSSL_UTILITIES=0",
-            "/SELECT_EASYRSA=1",
-            "/SELECT_PATH=0",
-            "/SELECT_OPENSSLDLLS=1",
-            "/SELECT_LZODLLS=1",
-            "/SELECT_PKCS11DLLS=1",
-            "/SELECT_LAUNCH=0",
-            "/D=$dir"
+        "script": [
+            "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
+            "Start-Process 'msiexec' -Wait -Verb 'RunAs' -Args @('/i', \"$dir\\setup.msi_\", '/qn')",
+            "Stop-Process -Name 'OpenVPNConnect'"
         ]
     },
     "uninstaller": {
         "script": [
-            "if (-not (is_admin)) { error 'Admin privileges are needed.'; break }",
-            "Invoke-ExternalCommand -FilePath \"$dir\\Uninstall.exe\" -ArgumentList '/S' | Out-Null"
+            "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
+            "Start-Process 'msiexec' -Wait -Verb 'RunAs' -ArgumentList @('/x', \"$dir\\setup.msi_\", '/qn')"
         ]
     },
-    "bin": "bin\\openvpn.exe",
-    "shortcuts": [
-        [
-            "bin\\openvpn-gui.exe",
-            "OpenVPN GUI"
-        ]
-    ],
-    "persist": "config",
     "checkver": {
-        "url": "https://openvpn.net/index.php/open-source/downloads.html",
-        "regex": "openvpn-install-([\\d.]+)-I601-Win10\\.exe"
+        "url": "https://openvpn.net/connect-docs/windows-release-notes.html",
+        "regex": "<h2 class=\"title\" style=\"clear: both\">([\\d.]+) \\(([\\d]+)\\)</h2>",
+        "replace": "$1.$2"
     },
     "autoupdate": {
-        "url": "https://swupdate.openvpn.org/community/releases/openvpn-install-$version-I601-Win10.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-$version_signed.msi#/setup.msi_",
+                "hash": {
+                    "url": "https://openvpn.net/client-connect-vpn-for-windows/",
+                    "regex": "(?sm)v3-windows\\.msi.*?$sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-$version_signed_x86.msi#/setup.msi_",
+                "hash": {
+                    "url": "https://openvpn.net/client-connect-vpn-for-windows/",
+                    "regex": "(?sm)v3-windows-x86\\.msi.*?$sha256"
+                }
+            }
+        }
     }
 }
