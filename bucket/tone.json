@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/sandreas/tone/releases/download/v0.2.3/tone-0.2.3-win-x64.zip",
-            "hash": "92cc634922c40a111d05b20e04b358c485a36a3bafced4edda6f9ec100b41ed8"
+            "hash": "0f1ee5d36290cf5afc0eb471fe553a37a018e5ce8d9f8468429f0f8bb8841e96"
         }
     },
     "bin": "tone.exe",
