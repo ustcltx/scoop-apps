@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/cudatext/files/release/1.220.0.0/cudatext-windows-amd64-1.220.0.0.zip",
-            "hash": "sha1:70dbf59c2ea0e7874d41a0ac22863b28963ba674"
+            "hash": "sha1:3353aab535b3c5a4f2e0b91bb718f16b704945f2"
         },
         "32bit": {
             "url": "https://sourceforge.net/projects/cudatext/files/release/1.220.0.0/cudatext-windows-i386-1.220.0.0.zip",
-            "hash": "sha1:16d5c9d0b8e172e79afae7286cf9103c26b2afec"
+            "hash": "sha1:d899f0d3fb1c8735b2c7715cb3f06cd3f105763b"
         }
     },
     "extract_dir": "cudatext",
