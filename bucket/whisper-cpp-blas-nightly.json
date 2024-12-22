@@ -1,29 +1,29 @@
 {
-    "version": "3381",
+    "version": "3386",
     "description": "(BLAS Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggerganov/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/12444578227/whisper-blas-bin-x64.zip",
-            "hash": "88476de368192240bd9a6fdc8129165a478446cacf8e285fc8bb0b08545ae638"
+            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/12454712484/whisper-blas-bin-x64.zip",
+            "hash": "4cbd3df66b92c64b7451d62232a3c39f368d35160db473053d9866e0b465d2bc"
         },
         "32bit": {
-            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/12444578227/whisper-blas-bin-Win32.zip",
-            "hash": "267bdee3b464156235f3205313a069db4c8b70ccde649b85091982426ef6def1"
+            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/12454712484/whisper-blas-bin-Win32.zip",
+            "hash": "621e1b321901b3d5f9bd415948e9474746effd89918eea689b438c982a589087"
         }
     },
     "bin": [
         [
-            "main.exe",
+            "whisper-cli.exe",
             "whisper-cpp"
         ],
         [
-            "bench.exe",
+            "whisper-bench.exe",
             "whisper-cpp-bench"
         ],
         [
-            "command.exe",
+            "whisper-command.exe",
             "whisper-cpp-command"
         ],
         [
@@ -31,12 +31,16 @@
             "whisper-cpp-quantize"
         ],
         [
-            "server.exe",
+            "whisper-server.exe",
             "whisper-cpp-server"
         ],
         [
-            "stream.exe",
+            "whisper-stream.exe",
             "whisper-cpp-stream"
+        ],
+        [
+            "whisper-talk-llama.exe",
+            "whisper-cpp-talk-llama"
         ]
     ],
     "checkver": {
