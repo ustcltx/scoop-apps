@@ -1,15 +1,15 @@
 {
-    "version": "1.7.0",
-    "description": " 更快、更好、更稳定的Redis桌面(GUI)管理客户端，兼容Windows、Mac、Linux，性能出众，轻松加载海量键值.",
+    "version": "1.7.1",
+    "description": "Another Redis Desktop Manager is a faster and stable redis desktop manager [GUI client]， which won't crash when loading massive keys.",
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.0/Another-Redis-Desktop-Manager.1.7.0.exe#/dl.7z",
-            "hash": "sha512:18b59199956c583bf4f96595dfa1bd40d5c5a827db1ee57bbf22f84e67479e355710987f9db2852016e584d4945aae6f94f3271b150308cd200ee492bae378f8",
+            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager.1.7.1.exe#/dl.7z",
+            "hash": "sha512:422694b11ca6dba3b73d22c22453e3777e49d03a30f00111cd356372a27a408831abe420e83d47f2cafccad0fe7f4fbe8855832486250b6b2313936f3dce70bc",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
             ]
         }
     },
@@ -19,14 +19,17 @@
             "Another Redis Desktop Manager"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases",
+        "regex": "/tree/v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
-                    "regex": "sha512:\\s+$base64"
+                    "regex": "sha512:\\s*$base64"
                 }
             }
         }
