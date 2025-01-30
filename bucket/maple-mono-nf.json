@@ -1,13 +1,19 @@
 {
-    "version": "6.4",
-    "description": "Open source monospace font with round corner for IDE and command line.",
+    "version": "7.0-beta36",
+    "description": "Open source monospace/nerd font with round corner for IDE and command line.",
     "homepage": "https://github.com/subframe7536/Maple-font",
     "license": "OFL-1.1",
-    "url": "https://github.com/subframe7536/Maple-font/releases/download/v6.4/MapleMono-ttf.zip",
-    "hash": "6b4e892c83f96956fd49e133ea4c3e2ea2b2d3274281a5253c31560366341bc4",
-    "checkver": "github",
+    "url": "https://github.com/subframe7536/maple-font/releases/download/v7.0-beta36/MapleMono-NF-unhinted.zip",
+    "hash": "d4dc9980d35b1af1511f42a953ab14b16f5843d8dbe9a74564fa2d91a4796857",
+    "checkver": {
+        "url": "https://github.com/subframe7536/Maple-font/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
-        "url": "https://github.com/subframe7536/Maple-font/releases/download/v$version/MapleMono-ttf.zip"
+        "url": "https://github.com/subframe7536/maple-font/releases/download/v$version/MapleMono-NF-unhinted.zip",
+        "hash": {
+            "url": "$baseurl/MapleMono-NF-unhinted.sha256"
+        }
     },
     "installer": {
         "script": [
@@ -47,7 +53,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'Sarasa Mono SC Nerd' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Maple Mono NF' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
