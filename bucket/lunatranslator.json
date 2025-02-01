@@ -1,0 +1,53 @@
+{
+    "version": "7.6.3-202502012214",
+    "description": "LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.",
+    "homepage": "https://github.com/HIllya51/LunaTranslator",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.6.3/LunaTranslator.zip",
+            "extract_dir": "LunaTranslator",
+            "hash": "2dc8a8f47df1de2cc8cc6c17e83f602a6d6bbe5a5e66fe7c5e10ad1b76b7647a"
+        },
+        "32bit": {
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.6.3/LunaTranslator_x86.zip",
+            "extract_dir": "LunaTranslator_x86",
+            "hash": "72ffe84e7e33e23481ef362e4b11140d96f06d51a5772132d9a46c76f9d97875"
+        }
+    },
+    "shortcuts": [
+        [
+            "LunaTranslator.exe",
+            "LunaTranslator"
+        ],
+        [
+            "LunaTranslator_admin.exe",
+            "LunaTranslator (Admin)"
+        ]
+    ],
+    "persist": [
+        "userconfig",
+        "translation_record",
+        "cache"
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest 'https://github.com/HIllya51/LunaTranslator/releases.atom' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "$atom = [xml]$detail.Content",
+            "$latest = $atom.feed.entry | Select-Object -First 1",
+            "$result =  $latest.id + '-' + ([DateTime]$latest.updated).ToUniversalTime().AddHours(8).ToString('yyyyMMddHHmm')",
+            "return $result"
+        ],
+        "regex": "v((?<main>[\\d.]+)-\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x86.zip"
+            }
+        }
+    }
+}
