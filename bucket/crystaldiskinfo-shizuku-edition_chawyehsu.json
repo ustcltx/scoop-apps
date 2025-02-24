@@ -3,30 +3,30 @@
     "description": "CrystalDiskInfo is a HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD.",
     "version": "9.5.0",
     "license": "MIT",
-    "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.5.0/CrystalDiskInfo9_5_0Aoi.zip",
-    "hash": "sha1:b71fcedba386d4f653b26654de81f0b2d0f1e9a0",
+    "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.5.0/CrystalDiskInfo9_5_0Shizuku.zip",
+    "hash": "sha1:4d732154346ecd3708b8156bf9ebd700bd41f440",
     "architecture": {
         "64bit": {
             "shortcuts": [
                 [
-                    "DiskInfo64A.exe",
-                    "CrystalDiskInfo Aoi Edition"
+                    "DiskInfo64S.exe",
+                    "CrystalDiskInfo Shizuku Edition"
                 ]
             ]
         },
         "32bit": {
             "shortcuts": [
                 [
-                    "DiskInfo32A.exe",
-                    "CrystalDiskInfo Aoi Edition"
+                    "DiskInfo32S.exe",
+                    "CrystalDiskInfo Shizuku Edition"
                 ]
             ]
         },
         "arm64": {
             "shortcuts": [
                 [
-                    "DiskInfoA64A.exe",
-                    "CrystalDiskInfo Aoi Edition"
+                    "DiskInfoA64S.exe",
+                    "CrystalDiskInfo Shizuku Edition"
                 ]
             ]
         }
@@ -45,6 +45,6 @@
         "regex": "([\\d.a-zA-Z]+)/CrystalDiskInfo.*.zip"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/crystaldiskinfo/files/$version/CrystalDiskInfo$underscoreVersionAoi.zip"
+        "url": "https://sourceforge.net/projects/crystaldiskinfo/files/$version/CrystalDiskInfo$underscoreVersionShizuku.zip"
     }
 }
