@@ -1,12 +1,12 @@
 {
     "version": "26.0.16",
     "description": "Professional diagramming",
-    "homepage": "https://www.diagrams.net",
+    "homepage": "https://www.draw.io",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/jgraph/drawio-desktop/releases/download/v26.0.16/draw.io-26.0.16-windows-installer.exe#/dl.7z",
-            "hash": "34208d15eb27f0251823a91bf25614fe74d3bd162268b2f7c7e0b8d632f2d029",
+            "hash": "2d73b021ed7a386dc5b105ca13b1077fd1fa5e0b163c1a18aec4fac445c54928",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
@@ -14,21 +14,12 @@
         },
         "32bit": {
             "url": "https://github.com/jgraph/drawio-desktop/releases/download/v26.0.16/draw.io-ia32-26.0.16-windows-32bit-installer.exe#/dl.7z",
-            "hash": "31b8db454e5a83236d418017d7b4bee2588a1c99775d39eceb2a3d81dc774d1a",
+            "hash": "40749432450d9c73c6b3b03ce225bdb1e8db2541d3b951fb19ea37ead3627c69",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
             ]
         }
-    },
-    "installer": {
-        "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "New-Item \"$env:APPDATA\\draw.io\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
-        ]
-    },
-    "uninstaller": {
-        "script": "Remove-Item \"$env:APPDATA\\draw.io\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
     },
     "bin": "draw.io.exe",
     "shortcuts": [
@@ -48,10 +39,6 @@
             "32bit": {
                 "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-ia32-$version-windows-32bit-installer.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/Files-SHA256-Hashes.txt",
-            "regex": "$basename\\s*?$sha256"
         }
     }
 }
