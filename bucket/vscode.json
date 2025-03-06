@@ -1,5 +1,5 @@
 {
-    "version": "1.97.2",
+    "version": "1.99.0-insider",
     "description": "Lightweight but powerful source code editor",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -14,24 +14,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": [
-                "https://update.code.visualstudio.com/1.97.2/win32-x64-archive/stable#/dl.7z",
-                "https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/scripts/register.zip"
-            ],
-            "hash": [
-                "b82a2280f06ff8feeed5278cb849e200c46c2ed5195c6db7e1138e36dbd4928d",
-                "A6B668AD01150935B9B4FC44F03AE540CC0750551B809D83B9E6535AF237E844"
-            ]
+            "url": "https://update.code.visualstudio.com/1.99.0-insider/win32-x64-archive/stable#/dl.7z",
+            "hash": "b2b6b95b1ad06497c897b489fbdedd2a5f9e6f99bda90fe3728c3374ab97e4e6"
         },
         "arm64": {
-            "url": [
-                "https://update.code.visualstudio.com/1.97.2/win32-arm64-archive/stable#/dl.7z",
-                "https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/scripts/register.zip"
-            ],
-            "hash": [
-                "52b31922b4d506380aad82eac32fe76c88d3f07c89883cf8298cc9295786571e",
-                "A6B668AD01150935B9B4FC44F03AE540CC0750551B809D83B9E6535AF237E844"
-            ]
+            "url": "https://update.code.visualstudio.com/1.99.0-insider/win32-arm64-archive/stable#/dl.7z",
+            "hash": "8eba3dccfd743d051acbac608c956ddef97d39b39ec45cbdbb599bfe256059ba"
         }
     },
     "env_add_path": "bin",
@@ -45,8 +33,8 @@
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
         "$exepath = \"$dir\\Code.exe\".Replace('\\', '\\\\')",
         "'install-associations', 'uninstall-associations', 'install-context', 'uninstall-context' | ForEach-Object {",
-        "  if (Test-Path \"$dir\\$_.reg\") {",
-        "    $content = Get-Content \"$dir\\$_.reg\"",
+        "  if (Test-Path \"$bucketsdir\\extras\\scripts\\vscode\\$_.reg\") {",
+        "    $content = Get-Content \"$bucketsdir\\extras\\scripts\\vscode\\$_.reg\"",
         "    $content = $content.Replace('$codedir', $dirpath)",
         "    $content = $content.Replace('$code', $exepath)",
         "    if ($global) {",
