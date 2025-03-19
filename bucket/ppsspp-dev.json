@@ -1,36 +1,36 @@
 {
-    "version": "1.18.1-1392-gbb0123a25e",
-    "description": "Sony PlayStation Portable (PSP) emulator. Development build",
+    "version": "1.18.1-1408-g5d89fa31f9",
+    "description": "Sony PlayStation Portable (PSP) emulator",
     "homepage": "https://www.ppsspp.org",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://builds.ppsspp.org/builds/v1.18.1-1392-gbb0123a25e/ppsspp_win_v1.18.1-1392-gbb0123a25e.zip",
-            "hash": "1afe1ec2af390e9d71df5601c894447758e2d2ce9bb5a213d17159b933feaa7c",
+            "url": "https://builds.ppsspp.org/builds/v1.18.1-1408-g5d89fa31f9/ppsspp_win_v1.18.1-1408-g5d89fa31f9.zip",
+            "hash": "8b12f61da99023188e82d9c29d1721ff887646e70249261941a62b726a21d071",
             "shortcuts": [
                 [
                     "PPSSPPWindows64.exe",
-                    "PPSSPP (Development)"
+                    "Sony PlayStation Portable [psp][ppsspp] (dev)"
                 ]
             ]
         },
         "32bit": {
-            "url": "https://builds.ppsspp.org/builds/v1.18.1-1392-gbb0123a25e/ppsspp_win_v1.18.1-1392-gbb0123a25e.zip",
-            "hash": "1afe1ec2af390e9d71df5601c894447758e2d2ce9bb5a213d17159b933feaa7c",
+            "url": "https://builds.ppsspp.org/builds/v1.18.1-1408-g5d89fa31f9/ppsspp_win_v1.18.1-1408-g5d89fa31f9.zip",
+            "hash": "8b12f61da99023188e82d9c29d1721ff887646e70249261941a62b726a21d071",
             "shortcuts": [
                 [
                     "PPSSPPWindows.exe",
-                    "PPSSPP (Development)"
+                    "Sony PlayStation Portable [psp][ppsspp] (dev)"
                 ]
             ]
         },
         "arm64": {
-            "url": "https://builds.ppsspp.org/builds/v1.18.1-1392-gbb0123a25e/PPSSPPWindowsARM64_v1.18.1-1392-gbb0123a25e.zip",
-            "hash": "88bd84198533a8dfaffbc6d2ee2a850aaf3664a73a46c68873144c1c2e7d40b5",
+            "url": "https://builds.ppsspp.org/builds/v1.18.1-1408-g5d89fa31f9/PPSSPPWindowsARM64_v1.18.1-1408-g5d89fa31f9.zip",
+            "hash": "5bf32df4c43e7f0b60af45299b13df59a1d944e33dc4978793073033cc9e40b4",
             "shortcuts": [
                 [
                     "PPSSPPWindowsARM64.exe",
-                    "PPSSPP (Development)"
+                    "Sony PlayStation Portable [psp][ppsspp] (dev)"
                 ]
             ]
         }
@@ -40,6 +40,17 @@
         "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
         "   New-item \"$persist_dir\\memstick\" -ItemType Directory | Out-Null",
         "}"
+    ],
+    "bin": [
+        [
+            "ppsspp.exe"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ppsspp.exe",
+            "Sony PlayStation Portable [psp][ppsspp]"
+        ]
     ],
     "persist": [
         "memstick",
