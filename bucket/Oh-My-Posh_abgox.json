@@ -1,5 +1,5 @@
 {
-    "version": "25.6.1",
+    "version": "25.8.0",
     "description": "任何 shell 的提示主题引擎。A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "license": {
@@ -9,32 +9,32 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.6.1/themes.zip",
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.6.1/posh-windows-amd64.exe#/oh-my-posh.exe"
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/posh-windows-amd64.exe#/oh-my-posh.exe"
             ],
             "hash": [
-                "886fa1b45b864bce5c74604426f5b22790702d62b5385593ec1aa48815c5d162",
-                "3c0a37c1997b2e1bf47608cc87f18283b808a68145f6ec8c20a6a1ee707fd870"
+                "0e8842550e519589d5af0f1584b3bd1bf3fcc2eb00689ed38b65f9fb51383a22",
+                "eef57550a4834804161ff858c48ffedecd118bbe4f89dcea2d008cc684789cfa"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.6.1/themes.zip",
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.6.1/posh-windows-386.exe#/oh-my-posh.exe"
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/posh-windows-386.exe#/oh-my-posh.exe"
             ],
             "hash": [
-                "886fa1b45b864bce5c74604426f5b22790702d62b5385593ec1aa48815c5d162",
-                "54d09aafb58e679c5dcbe5cc8776e4467ed68cb7ac2c78ec0d9afc258e772f92"
+                "0e8842550e519589d5af0f1584b3bd1bf3fcc2eb00689ed38b65f9fb51383a22",
+                "70c5e1a9e2af265ca9e9f19fff6075196a35b2c25efb3f6f4297a4928b6e2248"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.6.1/themes.zip",
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.6.1/posh-windows-arm64.exe#/oh-my-posh.exe"
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/posh-windows-arm64.exe#/oh-my-posh.exe"
             ],
             "hash": [
-                "886fa1b45b864bce5c74604426f5b22790702d62b5385593ec1aa48815c5d162",
-                "9856907bcc4e35a57d79e8751cc2ed793afc391c32dd410e789c38881e680da6"
+                "0e8842550e519589d5af0f1584b3bd1bf3fcc2eb00689ed38b65f9fb51383a22",
+                "f45eb8b49b0f67ad44408380c749a67a7e456e970213afed1338d8a805c8b572"
             ]
         }
     },
