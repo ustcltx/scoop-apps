@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.bypass.cn/",
+    "version": "1.16.53",
+    "url": "https://www.bypass.cn/api/download?name=Bypass.zip#/dl.zip",
+    "hash": "cbdad59013d67a5bf50c38ea66130f06bf1114d07238bee47476d98b8faf8b62",
+    "extract_dir": "Bypass",
+    "checkver": {
+        "url": "https://www.bypass.cn/",
+        "regex": "Version&#xFF1A;([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.bypass.cn/api/download?name=Bypass.zip#/dl.zip"
+    },
+    "shortcuts": [
+        [
+            "Bypass.exe",
+            "Bypass"
+        ]
+    ]
+}
