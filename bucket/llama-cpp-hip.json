@@ -1,12 +1,12 @@
 {
-    "version": "b5178",
+    "version": "b5190",
     "description": "(ROCm/HIP gfx1100 Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5178/llama-b5178-bin-win-hip-x64-gfx1100.zip",
-            "hash": "3ffb6cbe65332bf50fe1eea94104f0e740dc01dac627164cc37d4759f8ef1195"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5190/llama-b5190-bin-win-hip-x64-gfx1100.zip",
+            "hash": "19571ac6d8ad13869d36567b21e5812df6e180a9e35365f7282db2e1d387cbaf"
         }
     },
     "bin": [
