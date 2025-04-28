@@ -1,12 +1,12 @@
 {
-    "version": "b5198",
-    "description": "(ROCm/HIP gfx1100 Backend) LLM inference in C/C++.",
+    "version": "b5202",
+    "description": "(ROCm/HIP gfx1100 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5198/llama-b5198-bin-win-hip-x64-gfx1100.zip",
-            "hash": "ed13838dcf0290d6efeae3cfd83655308230f5742371c1228afbe3b6894c420b"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5202/llama-b5202-bin-win-hip-x64-gfx1100.zip",
+            "hash": "f360971c1482914e1db488c3dfc8289357a6b393cbb925758bf981cd79da8847"
         }
     },
     "bin": [
@@ -23,13 +23,10 @@
         "llama-gguf-hash.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
-        "llama-llava-cli.exe",
-        "llama-llava-clip-quantize-cli.exe",
-        "llama-minicpmv-cli.exe",
-        "llama-qwen2vl-cli.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",

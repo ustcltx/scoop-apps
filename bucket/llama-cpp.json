@@ -1,16 +1,16 @@
 {
-    "version": "b5198",
-    "description": "(CPU Backend) LLM inference in C/C++.",
+    "version": "b5202",
+    "description": "(CPU Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5198/llama-b5198-bin-win-avx2-x64.zip",
-            "hash": "984c1f8c4c257fb0738b893c64169a738c4a74971c054076bb7875014e60e3e1"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5202/llama-b5202-bin-win-avx2-x64.zip",
+            "hash": "fbbd42e545cee29f29a25b31deb98c2451404d31d5041dadfbdf24df361696db"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5198/llama-b5198-bin-win-llvm-arm64.zip",
-            "hash": "13c46532d579948b6ca88ccd8b22ff14bce473c5742fb050580b2a52e24b043b"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5202/llama-b5202-bin-win-llvm-arm64.zip",
+            "hash": "c55d7f9822cc1167f491d91357eb8f4374a128e795d803dfd684f6a1ce910949"
         }
     },
     "bin": [
@@ -27,13 +27,10 @@
         "llama-gguf-hash.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
-        "llama-llava-cli.exe",
-        "llama-llava-clip-quantize-cli.exe",
-        "llama-minicpmv-cli.exe",
-        "llama-qwen2vl-cli.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
