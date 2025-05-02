@@ -1,0 +1,80 @@
+{
+    "version": "138.0.1",
+    "description": "Popular open source web browser.",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "license": "MPL-2.0",
+    "notes": [
+        "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
+        "  - Run 'Firefox Profile Manager', choose 'Scoop' then click 'Start Firefox'.",
+        "  - Visit 'about:profiles' page in Firefox to check *DEFAULT* profile.",
+        "For details: https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/138.0.1/win64/en-US/Firefox%20Setup%20138.0.1.exe#/dl.7z",
+            "hash": "sha512:8fdf13df9954e0fc5bb59880be85d0e87530c2aee732ea640279a8b4be5719256a95f0ee7fb60d26d1891a969ef37f634fb87a0405b099e5e2e6ea87a9f586eb"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/138.0.1/win32/en-US/Firefox%20Setup%20138.0.1.exe#/dl.7z",
+            "hash": "sha512:92ada2c9bdb51419682e5523dcf977191a660fbcdeefc9bc0a5d3d1515d5e70d2570e0f3a70d52fd8924f3279c7148fad8781eb6767be038d608d676b6923e6b"
+        },
+        "arm64": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/138.0.1/win64-aarch64/en-US/Firefox%20Setup%20138.0.1.exe#/dl.7z",
+            "hash": "sha512:863050f2c6fea18ba0a7b6f4d710e9dd1903cee754bee8ada41c41426fb89293dc245ff0a5920527fb86b86cd09c0ecb31198441028dce1932cda8412e81d3a6"
+        }
+    },
+    "extract_dir": "core",
+    "post_install": [
+        "firefox -CreateProfile \"Scoop $persist_dir\\profile\"",
+        "$Addition = \"$persist_dir\\addition\"",
+        "if (Test-Path $Addition) {",
+        "  info 'Copying additional items...'",
+        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
+        "}"
+    ],
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox"
+        ],
+        [
+            "firefox.exe",
+            "Firefox Profile Manager",
+            "-P"
+        ]
+    ],
+    "persist": [
+        "distribution",
+        "profile"
+    ],
+    "checkver": {
+        "url": "https://www.mozilla.org/en-US/firefox/notes/",
+        "regex": "<span class=\"c-release-version\">([\\d.]+)<\\/span>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/en-US/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/en-US/$basename"
+                }
+            },
+            "arm64": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64-aarch64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64-aarch64/en-US/$basename"
+                }
+            }
+        }
+    }
+}
