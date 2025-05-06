@@ -1,0 +1,55 @@
+{
+    "homepage": "https://lunatranslator.org/",
+    "description": "Galgame translator",
+    "license": "GPL-3.0",
+    "version": "9.1.2.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v9.1.2.2_x64.zip",
+            "hash": "332b72c651ad059943992c2ea7a95da846779d831bd5ea9ed7d95b5f87ff729e",
+            "extract_to": "temp",
+            "pre_install": [
+                "Move-Item -Path \"$dir\\temp\\LunaTranslator\\*\" -Destination \"$dir\"",
+                "Remove-Item \"$dir\\temp\" -Force -Recurse"
+            ]
+        },
+        "32bit": {
+            "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v9.1.2.2_x86.zip",
+            "hash": "e2b08a60a64a5c817e2ab36e56753f4fbcf7f61b3aacadaf0dc7c95fc45f7886",
+            "extract_to": "temp",
+            "pre_install": [
+                "Move-Item -Path \"$dir\\temp\\LunaTranslator_x86\\*\" -Destination \"$dir\"",
+                "Remove-Item \"$dir\\temp\" -Force -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "LunaTranslator.exe",
+            "LunaTranslator"
+        ]
+    ],
+    "persist": [
+        "cache",
+        "translation_record",
+        "userconfig"
+    ],
+    "checkver": {
+        "script": [
+            "$req = Invoke-WebRequest -Uri 'https://lunatranslator.org/Resource/DownloadLuna/64' -MaximumRedirection 0 -ErrorAction SilentlyContinue",
+            "$m = $req.Content | Select-String -pattern 'LunaTranslator_v([\\d.]+)_x64\\.zip'",
+            "Write-Output $m.matches.groups[1].value"
+        ],
+        "regex": "(?<version>[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v$version_x86.zip"
+            }
+        }
+    }
+}
