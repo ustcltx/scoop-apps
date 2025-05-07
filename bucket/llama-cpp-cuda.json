@@ -1,16 +1,16 @@
 {
-    "version": "b5292",
+    "version": "b5303",
     "description": "(CUDA 12 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ggml-org/llama.cpp/releases/download/b5292/llama-b5292-bin-win-cuda-cu12.4-x64.zip",
-                "https://github.com/ggml-org/llama.cpp/releases/download/b5292/cudart-llama-bin-win-cu12.4-x64.zip"
+                "https://github.com/ggml-org/llama.cpp/releases/download/b5303/llama-b5303-bin-win-cuda-cu12.4-x64.zip",
+                "https://github.com/ggml-org/llama.cpp/releases/download/b5303/cudart-llama-bin-win-cu12.4-x64.zip"
             ],
             "hash": [
-                "4cdc16912d01b4b7c856ff5ddf18ff705f49cf43d36a996d99c55e050a21bf9e",
+                "8aeb425c74a4038875bc9610b53853be1fe1374156cecb5488f9fef515b3d03d",
                 "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
             ]
         }
@@ -23,7 +23,6 @@
         "llama-run.exe",
         "llama-batched.exe",
         "llama-batched-bench.exe",
-        "llama-cvector-generator.exe",
         "llama-embedding.exe",
         "llama-gguf.exe",
         "llama-gguf-hash.exe",
