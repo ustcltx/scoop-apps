@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.todesk.com/",
-    "description": "ToDesk Windows客户端. (Scoop bucket by arch3rpro)",
-    "version": "4.7.6.3",
+    "description": "An unlimited speed multifunctional remote control software",
+    "version": "4.7.7.1",
     "license": "Proprietary",
     "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z",
-    "hash": "52280c0b8f79a0f153d47b53d42722093b08c6da94207979386bcade35e37c1b",
+    "hash": "04f17ae98fe3e6ca0b08ef886825a63d9781bf8ac79e472807220bc814601a70",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\config.ini\")) {",
         "    New-Item -Force -Path \"$persist_dir\\config.ini\" -ItemType File -Value \"[ConfigInfo]`nautoStart=0\" | Out-Null",
