@@ -18,6 +18,7 @@
     },
     "installer": {
         "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
             "Get-ChildItem \"$dir\\redist_packages\" | Move-Item -Destination \"$dir\" -Force",
             "New-PersistDirectory \"$env:LOCALAPPDATA\\Netease\\CloudMusic\" \"$persist_dir\\AppData\" -Migrate"
         ]
@@ -32,12 +33,7 @@
         ]
     },
     "bin": "cloudmusic.exe",
-    "shortcuts": [
-        [
-            "cloudmusic.exe",
-            "网易云音乐"
-        ]
-    ],
+    "shortcuts": [["cloudmusic.exe", "网易云音乐"]],
     "checkver": {
         "script": [
             "Import-Module \"$pwd\\bin\\WinGet.psm1\"",
