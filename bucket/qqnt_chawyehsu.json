@@ -1,11 +1,8 @@
 {
+    "homepage": "https://im.qq.com/pcqq/index.shtml",
+    "description": "An instant messaging software service developed by Tencent",
+    "license": "Freeware",
     "version": "9.9.19.250519",
-    "description": "An instant messaging tool that gives you the best way to keep in touch with your friends and family, Build with Electron",
-    "homepage": "https://im.qq.com",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "https://ti.qq.com/agreement/index.html"
-    },
     "architecture": {
         "64bit": {
             "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.19_250519_x64_01.exe#/dl.7z",
@@ -21,32 +18,12 @@
         }
     },
     "extract_dir": "Files",
-    "installer": {
-        "script": [
-            "$configpath = \"$env:PUBLIC\\Documents\\Tencent\\QQ\"",
-            "if (!(Test-Path \"$configpath\")) {",
-            "    New-Item -Path \"$configpath\" -Type Directory -Force | Out-Null",
-            "}",
-            "Set-Content -NoNewline -Path \"$configpath\\UserDataInfo.ini\" -Value \"[UserDataSet]`nUserDataSavePathType=2`nUserDataSavePath=$persist_dir\\QQ Files\"",
-            "# handle runtime cache",
-            "ensure \"$persist_dir\\appdata\" | Out-Null",
-            "New-Item \"$env:APPDATA\\QQ\" -ItemType Junction -Target \"$persist_dir\\appdata\" | Out-Null"
-        ]
-    },
     "shortcuts": [
         [
             "QQ.exe",
             "QQ"
         ]
     ],
-    "persist": "QQ Files",
-    "uninstaller": {
-        "script": [
-            "Remove-Item -Path \"$env:PUBLIC\\Documents\\Tencent\" -Recurse -Force | Out-Null",
-            "#remove handle runtime cache",
-            "Remove-Item \"$env:APPDATA\\QQ\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
-        ]
-    },
     "checkver": {
         "script": [
             "$url = 'https://im.qq.com/pcqq/index.shtml'",
