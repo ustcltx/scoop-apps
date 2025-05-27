@@ -1,42 +1,18 @@
 {
-    "version": "5.24.1.10017",
-    "description": "A fork of Sonarr to work with movies à la Couchpotato.",
-    "homepage": "https://radarr.video/",
-    "license": "GPL-3.0-only",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/Radarr/Radarr/releases/download/v5.24.1.10017/Radarr.master.5.24.1.10017.windows-core-x64.zip",
-            "hash": "11caff36b40ab524f58ebd232f064a5e4feb731e97159de5302745acd54b4033"
-        },
-        "32bit": {
-            "url": "https://github.com/Radarr/Radarr/releases/download/v5.24.1.10017/Radarr.master.5.24.1.10017.windows-core-x86.zip",
-            "hash": "ddcd9052013083c0eaa2099c5869ccebd51f1936ca7bdf6fe76b04731c213bca"
-        }
-    },
+    "homepage": "https://github.com/Radarr/Radarr",
+    "version": "5.25.0.10024",
+    "license": "MIT",
+    "url": "https://github.com/Radarr/Radarr/releases/download/v5.25.0.10024/Radarr.master.5.25.0.10024.windows-core-x64.zip",
+    "hash": "4dcbf537ba40b357dc0ef44af8b22e482dbc6eb4e4bcc2d6b4da44f0d097d48c",
     "extract_dir": "Radarr",
-    "bin": [
-        [
-            "Radarr.Console.exe",
-            "radarr"
-        ]
-    ],
     "shortcuts": [
         [
             "Radarr.exe",
             "Radarr"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/Radarr/Radarr"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x86.zip"
-            }
-        }
+        "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x64.zip"
     }
 }
