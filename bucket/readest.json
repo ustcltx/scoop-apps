@@ -7,7 +7,7 @@
         "url": "https://github.com/chrox/readest#AGPL-3.0-1-ov-file"
     },
     "url": "https://github.com/chrox/readest/releases/download/v0.9.52/Readest_0.9.52_x64-setup.exe#/dl.7z",
-    "hash": "67d58bda3ea1425cca6b1478b9f117ec8fd11604c87b5e719ca3fe69801c6f90",
+    "hash": "74df2b3417e7ef754f9fce47c1580600d5a3f2a3af978fe1f20e48ee602cac12",
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
     "installer": {
         "script": [
