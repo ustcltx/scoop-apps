@@ -2,9 +2,9 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "homepage": "https://github.com/kiennq/emacs-build",
     "license": "GPLv3",
-    "version": "31.363.20250605.07cfd09",
-    "url": "https://github.com/kiennq/emacs-build/releases/download/v31.363.20250605.07cfd09/emacs-07cfd09-ucrt-x86_64-mps.msix",
-    "hash": "b8dae3f7b932dca6b8cc99dc151d510de955e4ce40b6493661eeb69d56b41f7f",
+    "version": "31.363.20250606.3193aa0",
+    "url": "https://github.com/kiennq/emacs-build/releases/download/v31.363.20250606.3193aa0/emacs-3193aa0-ucrt-x86_64-mps.msix",
+    "hash": "f83c6ccd09f658246ecd6051dd2004ab08f829444b3334c3bde4ae0a43b7ce54",
     "installer": {
         "script": [
             "Get-ChildItem \"$dir\\*.msix\" | %{Expand-7zipArchive $_.FullName \"$dir\"}",
