@@ -1,27 +1,16 @@
 {
     "version": "14.9.0",
-    "description": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 滚动截屏 Screenshot OCR search translate search for picture paste the picture on the screen screen recorder",
+    "description": "Screenshot, OCR, Search, Translation, Pasting, Reverse Image Search, Screen Recording",
     "homepage": "https://esearch-app.netlify.app/",
-    "license": {
-        "identifier": "GPL-3.0 license",
-        "url": "https://github.com/xushengfeng/eSearch#GPL-3.0-1-ov-file"
-    },
+    "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xushengfeng/eSearch/releases/download/14.9.0/eSearch-14.9.0-win32-x64.exe#/dl.7z",
-            "hash": "62e7ab0c63ed51c3dc6d79c86f246bb72c2ff614d48fbaae6f6fe1c479d1be8a",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
-            ]
+            "url": "https://github.com/xushengfeng/eSearch/releases/download/14.9.0/eSearch-14.9.0-win32-x64.zip",
+            "hash": "0ca801ac2d2b8863d41b73e92337d992e8bceb408a938e5a09a4b8990d10ef07"
         },
         "arm64": {
-            "url": "https://github.com/xushengfeng/eSearch/releases/download/14.9.0/eSearch-14.9.0-win32-arm64.exe#/dl.7z",
-            "hash": "9ca0e26d453a1392a0737ce1a0d44bd002257af8cf7648916333a0f5a8811400",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
-            ]
+            "url": "https://github.com/xushengfeng/eSearch/releases/download/14.9.0/eSearch-14.9.0-win32-arm64.zip",
+            "hash": "167818bdc4c8ac185d7a67ea6d4a666345489437fec4232b67a76a66c2ee0cd5"
         }
     },
     "installer": {
@@ -40,17 +29,15 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/xushengfeng/eSearch/releases/latest",
-        "jsonpath": "$.assets[*].browser_download_url",
-        "regex": "eSearch-([\\d.]+)-win32-x64\\.exe"
+        "github": "https://github.com/xushengfeng/eSearch"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-x64.exe#/dl.7z"
+                "url": "https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-arm64.exe#/dl.7z"
+                "url": "https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-arm64.zip"
             }
         }
     }
