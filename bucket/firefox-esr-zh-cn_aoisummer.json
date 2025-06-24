@@ -1,0 +1,45 @@
+{
+    "homepage": "https://www.mozilla.org/en-US/firefox/enterprise/",
+    "description": "Extended Support Release of Firefox: the popular open source web browser.",
+    "license": "MPL-2.0",
+    "version": "128.11.0esr",
+    "architecture": {
+        "64bit": {
+            "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.11.0esr/win64/zh-CN/Firefox%20Setup%20128.11.0esr.exe#/dl.7z",
+            "hash": "56a816ff14be5dd0bd1c5ea7ed4e7e2c702a511fcffa5b7f0de35d4f2cd92e96"
+        },
+        "32bit": {
+            "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.11.0esr/win32/zh-CN/Firefox%20Setup%20128.11.0esr.exe#/dl.7z",
+            "hash": "a4920fee652702e7c4286d061ef2fa87de6234aa3b53b8d2924a3aae27874594"
+        }
+    },
+    "extract_dir": "core",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox ESR (Simplified Chinese)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+        "jsonpath": "$.FIREFOX_ESR"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/win64/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS",
+                    "regex": "$sha256\\s+win64/zh-CN/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/win32/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS",
+                    "regex": "$sha256\\s+win32/zh-CN/$basename"
+                }
+            }
+        }
+    }
+}
