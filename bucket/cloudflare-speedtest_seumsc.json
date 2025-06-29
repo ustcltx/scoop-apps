@@ -1,9 +1,9 @@
 {
     "version": "2.3.0",
-    "license": "GPL-3.0-only",
-    "description": "🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP ~",
+    "description": "Select Cloudflare CDN IP by testing latency and speed.",
     "homepage": "https://github.com/XIU2/CloudflareSpeedTest",
-    "checkver": "github",
+    "license": "GPL-3.0-or-later",
+    "notes": "Please fill `nowip_hosts.txt` and `nowip_3proxy.txt` after first installation.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.0/CloudflareST_windows_amd64.zip",
@@ -18,6 +18,24 @@
             "hash": "0668722579da73e53a2ac0ca3128e9a503694ef2df742a78059619e1e6e65951"
         }
     },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\nowip_hosts.txt\")) {",
+        "    Set-Content \"$dir\\nowip_hosts.txt\" ''",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\nowip_3proxy.txt\")) {",
+        "    Set-Content \"$dir\\nowip_3proxy.txt\" ''",
+        "}"
+    ],
+    "bin": [
+        "CloudflareST.exe",
+        "cfst_3proxy.bat",
+        "cfst_hosts.bat"
+    ],
+    "persist": [
+        "nowip_hosts.txt",
+        "nowip_3proxy.txt"
+    ],
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -30,6 +48,5 @@
                 "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v$version/CloudflareST_windows_arm64.zip"
             }
         }
-    },
-    "bin": "CloudflareST.exe"
+    }
 }
