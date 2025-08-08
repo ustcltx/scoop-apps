@@ -1,22 +1,20 @@
 {
-    "version": "1.100.30",
-    "description": "Terminal/ssh/serial port/sftp client",
-    "homepage": "https://electerm.github.io/electerm/",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/electerm/electerm/releases/download/v1.100.30/electerm-1.100.30-win-x64.tar.gz",
-            "hash": "d8bf3b9997f6a83ae71eed26f371ec4cf1dca9f29b84a7d33f54c1d1e8227c1e",
-            "extract_dir": "electerm-1.100.30-win-x64"
-        }
-    },
-    "bin": "electerm.exe",
+    "version": "1.17.0",
+    "description": "哔哩哔哩客户端",
+    "homepage": "https://app.bilibili.com/",
+    "license": "Proprietary",
+    "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
+    "hash": "sha512:91da803ee4d24b6aeb56d5522be29311396cd2a85d9439f59a767f28d71e8c7acaf43164247a2f5bfd26ba9b5116e9c97fabe1dfa00702a73c1d5ef3dddec81f",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ],
     "installer": {
         "script": [
             "if (!(Test-Path \"$persist_dir\\Cache\")) {",
             "    New-Item \"$persist_dir\\Cache\" -Type Directory -Force | Out-Null",
             "}",
-            "$runtimeCache = \"$env:APPDATA\\electerm\"",
+            "$runtimeCache = \"$env:APPDATA\\bilibili\"",
             "$runtimeCachePersist = \"$persist_dir\\Cache\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
@@ -31,7 +29,7 @@
     },
     "uninstaller": {
         "script": [
-            "$runtimeCache = \"$env:APPDATA\\electerm\"",
+            "$runtimeCache = \"$env:APPDATA\\bilibili\"",
             "$runtimeCachePersist = \"$persist_dir\"",
             "Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
             "Remove-Item $runtimeCachePersist -Force -Recurse -ErrorAction SilentlyContinue"
@@ -39,19 +37,19 @@
     },
     "shortcuts": [
         [
-            "electerm.exe",
-            "electerm"
+            "哔哩哔哩.exe",
+            "bilibili"
         ]
     ],
     "checkver": {
-        "github": "https://github.com/electerm/electerm"
+        "url": "http://api.bilibili.com/x/elec-frontend/update/latest.yml",
+        "regex": "bilibili-setup-v([\\d\\.]+)\\.exe"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
-                "extract_dir": "electerm-$version-win-x64"
-            }
+        "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
+        "hash": {
+            "url": "http://api.bilibili.com/x/elec-frontend/update/latest.yml",
+            "regex": "sha512: ([\\w\\d+\\/=]{24,88})"
         }
     }
 }
