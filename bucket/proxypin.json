@@ -1,12 +1,12 @@
 {
-    "version": "1.1.9",
-    "description": "开源免费的跨平台抓包软件，支持手机扫码连接",
-    "homepage": "https://github.com/wanghongenpin/network_proxy_flutter",
+    "version": "1.1.7",
+    "description": "(Scoop bucket by arch3rpro) proxypin - 开源免费抓包工具，支持Windows、Mac、Android、IOS、Linux 全平台系统 Open source free capture HTTP(S) traffic software ProxyPin, supporting full platform systems",
+    "homepage": "https://github.com/wanghongenpin/proxypin",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wanghongenpin/proxypin/releases/download/v1.1.9/ProxyPin-windows7-x64.zip",
-            "hash": "78d55eeac44b648bcfadc5e63a0d34453abcf34db2dc9292fc50b23b7414482d"
+            "url": "https://github.com/wanghongenpin/proxypin/releases/download/v1.1.7/ProxyPin-Windows.zip",
+            "hash": "a3fb7fedab2c52bacd3d65660f2de445674c49c5cea03d9eccf06069e1a76623"
         }
     },
     "extract_dir": "ProxyPin",
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wanghongenpin/proxypin/releases/download/v$version/ProxyPin-windows7-x64.zip"
+                "url": "https://github.com/wanghongenpin/proxypin/releases/download/v$version/ProxyPin-Windows.zip"
             }
         }
     }
