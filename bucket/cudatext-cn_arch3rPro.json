@@ -6,16 +6,15 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://downloads.sourceforge.net/project/cudatext/release/1.226.7.0/cudatext-windows-amd64-1.226.7.0.zip",
+                "https://udomain.dl.sourceforge.net/project/cudatext/release/1.226.7.0/cudatext-windows-amd64-1.226.7.0.zip",
                 "https://downloads.sourceforge.net/project/cudatext/addons/translations/translation.zh_CN.zip"
             ],
             "hash": [
                 "sha1:0ac11ab5302f089ad8bbe50cde14daf24839ad6a",
-                "b2a78ad04ae5b6e762be51399c53e89ab88efe8021e98b774e66c7227152630a"
+                "39bc8ee31e53b990032938d898e91b63590c0ef831b9cd3b863ddd7d7ccdb0ba"
             ]
         }
     },
-    "extract_dir": "cudatext",
     "post_install": [
         "Move-Item \"$dir\\install.inf\" \"$persist_dir\\data\\lang\\install.inf\" -Force",
         "Move-Item \"$dir\\zh_CN.ini\" \"$persist_dir\\data\\lang\\zh_CN.ini\" -Force",
@@ -25,11 +24,7 @@
         "cudatext.exe",
         [
             "install_shell64.cmd",
-            "cudatext_install_shell"
-        ],
-        [
-            "uninstall_shell64.cmd",
-            "cudatext_uninstall_shell"
+            "install_shell"
         ]
     ],
     "shortcuts": [
@@ -50,7 +45,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/cudatext/release/$version/cudatext-windows-amd64-$version.zip"
+                "url": "https://udomain.dl.sourceforge.net/project/cudatext/release/$version/cudatext-windows-amd64-$version.zip"
             }
         }
     }
