@@ -1,5 +1,5 @@
 {
-    "version": "2025.09.21.232818",
+    "version": "2025.09.23.232818",
     "description": "yt-dlp (official) nightly builds",
     "homepage": "https://github.com/yt-dlp/yt-dlp-nightly-builds",
     "license": "Freeware",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.09.21.232818/yt-dlp.exe",
-            "hash": "sha512:b00b795371b748da210b04ea4dbcaf849e23bd22c679aa2f358a6e17dbfec3f571c56670579c1412c6c7eaf91e057a4798448efdb51b617e2c9385fadfc7f904"
+            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.09.23.232818/yt-dlp.exe",
+            "hash": "sha512:5472542e3646e4c68d48c89a98bc04af526a27d8fae2eb68d64f035445b558cfd9aaefb0f2f6bd327407858e79f7892b55df2ed988ab29a53481d02acad9dc7b"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.09.21.232818/yt-dlp_x86.exe#/yt-dlp.exe",
-            "hash": "sha512:f30180e7ae95a878234b886499ac08edff3764c55a10c069ee2a04989b1ff48ae7880fc599ef687075b7fb5f1705467d0a460e57c9de71ef7ea09ffd0270c16a"
+            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.09.23.232818/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "sha512:925c369efeea8fdca29e78f28ef471a2b5d3adc88635d041692276c3a0443319071f525ec5b6d9339f60d406511fed086eea1243af707684da900a5946f8fe8c"
         }
     },
     "bin": "yt-dlp.exe",
