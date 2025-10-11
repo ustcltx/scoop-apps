@@ -1,0 +1,34 @@
+{
+    "version": "3.2.4",
+    "homepage": "https://github.com/go-gost/gost",
+    "description": "GO Simple Tunnel - a simple tunnel written in golang.(Scoop bucket by arch3rpro)",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.4/gost_3.2.4_windows_amd64.zip",
+            "hash": "09f0e30b1c68e2410769a58212d8658b5bb7aed549053b090f2f0526506c753e"
+        },
+        "32bit": {
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.4/gost_3.2.4_windows_386.zip",
+            "hash": "60a448bd185570a5e0438884a58bb7ac982cff691a7f09b7903e16c833efc7ea"
+        }
+    },
+    "bin": [
+        [
+            "gost.exe",
+            "gost"
+        ]
+    ],
+    "post_install": "Invoke-WebRequest -URI \"https://raw.githubusercontent.com/go-gost/gost/master/gost.yml\" -OutFile \"$dir\\gost.yml\"",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_386.zip"
+            }
+        }
+    }
+}
