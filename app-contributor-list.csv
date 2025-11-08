@@ -4926,7 +4926,7 @@ nuclei_whoopscs.json,whoopscs/scoop-security
 interactsh.json,whoopscs/scoop-security
 proxify.json,whoopscs/scoop-security
 java-memshell-generator.json,whoopscs/scoop-security
-yakit.json,whoopscs/scoop-security
+yakit_whoopscs.json,whoopscs/scoop-security
 nimscan_whoopscs.json,whoopscs/scoop-security
 jadx.json,whoopscs/scoop-security
 virtualjaguar.json,hermanjustnu/scoop-emulators
@@ -6000,7 +6000,7 @@ ExitWindows.json,dodorz/scoop
 CLCL.json,dodorz/scoop
 MyHash_dodorz.json,dodorz/scoop
 KShutdown.json,dodorz/scoop
-ChatWise.json,dodorz/scoop
+ChatWise_dodorz.json,dodorz/scoop
 KeepNote.json,dodorz/scoop
 ResophNotes.json,dodorz/scoop
 CJK-character-count.json,dodorz/scoop
@@ -6379,7 +6379,7 @@ xenia_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 mednafen_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 postcat.json,ViCrack/scoop-bucket
 maye_ViCrack.json,ViCrack/scoop-bucket
@@ -7118,7 +7118,7 @@ winxshell.json,xrgzs/sdoog
 mumu-np.json,xrgzs/sdoog
 mobaxterm-cn.json,xrgzs/sdoog
 wsl-ubuntu1804.json,xrgzs/sdoog
-v2rayn_xrgzs.json,xrgzs/sdoog
+v2rayn.json,xrgzs/sdoog
 lmstudio_xrgzs.json,xrgzs/sdoog
 plum.json,xrgzs/sdoog
 pcl2.json,xrgzs/sdoog
@@ -7700,7 +7700,7 @@ reduce-memory.json,DoveBoy/Apps
 yarn-completion.json,DoveBoy/Apps
 nhentai-cross.json,DoveBoy/Apps
 mpv.net.json,DoveBoy/Apps
-v2rayn-SelfContained_DoveBoy.json,DoveBoy/Apps
+v2rayn-SelfContained.json,DoveBoy/Apps
 pixiv-omina.json,DoveBoy/Apps
 dreamscene2.json,DoveBoy/Apps
 irfanview.json,DoveBoy/Apps
@@ -7983,7 +7983,7 @@ potplayer_DoveBoy.json,DoveBoy/Apps
 translumo.json,DoveBoy/Apps
 webtorrent.json,DoveBoy/Apps
 clash-rev-cgo.json,DoveBoy/Apps
-clash-verge-rev_DoveBoy.json,DoveBoy/Apps
+clash-verge-rev.json,DoveBoy/Apps
 b23downloader_DoveBoy.json,DoveBoy/Apps
 mkvtoolnix.json,DoveBoy/Apps
 glow_DoveBoy.json,DoveBoy/Apps
@@ -8070,7 +8070,7 @@ ntrace-core.json,DoveBoy/Apps
 binggpt-portable.json,DoveBoy/Apps
 aria2manager.json,DoveBoy/Apps
 flybird-downloader.json,DoveBoy/Apps
-animeko_DoveBoy.json,DoveBoy/Apps
+animeko.json,DoveBoy/Apps
 fancontrol-net4.8-portable.json,DoveBoy/Apps
 gallery-dl_DoveBoy.json,DoveBoy/Apps
 text-generation-webui.json,DoveBoy/Apps
@@ -8551,7 +8551,7 @@ defendnot.json,hu3rror/scoop-muggle
 bg3-mod-manager.json,hu3rror/scoop-muggle
 manhuagui-downloader.json,hu3rror/scoop-muggle
 neeview.json,hu3rror/scoop-muggle
-witsy.json,hu3rror/scoop-muggle
+witsy_hu3rror.json,hu3rror/scoop-muggle
 mosdns-cn_hu3rror.json,hu3rror/scoop-muggle
 nsudo.json,hu3rror/scoop-muggle
 wonderpen.json,hu3rror/scoop-muggle
@@ -8800,7 +8800,7 @@ cherry-studio_naderi.json,naderi/scoop-bucket
 cpdf_naderi.json,naderi/scoop-bucket
 audacity-ffmpeg-plugin.json,naderi/scoop-bucket
 mitec-network-scanner.json,naderi/scoop-bucket
-thunderbird-portable.json,naderi/scoop-bucket
+thunderbird-portable_naderi.json,naderi/scoop-bucket
 easytag_naderi.json,naderi/scoop-bucket
 directory-compare.json,naderi/scoop-bucket
 tad.json,naderi/scoop-bucket
@@ -9864,6 +9864,7 @@ ddu-lean.json,brian6932/dank-scoop
 rusty-twinkle-tray.json,brian6932/dank-scoop
 mpv-sub-select.json,brian6932/dank-scoop
 7zTC.json,brian6932/dank-scoop
+thumbfast-fork.json,brian6932/dank-scoop
 video2x.json,brian6932/dank-scoop
 wordle.json,brian6932/dank-scoop
 artroom-stable-diffusion.json,brian6932/dank-scoop
@@ -10082,7 +10083,7 @@ buildkit.json,batkiz/backit
 duf_batkiz.json,batkiz/backit
 gojq_batkiz.json,batkiz/backit
 mage_batkiz.json,batkiz/backit
-dnote_batkiz.json,batkiz/backit
+dnote.json,batkiz/backit
 irust.json,batkiz/backit
 Eros-FE.json,batkiz/backit
 uni.json,batkiz/backit
@@ -10637,7 +10638,7 @@ wuthering-waves-gacha-record.json,Small-Ku/turbo-bucket
 crapfixer_Small-Ku.json,Small-Ku/turbo-bucket
 jxl-winthumb.json,Small-Ku/turbo-bucket
 psst.json,Small-Ku/turbo-bucket
-starward_Small-Ku.json,Small-Ku/turbo-bucket
+starward.json,Small-Ku/turbo-bucket
 orbolay.json,Small-Ku/turbo-bucket
 kondo_Small-Ku.json,Small-Ku/turbo-bucket
 zluda5.json,Small-Ku/turbo-bucket
@@ -11223,7 +11224,7 @@ ImDiskToolkit.json,cc713/ownscoop
 Irfanview_cc713.json,cc713/ownscoop
 gitextensions.json,cc713/ownscoop
 gimagereader_cc713.json,cc713/ownscoop
-LunaTranslator_cc713.json,cc713/ownscoop
+LunaTranslator.json,cc713/ownscoop
 ghostscript_cc713.json,cc713/ownscoop
 firefox-zh-CN_cc713.json,cc713/ownscoop
 foobox-cn.json,cc713/ownscoop
