@@ -3580,7 +3580,7 @@ tcpconnectproblemview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 usbdeview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wincrashreport_ScoopInstaller.json,ScoopInstaller/Nirsoft
 myeventviewer_ScoopInstaller.json,ScoopInstaller/Nirsoft
-bulkfilechanger_ScoopInstaller.json,ScoopInstaller/Nirsoft
+bulkfilechanger.json,ScoopInstaller/Nirsoft
 shadowcopyview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 installedcodec_ScoopInstaller.json,ScoopInstaller/Nirsoft
 zipinst.json,ScoopInstaller/Nirsoft
@@ -5856,6 +5856,7 @@ FluentSearch.json,dodorz/scoop
 Umi-OCR1-DLC-Language.json,dodorz/scoop
 Chord.json,dodorz/scoop
 AnyTXTSearcher-np.json,dodorz/scoop
+todo.txt-cli.json,dodorz/scoop
 Wink.json,dodorz/scoop
 TablacusExplorer.json,dodorz/scoop
 WikidPad.json,dodorz/scoop
@@ -6379,7 +6380,7 @@ xenia_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 mednafen_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
-dolphin-dev.json,borger/scoop-emulators
+dolphin-dev_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 postcat.json,ViCrack/scoop-bucket
 maye_ViCrack.json,ViCrack/scoop-bucket
@@ -7185,7 +7186,7 @@ vuescan.json,xrgzs/sdoog
 ink-canvas-artistry.json,xrgzs/sdoog
 payload_extract.json,xrgzs/sdoog
 dev-sidecar_xrgzs.json,xrgzs/sdoog
-typora_xrgzs.json,xrgzs/sdoog
+typora.json,xrgzs/sdoog
 aida64extreme.json,xrgzs/sdoog
 youdaodict.json,xrgzs/sdoog
 wps64.json,xrgzs/sdoog
@@ -7331,6 +7332,7 @@ peerbanhelper.json,xrgzs/sdoog
 liteloaderqqnt.json,xrgzs/sdoog
 easinote5c.json,xrgzs/sdoog
 go-musicfox.json,xrgzs/sdoog
+naturalvoicesapiadapter.json,xrgzs/sdoog
 verysync.json,xrgzs/sdoog
 ndd.json,xrgzs/sdoog
 serverbox.json,xrgzs/sdoog
@@ -7592,7 +7594,7 @@ sharex.json,DoveBoy/Apps
 scoop-sd.json,DoveBoy/Apps
 sudo_DoveBoy.json,DoveBoy/Apps
 anto.json,DoveBoy/Apps
-openspeedy_DoveBoy.json,DoveBoy/Apps
+openspeedy.json,DoveBoy/Apps
 moekoemusic.json,DoveBoy/Apps
 transmission.json,DoveBoy/Apps
 qtunblockneteasemusic.json,DoveBoy/Apps
@@ -7911,7 +7913,7 @@ littletips.json,DoveBoy/Apps
 maple-file.json,DoveBoy/Apps
 imfile-portable.json,DoveBoy/Apps
 mediago_DoveBoy.json,DoveBoy/Apps
-dandanplay_DoveBoy.json,DoveBoy/Apps
+dandanplay.json,DoveBoy/Apps
 ipcalc_DoveBoy.json,DoveBoy/Apps
 everything-lite.json,DoveBoy/Apps
 xcmusic.json,DoveBoy/Apps
@@ -7983,7 +7985,7 @@ potplayer_DoveBoy.json,DoveBoy/Apps
 translumo.json,DoveBoy/Apps
 webtorrent.json,DoveBoy/Apps
 clash-rev-cgo.json,DoveBoy/Apps
-clash-verge-rev.json,DoveBoy/Apps
+clash-verge-rev_DoveBoy.json,DoveBoy/Apps
 b23downloader_DoveBoy.json,DoveBoy/Apps
 mkvtoolnix.json,DoveBoy/Apps
 glow_DoveBoy.json,DoveBoy/Apps
@@ -8024,7 +8026,7 @@ fnm_DoveBoy.json,DoveBoy/Apps
 cloudflared_DoveBoy.json,DoveBoy/Apps
 go-musicfox_DoveBoy.json,DoveBoy/Apps
 naiveproxy_DoveBoy.json,DoveBoy/Apps
-buzz_DoveBoy.json,DoveBoy/Apps
+buzz.json,DoveBoy/Apps
 syncclipboard-beta.json,DoveBoy/Apps
 backup-start-menu-layout.json,DoveBoy/Apps
 fix-print-spooler.json,DoveBoy/Apps
@@ -8070,11 +8072,10 @@ ntrace-core.json,DoveBoy/Apps
 binggpt-portable.json,DoveBoy/Apps
 aria2manager.json,DoveBoy/Apps
 flybird-downloader.json,DoveBoy/Apps
-animeko.json,DoveBoy/Apps
+animeko_DoveBoy.json,DoveBoy/Apps
 fancontrol-net4.8-portable.json,DoveBoy/Apps
 gallery-dl_DoveBoy.json,DoveBoy/Apps
 text-generation-webui.json,DoveBoy/Apps
-openai-translator.json,DoveBoy/Apps
 bililive-tools-portable.json,DoveBoy/Apps
 scoop-backup-knoxdev.json,DoveBoy/Apps
 ecopaste.json,DoveBoy/Apps
@@ -8094,6 +8095,7 @@ powertoys-np_DoveBoy.json,DoveBoy/Apps
 baidupanfilestransfers_DoveBoy.json,DoveBoy/Apps
 gitextensions.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
+nextai-translator.json,DoveBoy/Apps
 clashrauto_DoveBoy.json,DoveBoy/Apps
 n_m3u8dl-cli_DoveBoy.json,DoveBoy/Apps
 picpick_DoveBoy.json,DoveBoy/Apps
@@ -8287,7 +8289,7 @@ wnr_zhoujin7.json,zhoujin7/tomato
 Nacos.json,zhoujin7/tomato
 AdiIRC_zhoujin7.json,zhoujin7/tomato
 CCleaner540.json,zhoujin7/tomato
-Q-Dir_zhoujin7.json,zhoujin7/tomato
+Q-Dir.json,zhoujin7/tomato
 OracleJDK11.json,zhoujin7/tomato
 HBuilderX_zhoujin7.json,zhoujin7/tomato
 soar.json,zhoujin7/tomato
@@ -10825,7 +10827,7 @@ qqmusic_TianXiaTech.json,TianXiaTech/scoop-txt
 Noi_TianXiaTech.json,TianXiaTech/scoop-txt
 weixin_TianXiaTech.json,TianXiaTech/scoop-txt
 tencentVideo.json,TianXiaTech/scoop-txt
-openai-translator_TianXiaTech.json,TianXiaTech/scoop-txt
+openai-translator.json,TianXiaTech/scoop-txt
 kugou_TianXiaTech.json,TianXiaTech/scoop-txt
 clash-for-windows-cn.json,TianXiaTech/scoop-txt
 clash-for-windows_TianXiaTech.json,TianXiaTech/scoop-txt
@@ -10929,7 +10931,7 @@ filecentipede.json,Scoopforge/Extras-Plus
 dbgate.json,Scoopforge/Extras-Plus
 voov-meeting.json,Scoopforge/Extras-Plus
 mendeley-desktop.json,Scoopforge/Extras-Plus
-buzz.json,Scoopforge/Extras-Plus
+buzz_Scoopforge.json,Scoopforge/Extras-Plus
 navicat-premium-lite_Scoopforge.json,Scoopforge/Extras-Plus
 pdf4qt.json,Scoopforge/Extras-Plus
 flying-carpet.json,Scoopforge/Extras-Plus
@@ -13255,6 +13257,7 @@ Font-Awesome_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 r-devel_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 PowerShell_maboloshi.json,maboloshi/scoop-private
 notepad4_maboloshi.json,maboloshi/scoop-private
+ima-copilot_maboloshi.json,maboloshi/scoop-private
 microsoftedge-beta_maboloshi.json,maboloshi/scoop-private
 ffmpeg-N_m3u8DL-CLI.json,maboloshi/scoop-private
 sarasa-gothic-sc-excerpt.json,maboloshi/scoop-private
@@ -13264,6 +13267,7 @@ sublime-merge.json,maboloshi/scoop-private
 regworkshop.json,maboloshi/scoop-private
 clash-for-windows-cn_maboloshi.json,maboloshi/scoop-private
 miktex_maboloshi.json,maboloshi/scoop-private
+we-meet.json,maboloshi/scoop-private
 n-m3u8dl-cli-simpleg_list.json,maboloshi/scoop-private
 fonts-cesi.json,maboloshi/scoop-private
 CascadiaMono-NF-Mono_maboloshi.json,maboloshi/scoop-private
