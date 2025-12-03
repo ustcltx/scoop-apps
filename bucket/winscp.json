@@ -1,6 +1,6 @@
 {
     "version": "6.5.5",
-    "description": "Copy files between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "Copy files between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.",
     "homepage": "https://winscp.net",
     "license": "GPL-3.0-or-later",
     "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/6.5.5/WinSCP-6.5.5-Portable.zip",
@@ -13,15 +13,17 @@
         "    ) | Add-Content -Path \"$dir\\winscp.ini\" -Encoding ASCII -Force",
         "}"
     ],
-    "post_install": [
-        "Invoke-WebRequest -URI \"https://winscp.net/translations/dll/$version/chs.zip\" -OutFile \"$dir\\chs.zip\"",
-        "7z x \"$dir\\chs.zip\" -o\"$dir\\\""
-    ],
     "bin": [
         "WinSCP.exe",
         [
             "WinSCP.com",
             "WinSCP-cli"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "WinSCP.exe",
+            "WinSCP"
         ]
     ],
     "persist": "winscp.ini",
