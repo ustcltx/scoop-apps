@@ -1,10 +1,14 @@
 {
-    "version": "1.053",
-    "description": "A Chinese serif font derived from IPAmj Mincho. 一款衍生于「IPAmj明朝」的中文宋体字型。",
-    "homepage": "https://github.com/lxgw/LxgwNeoZhiSong",
-    "license": "IPA",
-    "url": "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v1.053/LXGWNeoZhiSong.ttf",
-    "hash": "806283555fef14df38814304ad10b9df32b5a2df58d22fa6638ada35c3a3a92c",
+    "version": "33.3.6",
+    "description": "Versatile typeface for code, from code.",
+    "license": "OFL-1.1",
+    "homepage": "https://github.com/be5invis/Iosevka",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v33.3.6/SuperTTC-Iosevka-33.3.6.zip",
+    "hash": "6f4e2e562463bf416dfd99f7490c61da6d40ac2c21d757300c8a4b6f2484c919",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/be5invis/Iosevka/releases/download/v$version/SuperTTC-Iosevka-$version.zip"
+    },
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -37,16 +41,16 @@
             "}",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
             "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
             "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-            "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
+            "    Copy-Item $_.FullName -Destination $fontInstallDir",
             "}"
         ]
     },
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
-        "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
+        "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
         "    Get-ChildItem $fontInstallDir -Filter $_.Name | ForEach-Object {",
         "        try {",
         "            Rename-Item $_.FullName $_.FullName -ErrorVariable LockError -ErrorAction Stop",
@@ -76,7 +80,7 @@
             "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
@@ -84,9 +88,5 @@
             "    Write-Host \"The '$app' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
             "}"
         ]
-    },
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v$version/LXGWNeoZhiSong.ttf"
     }
 }
