@@ -1,11 +1,23 @@
 {
-    "version": "8.1.5.102",
-    "description": "百度网盘PC版 ",
-    "homepage": "https://pan.baidu.com/download",
-    "license": "Proprietary",
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.1.5.102.exe#dl.7z",
-    "hash": "b0cde0b8b45663845bc880212c1c2f778a8a0d967d64d92a75039f6bd6a08084",
-    "bin": "BaiduNetdisk.exe",
+    "version": "8.1.5.103",
+    "description": "百度网盘 PC 版",
+    "homepage": "https://pan.baidu.com/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://pan.baidu.com/disk/duty/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.1.5.103.exe#/dl.7z",
+            "hash": "fab439864984604d7dfe5257bff3b7d1426b198faae746455b1c3f9a6e515ab7"
+        }
+    },
+    "shortcuts": [
+        [
+            "BaiduNetdisk.exe",
+            "百度网盘"
+        ]
+    ],
     "persist": "users",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
@@ -36,15 +48,10 @@
     ],
     "checkver": {
         "url": "https://pan.baidu.com/disk/cmsdata?do=client",
-        "regex": "BaiduNetdisk_(\\d+.\\d+.\\d+.\\d+).exe"
+        "jsonpath": "$.guanjia.url",
+        "regex": "BaiduNetdisk_([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#dl.7z"
-    },
-    "shortcuts": [
-        [
-            "BaiduNetdisk.exe",
-            "百度网盘"
-        ]
-    ]
+        "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#/dl.7z"
+    }
 }
