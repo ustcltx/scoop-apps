@@ -1,13 +1,13 @@
 {
-    "version": "21.0-161-ga0e6f0c53",
+    "version": "21.0-164-g1008b82f8",
     "description": "Cycle-accurate MSX emulator (Development builds)",
     "homepage": "https://openmsx.fixato.net/",
     "license": "GPL-2.0",
     "notes": "User data are stored in C:\\Users\\[USERNAME]\\Documents\\openMSX",
     "architecture": {
         "64bit": {
-            "url": "https://vampier.net/openMSX/openmsx-21.0-161-ga0e6f0c53-windows-vc-x64-bin.zip",
-            "hash": "76479bc77244b71316db6fa9321d9027ea220a051b291265f4ab9df01500bee2"
+            "url": "https://vampier.net/openMSX/openmsx-21.0-164-g1008b82f8-windows-vc-x64-bin.zip",
+            "hash": "14b967c07a4f97cdd1781825d444f36e8551f49cbfc7cad64cafa777918e0c73"
         }
     },
     "bin": [
