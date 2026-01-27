@@ -1,0 +1,32 @@
+{
+    "version": "2.6.0",
+    "description": "free and open-source video and audio player.",
+    "homepage": "https://github.com/clsid2/mpc-hc",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/clsid2/mpc-hc/blob/develop/COPYING.txt"
+    },
+    "url": "https://github.com/clsid2/mpc-hc/releases/download/2.6.0/MPC-HC.2.6.0.x64.zip",
+    "hash": "98a625d65212816fc97d75727739430389c7d1e0d904fd1ed8524b894712f90c",
+    "shortcuts": [
+        [
+            "mpc-hc64.exe",
+            "MPC-HC"
+        ]
+    ],
+    "pre_install": [
+        "$manifest.persist | ForEach-Object {",
+        "  $target_dir = Join-Path -Path $persist_dir -ChildPath $_",
+        "  if ((Get-Item -LiteralPath $target_dir -ErrorAction SilentlyContinue).PSIsContainer) { Remove-Item $target_dir }",
+        "  New-Item -Path (Join-Path -Path $dir -ChildPath $_) -ItemType File -ErrorAction SilentlyContinue | Out-Null",
+        "}"
+    ],
+    "persist": [
+        "mpc-hc64.ini",
+        "default.mpcpl"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x64.zip"
+    }
+}
