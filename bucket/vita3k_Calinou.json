@@ -1,0 +1,63 @@
+{
+    "version": "3915-9b6a008",
+    "description": "Experimental PlayStation Vita emulator",
+    "homepage": "https://vita3k.org",
+    "license": "GPL-2.0-only",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip",
+            "hash": "6f9b6ad29b4602014f4537ff72b515fd5869e9fbafdcc8e63fba3b4eba66994b"
+        },
+        "arm64": {
+            "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-arm64-latest.zip",
+            "hash": "88ca19ea135e35ea9d15c6e3c6b6e6b86565d3e5f3e4a93d690e3ba870d2c682"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config.yml\")) {",
+        "   New-Item \"$dir\\config.yml\" | Out-Null",
+        "}"
+    ],
+    "bin": "Vita3K.exe",
+    "shortcuts": [
+        [
+            "Vita3K.exe",
+            "Vita3K"
+        ]
+    ],
+    "persist": [
+        "cache",
+        "config.yml"
+    ],
+    "checkver": {
+        "script": [
+            "$url = 'https://github.com/Vita3K/Vita3K/releases/tag/continuous'",
+            "$build_regex = 'Vita3K Build: (\\d+)'",
+            "$commit_regex = 'Corresponding commit: ([a-f0-9]{7})'",
+            "",
+            "$cont = (Invoke-WebRequest $url -UseBasicParsing).Content",
+            "",
+            "if(!($cont -match $build_regex)) { error \"Could match '$build_regex' on '$url'\"; break }",
+            "$build_number = $matches[1]",
+            "if(!($cont -match $commit_regex)) { error \"Could match '$commit_regex' on '$url'\"; break }",
+            "$commit_sha = $matches[1]",
+            "",
+            "$script_ver = \"$build_number-$commit_sha\"",
+            "Write-Output $script_ver"
+        ],
+        "regex": "(\\d+-[a-f0-9]{7})"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-arm64-latest.zip"
+            }
+        }
+    }
+}
