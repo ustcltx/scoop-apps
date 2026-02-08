@@ -1,20 +1,21 @@
 {
-    "version": "1.232.0.1",
+    "version": "1.232.0.4",
     "description": "Cross-platform text and code editor",
     "homepage": "https://sourceforge.net/projects/cudatext",
     "license": "Mozilla Public License 2.0 (MPL 2.0)",
     "architecture": {
         "64bit": {
             "url": [
-                "https://udomain.dl.sourceforge.net/project/cudatext/release/1.232.0.1/cudatext-windows-amd64-1.232.0.1.zip",
+                "https://downloads.sourceforge.net/project/cudatext/release/1.232.0.4/cudatext-windows-amd64-1.232.0.4.zip",
                 "https://downloads.sourceforge.net/project/cudatext/addons/translations/translation.zh_CN.zip"
             ],
             "hash": [
-                "sha1:d4e3ced176f0910b6cbfd8b9e185dedb4ac2b628",
-                "39bc8ee31e53b990032938d898e91b63590c0ef831b9cd3b863ddd7d7ccdb0ba"
+                "sha1:652bed103dc3eb65049a07457b950dae3220254a",
+                "b2a78ad04ae5b6e762be51399c53e89ab88efe8021e98b774e66c7227152630a"
             ]
         }
     },
+    "extract_dir": "cudatext",
     "post_install": [
         "Move-Item \"$dir\\install.inf\" \"$persist_dir\\data\\lang\\install.inf\" -Force",
         "Move-Item \"$dir\\zh_CN.ini\" \"$persist_dir\\data\\lang\\zh_CN.ini\" -Force",
@@ -24,7 +25,11 @@
         "cudatext.exe",
         [
             "install_shell64.cmd",
-            "install_shell"
+            "cudatext_install_shell"
+        ],
+        [
+            "uninstall_shell64.cmd",
+            "cudatext_uninstall_shell"
         ]
     ],
     "shortcuts": [
@@ -45,7 +50,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://udomain.dl.sourceforge.net/project/cudatext/release/$version/cudatext-windows-amd64-$version.zip"
+                "url": "https://downloads.sourceforge.net/project/cudatext/release/$version/cudatext-windows-amd64-$version.zip"
             }
         }
     }
