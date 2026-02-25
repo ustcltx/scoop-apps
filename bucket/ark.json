@@ -1,10 +1,10 @@
 {
-    "version": "0.1.228",
+    "version": "0.1.231",
     "description": "Ark is an R kernel for Jupyter applications.",
     "homepage": "https://github.com/posit-dev/ark",
     "license": "MIT",
-    "url": "https://github.com/posit-dev/ark/releases/download/0.1.228/ark-0.1.228-windows-x64.zip",
-    "hash": "d1340c89985c76c399c02cfa00217b5d063eaf65ef6c3ec367d79022613363ca",
+    "url": "https://github.com/posit-dev/ark/releases/download/0.1.231/ark-0.1.231-windows-x64.zip",
+    "hash": "09df417a7a2cb9b42c10e98b085c50b7b5d636451fc6f68c09b2135719408661",
     "bin": "ark.exe",
     "checkver": "github",
     "autoupdate": {
