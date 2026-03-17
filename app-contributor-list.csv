@@ -1222,7 +1222,7 @@ kingdraw.json,Scoopforge/Extras-CN
 jianying-pro.json,Scoopforge/Extras-CN
 clash-mi.json,Scoopforge/Extras-CN
 malware-patch.json,Scoopforge/Extras-CN
-hbuilderx.json,Scoopforge/Extras-CN
+hbuilderx_Scoopforge.json,Scoopforge/Extras-CN
 wifi-crack-tool.json,Scoopforge/Extras-CN
 aboboo-full.json,Scoopforge/Extras-CN
 lx-music.json,Scoopforge/Extras-CN
@@ -1277,7 +1277,7 @@ pixpin_Scoopforge.json,Scoopforge/Extras-CN
 navicat-premium-lite-cn.json,Scoopforge/Extras-CN
 cajviewer_Scoopforge.json,Scoopforge/Extras-CN
 regester.json,Scoopforge/Extras-CN
-neteasemusic_Scoopforge.json,Scoopforge/Extras-CN
+neteasemusic.json,Scoopforge/Extras-CN
 julia-cn.json,Scoopforge/Extras-CN
 quicker.json,Scoopforge/Extras-CN
 utools_Scoopforge.json,Scoopforge/Extras-CN
@@ -2251,6 +2251,7 @@ linqpad5.json,ScoopInstaller/Versions
 v2rayn-pre.json,ScoopInstaller/Versions
 ruby32.json,ScoopInstaller/Versions
 cuda11.6.json,ScoopInstaller/Versions
+php85.json,ScoopInstaller/Versions
 lite-xl-addons.json,ScoopInstaller/Versions
 prusaslicer-pre.json,ScoopInstaller/Versions
 ruby25.json,ScoopInstaller/Versions
@@ -2443,6 +2444,7 @@ lapce-nightly.json,ScoopInstaller/Versions
 brave-beta.json,ScoopInstaller/Versions
 dotnet3-sdk.json,ScoopInstaller/Versions
 zed-opengl-nightly.json,ScoopInstaller/Versions
+zed-pre.json,ScoopInstaller/Versions
 audacity2.4.2.json,ScoopInstaller/Versions
 postgresql10.json,ScoopInstaller/Versions
 mysql56.json,ScoopInstaller/Versions
@@ -2563,6 +2565,7 @@ oracle-instant-client-odbc19.json,ScoopInstaller/Versions
 julia-lts.json,ScoopInstaller/Versions
 vivaldi-snapshot.json,ScoopInstaller/Versions
 docker-nightly.json,ScoopInstaller/Versions
+winbox3.json,ScoopInstaller/Versions
 goland-rc.json,ScoopInstaller/Versions
 spotdl-beta.json,ScoopInstaller/Versions
 swift-nightly.json,ScoopInstaller/Versions
@@ -6897,6 +6900,7 @@ poppler_akirco.json,akirco/aki-apps
 nircmd_akirco.json,akirco/aki-apps
 monolith_akirco.json,akirco/aki-apps
 far_akirco.json,akirco/aki-apps
+bilibili-livehime.json,akirco/aki-apps
 pnpm_akirco.json,akirco/aki-apps
 yuanbao.json,akirco/aki-apps
 rufus.json,akirco/aki-apps
@@ -7270,7 +7274,7 @@ heyboxchat.json,xrgzs/sdoog
 vmware10-np.json,xrgzs/sdoog
 uzvideo.json,xrgzs/sdoog
 wo-mic-np.json,xrgzs/sdoog
-notepad4.json,xrgzs/sdoog
+notepad4_xrgzs.json,xrgzs/sdoog
 mactype.json,xrgzs/sdoog
 innoextractor-ultra.json,xrgzs/sdoog
 sf-pro.json,xrgzs/sdoog
@@ -7299,7 +7303,7 @@ tsforge.json,xrgzs/sdoog
 bili.copilot.json,xrgzs/sdoog
 lmstudio_xrgzs.json,xrgzs/sdoog
 ink-canvas-artistry.json,xrgzs/sdoog
-neteasemusic.json,xrgzs/sdoog
+neteasemusic_xrgzs.json,xrgzs/sdoog
 ndd.json,xrgzs/sdoog
 nvidia-cpl.json,xrgzs/sdoog
 sofast.json,xrgzs/sdoog
@@ -7803,7 +7807,7 @@ clash-for-flutter.json,DoveBoy/Apps
 pytranscriber.json,DoveBoy/Apps
 host-editor.json,DoveBoy/Apps
 fluent-m3u8.json,DoveBoy/Apps
-chromium.json,DoveBoy/Apps
+chromium_DoveBoy.json,DoveBoy/Apps
 jarkviewer_DoveBoy.json,DoveBoy/Apps
 urlfinder_DoveBoy.json,DoveBoy/Apps
 webtorrent.json,DoveBoy/Apps
@@ -7845,7 +7849,7 @@ clashmi_DoveBoy.json,DoveBoy/Apps
 gnupg-np_DoveBoy.json,DoveBoy/Apps
 shadowsocks-rust_DoveBoy.json,DoveBoy/Apps
 syncthing-beta.json,DoveBoy/Apps
-note-gen_DoveBoy.json,DoveBoy/Apps
+note-gen.json,DoveBoy/Apps
 ttyd_DoveBoy.json,DoveBoy/Apps
 mediago-beta.json,DoveBoy/Apps
 mediago_DoveBoy.json,DoveBoy/Apps
@@ -8287,7 +8291,7 @@ godmode.json,DoveBoy/Apps
 mpv-git.json,DoveBoy/Apps
 jmcomic-downloader.json,DoveBoy/Apps
 regjump_DoveBoy.json,DoveBoy/Apps
-game-cheats-manager.json,DoveBoy/Apps
+game-cheats-manager_DoveBoy.json,DoveBoy/Apps
 wax.json,DoveBoy/Apps
 brackets.json,DoveBoy/Apps
 backup-start-menu-layout.json,DoveBoy/Apps
@@ -8367,7 +8371,7 @@ qtscrcpy_DoveBoy.json,DoveBoy/Apps
 lsx.json,DoveBoy/Apps
 clash-rev.json,DoveBoy/Apps
 wingetui_DoveBoy.json,DoveBoy/Apps
-sumatrapdf_DoveBoy.json,DoveBoy/Apps
+sumatrapdf.json,DoveBoy/Apps
 drive-icon-manager.json,DoveBoy/Apps
 shadowsocks-qtun-plugin.json,DoveBoy/Apps
 ttime_DoveBoy.json,DoveBoy/Apps
@@ -8433,7 +8437,7 @@ nvm_DoveBoy.json,DoveBoy/Apps
 snappy-driver-installer-origin.json,DoveBoy/Apps
 pikapika.json,DoveBoy/Apps
 forkgram.json,DoveBoy/Apps
-wechat.json,DoveBoy/Apps
+wechat_DoveBoy.json,DoveBoy/Apps
 github-store.json,DoveBoy/Apps
 mapdownload.json,DoveBoy/Apps
 diskgenius.json,DoveBoy/Apps
@@ -9118,7 +9122,7 @@ portable-registrator.json,naderi/scoop-bucket
 aegisub_naderi.json,naderi/scoop-bucket
 font-nika.json,naderi/scoop-bucket
 ganjoor.json,naderi/scoop-bucket
-1by1_naderi.json,naderi/scoop-bucket
+1by1.json,naderi/scoop-bucket
 xpdf-tools_naderi.json,naderi/scoop-bucket
 alt-app-switcher.json,naderi/scoop-bucket
 font-estedad.json,naderi/scoop-bucket
@@ -9174,7 +9178,7 @@ universal-viewer-pro.json,naderi/scoop-bucket
 restexplorer.json,naderi/scoop-bucket
 mdict_naderi.json,naderi/scoop-bucket
 explorerplusplus_naderi.json,naderi/scoop-bucket
-processko_naderi.json,naderi/scoop-bucket
+processko.json,naderi/scoop-bucket
 ucalendar-portable.json,naderi/scoop-bucket
 wox-portable.json,naderi/scoop-bucket
 resonic.json,naderi/scoop-bucket
@@ -9346,7 +9350,7 @@ wigui.json,naderi/scoop-bucket
 font-shahab.json,naderi/scoop-bucket
 halite_naderi.json,naderi/scoop-bucket
 cherry-studio-np.json,WinApps-share/WinApps-bucket
-everything-toolbar.json,WinApps-share/WinApps-bucket
+everything-toolbar_WinApps-share.json,WinApps-share/WinApps-bucket
 vlc-np.json,WinApps-share/WinApps-bucket
 zotero.json,WinApps-share/WinApps-bucket
 bbdown_WinApps-share.json,WinApps-share/WinApps-bucket
@@ -10235,6 +10239,7 @@ anew_aliesbelik.json,aliesbelik/poldi
 proxify_aliesbelik.json,aliesbelik/poldi
 ntttcp.json,aliesbelik/poldi
 ck-cli.json,aliesbelik/poldi
+biome_Small-Ku.json,Small-Ku/turbo-bucket
 windivert_Small-Ku.json,Small-Ku/turbo-bucket
 exiftool_Small-Ku.json,Small-Ku/turbo-bucket
 ruffle_Small-Ku.json,Small-Ku/turbo-bucket
@@ -10254,7 +10259,6 @@ antigravity-manager.json,Small-Ku/turbo-bucket
 dmm-fast-launcher.json,Small-Ku/turbo-bucket
 vencord-installer.json,Small-Ku/turbo-bucket
 untrunc.json,Small-Ku/turbo-bucket
-claude-code_Small-Ku.json,Small-Ku/turbo-bucket
 stuntman.json,Small-Ku/turbo-bucket
 compressonator.json,Small-Ku/turbo-bucket
 yap-nightly.json,Small-Ku/turbo-bucket
@@ -10269,8 +10273,10 @@ kondo_Small-Ku.json,Small-Ku/turbo-bucket
 mort.json,Small-Ku/turbo-bucket
 starward_Small-Ku.json,Small-Ku/turbo-bucket
 otfcc_Small-Ku.json,Small-Ku/turbo-bucket
+kilo-code.json,Small-Ku/turbo-bucket
 llama-cpp-rocm-gfx110x.json,Small-Ku/turbo-bucket
 ffmpeg-shared-svt-av1-hdr.json,Small-Ku/turbo-bucket
+qoder-cli.json,Small-Ku/turbo-bucket
 psst.json,Small-Ku/turbo-bucket
 dorion.json,Small-Ku/turbo-bucket
 wintun_Small-Ku.json,Small-Ku/turbo-bucket
@@ -12212,7 +12218,7 @@ icechat.json,littleli/Scoop-littleli
 tokio-console.json,littleli/Scoop-littleli
 immuadmin.json,littleli/Scoop-littleli
 immuclient.json,littleli/Scoop-littleli
-ladybugdb.json,littleli/Scoop-littleli
+ladybugdb_littleli.json,littleli/Scoop-littleli
 immudb.json,littleli/Scoop-littleli
 jedit_littleli.json,littleli/Scoop-littleli
 fresh-editor.json,littleli/Scoop-littleli
@@ -12948,7 +12954,7 @@ rtools_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 gitdelta.json,ShuguangSun/sgs-scoop-bucket
 public-sans.json,ShuguangSun/sgs-scoop-bucket
 python_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
-ark.json,ShuguangSun/sgs-scoop-bucket
+ark_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 r-4.1.2.json,ShuguangSun/sgs-scoop-bucket
 rtools42_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 FiraCode_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
