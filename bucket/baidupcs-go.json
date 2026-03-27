@@ -15,13 +15,13 @@
             "extract_dir": "BaiduPCS-Go-v4.0.1-windows-x86"
         }
     },
-    "bin": "BaiduPCS-Go.exe",
     "shortcuts": [
         [
             "BaiduPCS-Go.exe",
             "BaiduPCS-Go"
         ]
     ],
+    "bin": "BaiduPCS-Go.exe",
     "persist": [
         "config",
         "Downloads"
