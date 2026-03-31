@@ -1,11 +1,11 @@
 {
-    "version": "0e0b3714177fb4a7a09bdfd6b09e246f630271d4",
+    "version": "8aca0751d13db3574b48b99bd28f2f432ddd025c",
     "description": "ComfyUI-Manager. Is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.",
     "homepage": "https://github.com/ltdrdata/ComfyUI-Manager",
     "license": "GPL-3.0",
     "depends": "ComfyUI-Portable",
     "url": "https://github.com/ltdrdata/ComfyUI-Manager/archive/refs/heads/main.zip",
-    "hash": "647bef251107b400a7069896dd37ad230ac9174e7f14e837a1f1ef2e510607b7",
+    "hash": "5697a1782155c536771afe8db1378d390556f11c6a27697bf1eb4b05850b5685",
     "installer": {
         "script": [
             "$ComfyUIDir = \"$(appdir ComfyUI-Portable)\"",
