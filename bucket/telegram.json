@@ -1,16 +1,20 @@
 {
-    "version": "6.7.2",
+    "version": "6.7.4",
     "description": "A messaging app with a focus on speed and security",
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://updates.tdesktop.com/tx64/tportable-x64.6.7.2.zip",
-            "hash": "9f16145f7c937b1087352a08b12e803d69854c338563b175831eee2c2f6697b2"
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.7.4/tportable-x64.6.7.4.zip",
+            "hash": "8227e4ab6fc11b400ca4d5cb9ab1d395dfcc045d8b1eecb6c0f6210513e11759"
         },
         "32bit": {
-            "url": "https://updates.tdesktop.com/tsetup/tportable.6.7.2.zip",
-            "hash": "cabcc0d192d9cc148304641128d30427291242727949cb3636ac40779672f06c"
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.7.4/tportable.6.7.4.zip",
+            "hash": "bd6af07011faa554036a7df4ab6a7dc266be7a67714cfc3cffa767b4f880509c"
+        },
+        "arm64": {
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.7.4/tportable-arm64.6.7.4.zip",
+            "hash": "e99d319b40cd11156b7cec11a1352765a58a3e203a02f828c2a56e787cb08f28"
         }
     },
     "extract_dir": "Telegram",
@@ -25,16 +29,18 @@
     "persist": "tdata",
     "checkver": {
         "url": "https://api.github.com/repos/telegramdesktop/tdesktop/releases",
-        "jsonpath": "$..name",
-        "re": "tportable-x64.([\\d.]+).zip"
+        "regex": "(?sm)browser_download_url.*?releases/download/v([\\d.]+)/tportable-x64.([\\d.]+)\\.zip.*?tportable.([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://updates.tdesktop.com/tx64/tportable-x64.$version.zip"
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-x64.$version.zip"
             },
             "32bit": {
-                "url": "https://updates.tdesktop.com/tsetup/tportable.$version.zip"
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-arm64.$version.zip"
             }
         }
     }
