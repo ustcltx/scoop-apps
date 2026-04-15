@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pattazl/showKeyBoard/releases/download/1.59/ShowKeyBoard_Setup_v1.59_260414.node.exe#/dl.7z",
-            "hash": "8c0236155790223739b56cb53fd34bf5656a37d08e8f202c49278842e38fce8b"
+            "url": "https://github.com/pattazl/showKeyBoard/releases/download/1.59/ShowKeyBoard_Setup_v1.59_260415.node.exe#/dl.7z",
+            "hash": "49a2a1541bd60871b64a2fbf71df56fda7a8d15c56004057e66458a8be74be5e"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
