@@ -1,5 +1,5 @@
 {
-    "version": "1.9600.41",
+    "version": "2.0.50",
     "description": "The first agentic IDE, and then some. The Windsurf Editor is where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic.",
     "homepage": "https://codeium.com/windsurf",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/f90ca8311d630b9b77e7537222ecfce0a0ac990b/WindsurfSetup-x64-1.9600.41.exe",
-            "hash": "63b7a424cc2166d9013c767b69c2335cd8e25a360935b059e5425ce007b99261"
+            "url": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/c973f91b37b89375b5b009109c2fe84d185fab48/WindsurfSetup-x64-2.0.50.exe",
+            "hash": "9ea9d94ed7139093d5d78852460e71d55df7b050997d4469873e56f9f7bc8d50"
         }
     },
     "pre_install": [
