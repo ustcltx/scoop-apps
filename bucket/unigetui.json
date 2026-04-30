@@ -1,43 +1,32 @@
 {
-    "version": "2026.1.6",
-    "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
-    "homepage": "https://devolutions.net/unigetui/",
-    "license": {
-        "identifier": "MIT license",
-        "url": "https://github.com/Devolutions/UniGetUI#MIT-1-ov-file"
+    "version": "2026.1.7",
+    "description": "The main goal of UniGetUI is to create an intuitive GUI for the most common CLI package managers for Windows.",
+    "homepage": "https://github.com/marticliment/UniGetUI/",
+    "license": "LGPL-2.1-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.1.7/UniGetUI.arm64.zip",
+            "hash": "a2ca1911cf033f65ac52f09412ae84e7558b10f99dd0fb41a4b31cc5307ddfe4"
+        }
     },
-    "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.1.6/UniGetUI.Installer.exe",
-    "hash": "d3715908ec7c8f52ff800f6a605424cddb69acf5748adde306dbf7b85996a81c",
-    "innosetup": true,
-    "pre_install": [
-        "$Files = [string[]](",
-        "    [System.IO.Path]::Combine($dir,'ForceUniGetUIPortable')",
-        ")",
-        "$Files.ForEach{",
-        "    if (-not [System.IO.File]::Exists($_)) {",
-        "        $null = [System.IO.File]::Create($_)",
-        "    }",
-        "}"
-    ],
     "shortcuts": [
         [
             "UniGetUI.exe",
             "UniGetUI"
         ]
     ],
-    "persist": [
-        "ForceUniGetUIPortable",
-        "Settings"
-    ],
     "checkver": {
-        "url": "https://api.github.com/repos/Devolutions/UniGetUI/releases",
-        "regex": "/releases/tag/v([\\d.]+)"
+        "url": "https://github.com/Devolutions/UniGetUI/tags",
+        "regex": "tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Devolutions/UniGetUI/releases/download/v$version/UniGetUI.Installer.exe",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Devolutions/UniGetUI/releases/download/v$version/UniGetUI.arm64.zip"
+            }
+        },
         "hash": {
-            "url": "https://github.com/Devolutions/UniGetUI/releases/tag/$version",
-            "regex": "sha256: <code>$sha256</code>"
+            "url": "$baseurl/checksums.txt"
         }
     }
 }
