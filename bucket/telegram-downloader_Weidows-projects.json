@@ -18,11 +18,10 @@
         }
     },
     "bin": "tdl.exe",
-    "checkver": {
-        "github": "https://api.github.com/repos/iyear/tdl/releases",
-        "jp": "$[0].tag_name",
-        "regex": "(?:v|V)?([\\w.-]+)"
+    "env_set": {
+        "TDL_PROXY": "http://127.0.0.1:7890"
     },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {
