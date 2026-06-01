@@ -1,18 +1,25 @@
 {
+    "version": "6.3.6.1",
+    "description": "Idling Steam cards from multiple accounts simultaneously",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
-    "description": "Idling Steam cards from multiple accounts simultaneously.",
-    "version": "6.3.5.1",
     "license": "Apache-2.0",
+    "notes": [
+        "ArchiSteamFarm has a built-in updater, So you should disable it in configuration file,",
+        "Or run 'scoop hold archisteamfarm' to disable updates via Scoop.",
+        "ASF Config Generator:",
+        "https://justarchinet.github.io/ASF-WebConfigGenerator/"
+    ],
+    "suggest": {
+        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
+        "vcredist": "extras/vcredist2022"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.5.1/ASF-win-x64.zip",
-            "hash": "sha512:5ca2918ae1ec2e8a0af6ef6de87af451055ff27089743d4ba7fe09a77de6a96f566283571af1644cae23da826a1bbbf42e17e987adadbb202dd01056e0b94e03"
-        },
-        "arm64": {
-            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.5.1/ASF-win-arm64.zip",
-            "hash": "sha512:5fef81ac20bf6ed8c958e07432b9519bed60ebeaf58329f88835caed461c5e6af82913436d1d05480b13ca616fe002a605d5e7c112330c77e609bdb40b38c864"
+            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.6.1/ASF-win-x64.zip",
+            "hash": "0958208be9cd7d363a0af6149ecf2c95297ef8b5ccb3f30079b41843a1fa61f9"
         }
     },
+    "bin": "ArchiSteamFarm.exe",
     "shortcuts": [
         [
             "ArchiSteamFarm.exe",
@@ -28,14 +35,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-arm64.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/SHA512SUMS",
-            "regex": "$sha512\\s+$basename"
         }
     }
 }
