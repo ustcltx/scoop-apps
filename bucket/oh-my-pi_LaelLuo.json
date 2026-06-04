@@ -1,59 +1,34 @@
 {
-    "version": "0.3.18",
-    "description": "QoderWork - Beyond chat, get it done",
-    "homepage": "https://qoder.com/qoderwork",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "https://qoder.com/product-service"
-    },
+    "version": "15.9.1",
+    "description": "终端优先的 AI 编码代理，内置文件编辑、搜索、浏览器、子代理与会话能力",
+    "homepage": "https://omp.sh/",
+    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.qoder.com/qoder-work/releases/latest/QoderWork-Setup-User-x64.exe#/dl.7z",
-            "hash": "519eb1fe12c4baa278e160f0ba67f67acd5b407949a804f6791963b0ff4c4dc5",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\" -Recurse"
-            ]
+            "url": "https://github.com/can1357/oh-my-pi/releases/download/v15.9.1/omp-windows-x64.exe",
+            "hash": "af013c6ddbe2804ad706c18b78d1096d4f025899b69522a3477f10c47780a3f4"
         }
     },
-    "shortcuts": [
+    "bin": [
         [
-            "QoderWork.exe",
-            "QoderWork"
+            "omp-windows-x64.exe",
+            "omp"
         ]
     ],
-    "persist": "data",
+    "notes": [
+        "OMP 在 Windows 上完整使用通常需要 bash shell。建议安装 git 以提供 Git Bash。",
+        "如果未自动识别 bash，可在 ~/.omp/agent/settings.json 中设置 shellPath。"
+    ],
     "checkver": {
-        "script": [
-            "$downloadUrl = 'https://download.qoder.com/qoder-work/releases/latest/QoderWork-Setup-User-x64.exe'",
-            "$headers = @{ Range = 'bytes=0-3145727' }",
-            "$tmpFile = Join-Path $env:TEMP ('qoderwork_' + [guid]::NewGuid().ToString() + '.exe')",
-            "try {",
-            "    Invoke-WebRequest -Uri $downloadUrl -Headers $headers -UseBasicParsing -OutFile $tmpFile",
-            "    $version = (Get-Item $tmpFile).VersionInfo.FileVersion",
-            "    if (-not $version) { throw 'Unable to read QoderWork version from installer metadata.' }",
-            "    Write-Output ($downloadUrl + '|' + $version)",
-            "}",
-            "finally {",
-            "    if (Test-Path $tmpFile) { Remove-Item $tmpFile -Force -ErrorAction SilentlyContinue }",
-            "}"
-        ],
-        "regex": "^(?<url>.+)\\|(?<version>[\\d.]+)$"
+        "github": "https://github.com/can1357/oh-my-pi"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "$matchUrl#/dl.7z"
+                "url": "https://github.com/can1357/oh-my-pi/releases/download/v$version/omp-windows-x64.exe"
             }
         }
     },
-    "notes": [
-        "QoderWork 使用官方 latest 安装器直链。",
-        "实机首启已确认：~\\.qoderwork -> persist/qoderwork/home/config。",
-        "~\\.qoder 属于 qoder 侧目录，当前清单不做持久化。",
-        "checkver 通过请求安装器前 3 MiB 分片并读取文件版本号实现。",
-        "当前尚未观察到 %APPDATA%\\QoderWork 的首启写入；若后续发现额外数据目录，可再补充 portableProfile。"
-    ],
     "post_install": [
         "#region scoop-portable-profile",
         "# Portable profile helpers for Scoop manifests.",
@@ -192,7 +167,7 @@
         "}",
         "#endregion",
         "Invoke-PortableMappings -Action Install -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-        "    @{ Label = 'home-config'; Source = 'UserProfile/.qoderwork'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+        "    @{ Label = 'home-omp'; Source = 'UserProfile/.omp'; Target = \"$persist_dir/home/.omp\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
         ") -Log:$true"
     ],
     "pre_uninstall": [
@@ -333,7 +308,7 @@
         "}",
         "#endregion",
         "Invoke-PortableMappings -Action Uninstall -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-        "    @{ Label = 'home-config'; Source = 'UserProfile/.qoderwork'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+        "    @{ Label = 'home-omp'; Source = 'UserProfile/.omp'; Target = \"$persist_dir/home/.omp\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
         ") -Log:$true"
     ]
 }
