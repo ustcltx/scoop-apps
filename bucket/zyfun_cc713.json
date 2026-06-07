@@ -48,9 +48,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://api.github.com/repos/Hiram-Wong/ZyPlayer/releases",
-        "jp": "$[0].tag_name",
-        "regex": "v([\\d.]+)"
+        "url": "https://api.github.com/repos/Hiram-Wong/ZyPlayer/releases",
+        "regex": "/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
