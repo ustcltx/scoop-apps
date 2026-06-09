@@ -1,16 +1,20 @@
 {
-    "version": "6.8.2",
+    "version": "6.9.0",
     "description": "A messaging app with a focus on speed and security",
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://updates.tdesktop.com/tx64/tportable-x64.6.8.2.zip",
-            "hash": "bb2603b3e92c3bdaf3a3388b3f643f9e19b548bcd52d11a978091ea283c566ff"
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.9.0/tportable-x64.6.9.0.zip",
+            "hash": "72d2884036f0979acd6378357c61a4b39217e95c49de6a42feadba055dca680b"
         },
         "32bit": {
-            "url": "https://updates.tdesktop.com/tsetup/tportable.6.8.2.zip",
-            "hash": "471be6e3848bed179d6f52736b16153dd5b3fdd19f08219450a03d2272c1f42f"
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.9.0/tportable.6.9.0.zip",
+            "hash": "bf89023767035c1941a8c0bd0825aafb3f379eb7a5fdcccc630c0f699ff20b56"
+        },
+        "arm64": {
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.9.0/tportable-arm64.6.9.0.zip",
+            "hash": "b535a54658b5a7388984c371e8141f79fa444bad729bf5a9fef99fe716482e06"
         }
     },
     "extract_dir": "Telegram",
@@ -24,17 +28,32 @@
     ],
     "persist": "tdata",
     "checkver": {
-        "url": "https://api.github.com/repos/telegramdesktop/tdesktop/releases",
-        "jsonpath": "$..name",
-        "re": "tportable-x64.([\\d.]+).zip"
+        "script": [
+            "$url = 'https://api.github.com/repos/telegramdesktop/tdesktop/releases'",
+            "$cont = (Invoke-WebRequest $url).Content",
+            "$r = 'tportable-x64.([\\d.]+)\\.' ",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$version = $matches[1]",
+            "$r = 'tportable.([\\d.]+)\\.' ",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$ia32 = $matches[1]",
+            "$r = 'tportable-arm64.([\\d.]+)\\.' ",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$arm64 = $matches[1]",
+            "Write-Output $version $ia32 $arm64"
+        ],
+        "regex": "([\\d.]+) (?<ia32>[\\d.]+) (?<arm64>[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://updates.tdesktop.com/tx64/tportable-x64.$version.zip"
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-x64.$version.zip"
             },
             "32bit": {
-                "url": "https://updates.tdesktop.com/tsetup/tportable.$version.zip"
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$matchIa32/tportable.$matchIa32.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$matchArm64/tportable-arm64.$matchArm64.zip"
             }
         }
     }
