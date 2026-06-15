@@ -1,11 +1,11 @@
 {
-    "version": "1.17.7",
+    "version": "1.17.9",
     "description": "Sandboxie community maintained version",
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "license": "GNU General Public License v3.0",
     "notes": "The shortcuts are located in \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Sandboxie-Plus\\\"",
-    "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.17.7/Sandboxie-Plus-x64-v1.17.7.exe",
-    "hash": "14f2066a62c3f2952a3cdceffa8446e8c20d1f425d53ab86a19e52c99e282ed0",
+    "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.17.9/Sandboxie-Plus-x64-v1.17.9.exe",
+    "hash": "b2a786e62dcf67d8e67ce1f673b72ea59d0a9252611eaddf4dc2512afab6e6d3",
     "pre_install": [
         "# Copy or create files for persisting",
         "if (!(Test-Path \"$persist_dir\\config.json\")) {",
