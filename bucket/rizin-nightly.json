@@ -1,10 +1,10 @@
 {
     "homepage": "https://rizin.re/",
     "description": "UNIX-like reverse engineering framework and command-line toolset.",
-    "version": "2026-06-19-git.28791-3ad6e786",
+    "version": "2026-06-20-git.28823-c351d5f3",
     "license": "LGPL-3.0-only",
-    "hash": "cd463143fa7389a1401807f9be473f4c7aa9937a4f2c8a96f32cabb93e951bfe",
-    "url": "https://ci.appveyor.com/api/buildjobs/wmc6j91vl78hk05j/artifacts/rizin-vs2017_64-v0.9.0.zip",
+    "hash": "6e25bc1f47f9e4d4ca154a56eea9a01a6af6e7c098f17ac3d1c4d1dfaf7159f9",
+    "url": "https://ci.appveyor.com/api/buildjobs/s7318q593yji9p3h/artifacts/rizin-vs2017_64-v0.9.0.zip",
     "extract_dir": "rizin-vs2017_64-v0.9.0",
     "bin": [
         [
