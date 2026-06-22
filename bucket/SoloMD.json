@@ -1,12 +1,12 @@
 {
-    "version": "4.7.2",
+    "version": "4.7.4",
     "description": "SoloMD — a lightweight, cross-platform Markdown + plain text editor. One file. One window. Just write.",
     "homepage": "https://solomd.app/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhitongblog/solomd/releases/download/v4.7.2/SoloMD_4.7.2_x64_en-US.msi",
-            "hash": "9f947115c17a59c25042fde456c88221743b866808275fad2ba958b1780ad503"
+            "url": "https://github.com/zhitongblog/solomd/releases/download/v4.7.4/SoloMD_4.7.4_x64_en-US.msi",
+            "hash": "bacd1d45e30aee1cc6513bb352ff4d74ae5ff4f66ed05387a7d1ecae4d1ccc79"
         }
     },
     "extract_dir": "PFiles\\SoloMD",
