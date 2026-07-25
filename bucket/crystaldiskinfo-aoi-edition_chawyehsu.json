@@ -3,30 +3,30 @@
     "description": "CrystalDiskInfo is a HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD.",
     "version": "9.9.1",
     "license": "MIT",
-    "url": "https://downloads.sourceforge.net/projects/crystaldiskinfo/9.9.1/CrystalDiskInfo9_9_1Shizuku.zip",
-    "hash": "sha1:67200b7a8a344f58d3711e164c842a331b07dd90",
+    "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.1/CrystalDiskInfo9_9_1Aoi.zip",
+    "hash": "sha1:ddd6f7414c02b2b0ac1a65b1f8f3b23629880331",
     "architecture": {
         "64bit": {
             "shortcuts": [
                 [
-                    "DiskInfo64S.exe",
-                    "CrystalDiskInfo Shizuku Edition"
+                    "DiskInfo64A.exe",
+                    "CrystalDiskInfo Aoi Edition"
                 ]
             ]
         },
         "32bit": {
             "shortcuts": [
                 [
-                    "DiskInfo32S.exe",
-                    "CrystalDiskInfo Shizuku Edition"
+                    "DiskInfo32A.exe",
+                    "CrystalDiskInfo Aoi Edition"
                 ]
             ]
         },
         "arm64": {
             "shortcuts": [
                 [
-                    "DiskInfoA64S.exe",
-                    "CrystalDiskInfo Shizuku Edition"
+                    "DiskInfoA64A.exe",
+                    "CrystalDiskInfo Aoi Edition"
                 ]
             ]
         }
@@ -41,10 +41,10 @@
         "Smart"
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/crystaldiskinfo/files/",
-        "regex": "href=\"/projects/crystaldiskinfo/files/latest/download\" title=\"/([\\w.]+)"
+        "sourceforge": "crystaldiskinfo",
+        "regex": "([\\d.a-zA-Z]+)/CrystalDiskInfo.*.zip"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/projects/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionShizuku.zip"
+        "url": "https://sourceforge.net/projects/crystaldiskinfo/files/$version/CrystalDiskInfo$underscoreVersionAoi.zip"
     }
 }
