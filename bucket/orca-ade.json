@@ -1,12 +1,12 @@
 {
-    "version": "1.4.168",
+    "version": "1.4.175",
     "description": "Agent development environment for working with a fleet of parallel AI coding agents",
     "homepage": "https://onOrca.dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stablyai/orca/releases/download/v1.4.168/orca-windows-setup.exe#/dl.7z",
-            "hash": "1c6a88dcae55248beb5ce87797a94187d39e14b98dd80a74e9cb729f01f964eb"
+            "url": "https://github.com/stablyai/orca/releases/download/v1.4.175/orca-windows-setup.exe#/dl.7z",
+            "hash": "8f68200147f9a8babdaa0a4aa769d6f436df2ad022f2b4c940ab29984394c071"
         }
     },
     "pre_install": [

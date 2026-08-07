@@ -1,12 +1,12 @@
 {
-    "version": "1.1.15",
+    "version": "1.1.17",
     "description": "Qoder command-line interface",
     "homepage": "https://qoder.com/",
     "license": "proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://qoder-ide.oss-accelerate.aliyuncs.com/qodercli/releases/1.1.15/qodercli-windows-x64.zip",
-            "hash": "0b97dd4e79cfecbf548db90570d1f569c7430a43bb3b0b6a4dd88ea2181555fb"
+            "url": "https://qoder-ide.oss-accelerate.aliyuncs.com/qodercli/releases/1.1.17/qodercli-windows-x64.zip",
+            "hash": "dc32f90579a92d6bded4c576172fc6a0be39858e2a92e672932407d8d61e5d8e"
         }
     },
     "bin": "qodercli.exe",

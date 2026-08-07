@@ -1,14 +1,14 @@
 {
-    "version": "48",
+    "version": ".",
     "description": "Sordum's Qemu Simple Boot. Quickly test images in Qemu.",
     "homepage": "https://www.sordum.org/qemu-simple-boot",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.sordum.org/eula/"
     },
-    "url": "https://www.sordum.org/files/qemu-simple-boot/qsiboot_v48.zip",
-    "hash": "a321578fec772530b435d408c8e57bfe79efc5b3d01e4c786a6e2e5285f3a333",
-    "extract_dir": "qsib_v48",
+    "url": "https://www.sordum.org/files/qemu-simple-boot/qsiboot_v..zip",
+    "hash": "d591a6fc54b36b4d6c2e0a2dccdb5ccdd614883cd444799d28f14bafa683df8d",
+    "extract_dir": "qsib_v.",
     "shortcuts": [
         [
             "Qsib.exe",
