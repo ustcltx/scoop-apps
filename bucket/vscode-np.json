@@ -1,5 +1,5 @@
 {
-    "version": "1.132.0",
+    "version": "1.133.0",
     "description": "Lightweight but powerful source code editor",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/df53daabb18cd157bdb08c7f01c34df936cf12f4/VSCodeSetup-x64-1.132.0.exe#/setup.exe",
-            "hash": "ebf5061d812e34627f89394979c5a1b39229603a10c5b8733af1ce452e940e92"
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/a5b500951314efd502d07465bd138dfbd714a960/VSCodeSetup-x64-1.133.0.exe#/setup.exe",
+            "hash": "de949a8904509a7661b93ea3b25ea312749b869c242938ad082ddc72d6741c3d"
         },
         "arm64": {
-            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/df53daabb18cd157bdb08c7f01c34df936cf12f4/VSCodeSetup-arm64-1.132.0.exe#/setup.exe",
-            "hash": "1fd08c679458325fdb88f7380df8108d4f1551482d560487ca4432099b30f15c"
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/a5b500951314efd502d07465bd138dfbd714a960/VSCodeSetup-arm64-1.133.0.exe#/setup.exe",
+            "hash": "6684c3037810f525589f6e5513048ae4d4b867088b23960ee987477e0d4d1706"
         }
     },
     "env_add_path": "bin",

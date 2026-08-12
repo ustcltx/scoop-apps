@@ -1,5 +1,5 @@
 {
-    "version": "2026.41.6",
+    "version": "2026.41.8",
     "description": "VRCNext is a VRChat Launcher and Management system that aims for simplicity and performance",
     "homepage": "https://github.com/shinyflvre/VRCNext",
     "license": "https://github.com/shinyflvre/VRCNext/blob/main/LICENSE",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shinyflvre/VRCNext/releases/download/v2026.41.6/VRCNext-win-Portable.zip",
-            "hash": "c6cd55ac8f211ba7ea2a8cfebb0222cb5074178edb44280dfeee11b0eef36f1d"
+            "url": "https://github.com/shinyflvre/VRCNext/releases/download/v2026.41.8/VRCNext-win-Portable.zip",
+            "hash": "719c86765b43f3722cf9278b5822bbf7888d4cbf987199f43469aa855af842c0"
         }
     },
     "extract_dir": "current",
