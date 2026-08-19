@@ -1,17 +1,17 @@
 {
-    "version": "3.5.0",
+    "version": "3.6.1",
     "description": "An AI-powered IDE",
     "homepage": "https://comate.baidu.com/zh/download/ai-ide",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://comate-ide.cdn.bcebos.com/download/stable/0bb86c0a08b8e995245f1f462eb3b383434e61fa-265424640/Comate-win32-x64.zip",
-            "hash": "81c1da1a4b841d1dddb379c735457854981fe96eeb55fbb065a43baa27f3fa74",
+            "url": "https://comate-ide.cdn.bcebos.com/download/stable/ed25e6a369bcb7d28865291e43d9d49781559deb-266618147/Comate-win32-x64.zip",
+            "hash": "080f169c7bd6d5e012ffd48abca6bd7492d9348ab7aec1e4951ac6974f61a9fa",
             "extract_dir": "VSCode-win32-x64"
         },
         "arm64": {
-            "url": "https://comate-ide.cdn.bcebos.com/download/stable/0bb86c0a08b8e995245f1f462eb3b383434e61fa-265424640/Comate-win32-arm64.zip",
-            "hash": "ad44116b3bf584ea5f709843105ff0e60a77bf541715cccf95b7ca28c84af9a7",
+            "url": "https://comate-ide.cdn.bcebos.com/download/stable/ed25e6a369bcb7d28865291e43d9d49781559deb-266618147/Comate-win32-arm64.zip",
+            "hash": "7408bd9ce7c5b91a831c2c75a27179c12fe4e7e2e146cb6cb373420b9b268df1",
             "extract_dir": "VSCode-win32-arm64"
         }
     },
