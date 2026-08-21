@@ -1,18 +1,18 @@
 {
-    "version": "0.1.9",
+    "version": "0.1.12",
     "description": "A native app for all your coding agents.",
     "homepage": "https://github.com/egoist/waku",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/waku/releases/download/v0.1.9/waku-0.1.9-x86_64-pc-windows-msvc.zip",
-            "hash": "8b4a346dc399682055efa3004b84059db0feb9c1f9802b1d267d549a75e5c26e",
-            "extract_dir": "waku-0.1.9-x86_64-pc-windows-msvc"
+            "url": "https://github.com/egoist/waku/releases/download/v0.1.12/waku-0.1.12-x86_64-pc-windows-msvc.zip",
+            "hash": "605068b33a89b68dc4302362c414e7d9669faf6fe61fc947de2cc253122be472",
+            "extract_dir": "waku-0.1.12-x86_64-pc-windows-msvc"
         },
         "arm64": {
-            "url": "https://github.com/egoist/waku/releases/download/v0.1.9/waku-0.1.9-aarch64-pc-windows-msvc.zip",
-            "hash": "189d2dff858ff2ef55436516da34d28ee66ec72731f181f839a18f664ec4ea18",
-            "extract_dir": "waku-0.1.9-aarch64-pc-windows-msvc"
+            "url": "https://github.com/egoist/waku/releases/download/v0.1.12/waku-0.1.12-aarch64-pc-windows-msvc.zip",
+            "hash": "4fd29245fc73035781002383c9a7294a35f98900da4e4de3c0087f3ce65c73bd",
+            "extract_dir": "waku-0.1.12-aarch64-pc-windows-msvc"
         }
     },
     "bin": "waku.exe",
