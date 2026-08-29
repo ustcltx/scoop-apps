@@ -1,6 +1,6 @@
 {
-    "version": "2.6.3",
-    "description": "A feature rich FOSS PlayStation 2 emulator",
+    "version": "2.8.0",
+    "description": "Sony PlayStation 2 emulator",
     "homepage": "https://pcsx2.net/",
     "license": {
         "identifier": "GPL-3.0",
@@ -14,8 +14,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.6.3/pcsx2-v2.6.3-windows-x64-Qt.7z",
-    "hash": "963ae6c82bc858a09115c2455247feb76b453862c04f60d41ef80739d802ae60",
+    "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.8.0/pcsx2-v2.8.0-windows-x64-Qt.7z",
+    "hash": "8a475119fc5950439be64e7b4d0a86b71c25aa39e19346fca7b889c6dbb6d839",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -30,7 +30,7 @@
     "shortcuts": [
         [
             "pcsx2-qt.exe",
-            "PCSX2"
+            "Sony PlayStation 2 [ps2][pcsx2]"
         ]
     ],
     "persist": [
@@ -43,8 +43,7 @@
         "memcards",
         "shaders\\GSdx_FX_Settings.ini",
         "snaps",
-        "sstates",
-        "textures"
+        "sstates"
     ],
     "checkver": {
         "github": "https://github.com/PCSX2/pcsx2/"
