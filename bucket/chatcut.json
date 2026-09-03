@@ -1,5 +1,5 @@
 {
-    "version": "0.3.5",
+    "version": "0.3.8",
     "description": "ChatCut desktop - AI video editor that edits with prompts (bundled agent runtime, ~600MB download)",
     "homepage": "https://chatcut.io",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://d2k0dx41dpnoir.cloudfront.net/ChatCut%20Setup%200.3.5.exe#/dl.7z",
-            "hash": "sha512:f7d209f5357d88ab352d87b0398222db9b68eff586b57f5204ee9567fc12966848d316dcad1564a02e4d0f8bae9a86f02298832084f1a37331a5240f20627f32",
+            "url": "https://d2k0dx41dpnoir.cloudfront.net/ChatCut%20Setup%200.3.8.exe#/dl.7z",
+            "hash": "sha512:5670fe2b7489090eeb45ab24f7fb570351197323ea8f8bfa2f7494880ad1b3736a3182790bbdb82ffa1103268243c537de49cc4ae44cac016754c1b7bd19a1ba",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
