@@ -9,13 +9,9 @@
         "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
         "    @(",
         "        '[Configuration\\Interface]'",
-        "        'RandomSeedFile=.\\winscp.rnd'",
+        "        \"RandomSeedFile=$persist_dir\\winscp.rnd\"",
         "    ) | Add-Content -Path \"$dir\\winscp.ini\" -Encoding ASCII -Force",
         "}"
-    ],
-    "post_install": [
-        "Invoke-WebRequest -URI \"https://winscp.net/translations/dll/$version/chs.zip\" -OutFile \"$dir\\chs.zip\"",
-        "7z x \"$dir\\chs.zip\" -o\"$dir\\\""
     ],
     "bin": [
         "WinSCP.exe",
@@ -24,7 +20,16 @@
             "WinSCP-cli"
         ]
     ],
-    "persist": "winscp.ini",
+    "shortcuts": [
+        [
+            "WinSCP.exe",
+            "WinSCP"
+        ]
+    ],
+    "persist": [
+        "winscp.ini",
+        "Translations"
+    ],
     "checkver": {
         "url": "https://winscp.net/eng/downloads.php",
         "regex": "WinSCP-([\\d.]+)-Portable\\.zip"
