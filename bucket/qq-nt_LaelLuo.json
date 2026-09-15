@@ -1,5 +1,5 @@
 {
-    "version": "9.9.33.260813",
+    "version": "9.9.35.260902",
     "description": "An instant messaging software service developed by Tencent",
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "license": {
@@ -8,16 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x64_01.exe#/dl.7z",
-            "hash": "b25c0d3ce9df764074a9118d0ded927e1b2d7ebf60e306112e8df18a040ec492"
-        },
-        "32bit": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x86_01.exe#/dl.7z",
-            "hash": "fd7214c7a70a6e0eb46781e0d653d5c56b0d496d2f710b4d5c07939c40b73be6"
-        },
-        "arm64": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_arm64_01.exe#/dl.7z",
-            "hash": "ee77d6d8bdfc4f4c9bf9c6d2521322ff410d2614a7e8ba005aaa9703fc9ef174"
+            "url": "https://github.com/LaelLuo/scoop/releases/download/qqnt-9.9.35.260902/qqnt-9.9.35.260902-x64.exe#/dl.7z",
+            "hash": "9f4b408e7e33f6d74ddf2b117d6953367a42dbb41af6d82150482d3ffebf05f7"
         }
     },
     "extract_dir": "Files",
@@ -80,25 +72,23 @@
             "$response = Invoke-WebRequest -Uri $url -UseBasicParsing -Headers $headers",
             "Write-Output $response.Content"
         ],
-        "regex": "(?<url>https://qqdl\\.gtimg\\.cn/qqfile/QQNT(?:V2)?/([\\d\\.]+)/release/([0-9a-f]+)/QQ_([\\d\\.]+)_([\\d]+)_x86_01\\.exe)",
-        "replace": "${3}.${4}"
+        "regex": "QQNT(?:V2)?/([\\d\\.]+)/release/[0-9a-f]+/QQ_([\\d\\.]+)_([\\d]+)_x86_01\\.exe",
+        "replace": "${2}.${3}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$match1/release/$match2/QQ_$match3_$match4_x64_01.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$match1/release/$match2/QQ_$match3_$match4_x86_01.exe#/dl.7z"
-            },
-            "arm64": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$match1/release/$match2/QQ_$match3_$match4_arm64_01.exe#/dl.7z"
+                "url": "https://github.com/LaelLuo/scoop/releases/download/qqnt-$version/qqnt-$version-x64.exe#/dl.7z",
+                "hash": {
+                    "mode": "download"
+                }
             }
         }
     },
     "notes": [
-        "2026-09-15 实测：腾讯新分发路径 qqfile/QQNTV2（9.9.35 起独占）对 curl/WinHTTP/aria2 等脚本下载器一律 403（Server: Lego Server），仅老路径 qqfile/QQNT 开放，因此 autoupdate 到 9.9.35+ 会因 hash 下载失败而报错。",
-        "当前版本 9.9.33 停在老路径最后一个可下载版本，url 与 sha256 取自 winget-pkgs 仓库 Tencent.QQ.NT 9.9.33.52230 清单（老路径 200 实测可下）。",
-        "解除办法：等腾讯放开 QQNTV2 匿名下载，或手动浏览器下载新版安装包算 hash 后手改清单。"
+        "**GitHub 镜像分发（2026-09-15 终态架构）**：腾讯 QQNTV2 分发需动态签名（裸链接对一切脚本下载器 403，签名时效 <1h，由 im.qq.com 免登录 GetSign 接口签发），清单无法直连腾讯发布。故安装包转存为本仓库 Release asset（tag=qqnt-<版本>），清单 url 指向 GitHub——任意客户端无条件可下，签名时效与老包清理问题一并消除。",
+        "版本跟进由 `.github/workflows/qqnt-mirror.yml` 全自动完成（每 6 小时检测腾讯新版 → scripts/qqnt-mirror.ps1 签名下载 → 发 Release → 更新本清单三件套 → 提交）。autoupdate 模板指向 GitHub asset 仅作已有版本的重建通道；新版本必须等 workflow 先发 Release。单 x64 架构（x86/arm64 无镜像源）。",
+        "签名机制细节与备用手动工具见 scripts/qqnt-fetch.ps1 与 scripts/qqnt-mirror.ps1；QQ 客户端自研热更新（QQEX 启动器式版本目录）仍是并行可用的替代通道。",
+        "沿革：2026-09-15 先后经历钉 9.9.33（winget 哈希）、误推签名 URL 回退、checkver 集成 GetSign 的 -u 一键流，最终因「老路径包将被清理、门面无版可钉」切到本镜像架构。"
     ]
 }
