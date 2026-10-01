@@ -1,16 +1,16 @@
 {
-    "version": "0.159.2",
+    "version": "0.160.0",
     "description": "OpenAI Codex for Rust - AI-powered code completion and generation tool",
     "homepage": "https://github.com/openai/codex",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.159.2/codex-package-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "a7ab591043d99e8a88d0c2bebf15f810b15599a71148c4af944a755af3c71eef"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-package-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "7f7fbbc8d6fd4ea2f3b13855ef47ea59663ba7e61fb2e9821df37163b8030891"
         },
         "arm64": {
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.159.2/codex-package-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "f017342f77ec57dffff57e59723738ac9f228ddab4f656c2bdfc65f1d9b87da3"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-package-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "0bb6ecbad9c2f5d352ad539bbe43d627b32453bad1d61e5315ec9868f78e1b3c"
         }
     },
     "bin": [

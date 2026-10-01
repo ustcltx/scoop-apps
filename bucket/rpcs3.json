@@ -1,6 +1,6 @@
 {
-    "version": "0.0.42-20131",
-    "description": "Open-source Sony PlayStation 3 emulator",
+    "version": "0.0.43-20152",
+    "description": "Sony PlayStation 3 emulator",
     "homepage": "https://rpcs3.net/",
     "license": {
         "identifier": "GPL-2.0",
@@ -17,12 +17,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-1331e307ce8c17b4bf262b37eab06609123a30a1/rpcs3-v0.0.42-20131-1331e307_win64_msvc.7z",
-            "hash": "b8b893b149a6e521b2153e1751ad9eac632c8cb80ccf100827c4a1327dce2700"
+            "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-17320679e329908af40b76a8a48c43025d4acc9a/rpcs3-v0.0.43-20152-17320679_win64_msvc.7z",
+            "hash": "ca7804f193335d862e318ff7158996c314ce2e2fc7febdb840a1cfa80394bd7e"
         },
         "arm64": {
-            "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64/releases/download/build-1331e307ce8c17b4bf262b37eab06609123a30a1/rpcs3-v0.0.42-20131-1331e307_win64_aarch64_clang.7z",
-            "hash": "58bcf663c319fcc8d4c9b1a524901edd23b9cb42dba3685deada74b7c4eeb2e4"
+            "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64/releases/download/build-17320679e329908af40b76a8a48c43025d4acc9a/rpcs3-v0.0.43-20152-17320679_win64_aarch64_clang.7z",
+            "hash": "5cdf8326a26045f5575fd770af70458db4a4fa4f41f7928e23e4c233df474a19"
         }
     },
     "pre_install": [
@@ -37,7 +37,7 @@
     "shortcuts": [
         [
             "rpcs3.exe",
-            "RPCS3"
+            "Sony PlayStation 3 [ps3][rpcs3]"
         ]
     ],
     "persist": [
@@ -59,7 +59,7 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/RPCS3/rpcs3-binaries-win/releases/latest",
-        "jsonpath": "$.assets[?(@.name =~ /rpcs3-v[a-f\\d.-]+_win64_msvc\\.7z/)].browser_download_url",
+        "jsonpath": "$.assets[?(@.name =~ /rpcs3-v[a-f\\d.-]+_win64_msvc\\.7z$/)].browser_download_url",
         "regex": "releases/download/(?<build>build-[a-f\\d]+)/rpcs3-v(?<version>[\\d.-]+)-(?<commit>[a-f\\d]+)_win64_msvc\\.7z"
     },
     "autoupdate": {
