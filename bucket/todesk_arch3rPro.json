@@ -1,0 +1,31 @@
+{
+    "homepage": "https://www.todesk.com/",
+    "description": "ToDesk Windows客户端. (Scoop bucket by arch3rpro)",
+    "version": "5.1.2.0",
+    "license": "Proprietary",
+    "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z",
+    "hash": "4e002361d0c07df15c8f556eb2f9172137fc8ae18cfe448bce65fb65eaff484b",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config.ini\")) {",
+        "    New-Item -Force -Path \"$persist_dir\\config.ini\" -ItemType File -Value \"[ConfigInfo]`nautoStart=0\" | Out-Null",
+        "}"
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\uninst.exe\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "ToDesk.exe",
+            "ToDesk"
+        ]
+    ],
+    "persist": [
+        "Logs",
+        "config.ini"
+    ],
+    "checkver": {
+        "url": "https://update.todesk.com/windows/uplog.html",
+        "regex": ">([\\d.]+)</div>"
+    },
+    "autoupdate": {
+        "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z"
+    }
+}

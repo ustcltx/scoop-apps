@@ -1554,7 +1554,7 @@ eduke32.json,ScoopInstaller/Games
 warzone2100.json,ScoopInstaller/Games
 dgvoodoo2.json,ScoopInstaller/Games
 lime3ds.json,ScoopInstaller/Games
-hmcl_ScoopInstaller.json,ScoopInstaller/Games
+hmcl.json,ScoopInstaller/Games
 doomrunner.json,ScoopInstaller/Games
 opentyrian2000.json,ScoopInstaller/Games
 simple64.json,ScoopInstaller/Games
@@ -1568,6 +1568,7 @@ ultraplusmanager.json,ScoopInstaller/Games
 fishstrap.json,ScoopInstaller/Games
 golly.json,ScoopInstaller/Games
 rmg.json,ScoopInstaller/Games
+openttd-jgrpp.json,ScoopInstaller/Games
 gdidrop.json,ScoopInstaller/Games
 chiaki-ng.json,ScoopInstaller/Games
 dungeonsupdater.json,ScoopInstaller/Games
@@ -1714,6 +1715,7 @@ slade.json,ScoopInstaller/Games
 cxbx-reloaded.json,ScoopInstaller/Games
 unrealmodloader.json,ScoopInstaller/Games
 hydra.json,ScoopInstaller/Games
+dlss5-swapper.json,ScoopInstaller/Games
 armagetronad.json,ScoopInstaller/Games
 fmodel.json,ScoopInstaller/Games
 mo2.json,ScoopInstaller/Games
@@ -2547,6 +2549,7 @@ gallery-dl-nightly.json,ScoopInstaller/Versions
 dotnet5-sdk.json,ScoopInstaller/Versions
 php71.json,ScoopInstaller/Versions
 cloudcompare-alpha.json,ScoopInstaller/Versions
+llvm-full.json,ScoopInstaller/Versions
 de4dot-net35.json,ScoopInstaller/Versions
 winpython38ps2.json,ScoopInstaller/Versions
 spark-without-hadoop.json,ScoopInstaller/Versions
@@ -5655,6 +5658,7 @@ Otter.json,dodorz/scoop
 FreePic2Pdf.json,dodorz/scoop
 gomi.json,dodorz/scoop
 vs-ghostwriter.json,dodorz/scoop
+Markview.json,dodorz/scoop
 Spread32.json,dodorz/scoop
 Noto-Font.json,dodorz/scoop
 msgvault_dodorz.json,dodorz/scoop
@@ -6268,7 +6272,7 @@ FCrackZip.json,dodorz/scoop
 MarkdownPad.json,dodorz/scoop
 Tabby.json,dodorz/scoop
 FlashPad.json,dodorz/scoop
-PicoClaw.json,dodorz/scoop
+PicoClaw_dodorz.json,dodorz/scoop
 abtop.json,dodorz/scoop
 Tixati.json,dodorz/scoop
 CMsort.json,dodorz/scoop
@@ -7230,7 +7234,7 @@ cemuhook-webgyro.json,kiennq/scoop-misc
 llvm-x.json,kiennq/scoop-misc
 cemuhook-x.json,kiennq/scoop-misc
 cemu-x.json,kiennq/scoop-misc
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 gopher64_borger.json,borger/scoop-emulators
@@ -7247,8 +7251,8 @@ xemu-dev_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 starship_borger.json,borger/scoop-emulators
 2ship2harkinian.json,borger/scoop-emulators
-rpcs3_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+rpcs3.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 mame.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
@@ -7279,12 +7283,12 @@ mednafen_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m.json,borger/scoop-emulators
 sm64coopdx_borger.json,borger/scoop-emulators
-vita3k_borger.json,borger/scoop-emulators
+vita3k.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
-ppsspp-dev_borger.json,borger/scoop-emulators
+ppsspp-dev.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
-shadps4-dev_borger.json,borger/scoop-emulators
+shadps4-dev.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 cxbx-reloaded_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
@@ -7366,6 +7370,7 @@ reqstress.json,ViCrack/scoop-bucket
 xjavafxtool.json,ViCrack/scoop-bucket
 xterminal_ViCrack.json,ViCrack/scoop-bucket
 winasar.json,ViCrack/scoop-bucket
+keysmith-switch-releases.json,ViCrack/scoop-bucket
 reality.json,ViCrack/scoop-bucket
 sliver.json,ViCrack/scoop-bucket
 tls_proxy.json,ViCrack/scoop-bucket
@@ -7374,7 +7379,7 @@ ffuf_ViCrack.json,ViCrack/scoop-bucket
 pot_ViCrack.json,ViCrack/scoop-bucket
 nuclei_ViCrack.json,ViCrack/scoop-bucket
 apifox.json,ViCrack/scoop-bucket
-cudatext-cn_ViCrack.json,ViCrack/scoop-bucket
+cudatext-cn.json,ViCrack/scoop-bucket
 kscan_ViCrack.json,ViCrack/scoop-bucket
 sublinkpro.json,ViCrack/scoop-bucket
 windterm_ViCrack.json,ViCrack/scoop-bucket
@@ -7411,7 +7416,7 @@ fvuln_ViCrack.json,ViCrack/scoop-bucket
 clash-speedtest.json,ViCrack/scoop-bucket
 mayenano.json,ViCrack/scoop-bucket
 screentogif_ViCrack.json,ViCrack/scoop-bucket
-siyuan.json,ViCrack/scoop-bucket
+siyuan_ViCrack.json,ViCrack/scoop-bucket
 blueteamtools_ViCrack.json,ViCrack/scoop-bucket
 emeditor_ViCrack.json,ViCrack/scoop-bucket
 xray_ViCrack.json,ViCrack/scoop-bucket
@@ -8203,7 +8208,7 @@ unblockneteasemusic.json,DoveBoy/Apps
 papertodo-with-runtime-pre.json,DoveBoy/Apps
 memreduct_DoveBoy.json,DoveBoy/Apps
 fastcopy_DoveBoy.json,DoveBoy/Apps
-dandanplay.json,DoveBoy/Apps
+dandanplay_DoveBoy.json,DoveBoy/Apps
 bilineo.json,DoveBoy/Apps
 qrcp_DoveBoy.json,DoveBoy/Apps
 contextmenumanagerplus.json,DoveBoy/Apps
@@ -8218,7 +8223,7 @@ clink-flex-prompt_DoveBoy.json,DoveBoy/Apps
 anyportal_DoveBoy.json,DoveBoy/Apps
 clash-rev.json,DoveBoy/Apps
 anxreader-portable.json,DoveBoy/Apps
-treesize_DoveBoy.json,DoveBoy/Apps
+treesize.json,DoveBoy/Apps
 regjump_DoveBoy.json,DoveBoy/Apps
 crystaldiskinfo-shizuku-edition_DoveBoy.json,DoveBoy/Apps
 eartrumpet.json,DoveBoy/Apps
@@ -9091,7 +9096,7 @@ mangadex-dl.json,hu3rror/scoop-muggle
 wonderpen.json,hu3rror/scoop-muggle
 ACNH-design-pattern-editor.json,hu3rror/scoop-muggle
 chromium-np.json,hu3rror/scoop-muggle
-picgo_hu3rror.json,hu3rror/scoop-muggle
+picgo.json,hu3rror/scoop-muggle
 qemu-img.json,hu3rror/scoop-muggle
 tsftool_hu3rror.json,hu3rror/scoop-muggle
 neat-reader.json,hu3rror/scoop-muggle
@@ -9132,7 +9137,7 @@ yomikiru.json,hu3rror/scoop-muggle
 voicevox-gpu.json,hu3rror/scoop-muggle
 emby_carnival.json,hu3rror/scoop-muggle
 notepad3_hu3rror.json,hu3rror/scoop-muggle
-firefox-developer-zh-cn_hu3rror.json,hu3rror/scoop-muggle
+firefox-developer-zh-cn.json,hu3rror/scoop-muggle
 chk-hashtool.json,hu3rror/scoop-muggle
 greenluma-gui.json,hu3rror/scoop-muggle
 uup-download-wizard-converter.json,hu3rror/scoop-muggle
@@ -10107,6 +10112,7 @@ mocreak_WinApps-share.json,WinApps-share/WinApps-bucket
 airpods-desktop.json,WinApps-share/WinApps-bucket
 lively_WinApps-share.json,WinApps-share/WinApps-bucket
 clash-for-windows_WinApps-share.json,WinApps-share/WinApps-bucket
+turbo-browser.json,WinApps-share/WinApps-bucket
 ditto_WinApps-share.json,WinApps-share/WinApps-bucket
 mumuplayer.json,WinApps-share/WinApps-bucket
 google-chrome.json,WinApps-share/WinApps-bucket
@@ -10116,6 +10122,7 @@ brave.json,WinApps-share/WinApps-bucket
 neatdm.json,WinApps-share/WinApps-bucket
 g-helper_WinApps-share.json,WinApps-share/WinApps-bucket
 ditto-np_WinApps-share.json,WinApps-share/WinApps-bucket
+turbo-browser-np.json,WinApps-share/WinApps-bucket
 centbrowser-setup.json,WinApps-share/WinApps-bucket
 softcnkiller.json,WinApps-share/WinApps-bucket
 ocauxiliarytools.json,WinApps-share/WinApps-bucket
@@ -11138,6 +11145,7 @@ bine.json,aliesbelik/poldi
 gopayloader.json,aliesbelik/poldi
 dijo.json,aliesbelik/poldi
 filebrowser_aliesbelik.json,aliesbelik/poldi
+bast.json,aliesbelik/poldi
 xq_aliesbelik.json,aliesbelik/poldi
 zat.json,aliesbelik/poldi
 rq.json,aliesbelik/poldi
@@ -11234,6 +11242,7 @@ dnsproxy_aliesbelik.json,aliesbelik/poldi
 atlas_aliesbelik.json,aliesbelik/poldi
 sq_aliesbelik.json,aliesbelik/poldi
 sshs.json,aliesbelik/poldi
+sofka_aliesbelik.json,aliesbelik/poldi
 jnv_aliesbelik.json,aliesbelik/poldi
 sqlc_aliesbelik.json,aliesbelik/poldi
 atac_aliesbelik.json,aliesbelik/poldi
@@ -11254,7 +11263,6 @@ waitforit.json,aliesbelik/poldi
 dcv.json,aliesbelik/poldi
 certinfo.json,aliesbelik/poldi
 dt.json,aliesbelik/poldi
-sofka.json,aliesbelik/poldi
 beast.json,aliesbelik/poldi
 dawn_aliesbelik.json,aliesbelik/poldi
 yc.json,aliesbelik/poldi
@@ -12170,6 +12178,7 @@ openvr-input-emulator.json,babo4d/scoop-xrtools
 rai-pal.json,babo4d/scoop-xrtools
 openra-sole-survivor.json,babo4d/scoop-xrtools
 vrcx-0.json,babo4d/scoop-xrtools
+circuitlord-vr-mod-installer.json,babo4d/scoop-xrtools
 tonsavemanager.json,babo4d/scoop-xrtools
 openvr-space-calibrator.json,babo4d/scoop-xrtools
 oscgoesbrrr.json,babo4d/scoop-xrtools
@@ -12190,6 +12199,7 @@ upbge.json,babo4d/scoop-xrtools
 gzdoomvr.json,babo4d/scoop-xrtools
 cncnet-mental-omega.json,babo4d/scoop-xrtools
 openra-fractured-realms.json,babo4d/scoop-xrtools
+kharvox.json,babo4d/scoop-xrtools
 openvr-walk-in-place.json,babo4d/scoop-xrtools
 slimevr-wrangler.json,babo4d/scoop-xrtools
 srb2-ringracers.json,babo4d/scoop-xrtools
@@ -12605,7 +12615,7 @@ cherry-studio_LaelLuo.json,LaelLuo/scoop
 figma_LaelLuo.json,LaelLuo/scoop
 notion_LaelLuo.json,LaelLuo/scoop
 yuanbao_LaelLuo.json,LaelLuo/scoop
-todesk_maboloshi.json,maboloshi/scoop-private
+todesk.json,maboloshi/scoop-private
 directoryopus-cn.json,maboloshi/scoop-private
 fonts-cesi.json,maboloshi/scoop-private
 sublime-text_maboloshi.json,maboloshi/scoop-private
@@ -12842,7 +12852,7 @@ amass_Toddli468.json,Toddli468/Pentest-Scoop-Bucket
 commix_Toddli468.json,Toddli468/Pentest-Scoop-Bucket
 windfire.json,Toddli468/Pentest-Scoop-Bucket
 K8sPenTool.json,Toddli468/Pentest-Scoop-Bucket
-WinDump.json,Toddli468/Pentest-Scoop-Bucket
+WinDump_Toddli468.json,Toddli468/Pentest-Scoop-Bucket
 LoveJS.json,Toddli468/Pentest-Scoop-Bucket
 passive-scan-client.json,Toddli468/Pentest-Scoop-Bucket
 GoogleHackingTool.json,Toddli468/Pentest-Scoop-Bucket
@@ -12922,7 +12932,7 @@ finger24.json,Toddli468/Pentest-Scoop-Bucket
 Packer-Fuzzer.json,Toddli468/Pentest-Scoop-Bucket
 cinebench23.json,aoisummer/scoop-bucket
 crystaldiskinfo-shizuku_aoisummer.json,aoisummer/scoop-bucket
-aegisub_aoisummer.json,aoisummer/scoop-bucket
+aegisub.json,aoisummer/scoop-bucket
 autoruns_aoisummer.json,aoisummer/scoop-bucket
 winscp-chs.json,aoisummer/scoop-bucket
 exwrapper.json,aoisummer/scoop-bucket
@@ -14970,6 +14980,7 @@ waydir_windedge.json,windedge/ladle-bucket
 ollama-ipex-llm.json,windedge/ladle-bucket
 hoppscotch.json,windedge/ladle-bucket
 mkeditor.json,windedge/ladle-bucket
+photoflare.json,windedge/ladle-bucket
 rtk_windedge.json,windedge/ladle-bucket
 dbflux.json,windedge/ladle-bucket
 codanna.json,windedge/ladle-bucket
@@ -15012,6 +15023,7 @@ zosma-cowork.json,windedge/ladle-bucket
 godot3-kotlin-jvm.json,windedge/ladle-bucket
 crush_windedge.json,windedge/ladle-bucket
 orbit-pi.json,windedge/ladle-bucket
+fast-mcp-ssh.json,windedge/ladle-bucket
 herdr_windedge.json,windedge/ladle-bucket
 llama-cpp-vulkan.json,windedge/ladle-bucket
 oryx.json,windedge/ladle-bucket
