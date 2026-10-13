@@ -1,25 +1,18 @@
 {
-    "version": "6.3.10.4",
-    "description": "Idling Steam cards from multiple accounts simultaneously",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
+    "description": "Idling Steam cards from multiple accounts simultaneously.",
+    "version": "6.3.10.4",
     "license": "Apache-2.0",
-    "notes": [
-        "ArchiSteamFarm has a built-in updater, So you should disable it in configuration file,",
-        "Or run 'scoop hold archisteamfarm' to disable updates via Scoop.",
-        "ASF Config Generator:",
-        "https://justarchinet.github.io/ASF-WebConfigGenerator/"
-    ],
-    "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
-        "vcredist": "extras/vcredist2022"
-    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.10.4/ASF-win-x64.zip",
-            "hash": "4b77b12a6c90251f0a731c08c70649de66695ad12cdc428ed0471fc3c0c230f6"
+            "hash": "sha512:5c5165401ee0c6795f841c4c3870c68ca4ed33770cf6d7c4bb9997dbc8a0474866969167e99d15662059284b2efcd8c5cb0373ccd16d5887e79d966436a4b916"
+        },
+        "arm64": {
+            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.10.4/ASF-win-arm64.zip",
+            "hash": "sha512:182234457774bb9494be89c3eb1a23d067a86393408e0b2956fc5274413402e2f723d13fec3f914796cd3de1a1893612f8aa27ce297008197a50879fa218e0b9"
         }
     },
-    "bin": "ArchiSteamFarm.exe",
     "shortcuts": [
         [
             "ArchiSteamFarm.exe",
@@ -35,7 +28,14 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-arm64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA512SUMS",
+            "regex": "$sha512\\s+$basename"
         }
     }
 }
