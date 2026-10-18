@@ -1,16 +1,16 @@
 {
-    "version": "0.1.25",
+    "version": "0.1.28",
     "description": "A native activity monitor for processes, CPU, memory, GPU, disks, network and energy.",
     "homepage": "https://pulse.egoist.dev/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/pulse-feedback/releases/download/v0.1.25/pulse-0.1.25-windows-amd64.tar.gz",
-            "hash": "6f2472d595c541052f08d287ac869fdaebf08e2898cd92679eb63d5847e4727a"
+            "url": "https://github.com/egoist/pulse-feedback/releases/download/v0.1.28/pulse-0.1.28-windows-amd64.tar.gz",
+            "hash": "e515560170e561ba20fa143f9e1408a2d1fe3738d4118f0f6d709a4a3a6c97c4"
         },
         "arm64": {
-            "url": "https://github.com/egoist/pulse-feedback/releases/download/v0.1.25/pulse-0.1.25-windows-arm64.tar.gz",
-            "hash": "ba19d46332d3d1d3b44022e957f0d3db179afd92ae082a388a1c547826f60cf8"
+            "url": "https://github.com/egoist/pulse-feedback/releases/download/v0.1.28/pulse-0.1.28-windows-arm64.tar.gz",
+            "hash": "5b300cc53c8accf4027dcd03f27e51182c4ccbc9cac927a14b8cbc25fd4db8c7"
         }
     },
     "shortcuts": [

@@ -1,12 +1,12 @@
 {
-    "version": "1.89.6",
+    "version": "1.95.0",
     "description": "Cross-platform Pokémon save editor built with Avalonia",
     "homepage": "https://github.com/realgarit/PKHeX-Avalonia",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/realgarit/PKHeX-Avalonia/releases/download/v1.89.6/PKHeX-Avalonia-win-x64.zip",
-            "hash": "57a55f82b22fbf6d4ea87c518e268f686eb51384af9d64aa5b5c7f5d73eda796"
+            "url": "https://github.com/realgarit/PKHeX-Avalonia/releases/download/v1.95.0/PKHeX-Avalonia-win-x64.zip",
+            "hash": "bee5dfa721c11f407cbfcd1154ba19c953fe2280f9e1bb3bb6f4c1e515ce1c5b"
         }
     },
     "shortcuts": [
