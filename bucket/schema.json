@@ -456,12 +456,12 @@
         "autoupdateUriOrArrayOfAutoupdateUris": {
             "anyOf": [
                 {
-                    "format": "string",
+                    "format": "uri",
                     "type": "string"
                 },
                 {
                     "items": {
-                        "format": "string",
+                        "format": "uri",
                         "type": "string"
                     },
                     "minItems": 1,

@@ -1,42 +1,56 @@
 {
     "version": "3.3.4",
-    "description": "Reqable，新一代API开发工具，代理调试 + 请求测试一站式解决方案。Reqable = Fiddler + Charles + Postman, 让API调试更快 🚀 更简单 👌",
+    "description": "Reqable issue track repo",
     "homepage": "https://reqable.com/",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "https://reqable.com/en-US/docs/license/"
-    },
-    "notes": "Reqable是一款用于企业接口生产的网络基础设施工具，某些特性可以修改网络传输数据，其设计和目的均是用于接口生产过程中的开发、调试和测试，请勿用于非许可用途！更多信息，请参阅使用条款。",
+    "license": "Copyright © 2023 Reqable",
+    "url": "https://github.com/reqable/reqable-app/releases/download/3.3.4/reqable-app-windows-x86_64.exe",
+    "hash": "fe9ac442b29b85a72028a31b60883d49782eddfbf1bd612ebf955ccf0405eeaf",
+    "innosetup": true,
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reqable/reqable-app/releases/download/3.3.4/reqable-app-windows-x86_64.zip",
-            "hash": "97e22ff7b99084896b378b3d19345effb34fc08e1ac244e5d02ec3b4c3d0d067"
+            "bin": [
+                [
+                    "Reqable.exe",
+                    "Reqable"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Reqable.exe",
+                    "Reqable"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                [
+                    "Reqable.exe",
+                    "Reqable"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Reqable.exe",
+                    "Reqable"
+                ]
+            ]
         }
     },
-    "shortcuts": [
-        [
-            "Reqable.exe",
-            "Reqable"
+    "installer": {
+        "script": [
+            "ensure \"$persist_dir\" | Out-Null",
+            "New-Item \"$env:APPDATA\\Reqable\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
         ]
-    ],
-    "pre_install": [
-        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-        "New-PersistDirectory \"$env:APPDATA\\Reqable\" \"$persist_dir\\AppData\" -Migrate"
-    ],
-    "pre_uninstall": [
-        "$bucket = $install.bucket",
-        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-        "Stop-App",
-        "Remove-Junction \"$env:APPDATA\\Reqable\""
-    ],
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$env:APPDATA\\Reqable\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+    },
     "checkver": {
-        "github": "https://github.com/reqable/reqable-app"
+        "github": "https://api.github.com/repos/reqable/reqable-app/releases",
+        "jp": "$[0].assets[*].browser_download_url",
+        "regex": "/releases/download/([\\d.]+)/reqable-app-windows-x86_64\\.exe"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/reqable/reqable-app/releases/download/$version/reqable-app-windows-x86_64.zip"
-            }
-        }
+        "url": "https://github.com/reqable/reqable-app/releases/download/$version/reqable-app-windows-x86_64.exe"
     }
 }
