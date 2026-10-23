@@ -1,49 +1,33 @@
 {
-    "version": "1.8.1",
-    "description": "🎉 A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.",
-    "homepage": "https://miru.js.org/",
-    "license": {
-        "identifier": "AGPL-3.0 license",
-        "url": "https://github.com/miru-project/miru-app#AGPL-3.0-1-ov-file"
-    },
+    "version": "6.4.34",
+    "description": "Stream anime torrents, real-time with no waiting for downloads",
+    "homepage": "https://github.com/ThaUnknown/miru",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/miru-project/miru-app/releases/download/v1.8.1/miru-setup-v1.8.1.exe",
-            "hash": "ffecd22103245e715739429280c7e98deade14b28957dd6413cce938239cd275"
+            "url": "https://github.com/ThaUnknown/miru/releases/download/v6.4.34/win-Miru-6.4.34.exe#/dl.7z",
+            "hash": "sha512:4d6963349862a607c93dff9bb8a487400b4763e5209e985f8a4894ebda3460d8f4ebc20f6e1e81cd14420e2db70597db6ec94b0395b5dcd0ae74879c3950599e",
+            "installer": {
+                "script": "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            }
         }
     },
-    "innosetup": true,
-    "installer": {
-        "script": [
-            "# handle runtime cache",
-            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
-            "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:USERPROFILE\\Documents\\miru\"",
-            "Remove-Module -Name AppsUtils"
-        ]
-    },
-    "uninstaller": {
-        "script": [
-            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
-            "Dismount-ExternalRuntimeData -Target \"$env:USERPROFILE\\Documents\\miru\"",
-            "Remove-Module -Name AppsUtils"
-        ]
-    },
-    "bin": "miru.exe",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse -Force",
+    "checkver": "github",
     "shortcuts": [
         [
-            "miru.exe",
+            "Miru.exe",
             "Miru"
         ]
     ],
-    "checkver": {
-        "github": "https://api.github.com/repos/miru-project/miru-app/releases",
-        "jp": "$[0].assets[*].browser_download_url",
-        "regex": "/releases/download/v([\\d.]+)"
-    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/miru-project/miru-app/releases/download/v$version/miru-setup-v$version.exe"
+                "url": "https://github.com/ThaUnknown/miru/releases/download/v$version/win-Miru-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
             }
         }
     }

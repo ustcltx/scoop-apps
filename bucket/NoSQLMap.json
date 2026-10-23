@@ -1,28 +1,29 @@
 {
-    "version": "2026-02-20T00.37.09",
-    "description": "(Scoop bucket by arch3rpro) NoSQLMap - Automated NoSQL database enumeration and web application exploitation tool.",
+    "version": "master",
+    "description": "Automated NoSQL database enumeration and web application exploitation tool.",
     "homepage": "https://github.com/codingo/NoSQLMap",
-    "license": "GPL-3.0",
+    "license": " GPL-3.0",
     "suggest": {
-        "Python": "python2.7"
+        "python": [
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/codingo/NoSQLMap/archive/refs/heads/master.zip",
-    "hash": "f0cff53f5c956c7c40f57060052db2399030f7bbfc072804fed99802282e64c6",
-    "extract_dir": "NoSQLMap-master",
+    "extract_dir": "nosqlmap-master",
     "pre_install": [
         "Set-Content \"$dir\\nosqlmap.bat\" '@pushd %~dp0",
-        "python2 nosqlmap.py %*",
+        "@call activate python2env",
+        "@python nosqlmap.py %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": "pip2 install couchdb pbkdf2 pymongo ipcalc",
+    "post_install": [
+        "& cmd /c \"call activate python2env && pip install couchdb pbkdf2 pymongo ipcalc\""
+    ],
     "bin": "nosqlmap.bat",
-    "checkver": {
-        "url": "https://api.github.com/repos/codingo/NoSQLMap/commits",
-        "jsonpath": "$[0].commit.author.date",
-        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
-        "replace": "$1$2.$3.$4"
-    },
-    "autoupdate": {
-        "url": "https://github.com/codingo/NoSQLMap/archive/refs/heads/master.zip"
-    }
+    "notes": [
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: NoSQL数据库自动枚举和Web应用漏洞利用工具",
+        "【适用场景】: NoSQL注入测试、数据库审计、渗透测试",
+        "【技术特点】: Python开发，命令行工具，需要Python2环境"
+    ]
 }

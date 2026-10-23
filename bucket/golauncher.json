@@ -1,0 +1,48 @@
+{
+    "version": "0.13.0",
+    "description": "A Raycast-style launcher for Windows and macOS, written in Go",
+    "homepage": "https://github.com/eziq1/golauncher",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/eziq1/golauncher/releases/download/v0.13.0/golauncher_0.13.0_windows_amd64.zip",
+            "hash": "18b887ffb8ac968d285f8b8a9c89d7320005b358cfa8e4c96ff8269a2d31d47b"
+        },
+        "arm64": {
+            "url": "https://github.com/eziq1/golauncher/releases/download/v0.13.0/golauncher_0.13.0_windows_arm64.zip",
+            "hash": "9b1fe99d2335761190106a7a99c616c0ee5d6f56794ec87eb86385b4c97e1798"
+        }
+    },
+    "bin": [
+        "golauncher.exe",
+        "glctl.exe"
+    ],
+    "shortcuts": [
+        [
+            "golauncher.exe",
+            "golauncher",
+            "--portal"
+        ]
+    ],
+    "notes": [
+        "Settings are stored in %APPDATA%\\golauncher\\config.json (themes, plugins and scripts also live under %APPDATA%\\golauncher).",
+        "Databases, clipboard history, logs and update files are stored in %LOCALAPPDATA%\\golauncher."
+    ],
+    "checkver": {
+        "github": "https://github.com/eziq1/golauncher"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/eziq1/golauncher/releases/download/v$version/golauncher_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/eziq1/golauncher/releases/download/v$version/golauncher_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$basename.*?([a-f0-9]{32,})"
+        }
+    }
+}

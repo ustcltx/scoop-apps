@@ -1,20 +1,35 @@
 {
-    "version": "1.4",
-    "description": "专注一站化解决渗透测试的信息收集任务.(Scoop bucket by arch3rpro)",
+    "version": "1.5",
+    "description": "专注一站化解决渗透测试的信息收集任务.",
+    "notes": [
+        "【工具类型】: 信息收集工具",
+        "【主要功能】: 一站式渗透测试信息收集工具，集成多种信息收集功能",
+        "【适用场景】: 信息收集、渗透测试、安全评估",
+        "【技术特点】: Python开发，命令行工具，需要Python环境"
+    ],
     "homepage": "https://github.com/kracer127/SiteScan",
     "license": "BSD-3-Clause",
-    "suggest": "python3.x",
-    "url": "https://github.com/kracer127/SiteScan/releases/download/v.1.4/SiteScan.v1.4.zip",
-    "hash": "1e3c601c9e34e183781599cc4c819c3890ba116910ef039c66b7fdbe4241a8f8",
-    "pre_install": "Set-Content \"$dir\\SiteScan.bat\" '@pushd %~dp0\npython3 \"main.py\" %*\n@popd' -Encoding Ascii",
+    "suggest": {
+        "python": "uv"
+    },
+    "url": "https://github.com/kracer127/SiteScan/releases/download/v.1.5/SiteScan.v1.5.zip",
+    "hash": "3e66216bd5169b9658e133a0b938aac5aac64fc704863548879692fc67794e88",
+    "pre_install": [
+        "Set-Content \"$dir\\SiteScan.bat\" '@pushd %~dp0",
+        "@uv run python \"main.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
-        "Move-Item -Path \"$dir\\SiteScan.v$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\SiteScan.v$version\" -Force -Recurse",
-        "pip3 install -r \"$dir\\requirements.txt\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -r $dir\\requestments.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "SiteScan.bat",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/kracer127/SiteScan/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v\\.([\\d.]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/kracer127/SiteScan/releases/download/v$version/SiteScan.v$version.zip"
+        "url": "https://github.com/kracer127/SiteScan/releases/download/v.$version/SiteScan.v$version.zip"
     }
 }
