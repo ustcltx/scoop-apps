@@ -1,5 +1,5 @@
 {
-    "version": "0.4.130",
+    "version": "0.4.132",
     "description": "Lightweight, cross-platform database client (CLI)",
     "homepage": "https://dbxio.com/en/docs/cli",
     "license": "Apache-2.0",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmjs.org/@dbx-app/cli-win32-x64/-/cli-win32-x64-0.4.130.tgz",
-            "hash": "sha512:cf7c1c96c3d9e75613250b1068cafbe8599c406f29ff578ca9394ce7e268d6927d873341dffa4a2b7113cc0c173aa2c8bf9a874c4aa3fd17b6f8bc813ee09e54"
+            "url": "https://registry.npmjs.org/@dbx-app/cli-win32-x64/-/cli-win32-x64-0.4.132.tgz",
+            "hash": "sha512:ab24b311260a2ab277359f825dd9368956cdc8dd0b7239e4bc7633a98c0d740bef667c2512e736e04b5414d2e961b487754f93b87c413c47567b0eaf4f32291d"
         },
         "arm64": {
-            "url": "https://registry.npmjs.org/@dbx-app/cli-win32-arm64/-/cli-win32-arm64-0.4.130.tgz",
-            "hash": "sha512:bf3e0ad4505a336e5cb2db958c6f633991bca3d14552feffd9a75f1508a40933fa5b86e7908fe0029914490926e907c627a8ad6c5044194e1f375bf96d85a7b0"
+            "url": "https://registry.npmjs.org/@dbx-app/cli-win32-arm64/-/cli-win32-arm64-0.4.132.tgz",
+            "hash": "sha512:31d00a830a5b2cd43c284bc1f01afe015d3b6a8a1906821f82b0ae0fdb4bf67943cbbf6a921029a4721ce4ce96d5ad694fdb32e4f986b0e544bd67a586eb40e3"
         }
     },
     "extract_dir": "package\\bin",
