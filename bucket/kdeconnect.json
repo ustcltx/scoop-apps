@@ -1,27 +1,29 @@
 {
-    "version": "24.02-3772",
-    "description": "Enabling communication between all your devices. Made for people like you.",
+    "version": "26.08.2",
+    "description": "Enabling communication between all your devices",
     "homepage": "https://kdeconnect.kde.org",
-    "license": "GPL-2.0-or-later",
-    "url": "https://cdn.kde.org/ci-builds/network/kdeconnect-kde/release-24.02/windows/kdeconnect-kde-release_24.02-3772-windows-cl-msvc2022-x86_64.7z",
-    "hash": "802b735fc0159366abaac42987d3e19e11f11a60f70ff10fb47f6051a8530919",
-    "bin": "bin\\kdeconnect-cli.exe",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.kde.org/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z",
+            "hash": "ac580cb9b20aa1488302578179dfe7408ab15d0e422feffdf824e3b160ad5f78"
+        }
+    },
     "shortcuts": [
         [
-            "bin\\kdeconnect-indicator.exe",
+            "bin\\kdeconnect-app.exe",
             "KDE Connect"
         ]
     ],
     "checkver": {
-        "url": "https://cdn.kde.org/ci-builds/network/kdeconnect-kde/release-24.02/windows/",
-        "regex": "kdeconnect-kde-release_([\\d.]+-\\d+)-windows-.*"
+        "url": "https://kdeconnect.kde.org/download.html",
+        "regex": "(?<version>[\\d.]+)/windows/(?<fname>[^\"]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://cdn.kde.org/ci-builds/network/kdeconnect-kde/release-24.02/windows/kdeconnect-kde-release_$version-windows-cl-msvc2022-x86_64.7z",
-        "hash": {
-            "url": "$url.sha256",
-            "regex": "$sha256"
+        "architecture": {
+            "64bit": {
+                "url": "https://download.kde.org/stable/release-service/$matchVersion/windows/$matchFname.7z"
+            }
         }
-    },
-    "notes": "Scoop doesn't persist your KDE Connect data, they are still storaged in '%LOCALAPPDATA%\\kdeconnect'."
+    }
 }

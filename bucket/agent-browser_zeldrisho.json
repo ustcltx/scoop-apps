@@ -1,0 +1,23 @@
+{
+    "version": "0.40.0",
+    "description": "Browser automation CLI for AI agents",
+    "homepage": "https://agent-browser.dev",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vercel-labs/agent-browser/releases/download/v0.40.0/agent-browser-win32-x64.exe#/agent-browser.exe",
+            "hash": "b142ca8946efda2d506e0947b232596e7949f08296e6b953b57f63eb50fee751"
+        }
+    },
+    "bin": "agent-browser.exe",
+    "checkver": {
+        "github": "https://github.com/vercel-labs/agent-browser"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vercel-labs/agent-browser/releases/download/v$version/agent-browser-win32-x64.exe#/agent-browser.exe"
+            }
+        }
+    }
+}

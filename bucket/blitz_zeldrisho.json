@@ -1,0 +1,31 @@
+{
+    "version": "3.0.16",
+    "description": "Personalized Stats and Insights",
+    "homepage": "https://blitz.gg",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://blitz-main.blitz.gg/Blitz-3.0.16.exe#/dl.7z",
+            "hash": "dbcf2d7a9b9281a83e0cd423a23620d56eca1403e9f924732ddedc835406bb88"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Recurse -Force",
+    "shortcuts": [
+        [
+            "Blitz.exe",
+            "Blitz"
+        ]
+    ],
+    "checkver": {
+        "url": "https://blitz-main.blitz.gg/latest.yml",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://blitz-main.blitz.gg/Blitz-$version.exe#/dl.7z"
+            }
+        }
+    }
+}
