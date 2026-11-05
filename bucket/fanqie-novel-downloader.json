@@ -1,5 +1,5 @@
 {
-    "version": "202611041845",
+    "version": "202611050809",
     "description": "🍅 番茄小说下载器 | 免费番茄小说转TXT/EPUB GUI工具，支持Windows/macOS/Linux/android，持续活跃更新 | Fanqie Novel Downloader",
     "homepage": "https://github.com/POf-L/Fanqie-novel-Downloader",
     "license": {
@@ -7,12 +7,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/POf-L/Fanqie-novel-Downloader/releases/download/unsigned-v2026.11.4-1822-r790/FanqieNovelDownloader-tauri-windows-x64-setup.exe#/dl.7z",
-            "hash": "08045656497665dcb70a11d9ae5eee6a8cf7940c1960f110da1ec7ce2b3365c7"
+            "url": "https://github.com/POf-L/Fanqie-novel-Downloader/releases/download/unsigned-v2026.11.5-743-r794/FanqieNovelDownloader-tauri-windows-x64-setup.exe#/dl.7z",
+            "hash": "37718fe6a3aaf87f053ae740e21bd8a677f854b4166de7dc8111c3832bb31921"
         },
         "arm64": {
-            "url": "https://github.com/POf-L/Fanqie-novel-Downloader/releases/download/unsigned-v2026.11.4-1822-r790/FanqieNovelDownloader-tauri-windows-arm64-setup.exe#/dl.7z",
-            "hash": "4f1960de82e31a886e1169782be39749ef41394735cf89e18423da6a90caed64"
+            "url": "https://github.com/POf-L/Fanqie-novel-Downloader/releases/download/unsigned-v2026.11.5-743-r794/FanqieNovelDownloader-tauri-windows-arm64-setup.exe#/dl.7z",
+            "hash": "a51066873fd2f03eb5e58d874edfce702f67e7a776ed7f35ecb3509b0b9f262e"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
