@@ -1,5 +1,5 @@
 {
-    "version": "4.4.6",
+    "version": "4.5.0",
     "description": "A cross-platform fluent-design AI-boost multi-threaded downloader built with Python.",
     "homepage": "https://gd3.top/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.4.6/Ghost-Downloader-v4.4.6-Windows-x86_64-Setup.exe",
-            "hash": "d4cc459f396a27f89c8c35155a040bcd73e06fecb5e9ce71ae38ec329866ae4c"
+            "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.0/Ghost-Downloader-v4.5.0-Windows-x86_64-Setup.exe",
+            "hash": "94144733a5e59f1dd04fb85a35aeb29fc68a665cebb405e383bc544e5470230a"
         },
         "arm64": {
-            "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.4.6/Ghost-Downloader-v4.4.6-Windows-arm64-Setup.exe",
-            "hash": "217bec7baac7df5ad702404912dddc3a8fdc21a9349f39ace531a6a04b43d8d9"
+            "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.0/Ghost-Downloader-v4.5.0-Windows-arm64-Setup.exe",
+            "hash": "f0d0effd19a76e28e332a055b1459c66571a327343fbd1609f49e267b0ceac98"
         }
     },
     "innosetup": true,
