@@ -1,5 +1,5 @@
 {
-    "version": "117",
+    "version": "130",
     "description": "Experimental Nintendo Switch and Switch 2 emulator",
     "homepage": "https://lichiiemulator.app/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zortos293/Lichii/releases/download/build-117/lichii-windows-x86_64.zip",
-            "hash": "da8d154c277d79b05b94f2102b532440d2d6d5c6c462643e75d65689f30ef7dc"
+            "url": "https://github.com/zortos293/Lichii/releases/download/build-130/lichii-windows-x86_64.zip",
+            "hash": "f09893b3041596662d762959a103ae4af40d479631309fff9990bcc288078eed"
         }
     },
     "pre_install": [
