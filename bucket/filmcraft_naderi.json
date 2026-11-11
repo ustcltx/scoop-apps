@@ -1,0 +1,58 @@
+{
+    "version": "0.20.0",
+    "description": "Video editing, color and sound; an open-source, clean-room reimplementation of Adobe Premiere Pro, rebuilt in pure Rust",
+    "homepage": "https://getartcraft.com/apps/filmcraft",
+    "license": "MIT|Apache-2.0",
+    "notes": [
+        "Portable settings are now persisted in '$persist_dir\\data'.",
+        "Existing settings from earlier installations or user-profile folders are not migrated automatically.",
+        "If settings appear reset, close the app and copy your existing settings into the persistent folder, keeping a backup."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.20.0/filmcraft-0.20.0-windows-x64-portable.zip",
+            "hash": "41c758e08646e488f2693747ed39b6e20ff4ae54c78497a87882c4f3aec74fad",
+            "extract_dir": "filmcraft-0.20.0-windows-x64-portable"
+        },
+        "32bit": {
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x86-portable.zip",
+            "hash": "d2d648665ba503e33a1fbc9290bc0006f47fa58e14025652a21b66eab2041ba6",
+            "extract_dir": "filmcraft-0.20.0-windows-x86-portable"
+        },
+        "arm64": {
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.20.0/filmcraft-0.20.0-windows-arm64-portable.zip",
+            "hash": "6ffdd4aefd77971782087c30574801d1c770cb2b1bf1d32f64cc357d7edb4863",
+            "extract_dir": "filmcraft-0.20.0-windows-arm64-portable"
+        }
+    },
+    "bin": "filmcraft-cli.exe",
+    "shortcuts": [
+        [
+            "filmcraft.exe",
+            "FilmCraft"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/storytold/filmcraft"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/storytold/filmcraft/releases/download/v$version/filmcraft-$version-windows-x64-portable.zip",
+                "extract_dir": "filmcraft-$version-windows-x64-portable"
+            },
+            "32bit": {
+                "url": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x86-portable.zip",
+                "extract_dir": "filmcraft-$version-windows-x86-portable"
+            },
+            "arm64": {
+                "url": "https://github.com/storytold/filmcraft/releases/download/v$version/filmcraft-$version-windows-arm64-portable.zip",
+                "extract_dir": "filmcraft-$version-windows-arm64-portable"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
