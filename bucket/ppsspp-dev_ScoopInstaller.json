@@ -1,0 +1,66 @@
+{
+    "version": "1.20.4-4868-g00f53555df81",
+    "description": "Sony PlayStation Portable (PSP) emulator. Development build",
+    "homepage": "https://www.ppsspp.org",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://builds.ppsspp.org/builds/v1.20.4-4868-g00f53555df81/ppsspp_win_v1.20.4-4868-g00f53555df81.zip",
+            "hash": "90661749dd86aa93e421d16e2f82caafe4cd9208d861943b69e2a106fe6889d7",
+            "shortcuts": [
+                [
+                    "PPSSPPWindows64.exe",
+                    "PPSSPP (Development)"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://builds.ppsspp.org/builds/v1.20.4-4868-g00f53555df81/ppsspp_win_v1.20.4-4868-g00f53555df81.zip",
+            "hash": "90661749dd86aa93e421d16e2f82caafe4cd9208d861943b69e2a106fe6889d7",
+            "shortcuts": [
+                [
+                    "PPSSPPWindows.exe",
+                    "PPSSPP (Development)"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://builds.ppsspp.org/builds/v1.20.4-4868-g00f53555df81/PPSSPPWindowsARM64_v1.20.4-4868-g00f53555df81.zip",
+            "hash": "5284de43ecbe6a17a57a01bbb6d4168433cee275c69fa64ee8e6cf5f94fc445e",
+            "shortcuts": [
+                [
+                    "PPSSPPWindowsARM64.exe",
+                    "PPSSPP (Development)"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) {",
+        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+        "   New-item \"$persist_dir\\memstick\" -ItemType Directory | Out-Null",
+        "}"
+    ],
+    "persist": [
+        "demos",
+        "memstick"
+    ],
+    "checkver": {
+        "url": "https://builds.ppsspp.org/meta/history.json",
+        "regex": "v(?<version>[\\d.]+)-(?<build>[\\d]+)-g(?<commit>[\\da-fA-F]+)",
+        "replace": "${version}-${build}-g${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/ppsspp_win_v$matchVersion-$matchBuild-g$matchCommit.zip"
+            },
+            "32bit": {
+                "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/ppsspp_win_v$matchVersion-$matchBuild-g$matchCommit.zip"
+            },
+            "arm64": {
+                "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/PPSSPPWindowsARM64_v$matchVersion-$matchBuild-g$matchCommit.zip"
+            }
+        }
+    }
+}
