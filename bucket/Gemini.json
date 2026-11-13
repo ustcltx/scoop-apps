@@ -12,8 +12,8 @@
             "hash": "48cbd56de58188db534dc280f8805f09ae4047037e431c1d6b20483be50ce179"
         },
         "arm64": {
-            "url": "https://dl.google.com/release2/Google%20DeepMind/ado5k5syltgyf5dzirxyqh6ebj7a_1.18.0/GeminiSetup-1.18.0_uncompressed.exe#/dl.7z",
-            "hash": "678c7e4d8ed18089412e0b7a0a0788cc4ae2990cf65976192a7329dd663262cc"
+            "url": "https://dl.google.com/release2/Google%20DeepMind/p6goowt7cn42ypmrceahsjrmxu_1.19.0/GeminiSetup-1.19.0_uncompressed.exe#/dl.7z",
+            "hash": "8b711a894102d8c6018a86b1422fa4f5577867223a73a3690ff2ec585c3ffef7"
         }
     },
     "extract_dir": "app-1.19.0",
