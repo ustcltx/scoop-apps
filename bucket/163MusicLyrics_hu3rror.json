@@ -1,18 +1,16 @@
 {
-    "version": "7.3",
+    "version": "8.0.0",
     "description": "NetEase cloud music lyrics downloader for Windows",
     "homepage": "https://github.com/jitwxs/163MusicLyrics",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.3/MusicLyricApp-v7.3-win-x64.zip",
-            "hash": "266af56b6d46f1caab6b5b6050a3295df8ed179a1eb447b0c47e8f173051edf2",
-            "pre_install": "Rename-Item \"$dir/MusicLyricApp-v$version-win-x64.exe\" 'MusicLyricApp.exe'"
+            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v8.0/MusicLyricApp-8.0.0-win-x64.zip",
+            "hash": "d9a539f7ca92277b0f022575de046e0f6e52c19388f5bf2d32ced6ee8a081b61"
         },
         "32bit": {
-            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.3/MusicLyricApp-v7.3-win-x86.zip",
-            "hash": "d45fef8d0a91c72a60483ee8853482c43e7265e63d97650fdc9e9b792582af1d",
-            "pre_install": "Rename-Item \"$dir/MusicLyricApp-v$version-win-x86.exe\" 'MusicLyricApp.exe'"
+            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v8.0/MusicLyricApp-8.0.0-win-x86.zip",
+            "hash": "156482bc1d39074aa96d1855bf01a2f03441256e1b2f050d53c7555b781cc90b"
         }
     },
     "shortcuts": [
@@ -21,9 +19,7 @@
             "Music Lyric"
         ]
     ],
-    "persist_external": [
-        "$env:APPDATA\\MusicLyricApp"
-    ],
+    "persist_external": "$env:APPDATA\\MusicLyricApp",
     "post_install": [
         "$helper = (Resolve-Path \"$bucketsdir/*/scripts/persist-external.ps1\" -ErrorAction SilentlyContinue | Select-Object -First 1).Path",
         "if (!$helper) { throw 'persist_external: persist-external.ps1 not found under scripts/ in any bucket' }",
@@ -36,14 +32,17 @@
         ". $helper",
         "Invoke-PersistExternalUninstall"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/jitwxs/163MusicLyrics/releases/latest",
+        "regex": "\"tag_name\":\\s*\"v(?<tag>[\\d.]+)\"[\\s\\S]*?MusicLyricApp-(?<version>[\\d.]+)-win-x64\\.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/MusicLyricApp-v$version-win-x64.zip"
+                "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$matchTag/MusicLyricApp-$version-win-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/MusicLyricApp-v$version-win-x86.zip"
+                "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$matchTag/MusicLyricApp-$version-win-x86.zip"
             }
         }
     }
