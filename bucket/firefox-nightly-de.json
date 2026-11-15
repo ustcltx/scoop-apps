@@ -1,16 +1,16 @@
 {
-    "version": "162.0a1.20261114100603",
+    "version": "162.0a1.20261115092657",
     "description": "Nightly builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-162.0a1.de.win64.zip",
-            "hash": "sha512:015f0c0191c4607fbc25e3ee699e9fc4095240d9c006880b59f8a3cf08141612104c045ea9245d7a06d5c17c82a9db2c7b18e554c00bf66cc057932709407ecc"
+            "hash": "sha512:4c84c7b64def57f4306f137cc2a45b79234e75e4b69b8eeb42212cfb5033443465809a6d77706bbaa073327099636194a920af7cc514a386c902b9d2d1beb13b"
         },
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-162.0a1.de.win32.zip",
-            "hash": "sha512:fd94c78e85dc0d05c4ca5f1344fc631816d1518f6a2a039ca158f32728bf83b3d78ab7cb6db2f1bc981be673be875b7c959defef2d948af4417d7f050ab74950"
+            "hash": "sha512:a4e2183a5d6926832e08119dcaeb1c2f4c29044a5daed0a4a3cf970a5a2ecefc82424a0930ae04f60d9d55c1902f0f578e677635abf3f25c1f2b5a13a4ce9d5a"
         }
     },
     "extract_dir": "firefox",
