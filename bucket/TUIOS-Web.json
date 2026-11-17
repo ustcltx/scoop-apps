@@ -1,16 +1,16 @@
 {
-    "version": "0.13.1",
+    "version": "0.13.3",
     "description": "Web Terminal UI OS (Terminal Multiplexer) Server",
     "homepage": "https://github.com/Gaurav-Gosain/tuios",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.13.1/tuios-web_0.13.1_Windows_x86_64.tar.gz",
-            "hash": "56098ba7cab4db43d7aa6b1adfb6ec96829d9141797b96ca328a6e3e9be584a1"
+            "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.13.3/tuios-web_0.13.3_Windows_x86_64.tar.gz",
+            "hash": "75cfd95b32b514eb481ef4170e9f5ef8cb1ac06776d9e9b102de6789be6ab18f"
         },
         "32bit": {
-            "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.13.1/tuios-web_0.13.1_Windows_i386.tar.gz",
-            "hash": "6ebae5aea1a1af887d706fbae0949d3dae935c76d1830223f287af8d0228f033"
+            "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.13.3/tuios-web_0.13.3_Windows_i386.tar.gz",
+            "hash": "20279977538aa290bff4dd51a212216aff2568902b5e141cc40cb89f2c4745b6"
         }
     },
     "bin": "tuios-web.exe",
