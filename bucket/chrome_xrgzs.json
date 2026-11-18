@@ -1,0 +1,89 @@
+{
+    "version": "158.0.8127.37",
+    "description": "Fast, secure, and free web browser, built for the modern web.",
+    "homepage": "https://www.google.com/chrome/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.google.com/chrome/privacy/eula_text.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/release2/chrome/ad42hbny6imw7va3w7vi2faooxba_158.0.8127.37/158.0.8127.37_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "e64285a90f7edb6e05b8178e6e5a0eca678a9fdd20e9f381416476829ba02a7a"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/release2/chrome/acnf45ma7wksgqr74ua6ecjqei3q_158.0.8127.37/158.0.8127.37_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "9f408365bb33b709b79fae02ba156009e05a97f25db5801fa3340b7646b1376a"
+        },
+        "arm64": {
+            "url": "https://dl.google.com/release2/chrome/achmvkoodhx6n2pbdfwya7pv55qa_158.0.8127.37/158.0.8127.37_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "68a9ce30ded5b1f06d86c2d465e28c4be1e50689bbf9786daa18de41b60581e9"
+        }
+    },
+    "extract_dir": "Chrome-bin",
+    "bin": "chrome.exe",
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome"
+        ]
+    ],
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\chrome.exe"
+    },
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:LocalAppData\\Google\\Chrome\\User Data\" \"$persist_dir\\User Data\" -Migrate"
+        ]
+    },
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:LocalAppData\\Google\\Chrome\\User Data\""
+    ],
+    "uninstaller": {
+        "script": [
+            "if ($cmd -eq 'uninstall') {",
+            "    Remove-Item -Path \"$env:LOCALAPPDATA\\Google\\Chrome\" -Recurse -Force -ErrorAction SilentlyContinue | Out-Null",
+            "    Remove-Item -Path HKCU:\\SOFTWARE\\Google\\Chrome -Recurse -Force -ErrorAction SilentlyContinue | Out-Null",
+            "}"
+        ]
+    },
+    "checkver": {
+        "script": [
+            "$data = Invoke-RestMethod -Uri \"https://raw.githubusercontent.com/Bush2021/chrome_installer/refs/heads/main/data.json\"",
+            "\"=====version=====\" + $data.win_stable_x64.version +",
+            "\"=====x64=====\" + ($data.win_stable_x64.urls | Where-Object { $_ -match \"^https://dl.google.com\" } | Select-Object -First 1) +",
+            "\"=====x86=====\" + ($data.win_stable_x86.urls | Where-Object { $_ -match \"^https://dl.google.com\" } | Select-Object -First 1) +",
+            "\"=====arm64=====\" + ($data.win_stable_arm64.urls | Where-Object { $_ -match \"^https://dl.google.com\" } | Select-Object -First 1)"
+        ],
+        "regex": "=====version=====(.+)=====x64=====(?<x64>.+)=====x86=====(?<x86>.+)=====arm64=====(?<arm64>.+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "$matchX64#/dl.7z",
+                "hash": {
+                    "url": "https://raw.githubusercontent.com/Bush2021/chrome_installer/refs/heads/main/data.json",
+                    "jsonpath": "$.win_stable_x64.sha256"
+                }
+            },
+            "32bit": {
+                "url": "$matchX86#/dl.7z",
+                "hash": {
+                    "url": "https://raw.githubusercontent.com/Bush2021/chrome_installer/refs/heads/main/data.json",
+                    "jsonpath": "$.win_stable_x86.sha256"
+                }
+            },
+            "arm64": {
+                "url": "$matchArm64#/dl.7z",
+                "hash": {
+                    "url": "https://raw.githubusercontent.com/Bush2021/chrome_installer/refs/heads/main/data.json",
+                    "jsonpath": "$.win_stable_arm64.sha256"
+                }
+            }
+        }
+    }
+}
