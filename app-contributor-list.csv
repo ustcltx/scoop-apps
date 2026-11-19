@@ -641,6 +641,7 @@ chia-blockchain.json,chawyehsu/dorado
 thunderbird-zh-cn.json,chawyehsu/dorado
 msys2-cn.json,chawyehsu/dorado
 chezscheme_chawyehsu.json,chawyehsu/dorado
+futunn-legacy.json,chawyehsu/dorado
 llamafile_chawyehsu.json,chawyehsu/dorado
 firefox-developer-zh-cn.json,chawyehsu/dorado
 browsh.json,chawyehsu/dorado
@@ -1297,7 +1298,7 @@ cnkiexpress.json,Scoopforge/Extras-CN
 eudic_Scoopforge.json,Scoopforge/Extras-CN
 yuque_Scoopforge.json,Scoopforge/Extras-CN
 easyeda.json,Scoopforge/Extras-CN
-lceda-pro.json,Scoopforge/Extras-CN
+lceda-pro_Scoopforge.json,Scoopforge/Extras-CN
 wx-channels-download.json,Scoopforge/Extras-CN
 local-mini-drama.json,Scoopforge/Extras-CN
 hbuilderx_Scoopforge.json,Scoopforge/Extras-CN
@@ -1385,6 +1386,7 @@ undertale-mod-tool.json,ScoopInstaller/Games
 skyemu.json,ScoopInstaller/Games
 jeveassets.json,ScoopInstaller/Games
 mednafen.json,ScoopInstaller/Games
+ps5upload.json,ScoopInstaller/Games
 snes9x-dev.json,ScoopInstaller/Games
 pcsx2.json,ScoopInstaller/Games
 chiaki-ng.json,ScoopInstaller/Games
@@ -2251,6 +2253,7 @@ taiga-beta.json,ScoopInstaller/Versions
 ffmpeg-shared-nightly.json,ScoopInstaller/Versions
 php81-xdebug.json,ScoopInstaller/Versions
 youtube-dlc.json,ScoopInstaller/Versions
+windowsdesktop-runtime-11.0.json,ScoopInstaller/Versions
 furmark1.json,ScoopInstaller/Versions
 cuda11.0.json,ScoopInstaller/Versions
 tomcat7.json,ScoopInstaller/Versions
@@ -2557,6 +2560,7 @@ herdr-preview.json,ScoopInstaller/Versions
 godot-alpha.json,ScoopInstaller/Versions
 dotnet7-sdk.json,ScoopInstaller/Versions
 zed-nightly.json,ScoopInstaller/Versions
+php86.json,ScoopInstaller/Versions
 windowsdesktop-runtime-10.0.json,ScoopInstaller/Versions
 ngrok2.json,ScoopInstaller/Versions
 spark33.json,ScoopInstaller/Versions
@@ -2571,6 +2575,7 @@ rust-msvc-nightly.json,ScoopInstaller/Versions
 php72-xdebug.json,ScoopInstaller/Versions
 go113.json,ScoopInstaller/Versions
 posh-git-nightly.json,ScoopInstaller/Versions
+php86-nts.json,ScoopInstaller/Versions
 oracle-instant-client-sqlplus19.json,ScoopInstaller/Versions
 deepgit402.json,ScoopInstaller/Versions
 phpstorm-rc.json,ScoopInstaller/Versions
@@ -2761,6 +2766,7 @@ gradle7.json,ScoopInstaller/Versions
 gpac-nightly.json,ScoopInstaller/Versions
 lite-xl-addons.json,ScoopInstaller/Versions
 cuda13.1.json,ScoopInstaller/Versions
+dotnet11-sdk.json,ScoopInstaller/Versions
 cc-switch-pre.json,ScoopInstaller/Versions
 love9.json,ScoopInstaller/Versions
 rtools40.json,ScoopInstaller/Versions
@@ -7326,7 +7332,7 @@ rmg_borger.json,borger/scoop-emulators
 xemu-dev_borger.json,borger/scoop-emulators
 cxbx-reloaded_borger.json,borger/scoop-emulators
 mupen64plus.json,borger/scoop-emulators
-ppsspp-dev.json,borger/scoop-emulators
+ppsspp-dev_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 mesen-s_borger.json,borger/scoop-emulators
@@ -7347,7 +7353,7 @@ bsnes-mt_borger.json,borger/scoop-emulators
 mame.json,borger/scoop-emulators
 shadps4.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
-dolphin-dev.json,borger/scoop-emulators
+dolphin-dev_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
@@ -7423,7 +7429,7 @@ quasar_ViCrack.json,ViCrack/scoop-bucket
 notepad--_ViCrack.json,ViCrack/scoop-bucket
 fapro.json,ViCrack/scoop-bucket
 xterminal_ViCrack.json,ViCrack/scoop-bucket
-cudatext-cn_ViCrack.json,ViCrack/scoop-bucket
+cudatext-cn.json,ViCrack/scoop-bucket
 fastgithub_ViCrack.json,ViCrack/scoop-bucket
 ja.json,ViCrack/scoop-bucket
 codex-app-manager.json,ViCrack/scoop-bucket
@@ -7505,7 +7511,7 @@ reqstress.json,ViCrack/scoop-bucket
 saladict.json,ViCrack/scoop-bucket
 sliver.json,ViCrack/scoop-bucket
 termix.json,ViCrack/scoop-bucket
-siyuan.json,ViCrack/scoop-bucket
+siyuan_ViCrack.json,ViCrack/scoop-bucket
 TscanPlus_ViCrack.json,ViCrack/scoop-bucket
 naabu_ViCrack.json,ViCrack/scoop-bucket
 cyberapi.json,ViCrack/scoop-bucket
@@ -7792,7 +7798,7 @@ chromium.json,akirco/aki-apps
 easywsl.json,akirco/aki-apps
 netch.json,akirco/aki-apps
 n-m3u8dl-cli_akirco.json,akirco/aki-apps
-vscode.json,akirco/aki-apps
+vscode_akirco.json,akirco/aki-apps
 landrop.json,akirco/aki-apps
 aya.json,akirco/aki-apps
 fleet.json,akirco/aki-apps
@@ -8164,7 +8170,7 @@ pscalendar.json,DoveBoy/Apps
 anibaka.json,DoveBoy/Apps
 clash-party-portable.json,DoveBoy/Apps
 youtube-dl_DoveBoy.json,DoveBoy/Apps
-pilinara_DoveBoy.json,DoveBoy/Apps
+pilinara.json,DoveBoy/Apps
 shadowsocks.json,DoveBoy/Apps
 anyportal_DoveBoy.json,DoveBoy/Apps
 freebox.json,DoveBoy/Apps
@@ -8905,7 +8911,7 @@ sunloginclientsos.json,DoveBoy/Apps
 gitextensions.json,DoveBoy/Apps
 logi-options-plus-mini.json,DoveBoy/Apps
 purewriter.json,DoveBoy/Apps
-github_DoveBoy.json,DoveBoy/Apps
+github.json,DoveBoy/Apps
 jellyfin-media-player.json,DoveBoy/Apps
 brackets.json,DoveBoy/Apps
 jo_DoveBoy.json,DoveBoy/Apps
@@ -8939,7 +8945,7 @@ scoop-search_DoveBoy.json,DoveBoy/Apps
 melodia.json,DoveBoy/Apps
 neatdownloadmanager.json,DoveBoy/Apps
 lanzou-cmd.json,DoveBoy/Apps
-chromium_DoveBoy.json,DoveBoy/Apps
+chromium.json,DoveBoy/Apps
 iptvnator.json,DoveBoy/Apps
 easyserviceoptimizer.json,DoveBoy/Apps
 pixivbiu.json,DoveBoy/Apps
@@ -8954,7 +8960,7 @@ tssh_DoveBoy.json,DoveBoy/Apps
 cctvvideodownloader-cli.json,DoveBoy/Apps
 qalculate.json,DoveBoy/Apps
 gping_DoveBoy.json,DoveBoy/Apps
-flclash_DoveBoy.json,DoveBoy/Apps
+flclash.json,DoveBoy/Apps
 aya_DoveBoy.json,DoveBoy/Apps
 imfile-portable.json,DoveBoy/Apps
 subtitle-ass-shifter.json,DoveBoy/Apps
@@ -9017,7 +9023,7 @@ mediacreationtool-bat.json,DoveBoy/Apps
 html-comic.json,DoveBoy/Apps
 sumatrapdf-installer_DoveBoy.json,DoveBoy/Apps
 videdown.json,DoveBoy/Apps
-animeko.json,DoveBoy/Apps
+animeko_DoveBoy.json,DoveBoy/Apps
 nonsplayer-portable.json,DoveBoy/Apps
 picacomic-downloader.json,DoveBoy/Apps
 clashxw.json,DoveBoy/Apps
@@ -9290,7 +9296,7 @@ m4acut.json,hu3rror/scoop-muggle
 px0.json,hu3rror/scoop-muggle
 locale-remulator.json,hu3rror/scoop-muggle
 sf6-cm-tray-mod.json,hu3rror/scoop-muggle
-firefox-developer-zh-cn.json,hu3rror/scoop-muggle
+firefox-developer-zh-cn_hu3rror.json,hu3rror/scoop-muggle
 neat-reader.json,hu3rror/scoop-muggle
 scoop-backup-KNOXDEV_hu3rror.json,hu3rror/scoop-muggle
 yomikiru.json,hu3rror/scoop-muggle
@@ -9347,6 +9353,7 @@ context-menu-manager_hu3rror.json,hu3rror/scoop-muggle
 mosdns_hu3rror.json,hu3rror/scoop-muggle
 supergrate.json,hu3rror/scoop-muggle
 jpegview-L.json,hu3rror/scoop-muggle
+hongguo-drama_hu3rror.json,hu3rror/scoop-muggle
 auto-unlocker_hu3rror.json,hu3rror/scoop-muggle
 mp3tag.json,hu3rror/scoop-muggle
 run-hidden.json,hu3rror/scoop-muggle
@@ -9390,7 +9397,7 @@ dopamine-legacy.json,hu3rror/scoop-muggle
 sizer_hu3rror.json,hu3rror/scoop-muggle
 herdr-core_hu3rror.json,hu3rror/scoop-muggle
 testmem5.json,hu3rror/scoop-muggle
-alma_hu3rror.json,hu3rror/scoop-muggle
+alma.json,hu3rror/scoop-muggle
 opensteamtool-gui-rs.json,hu3rror/scoop-muggle
 keepassxc.json,hu3rror/scoop-muggle
 win11-classic-context-menu.json,hu3rror/scoop-muggle
@@ -9691,7 +9698,7 @@ beautysearch.json,naderi/scoop-bucket
 onthespot.json,naderi/scoop-bucket
 wowl.json,naderi/scoop-bucket
 onlyoffice.json,naderi/scoop-bucket
-zen-browser.json,naderi/scoop-bucket
+zen-browser_naderi.json,naderi/scoop-bucket
 thunderbird-beta-fa.json,naderi/scoop-bucket
 cppcryptfs.json,naderi/scoop-bucket
 photocraft_naderi.json,naderi/scoop-bucket
@@ -9893,6 +9900,7 @@ beekeeper-studio-portable.json,naderi/scoop-bucket
 netsetman_naderi.json,naderi/scoop-bucket
 clink-portable.json,naderi/scoop-bucket
 proxsign.json,naderi/scoop-bucket
+registry-editor.json,naderi/scoop-bucket
 win-aio.json,naderi/scoop-bucket
 logviewer.json,naderi/scoop-bucket
 avidemux-portable_naderi.json,naderi/scoop-bucket
@@ -10336,7 +10344,7 @@ bypass_WinApps-share.json,WinApps-share/WinApps-bucket
 carnac_WinApps-share.json,WinApps-share/WinApps-bucket
 clash.net_WinApps-share.json,WinApps-share/WinApps-bucket
 whynot-win11.json,WinApps-share/WinApps-bucket
-cursor_WinApps-share.json,WinApps-share/WinApps-bucket
+cursor.json,WinApps-share/WinApps-bucket
 screentogif_WinApps-share.json,WinApps-share/WinApps-bucket
 nextai-translator_WinApps-share.json,WinApps-share/WinApps-bucket
 iloader.json,WinApps-share/WinApps-bucket
@@ -10733,8 +10741,10 @@ codex_Small-Ku.json,Small-Ku/turbo-bucket
 antigravity-agent.json,Small-Ku/turbo-bucket
 vencord-installer.json,Small-Ku/turbo-bucket
 wintun_Small-Ku.json,Small-Ku/turbo-bucket
+clice_Small-Ku.json,Small-Ku/turbo-bucket
 thorium-edge.json,Small-Ku/turbo-bucket
 compressonator.json,Small-Ku/turbo-bucket
+clice-edge.json,Small-Ku/turbo-bucket
 audio-cpp-vulkan.json,Small-Ku/turbo-bucket
 antigravity-manager.json,Small-Ku/turbo-bucket
 zluda3-lshqqytiger-edge.json,Small-Ku/turbo-bucket
@@ -10765,6 +10775,7 @@ reshade-addon-dll.json,Small-Ku/turbo-bucket
 stardb-exporter.json,Small-Ku/turbo-bucket
 endfield-gacha.json,Small-Ku/turbo-bucket
 natural-voice-sapi-adapter.json,Small-Ku/turbo-bucket
+schema_Small-Ku.json,Small-Ku/turbo-bucket
 renovate.json,kengwang/scoop-ctftools-bucket
 phpStudy.json,kengwang/scoop-ctftools-bucket
 jar-analyzer_kengwang.json,kengwang/scoop-ctftools-bucket
@@ -11476,6 +11487,7 @@ g_batkiz.json,batkiz/backit
 RevokeMsgPatcher_batkiz.json,batkiz/backit
 menubarmijia.json,batkiz/backit
 redis-viewer.json,batkiz/backit
+rheo.json,batkiz/backit
 codex-tools.json,batkiz/backit
 animeko_batkiz.json,batkiz/backit
 wayback_batkiz.json,batkiz/backit
@@ -12272,7 +12284,7 @@ qcadcam.json,seumsc/scoop-seu
 nusmv.json,seumsc/scoop-seu
 anime4kcpp-cli.json,seumsc/scoop-seu
 qgis-ltr-server.json,seumsc/scoop-seu
-kook_seumsc.json,seumsc/scoop-seu
+kook.json,seumsc/scoop-seu
 shellexview-zhs.json,seumsc/scoop-seu
 kindle-previewer.json,seumsc/scoop-seu
 k2pdfopt_seumsc.json,seumsc/scoop-seu
@@ -12621,6 +12633,7 @@ appsettings.json,404NetworkError/scoop-bucket
 rrox.json,404NetworkError/scoop-bucket
 ondsel-es.json,404NetworkError/scoop-bucket
 yumi-uefi.json,404NetworkError/scoop-bucket
+windowsdesktop-runtime-6.0_404NetworkError.json,404NetworkError/scoop-bucket
 ondsel-es-weekly.json,404NetworkError/scoop-bucket
 yumi-legacy.json,404NetworkError/scoop-bucket
 windowsdesktop-runtime-7.0_404NetworkError.json,404NetworkError/scoop-bucket
@@ -13180,7 +13193,7 @@ weixin_maboloshi.json,maboloshi/scoop-private
 directoryopus-cn.json,maboloshi/scoop-private
 dingtalk@7.0.10.1026.json,maboloshi/scoop-private
 mihomo-tray-rs.json,maboloshi/scoop-private
-todesk.json,maboloshi/scoop-private
+todesk_maboloshi.json,maboloshi/scoop-private
 wechat_maboloshi.json,maboloshi/scoop-private
 manggo_maboloshi.json,maboloshi/scoop-private
 PowerShell_maboloshi.json,maboloshi/scoop-private
@@ -13207,7 +13220,7 @@ we-meet.json,maboloshi/scoop-private
 reasonix-hermes.json,maboloshi/scoop-private
 sublime-text_maboloshi.json,maboloshi/scoop-private
 clip.json,maboloshi/scoop-private
-microsoftedge-beta_maboloshi.json,maboloshi/scoop-private
+microsoftedge-beta.json,maboloshi/scoop-private
 n-m3u8dl-cli_maboloshi.json,maboloshi/scoop-private
 RevokeMsgPatcher_maboloshi.json,maboloshi/scoop-private
 brave_maboloshi.json,maboloshi/scoop-private
@@ -13610,6 +13623,7 @@ codex-rust.json,LaelLuo/scoop
 autoglm_LaelLuo.json,LaelLuo/scoop
 t3-code.json,LaelLuo/scoop
 notion_LaelLuo.json,LaelLuo/scoop
+nightly-patrol.webhook.example.json,LaelLuo/scoop
 yuview.json,natecohen/scoop-av
 hdr10plus_tool.json,natecohen/scoop-av
 avspmod.json,natecohen/scoop-av
@@ -14914,6 +14928,7 @@ handwrite-sim-rs.json,Myraxion/Rojem-Scoop
 dmm-game-player-fast-launcher.json,Myraxion/Rojem-Scoop
 imgbrd-grabber_Myraxion.json,Myraxion/Rojem-Scoop
 browser-tamer.json,Myraxion/Rojem-Scoop
+herdr-core_Myraxion.json,Myraxion/Rojem-Scoop
 rustystar.json,Myraxion/Rojem-Scoop
 wx-key.json,Myraxion/Rojem-Scoop
 af-media-bar.json,Myraxion/Rojem-Scoop
@@ -15252,6 +15267,7 @@ stegsolve.json,bright-angel/scoop-bucket
 postcat_bright-angel.json,bright-angel/scoop-bucket
 lucy.json,bright-angel/scoop-bucket
 CailsoftVulCheck.json,bright-angel/scoop-bucket
+jsowl.json,bright-angel/scoop-bucket
 natpass_bright-angel.json,bright-angel/scoop-bucket
 ShiroAttack2_bright-angel.json,bright-angel/scoop-bucket
 postgreUtil.json,bright-angel/scoop-bucket
@@ -15470,6 +15486,7 @@ NacosExploitGUI_bright-angel.json,bright-angel/scoop-bucket
 IDEA.json,bright-angel/scoop-bucket
 Proxifier-Keygen.json,bright-angel/scoop-bucket
 PyWxDump_bright-angel.json,bright-angel/scoop-bucket
+misterdownloadmanager_bright-angel.json,bright-angel/scoop-bucket
 xssor2_bright-angel.json,bright-angel/scoop-bucket
 shiro-550-with-NoCC.json,bright-angel/scoop-bucket
 burp-vulners-scanner.json,bright-angel/scoop-bucket
@@ -15591,8 +15608,10 @@ xxl-jobExploitGUI.json,bright-angel/scoop-bucket
 wslpp_bright-angel.json,bright-angel/scoop-bucket
 USBFlow_Soer.json,bright-angel/scoop-bucket
 SSRFmap_bright-angel.json,bright-angel/scoop-bucket
+TscanPlus_bright-angel.json,bright-angel/scoop-bucket
 bkcrack_bright-angel.json,bright-angel/scoop-bucket
 icesky.json,bright-angel/scoop-bucket
+fastfuzz.json,bright-angel/scoop-bucket
 blind_watermark.json,bright-angel/scoop-bucket
 naabu_bright-angel.json,bright-angel/scoop-bucket
 cyberapi_bright-angel.json,bright-angel/scoop-bucket
@@ -16142,6 +16161,7 @@ zelda-mm-ultraship.json,Deide/deide-bucket
 dolphin_Deide.json,Deide/deide-bucket
 nekomata.json,Deide/deide-bucket
 nopaystation.json,Deide/deide-bucket
+zelda-ootr-longshot.json,Deide/deide-bucket
 exec.json,Deide/deide-bucket
 ontopreplica.json,Deide/deide-bucket
 edtracker.json,Deide/deide-bucket
@@ -16307,6 +16327,7 @@ ja-netfilter_ChinLong.json,ChinLong/scoop-customize
 dns-jumper.json,ChinLong/scoop-customize
 leaflet.json,windedge/ladle-bucket
 termora.json,windedge/ladle-bucket
+mygo-music_windedge.json,windedge/ladle-bucket
 eigent.json,windedge/ladle-bucket
 oryx.json,windedge/ladle-bucket
 thinkrail_windedge.json,windedge/ladle-bucket
@@ -16320,7 +16341,7 @@ raydock.json,windedge/ladle-bucket
 gloss.json,windedge/ladle-bucket
 godsvg_windedge.json,windedge/ladle-bucket
 paperly.json,windedge/ladle-bucket
-omniget_windedge.json,windedge/ladle-bucket
+omniget.json,windedge/ladle-bucket
 clippi.json,windedge/ladle-bucket
 enowx.json,windedge/ladle-bucket
 kotlin-language-server.json,windedge/ladle-bucket
@@ -16405,6 +16426,7 @@ hoppscotch.json,windedge/ladle-bucket
 onyx_windedge.json,windedge/ladle-bucket
 photoflare.json,windedge/ladle-bucket
 velotype_windedge.json,windedge/ladle-bucket
+cleanzo.json,windedge/ladle-bucket
 dyad_windedge.json,windedge/ladle-bucket
 codex_windedge.json,windedge/ladle-bucket
 forgecode_windedge.json,windedge/ladle-bucket
@@ -16449,8 +16471,10 @@ mygit.json,windedge/ladle-bucket
 gozen.json,windedge/ladle-bucket
 ollama-ipex-llm.json,windedge/ladle-bucket
 tesseract_windedge.json,windedge/ladle-bucket
+mayoi.json,windedge/ladle-bucket
 oriel.json,windedge/ladle-bucket
 alera.json,windedge/ladle-bucket
+sharex-photoeditor.json,windedge/ladle-bucket
 godot3-kotlin-jvm.json,windedge/ladle-bucket
 pi-session-manager.json,windedge/ladle-bucket
 drift_windedge.json,windedge/ladle-bucket
@@ -16474,7 +16498,7 @@ hwinfo_zeldrisho.json,zeldrisho/scoop-bucket
 agent-browser_zeldrisho.json,zeldrisho/scoop-bucket
 dotnet-runtime-lts.json,zeldrisho/scoop-bucket
 claude.json,zeldrisho/scoop-bucket
-blitz.json,zeldrisho/scoop-bucket
+blitz_zeldrisho.json,zeldrisho/scoop-bucket
 mumuplayer_zeldrisho.json,zeldrisho/scoop-bucket
 smapi.json,zeldrisho/scoop-bucket
 zadark.json,zeldrisho/scoop-bucket
@@ -16788,6 +16812,24 @@ zju-connect.json,Locietta/sniffer
 foxmail.json,Locietta/sniffer
 xanmod-WSL2-lts-old.json,Locietta/sniffer
 xanmod-WSL2-old.json,Locietta/sniffer
+qqmusic_plutotree.json,plutotree/scoop-bucket
+evernote_plutotree.json,plutotree/scoop-bucket
+bookxnote-pro.json,plutotree/scoop-bucket
+snipaste2_plutotree.json,plutotree/scoop-bucket
+ktx.json,plutotree/scoop-bucket
+windows-11-context-menu-manager_plutotree.json,plutotree/scoop-bucket
+modern-csv.json,plutotree/scoop-bucket
+tencent-yuanbao.json,plutotree/scoop-bucket
+blender_plutotree.json,plutotree/scoop-bucket
+tencent-meeting_plutotree.json,plutotree/scoop-bucket
+ths-yhb.json,plutotree/scoop-bucket
+en-croissant_plutotree.json,plutotree/scoop-bucket
+cherry-studio_plutotree.json,plutotree/scoop-bucket
+hbuilderx_plutotree.json,plutotree/scoop-bucket
+cos-browser.json,plutotree/scoop-bucket
+tencent-docs.json,plutotree/scoop-bucket
+sarasa-mono-sc-unhinted.json,plutotree/scoop-bucket
+tencent-video.json,plutotree/scoop-bucket
 mysql_wanstarge.json,wanstarge/scoopx
 aria2_wanstarge.json,wanstarge/scoopx
 cscope_wanstarge.json,wanstarge/scoopx
@@ -16819,29 +16861,12 @@ go_wanstarge.json,wanstarge/scoopx
 miniconda3_wanstarge.json,wanstarge/scoopx
 dark_wanstarge.json,wanstarge/scoopx
 rsync.json,wanstarge/scoopx
+dotnet-sdk-lts_wanstarge.json,wanstarge/scoopx
 mariadb_wanstarge.json,wanstarge/scoopx
 rust_wanstarge.json,wanstarge/scoopx
 neovim_wanstarge.json,wanstarge/scoopx
 ruby_wanstarge.json,wanstarge/scoopx
 arp-ping_wanstarge.json,wanstarge/scoopx
-qqmusic_plutotree.json,plutotree/scoop-bucket
-evernote.json,plutotree/scoop-bucket
-bookxnote-pro.json,plutotree/scoop-bucket
-snipaste2_plutotree.json,plutotree/scoop-bucket
-ktx.json,plutotree/scoop-bucket
-windows-11-context-menu-manager_plutotree.json,plutotree/scoop-bucket
-modern-csv.json,plutotree/scoop-bucket
-tencent-yuanbao.json,plutotree/scoop-bucket
-blender_plutotree.json,plutotree/scoop-bucket
-tencent-meeting_plutotree.json,plutotree/scoop-bucket
-ths-yhb.json,plutotree/scoop-bucket
-en-croissant_plutotree.json,plutotree/scoop-bucket
-cherry-studio_plutotree.json,plutotree/scoop-bucket
-hbuilderx_plutotree.json,plutotree/scoop-bucket
-cos-browser.json,plutotree/scoop-bucket
-tencent-docs.json,plutotree/scoop-bucket
-sarasa-mono-sc-unhinted.json,plutotree/scoop-bucket
-tencent-video.json,plutotree/scoop-bucket
 silver.todo.json,younger-1/scoop-it
 diskonaut.todo.json,younger-1/scoop-it
 gitty_younger-1.json,younger-1/scoop-it

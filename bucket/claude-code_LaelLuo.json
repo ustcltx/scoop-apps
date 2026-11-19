@@ -1,12 +1,12 @@
 {
-    "version": "2.1.327",
+    "version": "2.1.329",
     "description": "Anthropic 官方 Claude Code CLI（原生二进制版，irm claude.ai/install.ps1 同源；区别于 claude 清单的桌面版）。",
     "homepage": "https://claude.ai/claude-code",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.327/claude-win32-x64.zip",
-            "hash": "029e5f63e7ac96411e8d0e4f120a7c40a35f0285cb96007f5c107a6d708af91a"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-win32-x64.zip",
+            "hash": "b5708b5e5743dbf4c3bcfc46ee85e011381282eced593462f0a4d2342083fc81"
         }
     },
     "bin": "claude.exe",
