@@ -1,0 +1,42 @@
+{
+    "version": "3.6.12-beta2",
+    "description": "Extend your GitHub workflow beyond your browser.",
+    "homepage": "https://desktop.github.com/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/desktop/desktop/releases/download/release-3.6.12-beta2/GitHubDesktop-3.6.12-beta2-x64-full.nupkg",
+            "hash": "f47ca84f371f9b3a96ddf7223f024343ed1c07380753103e20a34535db54c2eb"
+        },
+        "arm64": {
+            "url": "https://github.com/desktop/desktop/releases/download/release-3.6.12-beta2/GitHubDesktop-3.6.12-beta2-arm64-full.nupkg",
+            "hash": "5847f694d5b0919b068d1777cc5acfa7c8ee1b92c94d86b31a133eeeba0f409d"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "bin": "GitHubDesktop.exe",
+    "shortcuts": [
+        [
+            "GitHubDesktop.exe",
+            "GitHub Desktop Beta"
+        ]
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/desktop/desktop/tags",
+        "jsonpath": "$..name",
+        "regex": "release-([\\d.]+-beta\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/desktop/desktop/releases/download/release-$version/GitHubDesktop-$version-x64-full.nupkg"
+            },
+            "arm64": {
+                "url": "https://github.com/desktop/desktop/releases/download/release-$version/GitHubDesktop-$version-arm64-full.nupkg"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/GitHub.Desktop-$version-checksums.txt"
+        }
+    }
+}
