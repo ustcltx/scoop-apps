@@ -66,8 +66,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
-- scoopcn/scoopcn
 - opsqw/scoop-security
+- scoopcn/scoopcn
 - ScoopInstaller/Nonportable
 - kkzzhizhou/scoop-zapps
 - rasa/scoops
@@ -101,8 +101,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
-- NyaMisty/scoop_bucket_misty
 - WinApps-share/WinApps-bucket
+- NyaMisty/scoop_bucket_misty
 - Scoopforge/Extras-Plus
 - brian6932/dank-scoop
 - Small-Ku/turbo-bucket
@@ -131,7 +131,6 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - Toddli468/Pentest-Scoop-Bucket
 - AkariiinMKII/Scoop4kariiin
 - LaelLuo/scoop
-- zeldrisho/scoop-bucket
 - KnotUntied/scoop-fonts
 - maboloshi/scoop-private
 - AntonOks/scoop-aoks
@@ -140,6 +139,7 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - typst-community/scoop-bucket
 - p8rdev/scoop-portableapps
+- zeldrisho/scoop-bucket
 - Myraxion/Rojem-Scoop
 - HUMORCE/nuke
 - littleli/Scoop-littleli
@@ -155,8 +155,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - windedge/ladle-bucket
 - ShuguangSun/sgs-scoop-bucket
 - Locietta/sniffer
-- plutotree/scoop-bucket
 - wanstarge/scoopx
+- plutotree/scoop-bucket
 - younger-1/scoop-it
 - The-Simples/scoop-minecraft
 - jcwillox/scoop-python
