@@ -84,7 +84,6 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - xrgzs/sdoog
 - couleur-tweak-tips/utils
 - borger/scoop-emulators
-- kiennq/scoop-misc
 - ViCrack/scoop-bucket
 - akirco/aki-apps
 - cmontage/scoopbucket-third
@@ -155,8 +154,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - windedge/ladle-bucket
 - ShuguangSun/sgs-scoop-bucket
 - Locietta/sniffer
-- wanstarge/scoopx
 - plutotree/scoop-bucket
+- wanstarge/scoopx
 - younger-1/scoop-it
 - The-Simples/scoop-minecraft
 - jcwillox/scoop-python
